@@ -1,0 +1,602 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0032)http://ocs.unipa.it/AL/al214.htm -->
+<html lang="it"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    
+    <meta name="Generator" content="ALtools">
+    <meta name="Description" content="GNU/Linux e altro software libero">
+    <meta name="Keywords" content="Linux, GNU/Linux, Unix, software, software libero, free software">
+    <meta name="Author" content="Daniele Giacomini     daniele @ pluto.linux.it">
+    <meta name="Date" content="2000.04.12">
+    <meta name="Resource-type" lang="en" content="Document">
+    <meta name="Revisit-after" lang="en" content="2 days">
+    <meta name="Robots" content="ALL">
+    <title>A.L.: Perl: gestione dei file</title>
+    <link rel="stylesheet" type="text/css" href="./A.L.  Perl  gestione dei file_files/stile.css">
+    <link rel="Start" title="inizio" href="http://ocs.unipa.it/AL/index.htm">
+    <link rel="Contents" title="indice generale" href="http://ocs.unipa.it/AL/altoc.htm">
+    <link rel="Prev" title="precedente" href="http://ocs.unipa.it/AL/al213.htm">
+    <link rel="Next" title="successivo" href="http://ocs.unipa.it/AL/al215.htm">
+    <link rel="Index" title="indice analitico" href="http://ocs.unipa.it/AL/alndx.htm">
+</head>
+<body>
+<p><a href="http://ocs.unipa.it/AL/index.htm">[inizio]</a> <a href="http://ocs.unipa.it/AL/altoc.htm">[indice generale]</a> <a href="http://ocs.unipa.it/AL/al213.htm">[precedente]</a> <a href="http://ocs.unipa.it/AL/al215.htm">[successivo]</a> <a href="http://ocs.unipa.it/AL/alndx.htm">[indice analitico]</a> <a href="http://ocs.unipa.it/AL/alcnt.htm">[contributi]</a>
+</p><hr>
+<div>
+
+<h1>167. Perl: gestione dei file</h1>
+
+
+<a name="capitolo-programmazione-perl-file"></a>
+
+<a name="Perl: file"></a>
+
+<p>La gestione dei file è uno dei punti di forza di Perl. Perl permette di gestire in modo molto semplice i file di testo e i file DBM. Sono presenti ugualmente gli strumenti per la gestione di file di qualunque altro tipo, attraverso l'accesso al singolo byte, ma questo aspetto passa in secondo piano rispetto al resto, e qui verrà trascurato.
+
+
+
+</p><h2>167.1 Organizzazione generale</h2>
+
+
+<p>Prima di poter accedere in qualunque modo a un file, occorre che questo sia stato aperto all'interno del programma, il quale, da quel punto in poi, vi farà riferimento attraverso il flusso di file.
+
+</p><p>Per una convenzione diffusa, i nomi attribuiti ai flussi di file sono sempre composti da lettere maiuscole, e questo facilita il loro riconoscimento all'interno di un sorgente Perl.
+
+</p><p>Oltre ai file su disco, esistono tre file particolari: standard input, standard output e standard error. Questi risultano sempre già aperti, e ai flussi di file corrispondenti si fa riferimento attraverso tre nomi predefiniti: `<strong><code>STDIN</code></strong>', `<strong><code>STDOUT</code></strong>' e `<strong><code>STDERR</code></strong>'.
+
+
+
+</p><h3>167.1.1 Apertura</h3>
+
+
+<p>Quando è necessario aprire un file, cioè quando non si tratta dei flussi predefiniti, si utilizza la funzione `<strong><code>open()</code></strong>'.
+
+</p><p></p><table border="0" <tr=""><tbody><tr><td>
+<pre>open <em>&lt;flusso&gt;</em>,<em>&lt;file&gt;</em>
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>La funzione utilizza quindi solo due argomenti: il nome del flusso di file e il nome effettivo del file, eventualmente con l'indicazione del percorso necessario a raggiungerlo. Per esempio,
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>open MIO_FILE, 'mio_file';
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>apre il file `<code>mio_file</code>' che si trova nella directory corrente e gli abbina il flusso di file `<strong><code>MIO_FILE</code></strong>'. Con l'apertura del file si deve definire anche in che modo si intende accedervi. Fondamentalmente si distingue tra lettura e scrittura, ma in realtà si presentano anche altre sfumature. Per poter informare la funzione del modo in cui si intende aprire il file, la stringa che viene utilizzata per indicare il nome del file su disco può contenere dei simboli aggiuntivi che servono proprio per questo. Questi simboli vanno posti quasi sempre di fronte al nome, e possono essere spaziati da questo in modo da facilitarne la lettura:
+
+</p><p></p>
+<ul>
+
+<li>
+
+<p>se non si utilizza alcun simbolo, oppure se si pone `<strong><code>&lt;</code></strong>' davanti al nome del file, si ottiene l'apertura in lettura (input);
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>se si utilizza il simbolo `<strong><code>&gt;</code></strong>' si intende aprire il file in scrittura (output), troncando inizialmente il file;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>se si utilizza il simbolo `<strong><code>&gt;&gt;</code></strong>' si intende aprire il file in scrittura in aggiunta (<em>append</em>).
+
+</p><p></p>
+</li>
+
+</ul>
+
+<p>A questa simbologia si può aggiungere il segno `<strong><code>+</code></strong>' in modo da permettere anche l'altro tipo di accesso non dichiarato, per cui:
+
+</p><p></p>
+<ul>
+
+<li>
+
+<p>`<strong><code>+&lt;</code></strong>'
+
+</p><p>rappresenta un accesso in lettura/scrittura;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>`<strong><code>+&gt;</code></strong>'
+
+</p><p>rappresenta un accesso in scrittura/lettura, ma la prima azione è quella di troncare il file annullando il suo contenuto precedente;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>`<strong><code>+&gt;&gt;</code></strong>'
+
+</p><p>rappresenta un accesso in aggiunta/lettura.
+
+</p><p></p>
+</li>
+
+</ul>
+
+<p>In generale, un file aperto in lettura/scrittura attraverso il simbolo `<strong><code>+&lt;</code></strong>' permette anche l'allungamento del file stesso. Il pezzo di codice seguente mostra l'apertura di un file in aggiunta e l'inserimento al suo interno di una riga contenente una frase di saluto.
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>open MIO_FILE, "&gt;&gt; /home/tizio/mio_file";
+...
+print MIO_FILE "ciao a tutti\n" );
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>Nello stesso modo in cui si possono gestire i file su disco, si può accedere a una pipeline, cioè una sequenza di programmi che ricevono dati dal loro standard input e ne emettono attraverso lo standard output. Per ottenere questo, al posto di indicare un file su disco si mette una riga di comando che si vuole sia eseguita, preceduta o terminata con la consueta barra verticale: se si trova all'inizio, significa che si vuole scrivere inviando dati attraverso lo standard input della pipeline; se si trova alla fine, significa che si vuole leggere attingendo dati dallo standard output della pipeline.
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>open MIAPIPE, "| sort &gt; /home/tizio/mio_file";
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>L'esempio appena mostrato apre una pipeline in scrittura. Ciò che verrà ricevuto dalla pipeline sarà ordinato e registrato nel file `<code>/home/tizio/mio_file</code>'.
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>open MIAPIPE, "ls -l |";
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>L'esempio precedente apre una pipeline in lettura in modo da poter elaborare il risultato del comando `<strong><code>ls&nbsp;<code>-</code>l</code></strong>'.
+
+
+
+</p><h3>167.1.2 Chiusura</h3>
+
+
+<p>Un file aperto che non serve più deve essere chiuso. Ciò si ottiene attraverso la funzione `<strong><code>close()</code></strong>' indicando semplicemente il flusso di file da chiudere.
+
+</p><p></p><table border="0" <tr=""><tbody><tr><td>
+<pre>close <em>&lt;flusso&gt;</em>
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>L'apertura di un file può essere fatta anche se questo risulta già aperto, quindi non è strettamente necessario chiudere un file prima di riaprirlo.
+
+
+
+</p><h2>167.2 Condivisione</h2>
+
+
+<p>In presenza di un sistema operativo in multiprogrammazione, tanto più se anche multiutente, si pone il problema della gestione degli accessi simultanei ai file. In pratica occorre gestire un sistema di blocchi, o di semafori, che impediscano le operazioni di scrittura simultanea da parte di processi indipendenti.
+
+</p><p>Infatti, la lettura simultanea di un file da parte di più programmi non ha alcun effetto collaterale, mentre la modifica simultanea può tradursi anche in un danneggiamento dei dati. Per questo, quando un file deve essere modificato, è importante che venga impedito ad altri programmi di fare altrettanto, almeno per il tempo necessario a concludere l'operazione.
+
+
+
+</p><h3>167.2.1 Blocco dei file</h3>
+
+
+<p>Il modo più semplice per impedire che un file possa essere modificato da un altro processo, è quello di bloccarlo (<em>lock</em>), per il tempo necessario a compiere le operazioni che si vogliono fare in modo esclusivo.
+
+</p><p>Teoricamente, il blocco potrebbe limitarsi solo a una porzione del file, ma questo implica un'organizzazione condivisa anche dagli altri processi, in modo che sia ben definita l'estensione di questo blocco. In pratica, ci si limita quasi sempre a eseguire un blocco totale del file, rilasciando il blocco subito dopo la modifica che si vuole effettuare.
+
+</p><p>Il blocco e lo sblocco del file si ottiene generalmente con la funzione `<strong><code>flock()</code></strong>' su un file già aperto. La funzione richiede l'indicazione del flusso di file e del tipo di operazione che si vuole compiere.
+
+</p><p></p><table border="0" <tr=""><tbody><tr><td>
+<pre>flock <em>&lt;flusso&gt;</em>,<em>&lt;operazione&gt;</em>
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>Per la precisione, il tipo di operazione si esprime attraverso un numero il cui valore dipende dal sistema operativo utilizzato effettivamente. Per evitare di doversi accertare di quale valore sia corretto per il proprio sistema, è possibile acquisire alcune macro attraverso l'istruzione seguente:
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>use Fcntl ':flock';
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>In questo modo, l'operazione può poi essere indicata attraverso i nomi: `<strong><code>LOCK_SH</code></strong>', `<strong><code>LOCK_EX</code></strong>', `<strong><code>LOCK_NB</code></strong>' e `<strong><code>LOCK_UN</code></strong>'.
+
+</p><p>Il blocco del file può essere richiesto in modo da mettere in pausa il programma fino a quando si riesce a ottenere il blocco, oppure no. Nel secondo caso, il programma deve essere in grado di riconoscere il fallimento dell'operazione e di comportarsi di conseguenza. Il blocco con attesa deve essere utilizzato con prudenza, perché può generare una situazione di stallo generale: il processo A apre e blocca il file X, il processo B apre e blocca il file Y e successivamente tenta anche con il file X che però è occupato; a questo punto anche il processo A tenta di aprire il file Y senza avere rilasciato il file X; infine i due processi si sono bloccati a vicenda.
+
+</p><p>Il blocco esclusivo di un file si ottiene con il tipo di operazione `<strong><code>LOCK_EX</code></strong>', e se si vuole evitare l'attesa dello sblocco da parte di un altro processo si deve aggiungere il valore di `<strong><code>LOCK_NB</code></strong>'. Lo sblocco di un file si ottiene con il tipo di operazione `<strong><code>LOCK_UN</code></strong>'.
+
+</p><dl>
+
+<dt><b>Esempi</b></dt>
+<dd>
+
+<p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>use Fcntl ':flock';   # importa le costanti LOCK_...
+...
+open ( ELENCO, "&gt;&gt; /home/tizio/mioelenco" );
+flock ( ELENCO, LOCK_EX );
+...
+flock ( ELENCO, LOCK_UN );
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>Vengono eseguite le operazioni seguenti:
+
+</p><p></p>
+<ul>
+
+<li>
+
+<p>si caricano le costanti di definizione dei tipi di blocco attraverso l'istruzione `<strong><code>use&nbsp;Fcntl&nbsp;':flock';</code></strong>';
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si apre il file `<code>/home/tizio/mioelenco</code>' in aggiunta;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si blocca il file in modo esclusivo;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si compiono alcune operazioni che non sono indicate;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si rilascia il blocco.
+
+</p><p></p>
+</li>
+
+</ul>
+
+<p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>use Fcntl ':flock';   # importa le costanti LOCK_...
+...
+open ( ELENCO, "&gt;&gt; /home/tizio/mioelenco" );
+if ( flock ( ELENCO, (LOCK_EX)+(LOCK_NB) ) ) {
+	...
+	flock ( ELENCO, LOCK_UN );
+} else {
+	print STDOUT "Il file è impegnato.\n";
+};
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>Si tratta di una variante dell'esempio precedente, in cui si richiede un blocco esclusivo senza attesa. Se il blocco ha successo, si procede, altrimenti viene segnalata la presenza del blocco da parte di un altro processo.
+
+<sup><a href="http://ocs.unipa.it/AL/al214.htm#piepagina-1">*1*</a></sup>
+
+</p></dd></dl>
+
+
+
+<h2>167.3 I/O con i file</h2>
+
+
+<p>Le operazioni di I/O con i file richiedono la conoscenza del modo in cui si esegue la lettura, la scrittura e lo spostamento, del puntatore interno a un flusso di file. Fortunatamente, Perl gestisce tutto in modo piuttosto trasparente, soprattutto per ciò che riguarda la lettura. È il caso di ricordare che queste operazioni si compiono su file già aperti, di conseguenza si fa riferimento a loro tramite il flusso corrispondente.
+
+
+
+</p><h3>167.3.1 Lettura</h3>
+
+
+<p>La lettura di un flusso di file riferito a un file di testo è un'operazione molto semplice, basta utilizzare le parentesi angolari per ottenere la valutazione dello stesso che si traduce nella restituzione di una riga, nel caso di contesto scalare, o di tutto il file, nel caso di un contesto lista. Per esempio:
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>$riga = &lt;MIOHANDLE&gt;;
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>restituisce una riga, a partire dalla posizione del puntatore del file fino al codice di interruzione di riga incluso, spostando in avanti il puntatore del file. Per questo, dopo un'operazione di questo tipo, si esegue un `<strong><code>chop()</code></strong>' o un `<strong><code>chomp()</code></strong>', in modo da eliminare il codice di interruzione di riga finale.
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>chop $riga;
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>In alternativa,
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>@file = &lt;MIOHANDLE&gt;;
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>restituisce tutto il file suddiviso in righe terminanti con il codice di interruzione di riga. In pratica, l'array conterrà tanti elementi quante sono le righe del file. Anche in questo caso si può eseguire un `<strong><code>chop()</code></strong>' o un `<strong><code>chomp()</code></strong>', che interverrà su ogni elemento dell'array.
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>chop( @file );
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>La valutazione di un flusso di file in questo modo, quando il puntatore del file ha superato la fine del file, restituisce un valore indefinito che può essere utilizzato per controllare un ciclo di lettura. L'esempio seguente mostra in modo molto semplice come un ciclo `<strong><code>while</code></strong>' possa controllare la lettura di un flusso di file terminando quando questo ha raggiunto la conclusione.
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>while ( $riga = &lt;MIOHANDLE&gt; ) {
+	...
+};
+</pre>
+</td></tr>
+</tbody></table>
+
+
+
+<h3>167.3.2 Scrittura</h3>
+
+
+<p>La scrittura di un file avviene generalmente attraverso la funzione `<strong><code>print()</code></strong>' che inizia a scrivere a partire dalla posizione attuale del puntatore del file stesso.
+
+</p><p></p><table border="0" <tr=""><tbody><tr><td>
+<pre>print <em>&lt;flusso&gt;</em> <em>&lt;lista&gt;</em>
+</pre>
+</td></tr>
+</tbody></table>
+
+<p></p><table border="0" <tr=""><tbody><tr><td>
+<pre>print <em>&lt;lista&gt;</em>
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>Se non viene specificato un flusso di file, tutto viene emesso attraverso lo standard output, oppure attraverso quanto specificato con la funzione `<strong><code>select()</code></strong>'.
+
+</p><p>È il caso di osservare che l'argomento che specifica il flusso è separato dalla lista di stringhe da emettere solo attraverso uno o più spazi, e non da una virgola. Per lo stesso motivo, se il flusso di file è contenuto in un elemento di un array, oppure è il risultato di un'espressione, ciò deve essere indicato in un blocco.
+
+</p><dl>
+
+<dt><b>Esempi</b></dt>
+<dd>
+
+<p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>print MIOHANDLE "Ciao, come stai?\n";
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>Scrive nel flusso di file indicato, a partire dalla posizione attuale del puntatore, il messaggio indicato come argomento.
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>print { $elenco_file[$i] } "Bla bla bla\n";
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>Inserisce il messaggio nel file indicato da `<strong><code>$elenco_file[$i]</code></strong>'.
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>use Fcntl ':flock';   # importa le costanti LOCK_...
+...
+open ( ELENCO, "&gt;&gt; /home/tizio/mioelenco" );
+flock ( ELENCO, LOCK_EX );
+print ELENCO $daelencare,"\n";
+flock ( ELENCO, LOCK_UN );
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>Vengono eseguite le seguenti operazioni:
+
+</p><p></p>
+<ul>
+
+<li>
+
+<p>si caricano le costanti di definizione dei tipi di blocco attraverso l'istruzione `<strong><code>use&nbsp;Fcntl&nbsp;':flock';</code></strong>';
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si apre il file `<code>/home/tizio/mioelenco</code>' in aggiunta;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si blocca il file in modo esclusivo;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si inserisce una riga nel file;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si rilascia il blocco.
+
+</p><p></p>
+</li>
+
+</ul>
+
+</dd></dl>
+
+
+
+<h3>167.3.3 Spostamento del puntatore</h3>
+
+
+<p>Lo spostamento del puntatore interno a un flusso di file avviene generalmente in modo automatico, sia in lettura che in scrittura. Si possono porre dei problemi, o dei dubbi, quando si accede simultaneamente a un file sia in lettura che in scrittura. Lo spostamento del puntatore può essere fatto attraverso la funzione `<strong><code>seek()</code></strong>'.
+
+</p><p></p><table border="0" <tr=""><tbody><tr><td>
+<pre>seek <em>&lt;flusso&gt;</em>,<em>&lt;posizione&gt;</em>,<em>&lt;partenza&gt;</em>
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>La posizione effettiva nel file dipende dal valore del secondo e del terzo argomento. Precisamente, il terzo argomento può essere zero, uno o due, in base al significato seguente:
+
+</p><p></p>
+<ul>
+
+<li>
+
+<p>0 -- la nuova posizione corrisponde esattamente a quanto indicato dal secondo argomento;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>1 -- la nuova posizione corrisponde alla posizione corrente più quanto indicato nel secondo argomento;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>2 -- la nuova posizione corrisponde alla posizione successiva alla fine del file più il valore del secondo argomento (solitamente negativo).
+
+</p><p></p>
+</li>
+
+</ul>
+
+<dl>
+
+<dt><b>Esempi</b></dt>
+<dd>
+
+<p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>seek( MIO_FILE, 0, 2 );
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>Posiziona alla fine del file in modo da poter, successivamente, aggiungere qualcosa a questo.
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>seek( MIO_FILE, 0, 0 );
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>Posiziona all'inizio del file.
+
+</p><p></p><table border="0" width="100%">
+<tbody><tr><td>
+<pre>use Fcntl ':flock';   # importa le costanti LOCK_...
+...
+open ( ELENCO, "&gt;&gt; /home/tizio/mioelenco" );
+flock ( ELENCO, LOCK_EX );
+seek( ORDINI, 0, 2 );
+print ELENCO $daelencare,"\n";
+flock ( ELENCO, LOCK_UN );
+</pre>
+</td></tr>
+</tbody></table>
+
+<p>Vengono eseguite le seguenti operazioni:
+
+</p><p></p>
+<ul>
+
+<li>
+
+<p>si caricano le costanti di definizione dei tipi di blocco attraverso l'istruzione `<strong><code>use&nbsp;Fcntl&nbsp;':flock';</code></strong>';
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si apre il file `<code>/home/tizio/mioelenco</code>' in aggiunta;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si blocca il file in modo esclusivo;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>per sicurezza si posiziona il puntatore alla fine del file;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si inserisce una riga nel file;
+
+</p><p></p>
+</li>
+
+<li>
+
+<p>si rilascia il blocco.
+
+</p><p></p>
+</li>
+
+</ul>
+
+</dd></dl>
+
+<p>---------------------------
+
+</p><p>Appunti Linux 2000.04.12 --- <em>Copyright © 1997-2000 Daniele Giacomini -- &nbsp;daniele&nbsp;@&nbsp;pluto.linux.it</em>
+
+
+</p><p></p><hr>
+
+
+<p><a name="piepagina-1"></a>
+1.) Per qualche motivo oscuro, se si vuole sommare il valore della macro `<strong><code>LOCK_EX</code></strong>' assieme a quello di qualche altra, è necessario racchiuderla tra parentesi, come si vede nell'esempio. Probabilmente questo dipende dal modo in cui il valore viene generato. Per uniformità, nell'esempio si mostra racchiusa tra parentesi anche la macro `<strong><code>LOCK_NB</code></strong>'. Volendo verificare questa anomalia, basta provare ad assegnare a una variabile la somma di queste o di altre macro, visualizzando poi il risultato; se si prova una cosa del tipo `<strong><code>$pippo = LOCK_EX+LOCK_NB;</code></strong>', senza parentesi, e poi si visualizza il contenuto di `<strong><code>$pippo</code></strong>', si ottiene solo il valore due, mentre dovrebbe essere un sei!</p>
+
+</div>
+<hr>
+<p><a href="http://ocs.unipa.it/AL/index.htm">[inizio]</a> <a href="http://ocs.unipa.it/AL/altoc.htm">[indice generale]</a> <a href="http://ocs.unipa.it/AL/al213.htm">[precedente]</a> <a href="http://ocs.unipa.it/AL/al215.htm">[successivo]</a> <a href="http://ocs.unipa.it/AL/alndx.htm">[indice analitico]</a> <a href="http://ocs.unipa.it/AL/alcnt.htm">[contributi]</a>
+</p>
+
+</body></html>

@@ -1,0 +1,67 @@
+################### PORTA 5222 #########################
+################### PORTA 443 #########################
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 1, Ack: 1, Len: 29
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 1, Ack: 30, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 30, Ack: 1, Len: 40
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 1, Ack: 70, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 70, Ack: 45, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 70, Ack: 45, Len: 12
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 45, Ack: 82, Len: 27
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 82, Ack: 72, Len: 25
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 72, Ack: 82, Len: 27
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 107, Ack: 99, Len: 0
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 99, Ack: 107, Len: 18
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 107, Ack: 117, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 107, Ack: 117, Len: 61
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 117, Ack: 168, Len: 45
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 168, Ack: 162, Len: 0
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 162, Ack: 168, Len: 43
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 168, Ack: 205, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 168, Ack: 205, Len: 45
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 205, Ack: 213, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 213, Ack: 205, Len: 72
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 205, Ack: 285, Len: 45
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 285, Ack: 250, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 285, Ack: 250, Len: 55
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 250, Ack: 340, Len: 45
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 340, Ack: 295, Len: 0
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 295, Ack: 340, Len: 43
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 340, Ack: 338, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 340, Ack: 338, Len: 45
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 338, Ack: 385, Len: 0
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 338, Ack: 385, Len: 43
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+, Seq: 385, Ack: 381, Len: 45
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+, Seq: 381, Ack: 430, Len: 0
+################### PORTA 80 #########################

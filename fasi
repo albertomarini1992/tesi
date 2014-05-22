@@ -1,0 +1,15 @@
+Fase 1 				     02/10/2013	|  |
+------------------------------------------------|--|
+1_ Cercare informazioni in rete su Whatsapp,   	|X |
+   documenti su com'è fatto, bug, etc etc.	|  |
+   Le ricerche si possono fare su Google Scholar|  |
+2_ Installare sniffer di rete su Android e 	|X |
+   testare la sua funzionalità. 		|  |
+3_ Ottenere i diritti di root di Android.	|X |
+4_ Installare WireShark e importare i file 	|X |
+   risultanti dall'utilizzo dello sniffer.	|  |
+5_ Imparare un linguaggio di scripting per 	|X |
+   il post processing dei dati 			|  |
+   (tipo AWK o PERL, quest'ultimo preferibile)	|  |
+   e creare/testare alcuni script		|  |
+________________________________________________|__|

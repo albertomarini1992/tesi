@@ -1,0 +1,48 @@
+*20/03/2014
+
+cerhiamo la porta di whatsapp e facciamo le rilevazioni
+filtriamo poi per quella porta e vediamo cosa ne esce
+
+eventualmente passiamo a telegram che è open source
+
+*27/03/2014
+
+I server potrebbero essero corretti 
+potrebbero essere a dallas 5.94.229.21
+
+ora bisogna filtrare per porta, teniamo buone le porte 5222 (se presenti), 443 e 80
+
+una volta filtrati i dati segniamo gli ip dei server e li studiamo con Whois (terminale) 
+
+conviene filtrare i dati per porta, salvare in un file di testo i dati filtrati, estrarre gli ip di destinazione e lanciarli con uno script bash con il comando whois
+
+*31/03/2014
+creato primo script. 
+tutti i file pcap -> txt e poi tutti i txt -> filtered lasciando solo ip e porte
+
+*14/04/2014
+creati script per filtrare i txt per porte e poi per ip src
+filtrati i file per porta. In Desktop/tesi/shark/test_script/file_filtrati sono presenti tutti i file con ip src e dst che hanno utilizzato porta 5222 o 443 o 80
+filtrati i file per ip src. Ora in Desktop/tesi/shark/test_script/file_filtrati/file_filtrati ci sono tutti gli indirizzi ip dst con il mio ip src che hanno utilizzato le porte specificate in precedenza
+
+*24/04/2014
+Parlato con il prof
+i filtri vanno bene
+prossime tappe:
+-iniziare a scrivere un capitolo dove spiego cos'è whatsapp, come funziona, cosa stiamo cercando e come lo stiamo facendo
+-nello script aggiungere la grandezza del pacchetto e alla fine ottenere un file con ip (distinct) e la somma delle dimensioni
+-rilevare quotidianamente per 2 settimane i pacchetti a seguito di un invio di un messaggio, filtrarli alla fine in modo da poter scrivere una tabella con i giorni nelle colonne e gli ip ottenuti come righe
+
+*14/05/2014
+Terminata tabella ip-date
+Iniziamo a scrivere un capitolo su Whatsapp
+
+*15/05/2014
+Iniziato a scrivere la tesi
+Incontro con il prof
+
+tesi errata
+fare ancora rilevazioni giornaliere
+fare un paio di rilevazioni di piu ore con passaggi su piu reti prefiltrandole sui range di ip trovati
+nella tesi, come background, descriviamo whatsapp, wireshark, parliamo di whois, diciamo che prima sono state fatti post filtri e poi pre filtri
+grafico cell - server - cell con frecce 

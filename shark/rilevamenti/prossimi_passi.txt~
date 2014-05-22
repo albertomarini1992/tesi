@@ -1,0 +1,17 @@
+20/03/2014
+
+cerhiamo la porta di whatsapp e facciamo le rilevazioni
+filtriamo poi per quella porta e vediamo cosa ne esce
+
+eventualmente passiamo a telegram che è open source
+
+27/03/2014
+
+I server potrebbero essero corretti 
+potrebbero essere a dallas 5.94.229.21
+
+ora bisogna filtrare per porta, teniamo buone le porte 5222 (se presenti), 443 e 80
+
+una volta filtrati i dati segniamo gli ip dei server e li studiamo con Whois (terminale) 
+
+conviene filtrare i dati per porta, salvare in un file di testo i dati filtrati, estrarre gli ip di destinazione e lanciarli con uno script bash con il comando whois

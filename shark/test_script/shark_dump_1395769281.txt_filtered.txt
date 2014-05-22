@@ -1,0 +1,112 @@
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 1, Ack: 1, Len: 29
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 1, Ack: 30, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 30, Ack: 1, Len: 40
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 1, Ack: 70, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 70, Ack: 45, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 70, Ack: 45, Len: 12
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 45, Ack: 82, Len: 27
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 82, Ack: 72, Len: 25
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 72, Ack: 82, Len: 27
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 107, Ack: 99, Len: 0
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 99, Ack: 107, Len: 18
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 107, Ack: 117, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 107, Ack: 117, Len: 61
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 117, Ack: 168, Len: 45
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 168, Ack: 162, Len: 0
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 162, Ack: 168, Len: 43
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 168, Ack: 205, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 168, Ack: 205, Len: 45
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 205, Ack: 213, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 213, Ack: 205, Len: 72
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 205, Ack: 285, Len: 45
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 285, Ack: 250, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 285, Ack: 250, Len: 55
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 250, Ack: 340, Len: 45
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 340, Ack: 295, Len: 0
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 295, Ack: 340, Len: 43
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 340, Ack: 338, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 340, Ack: 338, Len: 45
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 338, Ack: 385, Len: 0
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 338, Ack: 385, Len: 43
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 385, Ack: 381, Len: 45
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 381, Ack: 430, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 1, Ack: 1, Len: 112
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 1, Ack: 113, Len: 1440
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 113, Ack: 1441, Len: 0
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 1441, Ack: 113, Len: 1137
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 113, Ack: 2578, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 113, Ack: 2578, Len: 326
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 2578, Ack: 439, Len: 59
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 439, Ack: 2637, Len: 0
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 2637, Ack: 439, Len: 101
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 439, Ack: 2738, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 439, Ack: 2738, Len: 53
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 2738, Ack: 492, Len: 117
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 492, Ack: 2855, Len: 0
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 2855, Ack: 492, Len: 53
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 492, Ack: 2908, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 492, Ack: 2908, Len: 53
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 2908, Ack: 545, Len: 117
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 545, Ack: 3025, Len: 0
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 3025, Ack: 545, Len: 53
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 545, Ack: 3078, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 545, Ack: 3078, Len: 69

@@ -1,0 +1,785 @@
+No.     Time        Source                Destination           Protocol Length Info
+      1 0.000000    5.94.229.21           50.22.225.66          TCP      97     [TCP segment of a reassembled PDU]
+
+Frame 1: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1, Ack: 1, Len: 29
+
+No.     Time        Source                Destination           Protocol Length Info
+      2 1.206723    5.94.229.21           50.22.225.66          TCP      97     [TCP Retransmission] 51715 > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=2227 Len=29 TSval=138599 TSecr=3989485991
+
+Frame 2: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1, Ack: 1, Len: 29
+
+No.     Time        Source                Destination           Protocol Length Info
+      3 1.517580    50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=1 Ack=30 Win=512 Len=0 TSval=3989496267 TSecr=138478
+
+Frame 3: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 1, Ack: 30, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      4 1.517941    5.94.229.21           50.22.225.66          TCP      108    [TCP segment of a reassembled PDU]
+
+Frame 4: 108 bytes on wire (864 bits), 108 bytes captured (864 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 30, Ack: 1, Len: 40
+
+No.     Time        Source                Destination           Protocol Length Info
+      5 1.617583    50.22.225.66          5.94.229.21           TCP      68     [TCP Dup ACK 3#1] xmpp-client > 51715 [ACK] Seq=1 Ack=30 Win=512 Len=0 TSval=3989496916 TSecr=138599
+
+Frame 5: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 1, Ack: 30, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      6 1.817591    50.22.225.66          5.94.229.21           TCP      112    [TCP segment of a reassembled PDU]
+
+Frame 6: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 1, Ack: 70, Len: 44
+
+No.     Time        Source                Destination           Protocol Length Info
+      7 1.818070    5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=70 Ack=45 Win=2227 Len=0 TSval=138660 TSecr=3989497121
+
+Frame 7: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 70, Ack: 45, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      8 2.928475    5.94.229.21           50.22.225.66          TCP      80     [TCP segment of a reassembled PDU]
+
+Frame 8: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 70, Ack: 45, Len: 12
+
+No.     Time        Source                Destination           Protocol Length Info
+      9 3.137591    50.22.225.66          5.94.229.21           TCP      95     [TCP segment of a reassembled PDU]
+
+Frame 9: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 45, Ack: 82, Len: 27
+
+No.     Time        Source                Destination           Protocol Length Info
+     10 3.138095    5.94.229.21           50.22.225.66          TCP      93     [TCP segment of a reassembled PDU]
+
+Frame 10: 93 bytes on wire (744 bits), 93 bytes captured (744 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 82, Ack: 72, Len: 25
+
+No.     Time        Source                Destination           Protocol Length Info
+     11 3.167653    50.22.225.66          5.94.229.21           TCP      95     [TCP segment of a reassembled PDU]
+
+Frame 11: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 72, Ack: 82, Len: 27
+
+No.     Time        Source                Destination           Protocol Length Info
+     12 3.216771    5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=107 Ack=99 Win=2227 Len=0 TSval=138800 TSecr=3989498466
+
+Frame 12: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 107, Ack: 99, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     13 3.417581    50.22.225.66          5.94.229.21           TCP      86     [TCP segment of a reassembled PDU]
+
+Frame 13: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 99, Ack: 107, Len: 18
+
+No.     Time        Source                Destination           Protocol Length Info
+     14 3.418301    5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=107 Ack=117 Win=2227 Len=0 TSval=138820 TSecr=3989498714
+
+Frame 14: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 107, Ack: 117, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     15 3.510048    5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 15: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 107, Ack: 117, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     16 3.807563    50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=117 Ack=139 Win=512 Len=0 TSval=3989499104 TSecr=138829
+
+Frame 16: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 117, Ack: 139, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     17 5.454496    5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 17: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 139, Ack: 117, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     18 5.767596    50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=117 Ack=171 Win=512 Len=0 TSval=3989501064 TSecr=139023
+
+Frame 18: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 117, Ack: 171, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     19 5.767953    5.94.229.21           50.22.225.66          TCP      129    [TCP segment of a reassembled PDU]
+
+Frame 19: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 171, Ack: 117, Len: 61
+
+No.     Time        Source                Destination           Protocol Length Info
+     20 6.018050    50.22.225.66          5.94.229.21           TCP      112    [TCP segment of a reassembled PDU]
+
+Frame 20: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 117, Ack: 232, Len: 44
+
+No.     Time        Source                Destination           Protocol Length Info
+     21 6.018730    5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=232 Ack=161 Win=2227 Len=0 TSval=139080 TSecr=3989501314
+
+Frame 21: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 232, Ack: 161, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     22 6.262068    5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 22: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 232, Ack: 161, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     23 6.477576    50.22.225.66          5.94.229.21           TCP      110    [TCP segment of a reassembled PDU]
+
+Frame 23: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 161, Ack: 232, Len: 42
+
+No.     Time        Source                Destination           Protocol Length Info
+     24 6.477900    5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=264 Ack=203 Win=2227 Len=0 TSval=139126 TSecr=3989501777
+
+Frame 24: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 264, Ack: 203, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     25 6.567566    50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=203 Ack=264 Win=512 Len=0 TSval=3989501864 TSecr=139104
+
+Frame 25: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 203, Ack: 264, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     26 6.567900    5.94.229.21           50.22.225.66          TCP      112    [TCP segment of a reassembled PDU]
+
+Frame 26: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 264, Ack: 203, Len: 44
+
+No.     Time        Source                Destination           Protocol Length Info
+     27 6.847666    50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=203 Ack=308 Win=512 Len=0 TSval=3989502144 TSecr=139135
+
+Frame 27: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 203, Ack: 308, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     28 9.085626    5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 28: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 308, Ack: 203, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     29 9.367601    50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=203 Ack=340 Win=512 Len=0 TSval=3989504664 TSecr=139386
+
+Frame 29: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 203, Ack: 340, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     30 9.368023    5.94.229.21           50.22.225.66          TCP      130    [TCP segment of a reassembled PDU]
+
+Frame 30: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 340, Ack: 203, Len: 62
+
+No.     Time        Source                Destination           Protocol Length Info
+     31 9.617608    50.22.225.66          5.94.229.21           TCP      112    [TCP segment of a reassembled PDU]
+
+Frame 31: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 203, Ack: 402, Len: 44
+
+No.     Time        Source                Destination           Protocol Length Info
+     32 9.618108    5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=402 Ack=247 Win=2227 Len=0 TSval=139440 TSecr=3989504914
+
+Frame 32: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 402, Ack: 247, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     33 9.979498    5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 33: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 402, Ack: 247, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     34 10.037616   50.22.225.66          5.94.229.21           TCP      110    [TCP segment of a reassembled PDU]
+
+Frame 34: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 247, Ack: 402, Len: 42
+
+No.     Time        Source                Destination           Protocol Length Info
+     35 10.038031   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=434 Ack=289 Win=2227 Len=0 TSval=139482 TSecr=3989505336
+
+Frame 35: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 434, Ack: 289, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     36 10.287663   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=289 Ack=434 Win=512 Len=0 TSval=3989505584 TSecr=139476
+
+Frame 36: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 434, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     37 10.288031   5.94.229.21           50.22.225.66          TCP      112    [TCP segment of a reassembled PDU]
+
+Frame 37: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 434, Ack: 289, Len: 44
+
+No.     Time        Source                Destination           Protocol Length Info
+     38 10.567623   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=289 Ack=478 Win=512 Len=0 TSval=3989505864 TSecr=139507
+
+Frame 38: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 478, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     39 11.490858   5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 39: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 478, Ack: 289, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     40 11.807588   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=289 Ack=510 Win=512 Len=0 TSval=3989507104 TSecr=139627
+
+Frame 40: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 510, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     41 11.807936   5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 41: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 510, Ack: 289, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     42 12.088410   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=289 Ack=542 Win=512 Len=0 TSval=3989507384 TSecr=139659
+
+Frame 42: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 542, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     43 13.759031   5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 43: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 542, Ack: 289, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     44 14.047986   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=289 Ack=574 Win=512 Len=0 TSval=3989509344 TSecr=139854
+
+Frame 44: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 574, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     45 14.048786   5.94.229.21           50.22.225.66          XMPP/XML 129    UNKNOWN PACKET 
+
+Frame 45: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 574, Ack: 289, Len: 61
+[17 Reassembled TCP Segments (634 bytes): #1(29), #4(40), #8(12), #10(25), #15(32), #17(32), #19(61), #22(32), #26(44), #28(32), #30(62), #33(32), #37(44), #39(32), #41(32), #43(32), #45(61)]
+XMPP Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     46 14.297601   50.22.225.66          5.94.229.21           TCP      113    [TCP segment of a reassembled PDU]
+
+Frame 46: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 635, Len: 45
+
+No.     Time        Source                Destination           Protocol Length Info
+     47 14.298081   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=635 Ack=334 Win=2227 Len=0 TSval=139908 TSecr=3989509595
+
+Frame 47: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 635, Ack: 334, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     48 14.574875   5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 48: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 635, Ack: 334, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     49 14.587616   50.22.225.66          5.94.229.21           TCP      111    [TCP segment of a reassembled PDU]
+
+Frame 49: 111 bytes on wire (888 bits), 111 bytes captured (888 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 334, Ack: 635, Len: 43
+
+No.     Time        Source                Destination           Protocol Length Info
+     50 14.588525   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=667 Ack=377 Win=2227 Len=0 TSval=139937 TSecr=3989509888
+
+Frame 50: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 667, Ack: 377, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     51 14.887575   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=377 Ack=667 Win=512 Len=0 TSval=3989510184 TSecr=139935
+
+Frame 51: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 377, Ack: 667, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     52 14.887906   5.94.229.21           50.22.225.66          TCP      113    [TCP segment of a reassembled PDU]
+
+Frame 52: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 667, Ack: 377, Len: 45
+
+No.     Time        Source                Destination           Protocol Length Info
+     53 15.167696   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=377 Ack=712 Win=512 Len=0 TSval=3989510464 TSecr=139967
+
+Frame 53: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 377, Ack: 712, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     54 16.057666   50.22.225.66          5.94.229.21           TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 54: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 377, Ack: 712, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     55 16.058010   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=712 Ack=409 Win=2227 Len=0 TSval=140084 TSecr=3989511360
+
+Frame 55: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 712, Ack: 409, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     56 18.269450   5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 56: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 712, Ack: 409, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     57 18.567620   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=409 Ack=744 Win=512 Len=0 TSval=3989513864 TSecr=140305
+
+Frame 57: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 409, Ack: 744, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     58 18.567965   5.94.229.21           50.22.225.66          TCP      135    [TCP segment of a reassembled PDU]
+
+Frame 58: 135 bytes on wire (1080 bits), 135 bytes captured (1080 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 744, Ack: 409, Len: 67
+
+No.     Time        Source                Destination           Protocol Length Info
+     59 18.647568   50.22.225.66          5.94.229.21           TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 59: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 409, Ack: 744, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     60 18.647905   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=811 Ack=441 Win=2227 Len=0 TSval=140343 TSecr=3989513948
+
+Frame 60: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 811, Ack: 441, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     61 18.817783   50.22.225.66          5.94.229.21           TCP      113    [TCP segment of a reassembled PDU]
+
+Frame 61: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 441, Ack: 811, Len: 45
+
+No.     Time        Source                Destination           Protocol Length Info
+     62 18.818138   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=811 Ack=486 Win=2227 Len=0 TSval=140360 TSecr=3989514115
+
+Frame 62: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 811, Ack: 486, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     63 18.877785   50.22.225.66          5.94.229.21           TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 63: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 486, Ack: 811, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     64 18.878111   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=811 Ack=518 Win=2227 Len=0 TSval=140366 TSecr=3989514179
+
+Frame 64: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 811, Ack: 518, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     65 19.167618   50.22.225.66          5.94.229.21           TCP      111    [TCP segment of a reassembled PDU]
+
+Frame 65: 111 bytes on wire (888 bits), 111 bytes captured (888 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 518, Ack: 811, Len: 43
+
+No.     Time        Source                Destination           Protocol Length Info
+     66 19.168593   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=811 Ack=561 Win=2227 Len=0 TSval=140395 TSecr=3989514464
+
+Frame 66: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 811, Ack: 561, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     67 19.173028   5.94.229.21           50.22.225.66          TCP      113    [TCP segment of a reassembled PDU]
+
+Frame 67: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 811, Ack: 561, Len: 45
+
+No.     Time        Source                Destination           Protocol Length Info
+     68 19.487598   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=561 Ack=856 Win=512 Len=0 TSval=3989514785 TSecr=140395
+
+Frame 68: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 561, Ack: 856, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     69 19.557578   50.22.225.66          5.94.229.21           TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 69: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 561, Ack: 856, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     70 19.596681   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=856 Ack=593 Win=2227 Len=0 TSval=140438 TSecr=3989514856
+
+Frame 70: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 856, Ack: 593, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     71 19.787621   50.22.225.66          5.94.229.21           TCP      155    [TCP segment of a reassembled PDU]
+
+Frame 71: 155 bytes on wire (1240 bits), 155 bytes captured (1240 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 593, Ack: 856, Len: 87
+
+No.     Time        Source                Destination           Protocol Length Info
+     72 19.788106   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=856 Ack=680 Win=2227 Len=0 TSval=140457 TSecr=3989515066
+
+Frame 72: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 856, Ack: 680, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     73 20.119260   5.94.229.21           50.22.225.66          TCP      119    [TCP segment of a reassembled PDU]
+
+Frame 73: 119 bytes on wire (952 bits), 119 bytes captured (952 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 856, Ack: 680, Len: 51
+
+No.     Time        Source                Destination           Protocol Length Info
+     74 20.407675   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=680 Ack=907 Win=512 Len=0 TSval=3989515704 TSecr=140490
+
+Frame 74: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 680, Ack: 907, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     75 20.408223   5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 75: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 907, Ack: 680, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     76 20.727586   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=680 Ack=939 Win=512 Len=0 TSval=3989516024 TSecr=140519
+
+Frame 76: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 680, Ack: 939, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     77 20.727946   5.94.229.21           50.22.225.66          TCP      155    [TCP segment of a reassembled PDU]
+
+Frame 77: 155 bytes on wire (1240 bits), 155 bytes captured (1240 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 939, Ack: 680, Len: 87
+
+No.     Time        Source                Destination           Protocol Length Info
+     78 21.017608   50.22.225.66          5.94.229.21           TCP      113    [TCP segment of a reassembled PDU]
+
+Frame 78: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 680, Ack: 1026, Len: 45
+
+No.     Time        Source                Destination           Protocol Length Info
+     79 21.018113   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=1026 Ack=725 Win=2227 Len=0 TSval=140580 TSecr=3989516316
+
+Frame 79: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1026, Ack: 725, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     80 21.147753   50.22.225.66          5.94.229.21           TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 80: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 725, Ack: 1026, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     81 21.148085   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=1026 Ack=757 Win=2227 Len=0 TSval=140593 TSecr=3989516443
+
+Frame 81: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1026, Ack: 757, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     82 21.437606   50.22.225.66          5.94.229.21           TCP      111    [TCP segment of a reassembled PDU]
+
+Frame 82: 111 bytes on wire (888 bits), 111 bytes captured (888 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 757, Ack: 1026, Len: 43
+
+No.     Time        Source                Destination           Protocol Length Info
+     83 21.438095   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=1026 Ack=800 Win=2227 Len=0 TSval=140622 TSecr=3989516736
+
+Frame 83: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1026, Ack: 800, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     84 21.463565   5.94.229.21           50.22.225.66          TCP      113    [TCP segment of a reassembled PDU]
+
+Frame 84: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1026, Ack: 800, Len: 45
+
+No.     Time        Source                Destination           Protocol Length Info
+     85 21.677605   54.243.73.193         5.94.229.21           TCP      68     http > 52718 [FIN, ACK] Seq=1 Ack=1 Win=64251 Len=0 TSval=1233089381 TSecr=137743
+
+Frame 85: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 52718 (52718), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     86 21.716668   5.94.229.21           54.243.73.193         TCP      68     52718 > http [ACK] Seq=1 Ack=2 Win=1959 Len=0 TSval=140650 TSecr=1233089381
+
+Frame 86: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 54.243.73.193 (54.243.73.193)
+Transmission Control Protocol, Src Port: 52718 (52718), Dst Port: http (80), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     87 21.767581   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=800 Ack=1071 Win=512 Len=0 TSval=3989517064 TSecr=140624
+
+Frame 87: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 800, Ack: 1071, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     88 22.647675   5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 88: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1071, Ack: 800, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     89 22.927610   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=800 Ack=1103 Win=512 Len=0 TSval=3989518224 TSecr=140743
+
+Frame 89: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 800, Ack: 1103, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     90 23.272381   5.94.229.21           50.22.225.66          TCP      100    [TCP segment of a reassembled PDU]
+
+Frame 90: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1103, Ack: 800, Len: 32
+
+No.     Time        Source                Destination           Protocol Length Info
+     91 23.567665   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=800 Ack=1135 Win=512 Len=0 TSval=3989518864 TSecr=140805
+
+Frame 91: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 800, Ack: 1135, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     92 23.568141   5.94.229.21           50.22.225.66          TCP      126    [TCP segment of a reassembled PDU]
+
+Frame 92: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1135, Ack: 800, Len: 58
+
+No.     Time        Source                Destination           Protocol Length Info
+     93 23.817591   50.22.225.66          5.94.229.21           TCP      113    [TCP segment of a reassembled PDU]
+
+Frame 93: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 800, Ack: 1193, Len: 45
+
+No.     Time        Source                Destination           Protocol Length Info
+     94 23.856783   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=1193 Ack=845 Win=2227 Len=0 TSval=140864 TSecr=3989519114
+
+Frame 94: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1193, Ack: 845, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     95 24.117656   50.22.225.66          5.94.229.21           TCP      111    [TCP segment of a reassembled PDU]
+
+Frame 95: 111 bytes on wire (888 bits), 111 bytes captured (888 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 845, Ack: 1193, Len: 43
+
+No.     Time        Source                Destination           Protocol Length Info
+     96 24.118150   5.94.229.21           50.22.225.66          TCP      68     51715 > xmpp-client [ACK] Seq=1193 Ack=888 Win=2227 Len=0 TSval=140890 TSecr=3989519416
+
+Frame 96: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1193, Ack: 888, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     97 24.125638   5.94.229.21           50.22.225.66          TCP      113    [TCP segment of a reassembled PDU]
+
+Frame 97: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1193, Ack: 888, Len: 45
+
+No.     Time        Source                Destination           Protocol Length Info
+     98 24.447605   50.22.225.66          5.94.229.21           TCP      68     xmpp-client > 51715 [ACK] Seq=888 Ack=1238 Win=512 Len=0 TSval=3989519744 TSecr=140890
+
+Frame 98: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 888, Ack: 1238, Len: 0

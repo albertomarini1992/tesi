@@ -1,0 +1,2068 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '31.13.64.0 - 31.13.127.255'
+
+% Abuse contact for '31.13.64.0 - 31.13.127.255' is 'domain@fb.com'
+
+inetnum:        31.13.64.0 - 31.13.127.255
+netname:        IE-FACEBOOK-20110418
+descr:          Facebook Ireland Ltd
+country:        IE
+org:            ORG-FIL7-RIPE
+admin-c:        RD4299-RIPE
+tech-c:         RD4299-RIPE
+status:         ALLOCATED PA
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-lower:      fb-neteng
+mnt-routes:     fb-neteng
+source:         RIPE # Filtered
+
+organisation:   ORG-FIL7-RIPE
+org-name:       Facebook Ireland Ltd
+org-type:       LIR
+address:        Facebook Ireland Ltd Hanover Reach, 5-7 Hanover Quay 2 Dublin Ireland
+phone:          +0016505434800
+fax-no:         +0016505435325
+admin-c:        PH4972-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        fb-neteng
+mnt-by:         RIPE-NCC-HM-MNT
+abuse-mailbox:  domain@fb.com
+abuse-c:        RD4299-RIPE
+source:         RIPE # Filtered
+
+role:           RIPE DBM
+address:        1601 Willow Rd.
+address:        Menlo Park, CA, 94025
+admin-c:        PH4972-RIPE
+tech-c:         PH4972-RIPE
+nic-hdl:        RD4299-RIPE
+mnt-by:         fb-neteng
+source:         RIPE # Filtered
+abuse-mailbox:  domain@fb.com
+
+% This query was served by the RIPE Database Query Service version 1.72 (DBC-WHOIS1)
+
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=50.22.225.66?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       50.22.0.0 - 50.23.255.255
+CIDR:           50.22.0.0/15
+OriginAS:       AS36351
+NetName:        SOFTLAYER-4-9
+NetHandle:      NET-50-22-0-0-1
+Parent:         NET-50-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2010-11-01
+Updated:        2013-07-12
+Ref:            http://whois.arin.net/rest/net/NET-50-22-0-0-1
+
+OrgName:        SoftLayer Technologies Inc.
+OrgId:          SOFTL
+Address:        4849 Alpha Rd.
+City:           Dallas
+StateProv:      TX
+PostalCode:     75244
+Country:        US
+RegDate:        2005-10-26
+Updated:        2013-02-20
+Ref:            http://whois.arin.net/rest/org/SOFTL
+
+ReferralServer: rwhois://rwhois.softlayer.com:4321
+
+OrgTechHandle: IPADM258-ARIN
+OrgTechName:   IP Admin
+OrgTechPhone:  +1-214-442-0600 
+OrgTechEmail:  ipadmin@softlayer.com
+OrgTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+OrgAbuseHandle: ABUSE1025-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-214-442-0605 
+OrgAbuseEmail:  abuse@softlayer.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+RNOCHandle: IPADM258-ARIN
+RNOCName:   IP Admin
+RNOCPhone:  +1-214-442-0600 
+RNOCEmail:  ipadmin@softlayer.com
+RNOCRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RTechHandle: IPADM258-ARIN
+RTechName:   IP Admin
+RTechPhone:  +1-214-442-0600 
+RTechEmail:  ipadmin@softlayer.com
+RTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RAbuseHandle: ABUSE1025-ARIN
+RAbuseName:   Abuse
+RAbusePhone:  +1-214-442-0605 
+RAbuseEmail:  abuse@softlayer.com
+RAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+
+Trovato un riferimento a rwhois.softlayer.com:4321.
+
+%rwhois V-1.5:003fff:00 rwhois.softlayer.com (by Network Solutions, Inc. V-1.5.9.5)
+network:Auth-Area:50.22.192.0/18
+network:Class-Name:network
+network:Organization;I:SoftLayer
+network:Street-Address:4849 Alpha Road
+network:City:Dallas
+network:State:TX
+network:Postal-Code:75244
+network:Country-Code:US
+network:Tech-Contact;I:sysadmins@softlayer.com
+network:Abuse-Contact;I:abuse@softlayer.com
+network:Admin-Contact;I:IPADM258-ARIN
+network:Created:2011-02-09 11:31:42
+network:Updated:2013-10-31 14:19:01
+network:Updated-By:ipadmin@softlayer.com
+
+%referral rwhois://root.rwhois.net:4321/auth-area=.
+%ok
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=50.22.225.67?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       50.22.0.0 - 50.23.255.255
+CIDR:           50.22.0.0/15
+OriginAS:       AS36351
+NetName:        SOFTLAYER-4-9
+NetHandle:      NET-50-22-0-0-1
+Parent:         NET-50-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2010-11-01
+Updated:        2013-07-12
+Ref:            http://whois.arin.net/rest/net/NET-50-22-0-0-1
+
+
+OrgName:        SoftLayer Technologies Inc.
+OrgId:          SOFTL
+Address:        4849 Alpha Rd.
+City:           Dallas
+StateProv:      TX
+PostalCode:     75244
+Country:        US
+RegDate:        2005-10-26
+Updated:        2013-02-20
+Ref:            http://whois.arin.net/rest/org/SOFTL
+
+ReferralServer: rwhois://rwhois.softlayer.com:4321
+
+OrgTechHandle: IPADM258-ARIN
+OrgTechName:   IP Admin
+OrgTechPhone:  +1-214-442-0601 
+OrgTechEmail:  ipadmin@softlayer.com
+OrgTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+OrgAbuseHandle: ABUSE1025-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-214-442-0605 
+OrgAbuseEmail:  abuse@softlayer.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+RNOCHandle: IPADM258-ARIN
+RNOCName:   IP Admin
+RNOCPhone:  +1-214-442-0601 
+RNOCEmail:  ipadmin@softlayer.com
+RNOCRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RAbuseHandle: ABUSE1025-ARIN
+RAbuseName:   Abuse
+RAbusePhone:  +1-214-442-0605 
+RAbuseEmail:  abuse@softlayer.com
+RAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+RTechHandle: IPADM258-ARIN
+RTechName:   IP Admin
+RTechPhone:  +1-214-442-0601 
+RTechEmail:  ipadmin@softlayer.com
+RTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+
+Trovato un riferimento a rwhois.softlayer.com:4321.
+
+%rwhois V-1.5:003fff:00 rwhois.softlayer.com (by Network Solutions, Inc. V-1.5.9.5)
+network:Auth-Area:50.22.192.0/18
+network:Class-Name:network
+network:Organization;I:SoftLayer
+network:Street-Address:4849 Alpha Road
+network:City:Dallas
+network:State:TX
+network:Postal-Code:75244
+network:Country-Code:US
+network:Tech-Contact;I:sysadmins@softlayer.com
+network:Abuse-Contact;I:abuse@softlayer.com
+network:Admin-Contact;I:IPADM258-ARIN
+network:Created:2011-02-09 11:31:42
+network:Updated:2013-10-31 14:19:01
+network:Updated-By:ipadmin@softlayer.com
+
+%referral rwhois://root.rwhois.net:4321/auth-area=.
+%ok
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=50.22.231.44?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       50.22.0.0 - 50.23.255.255
+CIDR:           50.22.0.0/15
+OriginAS:       AS36351
+NetName:        SOFTLAYER-4-9
+NetHandle:      NET-50-22-0-0-1
+Parent:         NET-50-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2010-11-01
+Updated:        2013-07-12
+Ref:            http://whois.arin.net/rest/net/NET-50-22-0-0-1
+
+OrgName:        SoftLayer Technologies Inc.
+OrgId:          SOFTL
+Address:        4849 Alpha Rd.
+City:           Dallas
+StateProv:      TX
+PostalCode:     75244
+Country:        US
+RegDate:        2005-10-26
+Updated:        2013-02-20
+Ref:            http://whois.arin.net/rest/org/SOFTL
+
+ReferralServer: rwhois://rwhois.softlayer.com:4321
+
+OrgAbuseHandle: ABUSE1025-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-214-442-0605 
+OrgAbuseEmail:  abuse@softlayer.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+OrgTechHandle: IPADM258-ARIN
+OrgTechName:   IP Admin
+OrgTechPhone:  +1-214-442-0600 
+OrgTechEmail:  ipadmin@softlayer.com
+OrgTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RAbuseHandle: ABUSE1025-ARIN
+RAbuseName:   Abuse
+RAbusePhone:  +1-214-442-0605 
+RAbuseEmail:  abuse@softlayer.com
+RAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+RTechHandle: IPADM258-ARIN
+RTechName:   IP Admin
+RTechPhone:  +1-214-442-0600 
+RTechEmail:  ipadmin@softlayer.com
+RTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RNOCHandle: IPADM258-ARIN
+RNOCName:   IP Admin
+RNOCPhone:  +1-214-442-0600 
+RNOCEmail:  ipadmin@softlayer.com
+RNOCRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+
+Trovato un riferimento a rwhois.softlayer.com:4321.
+
+%rwhois V-1.5:003fff:00 rwhois.softlayer.com (by Network Solutions, Inc. V-1.5.9.5)
+network:Auth-Area:50.22.192.0/18
+network:Class-Name:network
+network:Organization;I:Connexion Technology
+network:Street-Address:141 E Palm Ln Suite 203
+network:City:Phoenix
+network:State:AZ
+network:Postal-Code:85004
+network:Country-Code:US
+network:Tech-Contact;I:sysadmins@softlayer.com
+network:Abuse-Contact;I:abuse@softlayer.com
+network:Admin-Contact;I:IPADM258-ARIN
+network:Created:2009-07-29 15:25:12
+network:Updated:2011-03-14 18:56:11
+network:Updated-By:ipadmin@softlayer.com
+
+%referral rwhois://root.rwhois.net:4321/auth-area=.
+%ok
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=50.22.231.45?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       50.22.0.0 - 50.23.255.255
+CIDR:           50.22.0.0/15
+OriginAS:       AS36351
+NetName:        SOFTLAYER-4-9
+NetHandle:      NET-50-22-0-0-1
+Parent:         NET-50-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2010-11-01
+Updated:        2013-07-12
+Ref:            http://whois.arin.net/rest/net/NET-50-22-0-0-1
+
+OrgName:        SoftLayer Technologies Inc.
+OrgId:          SOFTL
+Address:        4849 Alpha Rd.
+City:           Dallas
+StateProv:      TX
+PostalCode:     75244
+Country:        US
+RegDate:        2005-10-26
+Updated:        2013-02-20
+Ref:            http://whois.arin.net/rest/org/SOFTL
+
+ReferralServer: rwhois://rwhois.softlayer.com:4321
+
+OrgAbuseHandle: ABUSE1025-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-214-442-0605 
+OrgAbuseEmail:  abuse@softlayer.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+OrgTechHandle: IPADM258-ARIN
+OrgTechName:   IP Admin
+OrgTechPhone:  +1-214-442-0601 
+OrgTechEmail:  ipadmin@softlayer.com
+OrgTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RTechHandle: IPADM258-ARIN
+RTechName:   IP Admin
+RTechPhone:  +1-214-442-0601 
+RTechEmail:  ipadmin@softlayer.com
+RTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RAbuseHandle: ABUSE1025-ARIN
+RAbuseName:   Abuse
+RAbusePhone:  +1-214-442-0605 
+RAbuseEmail:  abuse@softlayer.com
+RAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+RNOCHandle: IPADM258-ARIN
+RNOCName:   IP Admin
+RNOCPhone:  +1-214-442-0601 
+RNOCEmail:  ipadmin@softlayer.com
+RNOCRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+
+Trovato un riferimento a rwhois.softlayer.com:4321.
+
+%rwhois V-1.5:003fff:00 rwhois.softlayer.com (by Network Solutions, Inc. V-1.5.9.5)
+network:Auth-Area:50.22.192.0/18
+network:Class-Name:network
+network:Organization;I:Connexion Technology
+network:Street-Address:141 E Palm Ln Suite 203
+network:City:Phoenix
+network:State:AZ
+network:Postal-Code:85004
+network:Country-Code:US
+network:Tech-Contact;I:sysadmins@softlayer.com
+network:Abuse-Contact;I:abuse@softlayer.com
+network:Admin-Contact;I:IPADM258-ARIN
+network:Created:2009-07-29 15:25:12
+network:Updated:2011-03-14 18:56:11
+network:Updated-By:ipadmin@softlayer.com
+
+%referral rwhois://root.rwhois.net:4321/auth-area=.
+%ok
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=50.22.231.49?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       50.22.0.0 - 50.23.255.255
+CIDR:           50.22.0.0/15
+OriginAS:       AS36351
+NetName:        SOFTLAYER-4-9
+NetHandle:      NET-50-22-0-0-1
+Parent:         NET-50-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2010-11-01
+Updated:        2013-07-12
+Ref:            http://whois.arin.net/rest/net/NET-50-22-0-0-1
+
+OrgName:        SoftLayer Technologies Inc.
+OrgId:          SOFTL
+Address:        4849 Alpha Rd.
+City:           Dallas
+StateProv:      TX
+PostalCode:     75244
+Country:        US
+RegDate:        2005-10-26
+Updated:        2013-02-20
+Ref:            http://whois.arin.net/rest/org/SOFTL
+
+ReferralServer: rwhois://rwhois.softlayer.com:4321
+
+OrgAbuseHandle: ABUSE1025-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-214-442-0605 
+OrgAbuseEmail:  abuse@softlayer.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+OrgTechHandle: IPADM258-ARIN
+OrgTechName:   IP Admin
+OrgTechPhone:  +1-214-442-0600 
+OrgTechEmail:  ipadmin@softlayer.com
+OrgTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RAbuseHandle: ABUSE1025-ARIN
+RAbuseName:   Abuse
+RAbusePhone:  +1-214-442-0605 
+RAbuseEmail:  abuse@softlayer.com
+RAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+RTechHandle: IPADM258-ARIN
+RTechName:   IP Admin
+RTechPhone:  +1-214-442-0600 
+RTechEmail:  ipadmin@softlayer.com
+RTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RNOCHandle: IPADM258-ARIN
+RNOCName:   IP Admin
+RNOCPhone:  +1-214-442-0600 
+RNOCEmail:  ipadmin@softlayer.com
+RNOCRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+
+Trovato un riferimento a rwhois.softlayer.com:4321.
+
+%rwhois V-1.5:003fff:00 rwhois.softlayer.com (by Network Solutions, Inc. V-1.5.9.5)
+network:Auth-Area:50.22.192.0/18
+network:Class-Name:network
+network:Organization;I:Connexion Technology
+network:Street-Address:141 E Palm Ln Suite 203
+network:City:Phoenix
+network:State:AZ
+network:Postal-Code:85004
+network:Country-Code:US
+network:Tech-Contact;I:sysadmins@softlayer.com
+network:Abuse-Contact;I:abuse@softlayer.com
+network:Admin-Contact;I:IPADM258-ARIN
+network:Created:2009-07-29 15:25:12
+network:Updated:2011-03-14 18:56:11
+network:Updated-By:ipadmin@softlayer.com
+
+%ok
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=50.97.57.132?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       50.97.0.0 - 50.97.255.255
+CIDR:           50.97.0.0/16
+OriginAS:       AS36351
+NetName:        SOFTLAYER-4-10
+NetHandle:      NET-50-97-0-0-1
+Parent:         NET-50-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2011-04-18
+Updated:        2013-07-12
+Ref:            http://whois.arin.net/rest/net/NET-50-97-0-0-1
+
+OrgName:        SoftLayer Technologies Inc.
+OrgId:          SOFTL
+Address:        4849 Alpha Rd.
+City:           Dallas
+StateProv:      TX
+PostalCode:     75244
+Country:        US
+RegDate:        2005-10-26
+Updated:        2013-02-20
+Ref:            http://whois.arin.net/rest/org/SOFTL
+
+ReferralServer: rwhois://rwhois.softlayer.com:4321
+
+OrgTechHandle: IPADM258-ARIN
+OrgTechName:   IP Admin
+OrgTechPhone:  +1-214-442-0600 
+OrgTechEmail:  ipadmin@softlayer.com
+OrgTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+OrgAbuseHandle: ABUSE1025-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-214-442-0605 
+OrgAbuseEmail:  abuse@softlayer.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+
+Trovato un riferimento a rwhois.softlayer.com:4321.
+
+%rwhois V-1.5:003fff:00 rwhois.softlayer.com (by Network Solutions, Inc. V-1.5.9.5)
+network:Auth-Area:50.97.32.0/19
+network:Class-Name:network
+network:Abuse-Contact;I:abuse@whatsapp.net
+network:Admin-Contact;I:IPADM258-ARIN
+network:Created:2009-09-23 01:47:39
+network:Updated:2012-10-25 21:15:03
+network:Updated-By:ipadmin@softlayer.com
+
+%ok
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=54.235.185.74?showDetails=true&showARIN=false&ext=netref2
+#
+
+
+# start
+
+NetRange:       54.234.0.0 - 54.235.255.255
+CIDR:           54.234.0.0/15
+OriginAS:       AS16509
+NetName:        AMAZO-ZIAD2
+NetHandle:      NET-54-234-0-0-1
+Parent:         NET-54-224-0-0-1
+NetType:        Reallocated
+RegDate:        2012-11-30
+Updated:        2012-11-30
+Ref:            http://whois.arin.net/rest/net/NET-54-234-0-0-1
+
+OrgName:        Amazon.com, Inc.
+OrgId:          AMAZO-4
+Address:        Amazon Web Services, Elastic Compute Cloud, EC2
+Address:        1200 12th Avenue South
+City:           Seattle
+StateProv:      WA
+PostalCode:     98144
+Country:        US
+RegDate:        2005-09-29
+Updated:        2009-06-02
+Comment:        For details of this service please see
+Comment:        http://ec2.amazonaws.com/
+Ref:            http://whois.arin.net/rest/org/AMAZO-4
+
+OrgAbuseHandle: AEA8-ARIN
+OrgAbuseName:   Amazon EC2 Abuse
+OrgAbusePhone:  +1-206-266-4064 
+OrgAbuseEmail:  ec2-abuse@amazon.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/AEA8-ARIN
+
+OrgTechHandle: ANO24-ARIN
+OrgTechName:   Amazon EC2 Network Operations
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  aes-noc@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/ANO24-ARIN
+
+# end
+
+
+# start
+
+NetRange:       54.224.0.0 - 54.239.255.255
+CIDR:           54.224.0.0/12
+OriginAS:       AS16509
+NetName:        AMAZON-2011L
+NetHandle:      NET-54-224-0-0-1
+Parent:         NET-54-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2012-03-01
+Updated:        2012-04-02
+Ref:            http://whois.arin.net/rest/net/NET-54-224-0-0-1
+
+
+OrgName:        Amazon Technologies Inc.
+OrgId:          AT-88-Z
+Address:        410 Terry Ave N.
+City:           Seattle
+StateProv:      WA
+PostalCode:     98109
+Country:        US
+RegDate:        2011-12-08
+Updated:        2012-01-06
+Comment:        All abuse reports MUST include:
+Comment:        * src IP
+Comment:        * dest IP (your IP)
+Comment:        * dest port
+Comment:        * Accurate date/timestamp and timezone of activity
+Comment:        * Intensity/frequency (short log extracts)
+Comment:        * Your contact details (phone and email) Without these we will be unable to identify the correct owner of the IP address at that point in time.
+Ref:            http://whois.arin.net/rest/org/AT-88-Z
+
+OrgNOCHandle: AANO1-ARIN
+OrgNOCName:   Amazon AWS Network Operations
+OrgNOCPhone:  +1-206-266-4064 
+OrgNOCEmail:  aes-noc@amazon.com
+OrgNOCRef:    http://whois.arin.net/rest/poc/AANO1-ARIN
+
+OrgTechHandle: AANO1-ARIN
+OrgTechName:   Amazon AWS Network Operations
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  aes-noc@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/AANO1-ARIN
+
+OrgTechHandle: ROLEA19-ARIN
+OrgTechName:   Role Account
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  noc@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/ROLEA19-ARIN
+
+OrgTechHandle: AC6-ORG-ARIN
+OrgTechName:   Amazon-com Incoroporated
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  NOC@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/AC6-ORG-ARIN
+
+OrgNOCHandle: AC6-ORG-ARIN
+OrgNOCName:   Amazon-com Incoroporated
+OrgNOCPhone:  +1-206-266-4064 
+OrgNOCEmail:  NOC@amazon.com
+OrgNOCRef:    http://whois.arin.net/rest/poc/AC6-ORG-ARIN
+
+OrgAbuseHandle: ROLEA19-ARIN
+OrgAbuseName:   Role Account
+OrgAbusePhone:  +1-206-266-4064 
+OrgAbuseEmail:  noc@amazon.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ROLEA19-ARIN
+
+OrgAbuseHandle: AANO1-ARIN
+OrgAbuseName:   Amazon AWS Network Operations
+OrgAbusePhone:  +1-206-266-4064 
+OrgAbuseEmail:  aes-noc@amazon.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/AANO1-ARIN
+
+OrgNOCHandle: ROLEA19-ARIN
+OrgNOCName:   Role Account
+OrgNOCPhone:  +1-206-266-4064 
+OrgNOCEmail:  noc@amazon.com
+OrgNOCRef:    http://whois.arin.net/rest/poc/ROLEA19-ARIN
+
+# end
+
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=54.235.187.3?showDetails=true&showARIN=false&ext=netref2
+#
+
+
+# start
+
+NetRange:       54.234.0.0 - 54.235.255.255
+CIDR:           54.234.0.0/15
+OriginAS:       AS16509
+NetName:        AMAZO-ZIAD2
+NetHandle:      NET-54-234-0-0-1
+Parent:         NET-54-224-0-0-1
+NetType:        Reallocated
+RegDate:        2012-11-30
+Updated:        2012-11-30
+Ref:            http://whois.arin.net/rest/net/NET-54-234-0-0-1
+
+OrgName:        Amazon.com, Inc.
+OrgId:          AMAZO-4
+Address:        Amazon Web Services, Elastic Compute Cloud, EC2
+Address:        1200 12th Avenue South
+City:           Seattle
+StateProv:      WA
+PostalCode:     98144
+Country:        US
+RegDate:        2005-09-29
+Updated:        2009-06-02
+Comment:        For details of this service please see
+Comment:        http://ec2.amazonaws.com/
+Ref:            http://whois.arin.net/rest/org/AMAZO-4
+
+OrgTechHandle: ANO24-ARIN
+OrgTechName:   Amazon EC2 Network Operations
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  aes-noc@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/ANO24-ARIN
+
+OrgAbuseHandle: AEA8-ARIN
+OrgAbuseName:   Amazon EC2 Abuse
+OrgAbusePhone:  +1-206-266-4064 
+OrgAbuseEmail:  ec2-abuse@amazon.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/AEA8-ARIN
+
+# end
+
+
+# start
+
+NetRange:       54.224.0.0 - 54.239.255.255
+CIDR:           54.224.0.0/12
+OriginAS:       AS16509
+NetName:        AMAZON-2011L
+NetHandle:      NET-54-224-0-0-1
+Parent:         NET-54-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2012-03-01
+Updated:        2012-04-02
+Ref:            http://whois.arin.net/rest/net/NET-54-224-0-0-1
+
+OrgName:        Amazon Technologies Inc.
+OrgId:          AT-88-Z
+Address:        410 Terry Ave N.
+City:           Seattle
+StateProv:      WA
+PostalCode:     98109
+Country:        US
+RegDate:        2011-12-08
+Updated:        2012-01-06
+Comment:        All abuse reports MUST include:
+Comment:        * src IP
+Comment:        * dest IP (your IP)
+Comment:        * dest port
+Comment:        * Accurate date/timestamp and timezone of activity
+Comment:        * Intensity/frequency (short log extracts)
+Comment:        * Your contact details (phone and email) Without these we will be unable to identify the correct owner of the IP address at that point in time.
+Ref:            http://whois.arin.net/rest/org/AT-88-Z
+
+OrgNOCHandle: AANO1-ARIN
+OrgNOCName:   Amazon AWS Network Operations
+OrgNOCPhone:  +1-206-266-2178 
+OrgNOCEmail:  aes-noc@amazon.com
+OrgNOCRef:    http://whois.arin.net/rest/poc/AANO1-ARIN
+
+OrgTechHandle: AC6-ORG-ARIN
+OrgTechName:   Amazon-com Incoroporated
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  NOC@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/AC6-ORG-ARIN
+
+OrgAbuseHandle: ROLEA19-ARIN
+OrgAbuseName:   Role Account
+OrgAbusePhone:  +1-206-266-4064 
+OrgAbuseEmail:  noc@amazon.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ROLEA19-ARIN
+
+OrgTechHandle: ROLEA19-ARIN
+OrgTechName:   Role Account
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  noc@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/ROLEA19-ARIN
+
+OrgTechHandle: AANO1-ARIN
+OrgTechName:   Amazon AWS Network Operations
+OrgTechPhone:  +1-206-266-2178 
+OrgTechEmail:  aes-noc@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/AANO1-ARIN
+
+OrgAbuseHandle: AANO1-ARIN
+OrgAbuseName:   Amazon AWS Network Operations
+OrgAbusePhone:  +1-206-266-2178 
+OrgAbuseEmail:  aes-noc@amazon.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/AANO1-ARIN
+
+OrgNOCHandle: ROLEA19-ARIN
+OrgNOCName:   Role Account
+OrgNOCPhone:  +1-206-266-4064 
+OrgNOCEmail:  noc@amazon.com
+OrgNOCRef:    http://whois.arin.net/rest/poc/ROLEA19-ARIN
+
+OrgNOCHandle: AC6-ORG-ARIN
+OrgNOCName:   Amazon-com Incoroporated
+OrgNOCPhone:  +1-206-266-4064 
+OrgNOCEmail:  NOC@amazon.com
+OrgNOCRef:    http://whois.arin.net/rest/poc/AC6-ORG-ARIN
+
+# end
+
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=54.243.73.193?showDetails=true&showARIN=false&ext=netref2
+#
+
+
+# start
+
+NetRange:       54.240.0.0 - 54.255.255.255
+CIDR:           54.240.0.0/12
+OriginAS:       AS16509
+NetName:        AMAZON-2011L
+NetHandle:      NET-54-240-0-0-1
+Parent:         NET-54-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2011-12-09
+Updated:        2012-04-02
+Ref:            http://whois.arin.net/rest/net/NET-54-240-0-0-1
+
+
+OrgName:        Amazon Technologies Inc.
+OrgId:          AT-88-Z
+Address:        410 Terry Ave N.
+City:           Seattle
+StateProv:      WA
+PostalCode:     98109
+Country:        US
+RegDate:        2011-12-08
+Updated:        2012-01-06
+Comment:        All abuse reports MUST include:
+Comment:        * src IP
+Comment:        * dest IP (your IP)
+Comment:        * dest port
+Comment:        * Accurate date/timestamp and timezone of activity
+Comment:        * Intensity/frequency (short log extracts)
+Comment:        * Your contact details (phone and email) Without these we will be unable to identify the correct owner of the IP address at that point in time.
+Ref:            http://whois.arin.net/rest/org/AT-88-Z
+
+OrgNOCHandle: AANO1-ARIN
+OrgNOCName:   Amazon AWS Network Operations
+OrgNOCPhone:  +1-206-266-4064 
+OrgNOCEmail:  aes-noc@amazon.com
+OrgNOCRef:    http://whois.arin.net/rest/poc/AANO1-ARIN
+
+OrgTechHandle: AANO1-ARIN
+OrgTechName:   Amazon AWS Network Operations
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  aes-noc@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/AANO1-ARIN
+
+OrgTechHandle: ROLEA19-ARIN
+OrgTechName:   Role Account
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  noc@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/ROLEA19-ARIN
+
+OrgTechHandle: AC6-ORG-ARIN
+OrgTechName:   Amazon-com Incoroporated
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  NOC@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/AC6-ORG-ARIN
+
+OrgNOCHandle: AC6-ORG-ARIN
+OrgNOCName:   Amazon-com Incoroporated
+OrgNOCPhone:  +1-206-266-4064 
+OrgNOCEmail:  NOC@amazon.com
+OrgNOCRef:    http://whois.arin.net/rest/poc/AC6-ORG-ARIN
+
+OrgAbuseHandle: ROLEA19-ARIN
+OrgAbuseName:   Role Account
+OrgAbusePhone:  +1-206-266-4064 
+OrgAbuseEmail:  noc@amazon.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ROLEA19-ARIN
+
+OrgAbuseHandle: AANO1-ARIN
+OrgAbuseName:   Amazon AWS Network Operations
+OrgAbusePhone:  +1-206-266-4064 
+OrgAbuseEmail:  aes-noc@amazon.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/AANO1-ARIN
+
+OrgNOCHandle: ROLEA19-ARIN
+OrgNOCName:   Role Account
+OrgNOCPhone:  +1-206-266-4064 
+OrgNOCEmail:  noc@amazon.com
+OrgNOCRef:    http://whois.arin.net/rest/poc/ROLEA19-ARIN
+
+# end
+
+
+# start
+
+NetRange:       54.242.0.0 - 54.243.255.255
+CIDR:           54.242.0.0/15
+OriginAS:       AS16509
+NetName:        AMAZO-ZIAD1
+NetHandle:      NET-54-242-0-0-1
+Parent:         NET-54-240-0-0-1
+NetType:        Reallocated
+RegDate:        2012-11-09
+Updated:        2012-11-09
+Ref:            http://whois.arin.net/rest/net/NET-54-242-0-0-1
+
+OrgName:        Amazon.com, Inc.
+OrgId:          AMAZO-4
+Address:        Amazon Web Services, Elastic Compute Cloud, EC2
+Address:        1200 12th Avenue South
+City:           Seattle
+StateProv:      WA
+PostalCode:     98144
+Country:        US
+RegDate:        2005-09-29
+Updated:        2009-06-02
+Comment:        For details of this service please see
+Comment:        http://ec2.amazonaws.com/
+Ref:            http://whois.arin.net/rest/org/AMAZO-4
+
+OrgAbuseHandle: AEA8-ARIN
+OrgAbuseName:   Amazon EC2 Abuse
+OrgAbusePhone:  +1-206-266-4064 
+OrgAbuseEmail:  ec2-abuse@amazon.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/AEA8-ARIN
+
+OrgTechHandle: ANO24-ARIN
+OrgTechName:   Amazon EC2 Network Operations
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  aes-noc@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/ANO24-ARIN
+
+# end
+
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=65.52.244.183?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       65.52.0.0 - 65.55.255.255
+CIDR:           65.52.0.0/14
+OriginAS:       
+NetName:        MICROSOFT-1BLK
+NetHandle:      NET-65-52-0-0-1
+Parent:         NET-65-0-0-0-0
+NetType:        Direct Assignment
+RegDate:        2001-02-14
+Updated:        2013-08-20
+Ref:            http://whois.arin.net/rest/net/NET-65-52-0-0-1
+
+
+OrgName:        Microsoft Corporation
+OrgId:          MSFT
+Address:        One Microsoft Way
+City:           Redmond
+StateProv:      WA
+PostalCode:     98052
+Country:        US
+RegDate:        1998-07-10
+Updated:        2013-08-21
+Comment:        To report suspected security issues specific to traffic emanating from Microsoft online services, including the distribution of malicious content or other illicit or illegal material through a Microsoft online service, please submit reports to:
+Comment:        * https://cert.microsoft.com.  
+Comment:        
+Comment:        For SPAM and other abuse issues, such as Microsoft Accounts, please contact:
+Comment:        * abuse@microsoft.com.  
+Comment:        
+Comment:        To report security vulnerabilities in Microsoft products and services, please contact:
+Comment:        * secure@microsoft.com.  
+Comment:        
+Comment:        For legal and law enforcement-related requests, please contact:
+Comment:        * msndcc@microsoft.com
+Comment:        
+Comment:        For routing, peering or DNS issues, please 
+Comment:        contact:
+Comment:        * IOC@microsoft.com
+Ref:            http://whois.arin.net/rest/org/MSFT
+
+OrgTechHandle: MRPD-ARIN
+OrgTechName:   Microsoft Routing, Peering, and DNS
+OrgTechPhone:  +1-425-882-8080 
+OrgTechEmail:  IOC@microsoft.com
+OrgTechRef:    http://whois.arin.net/rest/poc/MRPD-ARIN
+
+OrgAbuseHandle: MAC74-ARIN
+OrgAbuseName:   Microsoft Abuse Contact
+OrgAbusePhone:  +1-425-882-8080 
+OrgAbuseEmail:  abuse@microsoft.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/MAC74-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=69.171.248.65?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       69.171.224.0 - 69.171.255.255
+CIDR:           69.171.224.0/19
+OriginAS:       AS32934
+NetName:        TFBNET3
+NetHandle:      NET-69-171-224-0-1
+Parent:         NET-69-0-0-0-0
+NetType:        Direct Assignment
+RegDate:        2010-08-05
+Updated:        2012-02-24
+Ref:            http://whois.arin.net/rest/net/NET-69-171-224-0-1
+
+OrgName:        Facebook, Inc.
+OrgId:          THEFA-3
+Address:        1601 Willow Rd.
+City:           Menlo Park
+StateProv:      CA
+PostalCode:     94025
+Country:        US
+RegDate:        2004-08-11
+Updated:        2012-04-17
+Ref:            http://whois.arin.net/rest/org/THEFA-3
+
+OrgTechHandle: OPERA82-ARIN
+OrgTechName:   Operations
+OrgTechPhone:  +1-650-543-4800 
+OrgTechEmail:  domain@facebook.com
+OrgTechRef:    http://whois.arin.net/rest/poc/OPERA82-ARIN
+
+OrgAbuseHandle: OPERA82-ARIN
+OrgAbuseName:   Operations
+OrgAbusePhone:  +1-650-543-4800 
+OrgAbuseEmail:  domain@facebook.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/OPERA82-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '83.224.0.0 - 83.224.83.255'
+
+% Abuse contact for '83.224.0.0 - 83.224.83.255' is 'italy.abuse@mail.vodafone.it'
+
+inetnum:        83.224.0.0 - 83.224.83.255
+netname:        VODAFONE-IT
+descr:          Ip addresses allocated to Vodafone GSM/UMTS users
+country:        IT
+admin-c:        VI745-RIPE
+tech-c:         VI745-RIPE
+status:         ASSIGNED PA
+mnt-by:         VODAFONE-IT-MNT
+source:         RIPE # Filtered
+
+role:           Vodafone Italy
+address:        Via Jervis, 13
+address:        Ivrea (TO)
+address:        ITALY
+remarks:        ****************************************************************
+remarks:        For any abuse or spamming issue,
+remarks:        please send an email to:
+remarks:        italy.abuse@mail.vodafone.it
+abuse-mailbox:  italy.abuse@mail.vodafone.it
+remarks:        ****************************************************************
+remarks:        For any communication about RIPE objects registration
+remarks:        please send an email to:
+remarks:        IP-ASSIGN@mail.vodafone.it
+remarks:        *****************************************************************
+admin-c:        VIIA1-RIPE
+tech-c:         VIIA1-RIPE
+nic-hdl:        VI745-RIPE
+mnt-by:         VODAFONE-IT-MNT
+source:         RIPE # Filtered
+
+% Information related to '83.224.64.0/21AS30722'
+
+route:          83.224.64.0/21
+descr:          VODAFONE-IT More specific route into 83.224/15
+origin:         AS30722
+org:            ORG-VON1-RIPE
+mnt-lower:      VODAFONE-IT-MNT
+mnt-routes:     VODAFONE-IT-MNT
+mnt-by:         VODAFONE-IT-MNT
+source:         RIPE # Filtered
+
+organisation:   ORG-VON1-RIPE
+org-name:       Vodafone Omnitel B.V.
+org-type:       LIR
+address:        Vodafone Omnitel B.V.
+address:        andrea chironna
+address:        Via Lorenteggio nr. 240
+address:        20147
+address:        Milan
+address:        ITALY
+phone:          +39 0125 6230
+fax-no:         +39 0125 625747
+admin-c:        RD2747-RIPE
+admin-c:        LV1834-RIPE
+mnt-ref:        VODAFONE-IT-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+abuse-c:        VI745-RIPE
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.72 (DBC-WHOIS1)
+
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '85.205.24.0 - 85.205.31.255'
+
+% Abuse contact for '85.205.24.0 - 85.205.31.255' is 'abuse@vodafone.com'
+
+inetnum:        85.205.24.0 - 85.205.31.255
+netname:        VDF-ON-1
+country:        DE
+descr:          Vodafone Group Services
+admin-c:        OPG2-RIPE
+tech-c:         OPG2-RIPE
+status:         ASSIGNED PA
+mnt-by:         MNT-ON
+mnt-lower:      MNT-ON
+mnt-routes:     MNT-ON
+mnt-routes:     ARCOR-MNT
+source:         RIPE # Filtered
+
+person:         Oscar Pantoja Garcia
+address:        Vodafone
+address:        Parque Empresarial Castellana Norte
+address:        28050 Madrid
+address:        Spain
+phone:          +34 610517463
+nic-hdl:        OPG2-RIPE
+mnt-by:         AIRTELNET-MNT
+source:         RIPE # Filtered
+
+% Information related to '85.205.31.0/24AS34419'
+
+route:          85.205.31.0/24
+descr:          Vodafone Group Services GmbH
+origin:         AS34419
+mnt-by:         MNT-ON
+mnt-routes:     MNT-ON
+mnt-routes:     ARCOR-MNT
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.72 (DBC-WHOIS3)
+
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=157.27.6.235?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       157.23.0.0 - 157.29.255.255
+CIDR:           157.23.0.0/16, 157.24.0.0/14, 157.28.0.0/15
+OriginAS:       
+NetName:        RIPE-ERX-157-23-0-0
+NetHandle:      NET-157-23-0-0-1
+Parent:         NET-157-0-0-0-0
+NetType:        Early Registrations, Transferred to RIPE NCC
+Comment:        These addresses have been further assigned to users in
+Comment:        the RIPE NCC region.  Contact information can be found in
+Comment:        the RIPE database at http://www.ripe.net/whois
+RegDate:        2004-04-07
+Updated:        2004-04-07
+Ref:            http://whois.arin.net/rest/net/NET-157-23-0-0-1
+
+OrgName:        RIPE Network Coordination Centre
+OrgId:          RIPE
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:      
+PostalCode:     1001EB
+Country:        NL
+RegDate:        
+Updated:        2013-07-29
+Ref:            http://whois.arin.net/rest/org/RIPE
+
+ReferralServer: whois://whois.ripe.net:43
+
+OrgAbuseHandle: ABUSE3850-ARIN
+OrgAbuseName:   Abuse Contact
+OrgAbusePhone:  +31205354444 
+OrgAbuseEmail:  abuse@ripe.net
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ABUSE3850-ARIN
+
+OrgTechHandle: RNO29-ARIN
+OrgTechName:   RIPE NCC Operations
+OrgTechPhone:  +31 20 535 4444 
+OrgTechEmail:  hostmaster@ripe.net
+OrgTechRef:    http://whois.arin.net/rest/poc/RNO29-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+
+Trovato un riferimento a whois.ripe.net:43.
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '157.27.0.0 - 157.27.255.255'
+
+% No abuse contact registered for 157.27.0.0 - 157.27.255.255
+
+inetnum:        157.27.0.0 - 157.27.255.255
+netname:        IVRUNIV-NET
+descr:          Universita' degli Studi di Verona
+descr:          Servizi Informatici d'Ateneo
+descr:          Via dell'artigliere, 19
+descr:          37100 - VERONA
+country:        IT
+admin-c:        GB6434-RIPE
+tech-c:         AS9924-RIPE
+status:         ASSIGNED PI
+remarks:        This prefix is statically assigned
+remarks:        To notify abuse mailto: cert@garr.it
+remarks:        Centro di Informatica e Calcolo Automatico
+remarks:        Universita' di Verona
+remarks:        GARR - Italian academic and research network
+mnt-irt:        IRT-GARR-CERT
+mnt-by:         GARR-LIR
+source:         RIPE # Filtered
+
+person:         Andrea Sartori
+address:        Via S.Francesco, 22
+address:        I-37129  Verona
+address:        Italy
+phone:          +39 045 8028050
+fax-no:         +39 045 8028471
+nic-hdl:        AS9924-RIPE
+mnt-by:         GARR-LIR
+source:         RIPE # Filtered
+
+person:         Giovanni Bianco
+address:        SIA - Servizi Informatici di Ateneo
+address:        Universita' degli Studi di Verona
+address:        Via S.Francesco, 22
+address:        I-37129 Verona
+address:        Italy
+phone:          +39 045 8028713
+fax-no:         +39 045 8028471
+nic-hdl:        GB6434-RIPE
+mnt-by:         GARR-LIR
+source:         RIPE # Filtered
+
+% Information related to '157.27.0.0/16AS137'
+
+route:          157.27.0.0/16
+descr:          IVRUNIV-NET
+origin:         AS137
+remarks:        Universita' di Verona
+mnt-by:         GARR-LIR
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.72 (DBC-WHOIS4)
+
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=173.193.247.210?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       173.192.0.0 - 173.193.255.255
+CIDR:           173.192.0.0/15
+OriginAS:       AS36351
+NetName:        SOFTLAYER-4-8
+NetHandle:      NET-173-192-0-0-1
+Parent:         NET-173-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2009-07-21
+Updated:        2013-07-12
+Ref:            http://whois.arin.net/rest/net/NET-173-192-0-0-1
+
+
+OrgName:        SoftLayer Technologies Inc.
+OrgId:          SOFTL
+Address:        4849 Alpha Rd.
+City:           Dallas
+StateProv:      TX
+PostalCode:     75244
+Country:        US
+RegDate:        2005-10-26
+Updated:        2013-02-20
+Ref:            http://whois.arin.net/rest/org/SOFTL
+
+ReferralServer: rwhois://rwhois.softlayer.com:4321
+
+OrgAbuseHandle: ABUSE1025-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-214-442-0605 
+OrgAbuseEmail:  abuse@softlayer.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+OrgTechHandle: IPADM258-ARIN
+OrgTechName:   IP Admin
+OrgTechPhone:  +1-214-442-0600 
+OrgTechEmail:  ipadmin@softlayer.com
+OrgTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RTechHandle: IPADM258-ARIN
+RTechName:   IP Admin
+RTechPhone:  +1-214-442-0600 
+RTechEmail:  ipadmin@softlayer.com
+RTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RNOCHandle: IPADM258-ARIN
+RNOCName:   IP Admin
+RNOCPhone:  +1-214-442-0600 
+RNOCEmail:  ipadmin@softlayer.com
+RNOCRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RAbuseHandle: ABUSE1025-ARIN
+RAbuseName:   Abuse
+RAbusePhone:  +1-214-442-0605 
+RAbuseEmail:  abuse@softlayer.com
+RAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+
+Trovato un riferimento a rwhois.softlayer.com:4321.
+
+%rwhois V-1.5:003fff:00 rwhois.softlayer.com (by Network Solutions, Inc. V-1.5.9.5)
+network:Auth-Area:173.193.192.0/18
+network:Class-Name:network
+network:Abuse-Contact;I:abuse@softlayer.com
+network:Admin-Contact;I:IPADM258-ARIN
+network:Created:2010-11-09 07:59:53
+network:Updated-By:ipadmin@softlayer.com
+
+%ok
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=173.194.40.177?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       173.194.0.0 - 173.194.255.255
+CIDR:           173.194.0.0/16
+OriginAS:       AS15169
+NetName:        GOOGLE
+NetHandle:      NET-173-194-0-0-1
+Parent:         NET-173-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2009-08-17
+Updated:        2012-02-24
+Ref:            http://whois.arin.net/rest/net/NET-173-194-0-0-1
+
+
+OrgName:        Google Inc.
+OrgId:          GOGL
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+PostalCode:     94043
+Country:        US
+RegDate:        2000-03-30
+Updated:        2013-08-07
+Ref:            http://whois.arin.net/rest/org/GOGL
+
+OrgTechHandle: ZG39-ARIN
+OrgTechName:   Google Inc
+OrgTechPhone:  +1-650-253-0000 
+OrgTechEmail:  arin-contact@google.com
+OrgTechRef:    http://whois.arin.net/rest/poc/ZG39-ARIN
+
+OrgAbuseHandle: ZG39-ARIN
+OrgAbuseName:   Google Inc
+OrgAbusePhone:  +1-650-253-0000 
+OrgAbuseEmail:  arin-contact@google.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ZG39-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=173.194.40.179?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       173.194.0.0 - 173.194.255.255
+CIDR:           173.194.0.0/16
+OriginAS:       AS15169
+NetName:        GOOGLE
+NetHandle:      NET-173-194-0-0-1
+Parent:         NET-173-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2009-08-17
+Updated:        2012-02-24
+Ref:            http://whois.arin.net/rest/net/NET-173-194-0-0-1
+
+
+OrgName:        Google Inc.
+OrgId:          GOGL
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+PostalCode:     94043
+Country:        US
+RegDate:        2000-03-30
+Updated:        2013-08-07
+Ref:            http://whois.arin.net/rest/org/GOGL
+
+OrgAbuseHandle: ZG39-ARIN
+OrgAbuseName:   Google Inc
+OrgAbusePhone:  +1-650-253-0000 
+OrgAbuseEmail:  arin-contact@google.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ZG39-ARIN
+
+OrgTechHandle: ZG39-ARIN
+OrgTechName:   Google Inc
+OrgTechPhone:  +1-650-253-0000 
+OrgTechEmail:  arin-contact@google.com
+OrgTechRef:    http://whois.arin.net/rest/poc/ZG39-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=173.252.79.23?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       173.252.64.0 - 173.252.127.255
+CIDR:           173.252.64.0/18
+OriginAS:       AS32934
+NetName:        FACEBOOK-INC
+NetHandle:      NET-173-252-64-0-1
+Parent:         NET-173-0-0-0-0
+NetType:        Direct Assignment
+RegDate:        2011-02-28
+Updated:        2012-02-24
+Ref:            http://whois.arin.net/rest/net/NET-173-252-64-0-1
+
+OrgName:        Facebook, Inc.
+OrgId:          THEFA-3
+Address:        1601 Willow Rd.
+City:           Menlo Park
+StateProv:      CA
+PostalCode:     94025
+Country:        US
+RegDate:        2004-08-11
+Updated:        2012-04-17
+Ref:            http://whois.arin.net/rest/org/THEFA-3
+
+OrgTechHandle: OPERA82-ARIN
+OrgTechName:   Operations
+OrgTechPhone:  +1-650-543-4800 
+OrgTechEmail:  domain@facebook.com
+OrgTechRef:    http://whois.arin.net/rest/poc/OPERA82-ARIN
+
+OrgAbuseHandle: OPERA82-ARIN
+OrgAbuseName:   Operations
+OrgAbusePhone:  +1-650-543-4800 
+OrgAbuseEmail:  domain@facebook.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/OPERA82-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=174.36.251.209?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       174.36.0.0 - 174.37.255.255
+CIDR:           174.36.0.0/15
+OriginAS:       AS36351
+NetName:        SOFTLAYER-4-7
+NetHandle:      NET-174-36-0-0-1
+Parent:         NET-174-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2008-09-12
+Updated:        2013-07-12
+Ref:            http://whois.arin.net/rest/net/NET-174-36-0-0-1
+
+OrgName:        SoftLayer Technologies Inc.
+OrgId:          SOFTL
+Address:        4849 Alpha Rd.
+City:           Dallas
+StateProv:      TX
+PostalCode:     75244
+Country:        US
+RegDate:        2005-10-26
+Updated:        2013-02-20
+Ref:            http://whois.arin.net/rest/org/SOFTL
+
+ReferralServer: rwhois://rwhois.softlayer.com:4321
+
+OrgTechHandle: IPADM258-ARIN
+OrgTechName:   IP Admin
+OrgTechPhone:  +1-214-442-0600 
+OrgTechEmail:  ipadmin@softlayer.com
+OrgTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+OrgAbuseHandle: ABUSE1025-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-214-442-0605 
+OrgAbuseEmail:  abuse@softlayer.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+RAbuseHandle: ABUSE1025-ARIN
+RAbuseName:   Abuse
+RAbusePhone:  +1-214-442-0605 
+RAbuseEmail:  abuse@softlayer.com
+RAbuseRef:    http://whois.arin.net/rest/poc/ABUSE1025-ARIN
+
+RTechHandle: IPADM258-ARIN
+RTechName:   IP Admin
+RTechPhone:  +1-214-442-0600 
+RTechEmail:  ipadmin@softlayer.com
+RTechRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+RNOCHandle: IPADM258-ARIN
+RNOCName:   IP Admin
+RNOCPhone:  +1-214-442-0600 
+RNOCEmail:  ipadmin@softlayer.com
+RNOCRef:    http://whois.arin.net/rest/poc/IPADM258-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+
+Trovato un riferimento a rwhois.softlayer.com:4321.
+
+%rwhois V-1.5:003fff:00 rwhois.softlayer.com (by Network Solutions, Inc. V-1.5.9.5)
+network:Auth-Area:174.36.192.0/18
+network:Class-Name:network
+network:Organization;I:Faisal Algrmoushi EST.
+network:Street-Address:Ghobira
+network:City:Riyadh
+network:Postal-Code:11234
+network:Country-Code:SA
+network:Tech-Contact;I:sysadmins@softlayer.com
+network:Abuse-Contact;I:abuse@softlayer.com
+network:Admin-Contact;I:IPADM258-ARIN
+network:Created:2012-09-14 23:18:38
+network:Updated:2012-09-14 23:18:52
+network:Updated-By:ipadmin@softlayer.com
+
+%referral rwhois://root.rwhois.net:4321/auth-area=.
+%ok
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=174.129.95.13?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       174.129.0.0 - 174.129.255.255
+CIDR:           174.129.0.0/16
+OriginAS:       
+NetName:        AMAZON-EC2-5
+NetHandle:      NET-174-129-0-0-1
+Parent:         NET-174-0-0-0-0
+NetType:        Direct Assignment
+Comment:        The activity you have detected originates from a
+Comment:        dynamic hosting environment.
+Comment:        For fastest response, please submit abuse reports at
+Comment:        http://aws-portal.amazon.com/gp/aws/html-forms-controller/contactus/AWSAbuse
+Comment:        For more information regarding EC2 see:
+Comment:        http://ec2.amazonaws.com/
+Comment:        All reports MUST include:
+Comment:        * src IP
+Comment:        * dest IP (your IP)
+Comment:        * dest port
+Comment:        * Accurate date/timestamp and timezone of activity
+Comment:        * Intensity/frequency (short log extracts)
+Comment:        * Your contact details (phone and email)
+Comment:        Without these we will be unable to identify
+Comment:        the correct owner of the IP address at that
+Comment:        point in time.
+RegDate:        2008-08-08
+Updated:        2012-03-02
+Ref:            http://whois.arin.net/rest/net/NET-174-129-0-0-1
+
+
+OrgName:        Amazon.com, Inc.
+OrgId:          AMAZO-4
+Address:        Amazon Web Services, Elastic Compute Cloud, EC2
+Address:        1200 12th Avenue South
+City:           Seattle
+StateProv:      WA
+PostalCode:     98144
+Country:        US
+RegDate:        2005-09-29
+Updated:        2009-06-02
+Comment:        For details of this service please see
+Comment:        http://ec2.amazonaws.com/
+Ref:            http://whois.arin.net/rest/org/AMAZO-4
+
+OrgTechHandle: ANO24-ARIN
+OrgTechName:   Amazon EC2 Network Operations
+OrgTechPhone:  +1-206-266-4064 
+OrgTechEmail:  aes-noc@amazon.com
+OrgTechRef:    http://whois.arin.net/rest/poc/ANO24-ARIN
+
+OrgAbuseHandle: AEA8-ARIN
+OrgAbuseName:   Amazon EC2 Abuse
+OrgAbusePhone:  +1-206-266-4064 
+OrgAbuseEmail:  ec2-abuse@amazon.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/AEA8-ARIN
+
+RTechHandle: ANO24-ARIN
+RTechName:   Amazon EC2 Network Operations
+RTechPhone:  +1-206-266-4064 
+RTechEmail:  aes-noc@amazon.com
+RTechRef:    http://whois.arin.net/rest/poc/ANO24-ARIN
+
+RAbuseHandle: AEA8-ARIN
+RAbuseName:   Amazon EC2 Abuse
+RAbusePhone:  +1-206-266-4064 
+RAbuseEmail:  ec2-abuse@amazon.com
+RAbuseRef:    http://whois.arin.net/rest/poc/AEA8-ARIN
+
+RNOCHandle: ANO24-ARIN
+RNOCName:   Amazon EC2 Network Operations
+RNOCPhone:  +1-206-266-4064 
+RNOCEmail:  aes-noc@amazon.com
+RNOCRef:    http://whois.arin.net/rest/poc/ANO24-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=184.173.161.182?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       184.172.0.0 - 184.173.255.255
+CIDR:           184.172.0.0/15
+OriginAS:       AS36420, AS30315, AS13749, AS21844
+NetName:        NETBLK-THEPLANET-BLK-17
+NetHandle:      NET-184-172-0-0-1
+Parent:         NET-184-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2010-10-06
+Updated:        2012-02-24
+Ref:            http://whois.arin.net/rest/net/NET-184-172-0-0-1
+
+OrgName:        ThePlanet.com Internet Services, Inc.
+OrgId:          TPCM
+Address:        315 Capitol
+Address:        Suite 205
+City:           Houston
+StateProv:      TX
+PostalCode:     77002
+Country:        US
+RegDate:        1999-08-31
+Updated:        2010-10-13
+Ref:            http://whois.arin.net/rest/org/TPCM
+
+ReferralServer: rwhois://rwhois.theplanet.com:4321
+
+OrgAbuseHandle: ABUSE271-ARIN
+OrgAbuseName:   The Planet Abuse
+OrgAbusePhone:  +1-281-714-3560 
+OrgAbuseEmail:  abuse@softlayer.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ABUSE271-ARIN
+
+OrgTechHandle: TECHN33-ARIN
+OrgTechName:   Technical Support
+OrgTechPhone:  +1-281-714-3000 
+OrgTechEmail:  admins@theplanet.com
+OrgTechRef:    http://whois.arin.net/rest/poc/TECHN33-ARIN
+
+OrgNOCHandle: THEPL-ARIN
+OrgNOCName:   The Planet NOC
+OrgNOCPhone:  +1-281-714-3000 
+OrgNOCEmail:  noc@theplanet.com
+OrgNOCRef:    http://whois.arin.net/rest/poc/THEPL-ARIN
+
+RAbuseHandle: ABUSE271-ARIN
+RAbuseName:   The Planet Abuse
+RAbusePhone:  +1-281-714-3560 
+RAbuseEmail:  abuse@softlayer.com
+RAbuseRef:    http://whois.arin.net/rest/poc/ABUSE271-ARIN
+
+RNOCHandle: THEPL-ARIN
+RNOCName:   The Planet NOC
+RNOCPhone:  +1-281-714-3000 
+RNOCEmail:  noc@theplanet.com
+RNOCRef:    http://whois.arin.net/rest/poc/THEPL-ARIN
+
+RTechHandle: TECHN33-ARIN
+RTechName:   Technical Support
+RTechPhone:  +1-281-714-3000 
+RTechEmail:  admins@theplanet.com
+RTechRef:    http://whois.arin.net/rest/poc/TECHN33-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+
+Trovato un riferimento a rwhois.theplanet.com:4321.
+
+%rwhois V-1.5:003fff:00 rwhois.softlayer.com (by Network Solutions, Inc. V-1.5.9.5)
+network:Auth-Area:184.173.128.0/18
+network:Class-Name:network
+network:Street-Address:1225 New Church Court
+network:City:Ambler
+network:State:PA
+network:Postal-Code:19002
+network:Country-Code:US
+network:Tech-Contact;I:sysadmins@softlayer.com
+network:Abuse-Contact;I:abuse@viewtrax.com
+network:Admin-Contact;I:IPADM258-ARIN
+network:Created:2011-02-28 10:05:56
+network:Updated:2012-08-25 01:21:35
+network:Updated-By:ipadmin@softlayer.com
+
+%ok
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+#
+# The following results may also be obtained via:
+# http://whois.arin.net/rest/nets;q=184.173.179.35?showDetails=true&showARIN=false&ext=netref2
+#
+
+NetRange:       184.172.0.0 - 184.173.255.255
+CIDR:           184.172.0.0/15
+OriginAS:       AS36420, AS30315, AS13749, AS21844
+NetName:        NETBLK-THEPLANET-BLK-17
+NetHandle:      NET-184-172-0-0-1
+Parent:         NET-184-0-0-0-0
+NetType:        Direct Allocation
+RegDate:        2010-10-06
+Updated:        2012-02-24
+Ref:            http://whois.arin.net/rest/net/NET-184-172-0-0-1
+
+OrgName:        ThePlanet.com Internet Services, Inc.
+OrgId:          TPCM
+Address:        315 Capitol
+Address:        Suite 205
+City:           Houston
+StateProv:      TX
+PostalCode:     77002
+Country:        US
+RegDate:        1999-08-31
+Updated:        2010-10-13
+Ref:            http://whois.arin.net/rest/org/TPCM
+
+ReferralServer: rwhois://rwhois.theplanet.com:4321
+
+OrgAbuseHandle: ABUSE271-ARIN
+OrgAbuseName:   The Planet Abuse
+OrgAbusePhone:  +1-281-714-3560 
+OrgAbuseEmail:  abuse@softlayer.com
+OrgAbuseRef:    http://whois.arin.net/rest/poc/ABUSE271-ARIN
+
+OrgTechHandle: TECHN33-ARIN
+OrgTechName:   Technical Support
+OrgTechPhone:  +1-281-714-3000 
+OrgTechEmail:  admins@theplanet.com
+OrgTechRef:    http://whois.arin.net/rest/poc/TECHN33-ARIN
+
+OrgNOCHandle: THEPL-ARIN
+OrgNOCName:   The Planet NOC
+OrgNOCPhone:  +1-281-714-3000 
+OrgNOCEmail:  noc@theplanet.com
+OrgNOCRef:    http://whois.arin.net/rest/poc/THEPL-ARIN
+
+RAbuseHandle: ABUSE271-ARIN
+RAbuseName:   The Planet Abuse
+RAbusePhone:  +1-281-714-3560 
+RAbuseEmail:  abuse@softlayer.com
+RAbuseRef:    http://whois.arin.net/rest/poc/ABUSE271-ARIN
+
+RNOCHandle: THEPL-ARIN
+RNOCName:   The Planet NOC
+RNOCPhone:  +1-281-714-3000 
+RNOCEmail:  noc@theplanet.com
+RNOCRef:    http://whois.arin.net/rest/poc/THEPL-ARIN
+
+RTechHandle: TECHN33-ARIN
+RTechName:   Technical Support
+RTechPhone:  +1-281-714-3000 
+RTechEmail:  admins@theplanet.com
+RTechRef:    http://whois.arin.net/rest/poc/TECHN33-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/whois_tou.html
+#
+
+
+
+Trovato un riferimento a rwhois.theplanet.com:4321.
+
+%rwhois V-1.5:003fff:00 rwhois.softlayer.com (by Network Solutions, Inc. V-1.5.9.5)
+network:Auth-Area:184.173.128.0/18
+network:Class-Name:network
+network:Organization;I:Cleyton Pedroza
+network:Street-Address:4849 Alpha Road
+network:City:Dallas
+network:State:TX
+network:Postal-Code:75244
+network:Country-Code:US
+network:Tech-Contact;I:sysadmins@softlayer.com
+network:Abuse-Contact;I:abuse@softlayer.com
+network:Admin-Contact;I:IPADM258-ARIN
+network:Created:2011-12-13 14:59:44
+network:Updated:2012-02-15 12:02:08
+network:Updated-By:ipadmin@softlayer.com
+
+%ok
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '188.125.64.0 - 188.125.71.255'
+
+% Abuse contact for '188.125.64.0 - 188.125.71.255' is 'abuse@yahoo-inc.com'
+
+inetnum:        188.125.64.0 - 188.125.71.255
+netname:        IR-YAHOO
+descr:          Yahoo! Europe
+country:        IE
+admin-c:        YEU-RIPE
+tech-c:         YEU-RIPE
+status:         ASSIGNED PA
+mnt-by:         YAHOO-MNT
+source:         RIPE # Filtered
+
+role:           Yahoo Europe Operations Department
+address:        Yahoo Europe Operations
+address:        125 Shaftesbury Avenue
+address:        London
+address:        WC2H 8AD
+remarks:        trouble: uk-abuse@cc.yahoo-inc.com
+admin-c:        NA1231-RIPE
+tech-c:         NA1231-RIPE
+tech-c:         IG1154-RIPE
+nic-hdl:        YEU-RIPE
+mnt-by:         YAHOO-MNT
+source:         RIPE # Filtered
+abuse-mailbox:  uk-abuse@cc.yahoo-inc.com
+
+% Information related to '188.125.64.0/21AS34010'
+
+route:          188.125.64.0/21
+descr:          Yahoo-EU-NET
+origin:         AS34010
+mnt-by:         YAHOO-MNT
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.72 (DBC-WHOIS4)
+
+

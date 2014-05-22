@@ -1,0 +1,18 @@
+myip="$1";
+
+
+echo "" >> output;
+echo "" >> output;
+echo "" >> output;
+echo "############# MY IP: $myip ###############" >> output;
+echo "" >> output;
+echo "" >> output;
+
+while read line
+do
+
+if [ -n "`echo $line | grep "Src: $myip"`" ]; then
+    echo $line | grep "Dst:" | cut  -d ":" -f3 >> output;
+fi
+
+done < 16_12.txt;

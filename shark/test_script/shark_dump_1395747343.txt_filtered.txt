@@ -1,0 +1,178 @@
+Internet Protocol Version 4, Src: 85.205.31.17 (85.205.31.17), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 52430 (52430), Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 85.205.31.17 (85.205.31.17)
+Transmission Control Protocol, Src Port: 52430 (52430), Dst Port: https (443), Seq: 1, Ack: 4294967274, Len: 0
+Internet Protocol Version 4, Src: 85.205.31.17 (85.205.31.17), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 52430 (52430), Seq: 4294967274, Ack: 1, Len: 23
+Internet Protocol Version 4, Src: 85.205.31.17 (85.205.31.17), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 52430 (52430), Seq: 4294967274, Ack: 1, Len: 23
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 85.205.31.17 (85.205.31.17)
+Transmission Control Protocol, Src Port: 52430 (52430), Dst Port: https (443), Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 85.205.31.17 (85.205.31.17)
+Transmission Control Protocol, Src Port: 52430 (52430), Dst Port: https (443), Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 85.205.31.17 (85.205.31.17), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 52430 (52430), Seq: 4294967274, Ack: 1, Len: 23
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 85.205.31.17 (85.205.31.17)
+Transmission Control Protocol, Src Port: 52430 (52430), Dst Port: https (443), Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 1, Ack: 1, Len: 12
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 1, Ack: 13, Len: 27
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 1, Ack: 13, Len: 27
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 13, Ack: 28, Len: 94
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 107, Ack: 28, Len: 0
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 28, Ack: 107, Len: 18
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 46, Ack: 107, Len: 46
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 107, Ack: 46, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 107, Ack: 92, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 107, Ack: 92, Len: 56
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 92, Ack: 163, Len: 45
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 163, Ack: 137, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 163, Ack: 137, Len: 56
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 137, Ack: 219, Len: 45
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 219, Ack: 182, Len: 0
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 182, Ack: 219, Len: 43
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 219, Ack: 225, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 219, Ack: 225, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 225, Ack: 264, Len: 0
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 225, Ack: 264, Len: 43
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 264, Ack: 268, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 268, Ack: 309, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 309, Ack: 268, Len: 56
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 268, Ack: 365, Len: 45
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 365, Ack: 313, Len: 0
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 313, Ack: 365, Len: 43
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 365, Ack: 356, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 365, Ack: 356, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 356, Ack: 410, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 410, Ack: 356, Len: 55
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 356, Ack: 465, Len: 45
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 465, Ack: 401, Len: 0
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 401, Ack: 465, Len: 43
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 465, Ack: 444, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 465, Ack: 444, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 444, Ack: 510, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 510, Ack: 444, Len: 56
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 444, Ack: 566, Len: 45
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 566, Ack: 489, Len: 0
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 489, Ack: 566, Len: 43
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 566, Ack: 532, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 566, Ack: 532, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 532, Ack: 611, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 611, Ack: 532, Len: 56
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 532, Ack: 667, Len: 45
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 667, Ack: 577, Len: 0
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 577, Ack: 667, Len: 43
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 667, Ack: 620, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 667, Ack: 620, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 620, Ack: 712, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 712, Ack: 620, Len: 56
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 620, Ack: 768, Len: 45
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 768, Ack: 665, Len: 0
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 665, Ack: 768, Len: 43
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 768, Ack: 708, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 768, Ack: 708, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 708, Ack: 813, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 813, Ack: 708, Len: 56
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 708, Ack: 869, Len: 45
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 869, Ack: 753, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 869, Ack: 753, Len: 56
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 753, Ack: 925, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 798, Ack: 925, Len: 43
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 925, Ack: 841, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 925, Ack: 841, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 841, Ack: 970, Len: 0
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 841, Ack: 970, Len: 43
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 970, Ack: 884, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 970, Ack: 884, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 884, Ack: 1015, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 1015, Ack: 884, Len: 56
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 884, Ack: 1071, Len: 45
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 1071, Ack: 929, Len: 0
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 929, Ack: 1071, Len: 43
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 1071, Ack: 972, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 1071, Ack: 972, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 972, Ack: 1071, Len: 43
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 1116, Ack: 1015, Len: 0
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 1015, Ack: 1116, Len: 0
+Internet Protocol Version 4, Src: 2.45.27.53 (2.45.27.53), Dst: 50.97.57.132 (50.97.57.132)
+Transmission Control Protocol, Src Port: 41062 (41062), Dst Port: https (443), Seq: 1116, Ack: 1015, Len: 45
+Internet Protocol Version 4, Src: 50.97.57.132 (50.97.57.132), Dst: 2.45.27.53 (2.45.27.53)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 41062 (41062), Seq: 1015, Ack: 1161, Len: 0

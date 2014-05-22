@@ -1,0 +1,542 @@
+No.     Time        Source                Destination           Protocol Length Info
+      1 0.000000    FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 1: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+      2 5.386335    192.168.1.104         50.22.231.49          SSL      95     Continuation Data
+
+Frame 2: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:59 (1b:24:63:41:00:59)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 1, Ack: 1, Len: 29
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+      3 6.019385    50.22.231.49          192.168.1.104         TCP      66     https > 53713 [ACK] Seq=1 Ack=30 Win=514 Len=0 TSval=3119339513 TSecr=1627802
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 1, Ack: 30, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      4 6.019857    192.168.1.104         50.22.231.49          SSL      106    Continuation Data
+
+Frame 4: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:64 (1b:24:63:41:00:64)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 30, Ack: 1, Len: 40
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+      5 6.838805    50.22.231.49          192.168.1.104         SSL      110    Continuation Data
+
+Frame 5: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 1, Ack: 70, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+      6 6.839210    192.168.1.104         50.22.231.49          TCP      66     53713 > https [ACK] Seq=70 Ack=45 Win=864 Len=0 TSval=1627947 TSecr=3119340055
+
+Frame 6: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 70, Ack: 45, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      7 8.253992    192.168.1.104         50.22.231.49          SSL      78     Continuation Data
+
+Frame 7: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:48 (1b:24:63:41:00:48)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 70, Ack: 45, Len: 12
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+      8 9.705204    50.22.231.49          192.168.1.104         SSL      93     Continuation Data
+
+Frame 8: 93 bytes on wire (744 bits), 93 bytes captured (744 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 45, Ack: 82, Len: 27
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+      9 9.705554    192.168.1.104         50.22.231.49          SSL      91     Continuation Data
+
+Frame 9: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:55 (1b:24:63:41:00:55)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 82, Ack: 72, Len: 25
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     10 9.709759    50.22.231.49          192.168.1.104         SSL      93     Continuation Data
+
+Frame 10: 93 bytes on wire (744 bits), 93 bytes captured (744 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 72, Ack: 82, Len: 27
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     11 9.742767    192.168.1.104         50.22.231.49          TCP      66     53713 > https [ACK] Seq=107 Ack=99 Win=864 Len=0 TSval=1628238 TSecr=3119342301
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 107, Ack: 99, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     12 9.907870    FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 12: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     13 9.931657    50.22.231.49          192.168.1.104         SSL      84     Continuation Data
+
+Frame 13: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 99, Ack: 107, Len: 18
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     14 9.932030    192.168.1.104         50.22.231.49          TCP      66     53713 > https [ACK] Seq=107 Ack=117 Win=864 Len=0 TSval=1628256 TSecr=3119343799
+
+Frame 14: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 107, Ack: 117, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     15 11.444269   FonTechn_a5:e9:80     SamsungE_24:63:41     ARP      42     Who has 192.168.1.104?  Tell 192.168.1.1
+
+Frame 15: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Length Info
+     16 11.444395   aa:aa:03:00:00:00     1b:24:63:41:00:24     ARP      42     192.168.1.104 is at cc:05:1b:24:63:41
+
+Frame 16: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:24 (1b:24:63:41:00:24)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Length Info
+     17 12.940544   192.168.1.104         50.22.231.49          SSL      127    Continuation Data
+
+Frame 17: 127 bytes on wire (1016 bits), 127 bytes captured (1016 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:79 (1b:24:63:41:00:79)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 107, Ack: 117, Len: 61
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     18 14.414284   50.22.231.49          192.168.1.104         SSL      111    Continuation Data
+
+Frame 18: 111 bytes on wire (888 bits), 111 bytes captured (888 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 117, Ack: 168, Len: 45
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     19 14.414789   192.168.1.104         50.22.231.49          TCP      66     53713 > https [ACK] Seq=168 Ack=162 Win=864 Len=0 TSval=1628705 TSecr=3119346974
+
+Frame 19: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 168, Ack: 162, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     20 14.419460   50.22.231.49          192.168.1.104         SSL      109    Continuation Data
+
+Frame 20: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 162, Ack: 168, Len: 43
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     21 14.419734   192.168.1.104         50.22.231.49          TCP      66     53713 > https [ACK] Seq=168 Ack=205 Win=864 Len=0 TSval=1628705 TSecr=3119347865
+
+Frame 21: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 168, Ack: 205, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     22 14.439149   192.168.1.104         50.22.231.49          SSL      111    Continuation Data
+
+Frame 22: 111 bytes on wire (888 bits), 111 bytes captured (888 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:69 (1b:24:63:41:00:69)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 168, Ack: 205, Len: 45
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     23 14.634845   50.22.231.49          192.168.1.104         TCP      66     https > 53713 [ACK] Seq=205 Ack=213 Win=514 Len=0 TSval=3119348499 TSecr=1628707
+
+Frame 23: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 205, Ack: 213, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     24 15.950022   FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 24: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     25 23.744992   192.168.1.104         50.22.231.49          SSL      138    Continuation Data
+
+Frame 25: 138 bytes on wire (1104 bits), 138 bytes captured (1104 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:84 (1b:24:63:41:00:84)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 213, Ack: 205, Len: 72
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     26 24.758922   50.22.231.49          192.168.1.104         SSL      111    Continuation Data
+
+Frame 26: 111 bytes on wire (888 bits), 111 bytes captured (888 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 205, Ack: 285, Len: 45
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     27 24.792945   192.168.1.104         50.22.231.49          TCP      66     53713 > https [ACK] Seq=285 Ack=250 Win=864 Len=0 TSval=1629743 TSecr=3119357774
+
+Frame 27: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 285, Ack: 250, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     28 25.882477   FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 28: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     29 28.769295   192.168.1.104         50.22.231.49          SSL      121    Continuation Data
+
+Frame 29: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:73 (1b:24:63:41:00:73)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 285, Ack: 250, Len: 55
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     30 29.468510   50.22.231.49          192.168.1.104         SSL      111    Continuation Data
+
+Frame 30: 111 bytes on wire (888 bits), 111 bytes captured (888 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 250, Ack: 340, Len: 45
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     31 29.469407   192.168.1.104         50.22.231.49          TCP      66     53713 > https [ACK] Seq=340 Ack=295 Win=864 Len=0 TSval=1630210 TSecr=3119362809
+
+Frame 31: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 340, Ack: 295, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     32 31.413107   50.22.231.49          192.168.1.104         SSL      109    Continuation Data
+
+Frame 32: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 295, Ack: 340, Len: 43
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     33 31.413589   192.168.1.104         50.22.231.49          TCP      66     53713 > https [ACK] Seq=340 Ack=338 Win=864 Len=0 TSval=1630405 TSecr=3119365141
+
+Frame 33: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 340, Ack: 338, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     34 31.419960   192.168.1.104         50.22.231.49          SSL      111    Continuation Data
+
+Frame 34: 111 bytes on wire (888 bits), 111 bytes captured (888 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:69 (1b:24:63:41:00:69)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 340, Ack: 338, Len: 45
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     35 31.719332   50.22.231.49          192.168.1.104         TCP      66     https > 53713 [ACK] Seq=338 Ack=385 Win=514 Len=0 TSval=3119365503 TSecr=1630405
+
+Frame 35: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 338, Ack: 385, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     36 31.821967   50.22.231.49          192.168.1.104         SSL      109    Continuation Data
+
+Frame 36: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 338, Ack: 385, Len: 43
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     37 31.835380   192.168.1.104         50.22.231.49          SSL      111    Continuation Data
+
+Frame 37: 111 bytes on wire (888 bits), 111 bytes captured (888 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:69 (1b:24:63:41:00:69)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 50.22.231.49 (50.22.231.49)
+Transmission Control Protocol, Src Port: 53713 (53713), Dst Port: https (443), Seq: 385, Ack: 381, Len: 45
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     38 31.923805   FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 38: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     39 32.130309   50.22.231.49          192.168.1.104         TCP      66     https > 53713 [ACK] Seq=381 Ack=430 Win=514 Len=0 TSval=3119365900 TSecr=1630447
+
+Frame 39: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 50.22.231.49 (50.22.231.49), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53713 (53713), Seq: 381, Ack: 430, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     40 37.131992   192.168.1.104         157.56.195.250        TCP      74     43927 > imaps [SYN] Seq=0 Win=5840 Len=0 MSS=1460 SACK_PERM=1 TSval=1630976 TSecr=0 WS=8
+
+Frame 40: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:44 (1b:24:63:41:00:44)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     41 37.863145   157.56.195.250        192.168.1.104         TCP      74     imaps > 43927 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0 MSS=1452 WS=256 SACK_PERM=1 TSval=281720998 TSecr=1630976
+
+Frame 41: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     42 37.863432   192.168.1.104         157.56.195.250        TCP      66     43927 > imaps [ACK] Seq=1 Ack=1 Win=5840 Len=0 TSval=1631050 TSecr=281720998
+
+Frame 42: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     43 37.867960   192.168.1.104         157.56.195.250        TLSv1    178    Client Hello
+
+Frame 43: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:ac (1b:24:63:41:00:ac)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 1, Ack: 1, Len: 112
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     44 37.965679   FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 44: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     45 38.000995   157.56.195.250        192.168.1.104         TCP      1506   [TCP segment of a reassembled PDU]
+
+Frame 45: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 1, Ack: 113, Len: 1440
+
+No.     Time        Source                Destination           Protocol Length Info
+     46 38.001314   192.168.1.104         157.56.195.250        TCP      66     43927 > imaps [ACK] Seq=113 Ack=1441 Win=8736 Len=0 TSval=1631063 TSecr=281721060
+
+Frame 46: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 113, Ack: 1441, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     47 38.011727   157.56.195.250        192.168.1.104         TLSv1    1203   Server Hello, Certificate, Server Hello Done
+
+Frame 47: 1203 bytes on wire (9624 bits), 1203 bytes captured (9624 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 1441, Ack: 113, Len: 1137
+[2 Reassembled TCP Segments (2577 bytes): #45(1440), #47(1137)]
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     48 38.011974   192.168.1.104         157.56.195.250        TCP      66     43927 > imaps [ACK] Seq=113 Ack=2578 Win=11632 Len=0 TSval=1631064 TSecr=281721060
+
+Frame 48: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 113, Ack: 2578, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     49 38.156682   192.168.1.104         157.56.195.250        TLSv1    392    Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 49: 392 bytes on wire (3136 bits), 392 bytes captured (3136 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:01:82 (1b:24:63:41:01:82)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 113, Ack: 2578, Len: 326
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     50 38.299544   157.56.195.250        192.168.1.104         TLSv1    125    Change Cipher Spec, Encrypted Handshake Message
+
+Frame 50: 125 bytes on wire (1000 bits), 125 bytes captured (1000 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 2578, Ack: 439, Len: 59
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     51 38.299997   192.168.1.104         157.56.195.250        TCP      66     43927 > imaps [ACK] Seq=439 Ack=2637 Win=11632 Len=0 TSval=1631093 TSecr=281721091
+
+Frame 51: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 439, Ack: 2637, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     52 38.449252   157.56.195.250        192.168.1.104         TLSv1    167    Application Data
+
+Frame 52: 167 bytes on wire (1336 bits), 167 bytes captured (1336 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 2637, Ack: 439, Len: 101
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     53 38.450044   192.168.1.104         157.56.195.250        TCP      66     43927 > imaps [ACK] Seq=439 Ack=2738 Win=11632 Len=0 TSval=1631108 TSecr=281721107
+
+Frame 53: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 439, Ack: 2738, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     54 38.453480   192.168.1.104         157.56.195.250        TLSv1    119    Application Data
+
+Frame 54: 119 bytes on wire (952 bits), 119 bytes captured (952 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:71 (1b:24:63:41:00:71)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 439, Ack: 2738, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     55 38.581412   157.56.195.250        192.168.1.104         TLSv1    183    Application Data
+
+Frame 55: 183 bytes on wire (1464 bits), 183 bytes captured (1464 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 2738, Ack: 492, Len: 117
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     56 38.612930   192.168.1.104         157.56.195.250        TCP      66     43927 > imaps [ACK] Seq=492 Ack=2855 Win=11632 Len=0 TSval=1631125 TSecr=281721120
+
+Frame 56: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 492, Ack: 2855, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     57 38.748814   157.56.195.250        192.168.1.104         TLSv1    119    Application Data
+
+Frame 57: 119 bytes on wire (952 bits), 119 bytes captured (952 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 2855, Ack: 492, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     58 38.749242   192.168.1.104         157.56.195.250        TCP      66     43927 > imaps [ACK] Seq=492 Ack=2908 Win=11632 Len=0 TSval=1631138 TSecr=281721137
+
+Frame 58: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 492, Ack: 2908, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     59 38.757019   192.168.1.104         157.56.195.250        TLSv1    119    Application Data
+
+Frame 59: 119 bytes on wire (952 bits), 119 bytes captured (952 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:71 (1b:24:63:41:00:71)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 492, Ack: 2908, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     60 38.944412   157.56.195.250        192.168.1.104         TLSv1    183    Application Data
+
+Frame 60: 183 bytes on wire (1464 bits), 183 bytes captured (1464 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 2908, Ack: 545, Len: 117
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     61 38.982812   192.168.1.104         157.56.195.250        TCP      66     43927 > imaps [ACK] Seq=545 Ack=3025 Win=11632 Len=0 TSval=1631162 TSecr=281721156
+
+Frame 61: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 545, Ack: 3025, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     62 39.134207   157.56.195.250        192.168.1.104         TLSv1    119    Application Data
+
+Frame 62: 119 bytes on wire (952 bits), 119 bytes captured (952 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 192.168.1.104 (192.168.1.104)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 43927 (43927), Seq: 3025, Ack: 545, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     63 39.134882   192.168.1.104         157.56.195.250        TCP      66     43927 > imaps [ACK] Seq=545 Ack=3078 Win=11632 Len=0 TSval=1631177 TSecr=281721175
+
+Frame 63: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 545, Ack: 3078, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     64 39.143384   192.168.1.104         157.56.195.250        TLSv1    135    Application Data
+
+Frame 64: 135 bytes on wire (1080 bits), 135 bytes captured (1080 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:81 (1b:24:63:41:00:81)
+Internet Protocol Version 4, Src: 192.168.1.104 (192.168.1.104), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 43927 (43927), Dst Port: imaps (993), Seq: 545, Ack: 3078, Len: 69
+Secure Sockets Layer

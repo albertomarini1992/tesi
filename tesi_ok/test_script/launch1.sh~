@@ -1,0 +1,3 @@
+./portfilter.sh 5222 11_03.txt_filtered
+./portfilter.sh 443 11_03.txt_filtered
+./portfilter.sh 80 11_03.txt_filtered

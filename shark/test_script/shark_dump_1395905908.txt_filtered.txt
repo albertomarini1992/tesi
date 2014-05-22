@@ -1,0 +1,196 @@
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1, Ack: 1, Len: 29
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1, Ack: 1, Len: 29
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 1, Ack: 30, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 30, Ack: 1, Len: 40
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 1, Ack: 30, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 1, Ack: 70, Len: 44
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 70, Ack: 45, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 70, Ack: 45, Len: 12
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 45, Ack: 82, Len: 27
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 82, Ack: 72, Len: 25
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 72, Ack: 82, Len: 27
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 107, Ack: 99, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 99, Ack: 107, Len: 18
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 107, Ack: 117, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 107, Ack: 117, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 117, Ack: 139, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 139, Ack: 117, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 117, Ack: 171, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 171, Ack: 117, Len: 61
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 117, Ack: 232, Len: 44
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 232, Ack: 161, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 232, Ack: 161, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 161, Ack: 232, Len: 42
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 264, Ack: 203, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 203, Ack: 264, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 264, Ack: 203, Len: 44
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 203, Ack: 308, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 308, Ack: 203, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 203, Ack: 340, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 340, Ack: 203, Len: 62
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 203, Ack: 402, Len: 44
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 402, Ack: 247, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 402, Ack: 247, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 247, Ack: 402, Len: 42
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 434, Ack: 289, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 434, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 434, Ack: 289, Len: 44
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 478, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 478, Ack: 289, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 510, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 510, Ack: 289, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 542, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 542, Ack: 289, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 574, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 574, Ack: 289, Len: 61
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 289, Ack: 635, Len: 45
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 635, Ack: 334, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 635, Ack: 334, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 334, Ack: 635, Len: 43
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 667, Ack: 377, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 377, Ack: 667, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 667, Ack: 377, Len: 45
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 377, Ack: 712, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 377, Ack: 712, Len: 32
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 712, Ack: 409, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 712, Ack: 409, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 409, Ack: 744, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 744, Ack: 409, Len: 67
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 409, Ack: 744, Len: 32
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 811, Ack: 441, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 441, Ack: 811, Len: 45
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 811, Ack: 486, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 486, Ack: 811, Len: 32
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 811, Ack: 518, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 518, Ack: 811, Len: 43
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 811, Ack: 561, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 811, Ack: 561, Len: 45
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 561, Ack: 856, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 561, Ack: 856, Len: 32
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 856, Ack: 593, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 593, Ack: 856, Len: 87
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 856, Ack: 680, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 856, Ack: 680, Len: 51
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 680, Ack: 907, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 907, Ack: 680, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 680, Ack: 939, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 939, Ack: 680, Len: 87
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 680, Ack: 1026, Len: 45
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1026, Ack: 725, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 725, Ack: 1026, Len: 32
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1026, Ack: 757, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 757, Ack: 1026, Len: 43
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1026, Ack: 800, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1026, Ack: 800, Len: 45
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 52718 (52718), Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 54.243.73.193 (54.243.73.193)
+Transmission Control Protocol, Src Port: 52718 (52718), Dst Port: http (80), Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 800, Ack: 1071, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1071, Ack: 800, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 800, Ack: 1103, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1103, Ack: 800, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 800, Ack: 1135, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1135, Ack: 800, Len: 58
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 800, Ack: 1193, Len: 45
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1193, Ack: 845, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 845, Ack: 1193, Len: 43
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1193, Ack: 888, Len: 0
+Internet Protocol Version 4, Src: 5.94.229.21 (5.94.229.21), Dst: 50.22.225.66 (50.22.225.66)
+Transmission Control Protocol, Src Port: 51715 (51715), Dst Port: xmpp-client (5222), Seq: 1193, Ack: 888, Len: 45
+Internet Protocol Version 4, Src: 50.22.225.66 (50.22.225.66), Dst: 5.94.229.21 (5.94.229.21)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 51715 (51715), Seq: 888, Ack: 1238, Len: 0

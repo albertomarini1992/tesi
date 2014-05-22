@@ -1,0 +1,148 @@
+\documentclass[a4paper,11pt]{book}
+\usepackage [T1]{fontenc}
+\usepackage [utf8]{inputenc}
+\usepackage [italian]{babel}
+\usepackage {graphicx}
+\usepackage {frontespizio}
+
+\begin{document}
+
+
+\begin{frontespizio}
+\Logo{logo.jpg}
+\Universita{Verona}
+\Facolta{Scienze e Ingegneria}
+\Corso[Laurea]{Informatica}
+\Titolo{Whatsapp Messenger}
+\Relatore{Prof. Damiano Carra}
+\Candidato[VR359129]{Alberto Marini}
+\Annoaccademico{2013 - 2014}
+\end{frontespizio}
+
+
+\tableofcontents
+
+\chapter{Introduzione}
+Ai giorni nostri, ognuno di noi possiede uno smartphone ed uno dei maggiori utilizzi si basa nello scambio di messaggi utilizzando applicazioni di messaggistica che sfruttano la connessione internet.
+Whatsapp Messenger è sicuramente la più popolare con oltre 500 milioni di utenti attivi nel mondo, 700 milioni di foto e 100 milioni di video condivisi ogni giorno (non supporta, però, chiamate VoIP).
+
+E' anche per questo motivo che risulta molto interessante studiarne il funzionamento ed, in particolare, il modo con cui utilizza della rete.
+Per fare ciò, abbiamo svolto rilevazioni giornaliere dei pacchetti scambiati durante l'invio di alcuni messaggi.
+
+
+\chapter{Whatsapp Messenger}
+
+\section{Cos'è}
+WhatsApp Messenger è un'app di messaggistica mobile multi-piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger è disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. La risposta è sì: tutti questi telefoni possono scambiarsi messaggi gli uni gli altri! Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici.
+
+Oltre alla messaggistica di base gli utenti di WhatsApp possono creare gruppi, scambiarsi messaggi illimitati, video e messaggi audio multimediali.
+
+L'11 aprile 2014 e' arrivato il via libera all'acquisizione di WhatsApp da parte di Facebook dalla Federal Trade Commission (Ftc), l'ente governativo americano per la protezione dei consumatori.
+\section{Implementazione e cifratura}
+
+\subsection{Implementazione}
+
+
+///***
+
+IMPLEMENTAZIONE
+
+***///
+
+
+\subsection{Cifratura}
+
+La crittografia è la branca della crittologia che tratta delle "scritture nascoste", ovvero dei metodi per rendere un messaggio "offuscato" in modo da non essere comprensibile/intelligibile a persone non autorizzate a leggerlo.
+
+~
+
+La crittografia si può suddividere in:
+\begin{itemize}
+	\item \textit{Crittografia simmetrica}
+
+	\item \textit{Crittografia asimmetrica}
+
+	\item \textit{Crittografia quantistica}
+
+\end{itemize}
+
+\subsubsection{Crittografia simmetrica}
+Fino a pochi anni fa l'unico metodo crittografico esistente era quello della crittografia simmetrica, in cui si faceva uso di un'unica chiave sia per proteggere il messaggio che per renderlo nuovamente leggibile. Il problema è condividere la chiave di cifratura con il destinatario del messaggio criptato senza che questa venga scoperta.
+
+\subsubsection{Crittografia asimmetrica}
+La vera novità del secolo scorso è l'invenzione di una tecnica crittografica che utilizza chiavi diverse per cifrare e per decifrare un messaggio, facilitando incredibilmente il compito di distribuzione delle chiavi. Infatti in questo caso non è necessario nascondere le chiavi o le password: c'è una chiave per crittografare, che chiunque può vedere, e una per decifrare, che conosce solo il destinatario senza necessità quindi di riceverla (scambiarla) dal mittente. In altre parole, se A vuole ricevere un messaggio segreto da B, manda a B una scatola vuota con un lucchetto aperto senza chiavi. B mette dentro il messaggio, chiude il lucchetto, e rimanda il tutto ad A, che è l'unico ad avere le chiavi. Chiunque può vedere passare la scatola, ma non gli serve a niente. A non deve correre rischi con le sue chiavi.
+
+\subsubsection{Crittografia quantistica}
+L'evoluzione dei sistemi crittografici, uniti all'evoluzione della fisica teorica hanno permesso di realizzare un cifrario di Vernam che si basa sull'utilizzo della meccanica quantistica nella fase dello scambio della chiave. Il vantaggio di questa tecnica consiste nel fatto di rendere inutilizzabili gli attacchi del tipo man in the middle: cioè, se durante lo scambio della chiave qualcuno riuscisse ad intercettarla, la cosa diverrebbe immediatamente evidente sia a chi emette sia a chi riceve il messaggio.
+
+~
+
+E' possibile fare una distinzione tra le 3 principali piattaforme:
+
+\begin{itemize}
+	\item \textit{Android}
+
+	\item \textit{BlackBerry}
+
+	\item \textit{iPhone}
+
+\end{itemize}
+\subsubsection{Android}
+Whatsapp per piattaforme Android utilizza un metodo di cifratura AES 192-bit per i file del suo database. 
+Tuttavia, la memorizzazione delle chiavi non è una soluzione sicura. È stato dimostrato che è possibile estrarre la chiave di crittografia dal pacchetto software. Uno script Python ha permesso di decifrare un file di database e accedere ai dati all'interno.
+
+\subsubsection{BlackBerry}
+L'ambiente BlackBerry gioca un ruolo importante nella crittografia del database. E' possibile esportare i file crittografati nel formato originale non crittografato. Viene utilizzata una cifratura AES 256-bit, ma senza la chiave giusta il file non può essere decifrato. Attualmente, è possibile decodificare i dati di un dispositivo BlackBerry saldando un chip nel dispositivo.
+
+
+\subsubsection{iPhone}
+La piattaforma iPhone utilizza la crittografia hardware. La crittografia hardware sta utilizzando un metodo di cifratura AES 256-bit e può essere migliorato, consentendo la protezione dei dati. C'è già un software che può fisicamente controllare un iPhone e decifrarne il contenuto. Questo include il database di WhatsAppp che può essere facilmente estratto.
+
+~
+
+In tutti i casi, viene utilizzato l'algoritmo di cifratura AES (Advanced Encryption Standard) che è un algoritmo di cifratura a blocchi utilizzato come standard dal governo degli Stati Uniti d'America.
+
+Un algoritmo di cifratura a blocchi è un algoritmo a chiave simmetrica operante su un gruppo di bit di lunghezza finita organizzati in un blocco. A differenza degli algoritmi a flusso che cifrano un singolo elemento alla volta, gli algoritmi a blocco cifrano un blocco di elementi contemporaneamente.
+
+///***
+TABELLA RIEPILOGATIVA PAGINA 24 SSN PROJECT REPORT
+***///
+
+\chapter{Sicurezza}
+Un elemento molto importante di ogni applicazione riguarda la sicurezza.
+WhatsApp ha subito moltissimi test, dettati anche dal fatto che viene utilizzata da milioni di utenti.
+
+\section{Meccanismo di autenticazione e dirottamento account}
+Analizzando i meccanismi iniziali di configurazione dell'applicazione si nota che Whatsapp non recupera il numero di telefono del dispositivo automaticamente ma chiede all'utente di inserirlo manualmente durante la fase di installazione. Il metodo più comune per verificare il numero immesso consiste nell'invio di un messaggio SMS al numero specificato contenente un PIN di verifica che l'utente deve inserire nell'interfaccia utente dell'applicazione. Controllando la comunicazione tra telefono cellulare e server durante la configurazione iniziale, un utente malintenzionato può dirottare l'SMS passando il numero di telefono di un altro utente.
+
+\section{ID Spoofing e manipolazione del messaggio}
+Un utente malintenzionato può inviare un messaggio con un ID del mittente falsificato. 
+In contrasto con lo scenario delineato nel paragrafo precedente, l'attaccante può fare questo senza dirottare l'intero account. 
+La manipolazione di un messaggio durante il trasferimento è un'altra possibile minaccia ma, tuttavia, un tale attacco tende a non essere pratico in scenari reali.
+
+\section{SMS non richiesti} 
+La maggior parte dei servizi emettono SMS in tutto il processo di verifica del numero di telefono. Un utente malintenzionato potrebbe utilizzare il numero di un altro utente nel processo di installazione per generare fastidiosi messaggi senza rivelare la sua identità. 
+
+\section{Enumerazione} 
+Whatsapp carica la rubrica dell'utente nel server e confronta le voci con l'elenco di utenti registrati. 
+Il server restituisce un sottoinsieme di contatti dell'utente che utilizzano il servizio. 
+Il problema principale derivante da questa funzionalità è che un utente malintenzionato può trarre informazioni utili sul dispositivo dell'utente come il sistema operativo (ad esempio una certa combinazione OS / versione). Questo permette al malintenzionato di eseguire attacchi specifici del sistema.
+
+\section{Modifica dei messaggi di stato} 
+Whatsapp consente all'utente di impostare un messaggio di stato che viene condiviso con persone che hanno questo utente nel loro rubrica. Ci potrebbero essere 2 tipologie di minacce. 
+La prima è la modifica del messaggio di stato di un utente da un utente malintenzionato. 
+La seconda minaccia è un errore di progettazione della privacy. Dal momento che nessuna conferma all'utente è richiesta per memorizzare un numero nella rubrica, un aggressore può facilmente ottenere l'accesso ai messaggi di stato di tutti gli abbonati ai servizi vulnerabili a questo attacco. Questo approccio essere combinato con una sorta di attacco enumerazione.
+
+///***
+IMMAGINI AUTENTICAZIONE E AUTHENTICATION ATTACK
+***///
+
+\chapter{Rilevazioni}
+
+\begin{figure}
+\centering
+\includegraphics[scale = 0.5]{whatsapp.jpg}
+\end{figure}
+
+
+\end{document}

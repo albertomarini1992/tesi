@@ -1,0 +1,383 @@
+################### PORTA 5222 #########################
+################### PORTA 443 #########################
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 69.171.248.65 (69.171.248.65)
+, Seq: 1, Ack: 1, Len: 225
+Internet Protocol Version 4, Src: 69.171.248.65 (69.171.248.65), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 226, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 50.22.225.86 (50.22.225.86)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.86 (50.22.225.86), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.86 (50.22.225.86), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 50.22.225.86 (50.22.225.86)
+, Seq: 2, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1, Ack: 1, Len: 121
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 122, Len: 89
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 122, Ack: 90, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 90, Ack: 122, Len: 21
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 122, Ack: 111, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 122, Ack: 111, Len: 29
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 111, Ack: 151, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 151, Ack: 111, Len: 78
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 111, Ack: 229, Len: 184
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 295, Ack: 229, Len: 41
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 336, Ack: 229, Len: 169
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 229, Ack: 295, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 229, Ack: 336, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 229, Ack: 505, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 229, Ack: 505, Len: 55
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 505, Ack: 284, Len: 33
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 284, Ack: 538, Len: 42
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 538, Ack: 326, Len: 43
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 326, Ack: 581, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 1, Ack: 1, Len: 80
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 81, Len: 0
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 81, Len: 1298
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 81, Ack: 1299, Len: 0
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1299, Ack: 81, Len: 1298
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 81, Ack: 2597, Len: 0
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 2597, Ack: 81, Len: 1298
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 81, Ack: 3895, Len: 0
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 3895, Ack: 81, Len: 10
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 81, Ack: 3905, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 81, Ack: 3905, Len: 314
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 3905, Ack: 395, Len: 47
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 395, Ack: 3952, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 395, Ack: 3952, Len: 1298
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 1693, Ack: 3952, Len: 775
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 2468, Ack: 3952, Len: 133
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 3952, Ack: 2468, Len: 0
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 3952, Ack: 2601, Len: 0
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 3952, Ack: 2601, Len: 1298
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 2601, Ack: 5250, Len: 0
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 5250, Ack: 2601, Len: 798
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 2601, Ack: 6048, Len: 0
+Internet Protocol Version 4, Src: 173.194.35.160 (173.194.35.160), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 6048, Ack: 2601, Len: 30
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 2601, Ack: 6078, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 326, Ack: 581, Len: 29
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 581, Ack: 355, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 355, Ack: 581, Len: 40
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 581, Ack: 395, Len: 44
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 395, Ack: 625, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 395, Ack: 625, Len: 55
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 625, Ack: 450, Len: 44
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 450, Ack: 669, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 669, Ack: 450, Len: 42
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 450, Ack: 711, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 450, Ack: 711, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 711, Ack: 494, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 494, Ack: 711, Len: 58
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 711, Ack: 552, Len: 44
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 552, Ack: 755, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 755, Ack: 552, Len: 42
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 552, Ack: 797, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 552, Ack: 797, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 797, Ack: 596, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 596, Ack: 797, Len: 55
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 797, Ack: 651, Len: 44
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 651, Ack: 841, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 841, Ack: 651, Len: 42
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 651, Ack: 883, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 651, Ack: 883, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 883, Ack: 695, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 695, Ack: 883, Len: 55
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 883, Ack: 750, Len: 44
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 750, Ack: 927, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 927, Ack: 750, Len: 42
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 750, Ack: 969, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 750, Ack: 969, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 969, Ack: 794, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 794, Ack: 969, Len: 55
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 969, Ack: 849, Len: 44
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 849, Ack: 1013, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1013, Ack: 849, Len: 42
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 849, Ack: 1055, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 849, Ack: 1055, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1055, Ack: 893, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 893, Ack: 1055, Len: 56
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1055, Ack: 949, Len: 44
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 949, Ack: 1099, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1099, Ack: 949, Len: 42
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 949, Ack: 1141, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 949, Ack: 1141, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1141, Ack: 993, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 993, Ack: 1141, Len: 55
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1141, Ack: 1048, Len: 44
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1048, Ack: 1185, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1185, Ack: 1048, Len: 42
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1048, Ack: 1227, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1048, Ack: 1227, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1227, Ack: 1092, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1092, Ack: 1227, Len: 55
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1227, Ack: 1147, Len: 44
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1147, Ack: 1271, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1271, Ack: 1147, Len: 42
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1147, Ack: 1313, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1147, Ack: 1313, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1313, Ack: 1191, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1191, Ack: 1313, Len: 55
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1313, Ack: 1246, Len: 44
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1246, Ack: 1357, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1357, Ack: 1246, Len: 42
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1246, Ack: 1399, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1246, Ack: 1399, Len: 44
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1246, Ack: 1399, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1399, Ack: 1290, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1399, Ack: 1290, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1290, Ack: 1399, Len: 55
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1399, Ack: 1345, Len: 45
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1345, Ack: 1444, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1444, Ack: 1345, Len: 43
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1345, Ack: 1487, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 108.168.176.195 (108.168.176.195)
+, Seq: 1345, Ack: 1487, Len: 45
+Internet Protocol Version 4, Src: 108.168.176.195 (108.168.176.195), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1487, Ack: 1390, Len: 0
+################### PORTA 80 #########################
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.147 (173.194.40.147)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 1, Ack: 1, Len: 235
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 236, Ack: 1, Len: 1298
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 1534, Ack: 1, Len: 1298
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 236, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 2832, Ack: 1, Len: 735
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 236, Ack: 1, Len: 1298
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 1534, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 2832, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 3567, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 2, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 1, Ack: 1, Len: 234
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 2, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 1, Ack: 1, Len: 234
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 235, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 235, Ack: 1, Len: 115
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 235, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 350, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 235, Ack: 1, Len: 115
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 350, Len: 1298
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1299, Ack: 350, Len: 304
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 350, Ack: 1299, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 350, Ack: 1603, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 350, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 350, Len: 1298
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1299, Ack: 350, Len: 304
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 350, Ack: 1299, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 350, Ack: 1603, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.35.160 (173.194.35.160)
+, Seq: 1, Ack: 1, Len: 80
+Internet Protocol Version 4, Src: 54.235.187.3 (54.235.187.3), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 54.235.187.3 (54.235.187.3)
+, Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 1, Ack: 1, Len: 235
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 236, Ack: 1, Len: 1298
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 1534, Ack: 1, Len: 1298
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 236, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 2832, Ack: 1, Len: 909
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 1534, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 3741, Len: 0
+Internet Protocol Version 4, Src: 173.194.40.148 (173.194.40.148), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 1, Ack: 3741, Len: 140
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 173.194.40.148 (173.194.40.148)
+, Seq: 3741, Ack: 141, Len: 0
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 188.125.68.129 (188.125.68.129)
+, Seq: 1, Ack: 1, Len: 80
+Internet Protocol Version 4, Src: 10.164.92.154 (10.164.92.154), Dst: 188.125.68.129 (188.125.68.129)
+, Seq: 434, Ack: 4804, Len: 39
+Internet Protocol Version 4, Src: 188.125.68.129 (188.125.68.129), Dst: 10.164.92.154 (10.164.92.154)
+, Seq: 4804, Ack: 473, Len: 233

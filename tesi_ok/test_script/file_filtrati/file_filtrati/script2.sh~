@@ -1,0 +1,5 @@
+test=`echo $line | cut -c 1-150 | grep "Port" >> $repo`
+test=`echo $line | cut -c 1-150 | grep "Port" >> $repo`
+test=`echo $line | cut -c 1-150 | grep "Port" >> $repo`
+test=`echo $line | cut -c 1-150 | grep "Port" >> $repo`
+test=`echo $line | cut -c 1-150 | grep "Port" >> $repo`

@@ -1,0 +1,5 @@
+aprire un file
+stampare il contenuto
+controllare se esiste
+if
+

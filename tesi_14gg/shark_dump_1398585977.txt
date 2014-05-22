@@ -1,0 +1,942 @@
+No.     Time        Source                Destination           Protocol Length Info
+      1 0.000000    192.168.1.101         173.194.116.14        TCP      66     59858 > http [FIN, ACK] Seq=1 Ack=1 Win=1132 Len=0 TSval=26770 TSecr=788258487
+
+Frame 1: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.116.14 (173.194.116.14)
+Transmission Control Protocol, Src Port: 59858 (59858), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      2 5.832995    192.168.1.101         88.149.128.12         DNS      79     Standard query 0x3c74  A clients3.google.com
+
+Frame 2: 79 bytes on wire (632 bits), 79 bytes captured (632 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:49 (1b:24:63:41:00:49)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 88.149.128.12 (88.149.128.12)
+User Datagram Protocol, Src Port: 16408 (16408), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time        Source                Destination           Protocol Length Info
+      3 6.435750    192.168.1.101         173.192.222.170       TCP      74     43690 > xmpp-client [SYN] Seq=0 Win=5840 Len=0 MSS=1460 SACK_PERM=1 TSval=27413 TSecr=0 WS=8
+
+Frame 3: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:44 (1b:24:63:41:00:44)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      4 6.486533    FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 4: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+      5 6.486908    88.149.128.12         192.168.1.101         DNS      279    Standard query response 0x3c74  CNAME clients.l.google.com A 74.125.232.134 A 74.125.232.133 A 74.125.232.137 A 74.125.232.131 A 74.125.232.136 A 74.125.232.129 A 74.125.232.132 A 74.125.232.135 A 74.125.232.128 A 74.125.232.142 A 74.125.232.130
+
+Frame 5: 279 bytes on wire (2232 bits), 279 bytes captured (2232 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 88.149.128.12 (88.149.128.12), Dst: 192.168.1.101 (192.168.1.101)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 16408 (16408)
+Domain Name System (response)
+
+No.     Time        Source                Destination           Protocol Length Info
+      6 6.489108    192.168.1.101         74.125.232.134        TCP      74     54036 > http [SYN] Seq=0 Win=5840 Len=0 MSS=1460 SACK_PERM=1 TSval=27418 TSecr=0 WS=8
+
+Frame 6: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:44 (1b:24:63:41:00:44)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 74.125.232.134 (74.125.232.134)
+Transmission Control Protocol, Src Port: 54036 (54036), Dst Port: http (80), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      7 6.554710    74.125.232.134        192.168.1.101         TCP      74     http > 54036 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1430 SACK_PERM=1 TSval=3962161308 TSecr=27418 WS=64
+
+Frame 7: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 74.125.232.134 (74.125.232.134), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 54036 (54036), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      8 6.554996    192.168.1.101         74.125.232.134        TCP      66     54036 > http [ACK] Seq=1 Ack=1 Win=5840 Len=0 TSval=27425 TSecr=3962161308
+
+Frame 8: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 74.125.232.134 (74.125.232.134)
+Transmission Control Protocol, Src Port: 54036 (54036), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      9 6.557810    192.168.1.101         74.125.232.134        HTTP     250    GET /generate_204 HTTP/1.1 
+
+Frame 9: 250 bytes on wire (2000 bits), 250 bytes captured (2000 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:f4 (1b:24:63:41:00:f4)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 74.125.232.134 (74.125.232.134)
+Transmission Control Protocol, Src Port: 54036 (54036), Dst Port: http (80), Seq: 1, Ack: 1, Len: 184
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     10 6.604401    173.192.222.170       192.168.1.101         TCP      74     xmpp-client > 43690 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1452 WS=512 SACK_PERM=1 TSval=3349503361 TSecr=27413
+
+Frame 10: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     11 6.604691    192.168.1.101         173.192.222.170       TCP      66     43690 > xmpp-client [ACK] Seq=1 Ack=1 Win=5840 Len=0 TSval=27430 TSecr=3349503361
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     12 6.619275    74.125.232.134        192.168.1.101         TCP      66     http > 54036 [ACK] Seq=1 Ack=185 Win=42368 Len=0 TSval=3962161378 TSecr=27425
+
+Frame 12: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 74.125.232.134 (74.125.232.134), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 54036 (54036), Seq: 1, Ack: 185, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     13 6.620055    74.125.232.134        192.168.1.101         HTTP     206    HTTP/1.1 204 No Content 
+
+Frame 13: 206 bytes on wire (1648 bits), 206 bytes captured (1648 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 74.125.232.134 (74.125.232.134), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 54036 (54036), Seq: 1, Ack: 185, Len: 140
+Hypertext Transfer Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     14 6.620261    192.168.1.101         74.125.232.134        TCP      66     54036 > http [ACK] Seq=185 Ack=141 Win=6912 Len=0 TSval=27432 TSecr=3962161378
+
+Frame 14: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 74.125.232.134 (74.125.232.134)
+Transmission Control Protocol, Src Port: 54036 (54036), Dst Port: http (80), Seq: 185, Ack: 141, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     15 6.739615    173.192.222.170       192.168.1.101         TCP      66     [TCP Window Update] xmpp-client > 43690 [ACK] Seq=1 Ack=1 Win=263168 Len=0 TSval=3349503501 TSecr=27430
+
+Frame 15: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     16 7.199781    192.168.1.101         173.192.222.170       TCP      187    [TCP segment of a reassembled PDU]
+
+Frame 16: 187 bytes on wire (1496 bits), 187 bytes captured (1496 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:b5 (1b:24:63:41:00:b5)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 1, Ack: 1, Len: 121
+
+No.     Time        Source                Destination           Protocol Length Info
+     17 7.709828    192.168.1.101         173.192.222.170       TCP      187    [TCP Retransmission] 43690 > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=5840 Len=121 TSval=27541 TSecr=3349503501
+
+Frame 17: 187 bytes on wire (1496 bits), 187 bytes captured (1496 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:b5 (1b:24:63:41:00:b5)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 1, Ack: 1, Len: 121
+
+No.     Time        Source                Destination           Protocol Length Info
+     18 7.818225    173.192.222.170       192.168.1.101         TCP      155    [TCP segment of a reassembled PDU]
+
+Frame 18: 155 bytes on wire (1240 bits), 155 bytes captured (1240 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 1, Ack: 122, Len: 89
+
+No.     Time        Source                Destination           Protocol Length Info
+     19 7.818630    192.168.1.101         173.192.222.170       TCP      66     43690 > xmpp-client [ACK] Seq=122 Ack=90 Win=5840 Len=0 TSval=27551 TSecr=3349504152
+
+Frame 19: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 122, Ack: 90, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     20 7.820116    173.192.222.170       192.168.1.101         TCP      87     [TCP segment of a reassembled PDU]
+
+Frame 20: 87 bytes on wire (696 bits), 87 bytes captured (696 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 90, Ack: 122, Len: 21
+
+No.     Time        Source                Destination           Protocol Length Info
+     21 7.820238    192.168.1.101         173.192.222.170       TCP      66     43690 > xmpp-client [ACK] Seq=122 Ack=111 Win=5840 Len=0 TSval=27552 TSecr=3349504192
+
+Frame 21: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 122, Ack: 111, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     22 7.854173    192.168.1.101         173.192.222.170       TCP      95     [TCP segment of a reassembled PDU]
+
+Frame 22: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:59 (1b:24:63:41:00:59)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 122, Ack: 111, Len: 29
+
+No.     Time        Source                Destination           Protocol Length Info
+     23 7.959993    173.192.222.170       192.168.1.101         TCP      66     [TCP Dup ACK 20#1] xmpp-client > 43690 [ACK] Seq=111 Ack=122 Win=263168 Len=0 TSval=3349504726 TSecr=27551
+
+Frame 23: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 111, Ack: 122, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     24 8.029251    173.192.222.170       192.168.1.101         TCP      66     xmpp-client > 43690 [ACK] Seq=111 Ack=151 Win=263168 Len=0 TSval=3349504792 TSecr=27555
+
+Frame 24: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 111, Ack: 151, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     25 8.527863    192.168.1.101         173.192.222.170       TCP      94     [TCP segment of a reassembled PDU]
+
+Frame 25: 94 bytes on wire (752 bits), 94 bytes captured (752 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:58 (1b:24:63:41:00:58)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 151, Ack: 111, Len: 28
+
+No.     Time        Source                Destination           Protocol Length Info
+     26 8.943660    173.192.222.170       192.168.1.101         TCP      107    [TCP segment of a reassembled PDU]
+
+Frame 26: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 111, Ack: 179, Len: 41
+
+No.     Time        Source                Destination           Protocol Length Info
+     27 8.944053    192.168.1.101         173.192.222.170       TCP      91     [TCP segment of a reassembled PDU]
+
+Frame 27: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:55 (1b:24:63:41:00:55)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 179, Ack: 152, Len: 25
+
+No.     Time        Source                Destination           Protocol Length Info
+     28 9.148260    173.192.222.170       192.168.1.101         TCP      235    [TCP segment of a reassembled PDU]
+
+Frame 28: 235 bytes on wire (1880 bits), 235 bytes captured (1880 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 152, Ack: 204, Len: 169
+
+No.     Time        Source                Destination           Protocol Length Info
+     29 9.179848    192.168.1.101         173.192.222.170       TCP      66     43690 > xmpp-client [ACK] Seq=204 Ack=321 Win=6912 Len=0 TSval=27688 TSecr=3349505876
+
+Frame 29: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 204, Ack: 321, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     30 9.723258    192.168.1.101         173.192.222.170       TCP      78     [TCP segment of a reassembled PDU]
+
+Frame 30: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:48 (1b:24:63:41:00:48)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 204, Ack: 321, Len: 12
+
+No.     Time        Source                Destination           Protocol Length Info
+     31 10.172156   173.192.222.170       192.168.1.101         TCP      93     [TCP segment of a reassembled PDU]
+
+Frame 31: 93 bytes on wire (744 bits), 93 bytes captured (744 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 321, Ack: 216, Len: 27
+
+No.     Time        Source                Destination           Protocol Length Info
+     32 10.172536   192.168.1.101         173.192.222.170       TCP      91     [TCP segment of a reassembled PDU]
+
+Frame 32: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:55 (1b:24:63:41:00:55)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 216, Ack: 348, Len: 25
+
+No.     Time        Source                Destination           Protocol Length Info
+     33 10.377171   173.192.222.170       192.168.1.101         TCP      84     [TCP segment of a reassembled PDU]
+
+Frame 33: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 348, Ack: 241, Len: 18
+
+No.     Time        Source                Destination           Protocol Length Info
+     34 10.409846   192.168.1.101         173.192.222.170       TCP      66     43690 > xmpp-client [ACK] Seq=241 Ack=366 Win=6912 Len=0 TSval=27811 TSecr=3349507102
+
+Frame 34: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 241, Ack: 366, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     35 10.479343   FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 35: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     36 13.099811   192.168.1.101         173.194.70.103        TCP      66     36825 > http [FIN, ACK] Seq=1 Ack=1 Win=3029 Len=0 TSval=28080 TSecr=303390469
+
+Frame 36: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.103 (173.194.70.103)
+Transmission Control Protocol, Src Port: 36825 (36825), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     37 13.825851   192.168.1.101         173.192.222.170       TCP      95     [TCP segment of a reassembled PDU]
+
+Frame 37: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:59 (1b:24:63:41:00:59)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 241, Ack: 366, Len: 29
+
+No.     Time        Source                Destination           Protocol Length Info
+     38 14.472955   FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 38: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     39 14.474170   173.192.222.170       192.168.1.101         TCP      66     xmpp-client > 43690 [ACK] Seq=366 Ack=270 Win=263168 Len=0 TSval=3349510851 TSecr=28152
+
+Frame 39: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 366, Ack: 270, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     40 14.474465   192.168.1.101         173.192.222.170       TCP      106    [TCP segment of a reassembled PDU]
+
+Frame 40: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:64 (1b:24:63:41:00:64)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 270, Ack: 366, Len: 40
+
+No.     Time        Source                Destination           Protocol Length Info
+     41 14.782860   173.192.222.170       192.168.1.101         TCP      111    [TCP segment of a reassembled PDU]
+
+Frame 41: 111 bytes on wire (888 bits), 111 bytes captured (888 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 366, Ack: 310, Len: 45
+
+No.     Time        Source                Destination           Protocol Length Info
+     42 14.783238   192.168.1.101         173.192.222.170       TCP      66     43690 > xmpp-client [ACK] Seq=310 Ack=411 Win=6912 Len=0 TSval=28248 TSecr=3349511446
+
+Frame 42: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 310, Ack: 411, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     43 15.870808   192.168.1.101         207.46.11.202         TLSv1    103    Application Data
+
+Frame 43: 103 bytes on wire (824 bits), 103 bytes captured (824 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:61 (1b:24:63:41:00:61)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 1, Ack: 1, Len: 37
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     44 16.726415   207.46.11.202         192.168.1.101         TCP      66     imaps > 58481 [ACK] Seq=1 Ack=38 Win=255 Len=0 TSval=36211688 TSecr=28357
+
+Frame 44: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 1, Ack: 38, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     45 16.727078   207.46.11.202         192.168.1.101         TLSv1    135    Application Data
+
+Frame 45: 135 bytes on wire (1080 bits), 135 bytes captured (1080 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 1, Ack: 38, Len: 69
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     46 16.759840   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=38 Ack=70 Win=2534 Len=0 TSval=28446 TSecr=36211702
+
+Frame 46: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 38, Ack: 70, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     47 17.021666   207.46.11.202         192.168.1.101         TLSv1    119    Application Data
+
+Frame 47: 119 bytes on wire (952 bits), 119 bytes captured (952 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 70, Ack: 38, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     48 17.021876   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=38 Ack=123 Win=2534 Len=0 TSval=28472 TSecr=36211757
+
+Frame 48: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 38, Ack: 123, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     49 17.033790   192.168.1.101         207.46.11.202         TLSv1    119    Application Data
+
+Frame 49: 119 bytes on wire (952 bits), 119 bytes captured (952 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:71 (1b:24:63:41:00:71)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 38, Ack: 123, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     50 17.979833   192.168.1.101         173.194.116.14        TCP      66     59858 > http [FIN, ACK] Seq=1 Ack=1 Win=1132 Len=0 TSval=28568 TSecr=788258487
+
+Frame 50: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.116.14 (173.194.116.14)
+Transmission Control Protocol, Src Port: 59858 (59858), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     51 18.569106   207.46.11.202         192.168.1.101         TCP      66     imaps > 58481 [ACK] Seq=123 Ack=91 Win=255 Len=0 TSval=36211804 TSecr=28473
+
+Frame 51: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 123, Ack: 91, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     52 18.570998   207.46.11.202         192.168.1.101         TLSv1    1479   Application Data
+
+Frame 52: 1479 bytes on wire (11832 bits), 1479 bytes captured (11832 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 123, Ack: 91, Len: 1413
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     53 18.609888   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=91 Ack=1536 Win=2896 Len=0 TSval=28631 TSecr=36211812
+
+Frame 53: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 91, Ack: 1536, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     54 18.646145   207.46.11.202         192.168.1.101         TLSv1    1506   [TCP Retransmission] Application Data
+
+Frame 54: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 123, Ack: 91, Len: 1440
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     55 18.646461   192.168.1.101         207.46.11.202         TCP      78     [TCP ACKed unseen segment] 58481 > imaps [ACK] Seq=91 Ack=1563 Win=3258 Len=0 TSval=28634 TSecr=36211921 SLE=123 SRE=1536
+
+Frame 55: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:48 (1b:24:63:41:00:48)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 91, Ack: 1563, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     56 18.864268   207.46.11.202         192.168.1.101         TLSv1    92     Application Data
+
+Frame 56: 92 bytes on wire (736 bits), 92 bytes captured (736 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 1563, Ack: 91, Len: 26
+[2 Reassembled TCP Segments (53 bytes): #54(27), #56(26)]
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     57 18.864531   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=91 Ack=1589 Win=3258 Len=0 TSval=28656 TSecr=36211943
+
+Frame 57: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 91, Ack: 1589, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     58 19.451621   192.168.1.101         188.125.68.129        TCP      66     38864 > imaps [FIN, ACK] Seq=1 Ack=1 Win=34560 Len=0 TSval=28715 TSecr=726376959
+
+Frame 58: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 188.125.68.129 (188.125.68.129)
+Transmission Control Protocol, Src Port: 38864 (38864), Dst Port: imaps (993), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     59 19.458020   192.168.1.101         130.186.6.177         TCP      66     47354 > imaps [FIN, ACK] Seq=1 Ack=1 Win=4340 Len=0 TSval=28715 TSecr=777648406
+
+Frame 59: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 130.186.6.177 (130.186.6.177)
+Transmission Control Protocol, Src Port: 47354 (47354), Dst Port: imaps (993), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     60 19.544346   130.186.6.177         192.168.1.101         TLSv1    143    Application Data
+
+Frame 60: 143 bytes on wire (1144 bits), 143 bytes captured (1144 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 130.186.6.177 (130.186.6.177), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 47354 (47354), Seq: 1, Ack: 2, Len: 77
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     61 19.544601   192.168.1.101         130.186.6.177         TCP      54     47354 > imaps [RST] Seq=2 Win=0 Len=0
+
+Frame 61: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:30 (1b:24:63:41:00:30)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 130.186.6.177 (130.186.6.177)
+Transmission Control Protocol, Src Port: 47354 (47354), Dst Port: imaps (993), Seq: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     62 19.545123   130.186.6.177         192.168.1.101         TCP      66     imaps > 47354 [FIN, ACK] Seq=78 Ack=2 Win=62 Len=0 TSval=777700547 TSecr=28715
+
+Frame 62: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 130.186.6.177 (130.186.6.177), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 47354 (47354), Seq: 78, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     63 19.545215   192.168.1.101         130.186.6.177         TCP      54     47354 > imaps [RST] Seq=2 Win=0 Len=0
+
+Frame 63: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:30 (1b:24:63:41:00:30)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 130.186.6.177 (130.186.6.177)
+Transmission Control Protocol, Src Port: 47354 (47354), Dst Port: imaps (993), Seq: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     64 19.574308   188.125.68.129        192.168.1.101         TCP      66     imaps > 38864 [FIN, ACK] Seq=1 Ack=2 Win=16616 Len=0 TSval=726415652 TSecr=28715
+
+Frame 64: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 188.125.68.129 (188.125.68.129), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 38864 (38864), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     65 19.574546   192.168.1.101         188.125.68.129        TCP      66     38864 > imaps [ACK] Seq=2 Ack=2 Win=34560 Len=0 TSval=28727 TSecr=726415652
+
+Frame 65: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 188.125.68.129 (188.125.68.129)
+Transmission Control Protocol, Src Port: 38864 (38864), Dst Port: imaps (993), Seq: 2, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     66 19.714583   192.168.1.101         207.46.11.202         TLSv1    103    Application Data
+
+Frame 66: 103 bytes on wire (824 bits), 103 bytes captured (824 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:61 (1b:24:63:41:00:61)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 91, Ack: 1589, Len: 37
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     67 19.934766   207.46.11.202         192.168.1.101         TLSv1    119    Application Data
+
+Frame 67: 119 bytes on wire (952 bits), 119 bytes captured (952 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 1589, Ack: 128, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     68 19.935186   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=128 Ack=1642 Win=3258 Len=0 TSval=28763 TSecr=36212051
+
+Frame 68: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 128, Ack: 1642, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     69 19.939363   192.168.1.101         207.46.11.202         TLSv1    119    Application Data
+
+Frame 69: 119 bytes on wire (952 bits), 119 bytes captured (952 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:71 (1b:24:63:41:00:71)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 128, Ack: 1642, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     70 20.412068   FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 70: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     71 20.722321   207.46.11.202         192.168.1.101         TLSv1    375    Application Data
+
+Frame 71: 375 bytes on wire (3000 bits), 375 bytes captured (3000 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 1642, Ack: 181, Len: 309
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     72 20.759933   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=181 Ack=1951 Win=3618 Len=0 TSval=28846 TSecr=36212075
+
+Frame 72: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 181, Ack: 1951, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     73 20.999606   207.46.11.202         192.168.1.101         TLSv1    135    Application Data
+
+Frame 73: 135 bytes on wire (1080 bits), 135 bytes captured (1080 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 1951, Ack: 181, Len: 69
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     74 20.999938   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=181 Ack=2020 Win=3618 Len=0 TSval=28870 TSecr=36212155
+
+Frame 74: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 181, Ack: 2020, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     75 21.004995   192.168.1.101         207.46.11.202         TLSv1    135    Application Data
+
+Frame 75: 135 bytes on wire (1080 bits), 135 bytes captured (1080 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:81 (1b:24:63:41:00:81)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 181, Ack: 2020, Len: 69
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     76 21.538601   FonTechn_a5:e9:80     SamsungE_24:63:41     ARP      42     Who has 192.168.1.101?  Tell 192.168.1.1
+
+Frame 76: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Length Info
+     77 21.538671   aa:aa:03:00:00:00     1b:24:63:41:00:24     ARP      42     192.168.1.101 is at cc:05:1b:24:63:41
+
+Frame 77: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:24 (1b:24:63:41:00:24)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Length Info
+     78 21.539888   207.46.11.202         192.168.1.101         TCP      66     imaps > 58481 [ACK] Seq=2020 Ack=250 Win=254 Len=0 TSval=36212201 TSecr=28870
+
+Frame 78: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 2020, Ack: 250, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     79 21.948341   207.46.11.202         192.168.1.101         TLSv1    279    Application Data
+
+Frame 79: 279 bytes on wire (2232 bits), 279 bytes captured (2232 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 2020, Ack: 250, Len: 213
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     80 21.979896   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=250 Ack=2233 Win=3618 Len=0 TSval=28968 TSecr=36212242
+
+Frame 80: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 250, Ack: 2233, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     81 22.255573   207.46.11.202         192.168.1.101         TLSv1    119    Application Data
+
+Frame 81: 119 bytes on wire (952 bits), 119 bytes captured (952 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 2233, Ack: 250, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     82 22.255775   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=250 Ack=2286 Win=3618 Len=0 TSval=28995 TSecr=36212279
+
+Frame 82: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 250, Ack: 2286, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     83 22.261340   192.168.1.101         207.46.11.202         TLSv1    295    Application Data
+
+Frame 83: 295 bytes on wire (2360 bits), 295 bytes captured (2360 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:01:21 (1b:24:63:41:01:21)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 250, Ack: 2286, Len: 229
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     84 22.460161   FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 84: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     85 23.003745   192.168.1.101         173.192.222.170       TCP      132    [TCP segment of a reassembled PDU]
+
+Frame 85: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:7e (1b:24:63:41:00:7e)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 310, Ack: 411, Len: 66
+
+No.     Time        Source                Destination           Protocol Length Info
+     86 23.074705   207.46.11.202         192.168.1.101         TCP      66     imaps > 58481 [ACK] Seq=2286 Ack=479 Win=253 Len=0 TSval=36212326 TSecr=28996
+
+Frame 86: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 2286, Ack: 479, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     87 23.279653   207.46.11.202         192.168.1.101         TLSv1    135    Application Data
+
+Frame 87: 135 bytes on wire (1080 bits), 135 bytes captured (1080 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 2286, Ack: 479, Len: 69
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     88 23.285045   207.46.11.202         192.168.1.101         TLSv1    1506   Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data
+
+Frame 88: 1506 bytes on wire (12048 bits), 1506 bytes captured (12048 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 2355, Ack: 479, Len: 1440
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     89 23.285220   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=479 Ack=3795 Win=3980 Len=0 TSval=29098 TSecr=36212365
+
+Frame 89: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 479, Ack: 3795, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     90 23.285581   207.46.11.202         192.168.1.101         TLSv1    75     Application Data
+
+Frame 90: 75 bytes on wire (600 bits), 75 bytes captured (600 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 3795, Ack: 479, Len: 9
+[2 Reassembled TCP Segments (69 bytes): #88(60), #90(9)]
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     91 23.285855   173.192.222.170       192.168.1.101         TCP      110    [TCP segment of a reassembled PDU]
+
+Frame 91: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 411, Ack: 376, Len: 44
+
+No.     Time        Source                Destination           Protocol Length Info
+     92 23.286043   192.168.1.101         173.192.222.170       TCP      66     43690 > xmpp-client [ACK] Seq=376 Ack=455 Win=6912 Len=0 TSval=29098 TSecr=3349519936
+
+Frame 92: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 376, Ack: 455, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     93 23.319860   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=479 Ack=3804 Win=3980 Len=0 TSval=29102 TSecr=36212365
+
+Frame 93: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 479, Ack: 3804, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     94 23.523953   207.46.11.202         192.168.1.101         TLSv1    326    Application Data, Application Data, Application Data, Application Data
+
+Frame 94: 326 bytes on wire (2608 bits), 326 bytes captured (2608 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 207.46.11.202 (207.46.11.202), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 58481 (58481), Seq: 3804, Ack: 479, Len: 260
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     95 23.559801   192.168.1.101         207.46.11.202         TCP      66     58481 > imaps [ACK] Seq=479 Ack=4064 Win=3980 Len=0 TSval=29126 TSecr=36212408
+
+Frame 95: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 207.46.11.202 (207.46.11.202)
+Transmission Control Protocol, Src Port: 58481 (58481), Dst Port: imaps (993), Seq: 479, Ack: 4064, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     96 33.881948   192.168.1.101         173.192.222.170       TCP      152    [TCP segment of a reassembled PDU]
+
+Frame 96: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:92 (1b:24:63:41:00:92)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 376, Ack: 455, Len: 86
+
+No.     Time        Source                Destination           Protocol Length Info
+     97 34.442021   FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 97: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+     98 34.442953   173.192.222.170       192.168.1.101         TCP      110    [TCP segment of a reassembled PDU]
+
+Frame 98: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 455, Ack: 462, Len: 44
+
+No.     Time        Source                Destination           Protocol Length Info
+     99 34.443408   192.168.1.101         173.192.222.170       TCP      66     43690 > xmpp-client [ACK] Seq=462 Ack=499 Win=6912 Len=0 TSval=30214 TSecr=3349530821
+
+Frame 99: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 462, Ack: 499, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    100 43.026173   192.168.1.101         173.192.222.170       TCP      130    [TCP segment of a reassembled PDU]
+
+Frame 100: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:7c (1b:24:63:41:00:7c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 462, Ack: 499, Len: 64
+
+No.     Time        Source                Destination           Protocol Length Info
+    101 43.455206   173.192.222.170       192.168.1.101         TCP      110    [TCP segment of a reassembled PDU]
+
+Frame 101: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 499, Ack: 526, Len: 44
+
+No.     Time        Source                Destination           Protocol Length Info
+    102 43.455590   192.168.1.101         173.192.222.170       TCP      66     43690 > xmpp-client [ACK] Seq=526 Ack=543 Win=6912 Len=0 TSval=31115 TSecr=3349539986
+
+Frame 102: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 526, Ack: 543, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    103 44.929268   192.168.1.101         173.192.222.170       TCP      123    [TCP segment of a reassembled PDU]
+
+Frame 103: 123 bytes on wire (984 bits), 123 bytes captured (984 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:75 (1b:24:63:41:00:75)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 526, Ack: 543, Len: 57
+
+No.     Time        Source                Destination           Protocol Length Info
+    104 45.295535   173.192.222.170       192.168.1.101         TCP      110    [TCP segment of a reassembled PDU]
+
+Frame 104: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 543, Ack: 583, Len: 44
+
+No.     Time        Source                Destination           Protocol Length Info
+    105 45.296161   192.168.1.101         173.192.222.170       TCP      66     43690 > xmpp-client [ACK] Seq=583 Ack=587 Win=6912 Len=0 TSval=31299 TSecr=3349541872
+
+Frame 105: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 583, Ack: 587, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    106 50.623253   192.168.1.101         173.192.222.170       TCP      134    [TCP segment of a reassembled PDU]
+
+Frame 106: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:80 (1b:24:63:41:00:80)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 583, Ack: 587, Len: 68
+
+No.     Time        Source                Destination           Protocol Length Info
+    107 50.928853   173.192.222.170       192.168.1.101         TCP      110    [TCP segment of a reassembled PDU]
+
+Frame 107: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 173.192.222.170 (173.192.222.170), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 43690 (43690), Seq: 587, Ack: 651, Len: 44
+
+No.     Time        Source                Destination           Protocol Length Info
+    108 50.929478   192.168.1.101         173.192.222.170       TCP      66     43690 > xmpp-client [ACK] Seq=651 Ack=631 Win=6912 Len=0 TSval=31862 TSecr=3349547556
+
+Frame 108: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.192.222.170 (173.192.222.170)
+Transmission Control Protocol, Src Port: 43690 (43690), Dst Port: xmpp-client (5222), Seq: 651, Ack: 631, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    109 50.933660   54.235.185.74         192.168.1.101         TCP      66     http > 54640 [FIN, ACK] Seq=1 Ack=1 Win=61 Len=0 TSval=3579441022 TSecr=25995
+
+Frame 109: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Internet Protocol Version 4, Src: 54.235.185.74 (54.235.185.74), Dst: 192.168.1.101 (192.168.1.101)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 54640 (54640), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    110 50.969983   192.168.1.101         54.235.185.74         TCP      66     54640 > http [ACK] Seq=1 Ack=2 Win=864 Len=0 TSval=31867 TSecr=3579441022
+
+Frame 110: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 54.235.185.74 (54.235.185.74)
+Transmission Control Protocol, Src Port: 54640 (54640), Dst Port: http (80), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    111 53.899823   192.168.1.101         173.194.116.14        TCP      66     59858 > http [FIN, ACK] Seq=1 Ack=1 Win=1132 Len=0 TSval=32160 TSecr=788258487
+
+Frame 111: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.116.14 (173.194.116.14)
+Transmission Control Protocol, Src Port: 59858 (59858), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    112 56.048645   FonTechn_a5:e9:80     SamsungE_24:63:41     ARP      42     Who has 192.168.1.101?  Tell 192.168.1.1
+
+Frame 112: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: FonTechn_a5:e9:80 (00:18:84:a5:e9:80), Dst: SamsungE_24:63:41 (cc:05:1b:24:63:41)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Length Info
+    113 56.048716   aa:aa:03:00:00:00     1b:24:63:41:00:24     ARP      42     192.168.1.101 is at cc:05:1b:24:63:41
+
+Frame 113: 42 bytes on wire (336 bits), 42 bytes captured (336 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:24 (1b:24:63:41:00:24)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Length Info
+    114 58.506603   FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 114: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time        Source                Destination           Protocol Length Info
+    115 60.450525   FonTechn_a5:e9:81     Spanning-tree-(for-bridges)_00 STP      52     Conf. Root = 32768/0/00:18:84:a5:e9:80  Cost = 0  Port = 0x8002
+
+Frame 115: 52 bytes on wire (416 bits), 52 bytes captured (416 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol

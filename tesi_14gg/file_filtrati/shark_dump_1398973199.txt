@@ -1,0 +1,192 @@
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 1, Ack: 1, Len: 29
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 1, Ack: 30, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 30, Ack: 1, Len: 40
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 1, Ack: 70, Len: 45
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 70, Ack: 46, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 70, Ack: 46, Len: 12
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 46, Ack: 82, Len: 27
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 82, Ack: 73, Len: 25
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 73, Ack: 82, Len: 27
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 107, Ack: 100, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 100, Ack: 107, Len: 18
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 107, Ack: 118, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 107, Ack: 118, Len: 68
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 118, Ack: 175, Len: 44
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 175, Ack: 162, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 162, Ack: 175, Len: 42
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 175, Ack: 204, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 175, Ack: 204, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 204, Ack: 219, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 219, Ack: 204, Len: 52
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 204, Ack: 271, Len: 44
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 271, Ack: 248, Len: 0
+Internet Protocol Version 4, Src: 173.194.69.188 (173.194.69.188), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: hpvroom (5228), Dst Port: 45908 (45908), Seq: 1, Ack: 1, Len: 283
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 173.194.69.188 (173.194.69.188)
+Transmission Control Protocol, Src Port: 45908 (45908), Dst Port: hpvroom (5228), Seq: 1, Ack: 284, Len: 0
+Internet Protocol Version 4, Src: 173.194.69.188 (173.194.69.188), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: hpvroom (5228), Dst Port: 45908 (45908), Seq: 284, Ack: 1, Len: 676
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 173.194.69.188 (173.194.69.188)
+Transmission Control Protocol, Src Port: 45908 (45908), Dst Port: hpvroom (5228), Seq: 1, Ack: 960, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 69.171.248.65 (69.171.248.65)
+Transmission Control Protocol, Src Port: 54651 (54651), Dst Port: https (443), Seq: 1, Ack: 1, Len: 27
+Internet Protocol Version 4, Src: 69.171.248.65 (69.171.248.65), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 54651 (54651), Seq: 1, Ack: 28, Len: 0
+Internet Protocol Version 4, Src: 69.171.248.65 (69.171.248.65), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 54651 (54651), Seq: 1, Ack: 28, Len: 27
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 69.171.248.65 (69.171.248.65)
+Transmission Control Protocol, Src Port: 54651 (54651), Dst Port: https (443), Seq: 28, Ack: 28, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 1, Ack: 1, Len: 715
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 85.205.31.25 (85.205.31.25)
+Transmission Control Protocol, Src Port: 46874 (46874), Dst Port: https (443), Seq: 1, Ack: 1, Len: 23
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 85.205.31.25 (85.205.31.25)
+Transmission Control Protocol, Src Port: 46874 (46874), Dst Port: https (443), Seq: 24, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 47.73.196.18 (47.73.196.18)
+Transmission Control Protocol, Src Port: 53959 (53959), Dst Port: https (443), Seq: 1, Ack: 1, Len: 23
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 47.73.196.18 (47.73.196.18)
+Transmission Control Protocol, Src Port: 53959 (53959), Dst Port: https (443), Seq: 24, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 248, Ack: 271, Len: 42
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 271, Ack: 290, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 271, Ack: 290, Len: 44
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 1, Ack: 716, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 716, Ack: 1, Len: 465
+Internet Protocol Version 4, Src: 85.205.31.25 (85.205.31.25), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46874 (46874), Seq: 1, Len: 0
+Internet Protocol Version 4, Src: 47.73.196.18 (47.73.196.18), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 53959 (53959), Seq: 1, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 290, Ack: 315, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 315, Ack: 290, Len: 72
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 1, Ack: 1181, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 1, Ack: 1181, Len: 762
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 1181, Ack: 763, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 290, Ack: 387, Len: 44
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 387, Ack: 334, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.38 (31.13.86.38)
+Transmission Control Protocol, Src Port: 57440 (57440), Dst Port: https (443), Seq: 1, Ack: 1, Len: 27
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.38 (31.13.86.38)
+Transmission Control Protocol, Src Port: 57440 (57440), Dst Port: https (443), Seq: 28, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.38 (31.13.86.38), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 57440 (57440), Seq: 1, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 334, Ack: 387, Len: 42
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 387, Ack: 376, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 387, Ack: 376, Len: 44
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 56046 (56046), Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 54.243.73.193 (54.243.73.193)
+Transmission Control Protocol, Src Port: 56046 (56046), Dst Port: http (80), Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 376, Ack: 431, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 1181, Ack: 763, Len: 695
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 763, Ack: 1876, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 1876, Ack: 763, Len: 575
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 763, Ack: 2451, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 2061, Ack: 2451, Len: 303
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 2451, Ack: 763, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 763, Ack: 2451, Len: 1298
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 2451, Ack: 2364, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 2364, Ack: 2451, Len: 1298
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 2451, Ack: 3662, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 3662, Ack: 2451, Len: 1278
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 2451, Ack: 4940, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 4940, Ack: 2451, Len: 520
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 2451, Ack: 5460, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 5460, Ack: 2451, Len: 1298
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 2451, Ack: 6758, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 6758, Ack: 2451, Len: 1298
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 2451, Ack: 8056, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 8056, Ack: 2451, Len: 1006
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 2451, Ack: 9062, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 9062, Ack: 2451, Len: 544
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 2451, Ack: 9606, Len: 0
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 51803 (51803), Seq: 9606, Ack: 2451, Len: 1168
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 51803 (51803), Dst Port: https (443), Seq: 2451, Ack: 10774, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 431, Ack: 376, Len: 68
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 376, Ack: 499, Len: 44
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 499, Ack: 420, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 420, Ack: 499, Len: 42
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 499, Ack: 462, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 499, Ack: 462, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 462, Ack: 543, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 543, Ack: 462, Len: 56
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 462, Ack: 599, Len: 44
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 599, Ack: 506, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 506, Ack: 599, Len: 42
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 599, Ack: 548, Len: 0
+Internet Protocol Version 4, Src: 10.164.181.164 (10.164.181.164), Dst: 108.168.176.226 (108.168.176.226)
+Transmission Control Protocol, Src Port: 36158 (36158), Dst Port: xmpp-client (5222), Seq: 599, Ack: 548, Len: 44
+Internet Protocol Version 4, Src: 108.168.176.226 (108.168.176.226), Dst: 10.164.181.164 (10.164.181.164)
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 36158 (36158), Seq: 548, Ack: 643, Len: 0
