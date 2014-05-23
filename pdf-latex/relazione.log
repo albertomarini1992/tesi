@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2013.6.4)  20 MAY 2014 08:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2013.6.4)  23 MAY 2014 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,50 +451,57 @@ Capitolo 1.
 
 ]
 Capitolo 2.
-[7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
+<rete.png, id=49, 468.24937pt x 366.61969pt>
+File: rete.png Graphic file (type png)
+ <use rete.png>
+Package pdftex.def Info: rete.png used on input line 46.
+(pdftex.def)             Requested size: 327.77231pt x 256.63202pt.
+ [7] [8 <./rete.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
  (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
 
-Overfull \hbox (61.58165pt too wide) in paragraph at lines 62--63
+Overfull \hbox (61.58165pt too wide) in paragraph at lines 71--72
 []\T1/cmr/m/it/10.95 AG Group/WildPackets Ether-Peek/TokenPeek/AiroPeek/EtherHe
 lp/PacketGrabber
  []
 
-[8] [9] [10]
-Capitolo 3.
-[11
+[9
 
-] (./relazione.aux) ) 
+] [10] [11] [12
+
+]
+Capitolo 3.
+[13] (./relazione.aux) ) 
 Here is how much of TeX's memory you used:
- 3033 strings out of 493625
- 39145 string characters out of 3143291
+ 3038 strings out of 493625
+ 39204 string characters out of 3143291
  107063 words of memory out of 3000000
- 6281 multiletter control sequences out of 15000+200000
+ 6285 multiletter control sequences out of 15000+200000
  15625 words of font info for 35 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  38i,10n,39p,560b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-sup
-er/cm-super-t1.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx
-1095.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx12
-00.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1440
-.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx2074.p
-fb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
-></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><
-/usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></u
-sr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on relazione.pdf (11 pages, 219147 bytes).
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-
+super/cm-super-t1.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/s
+fbx1095.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfb
+x1200.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1
+440.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx207
+4.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx2488.
+pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pf
+b></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb>
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on relazione.pdf (13 pages, 237204 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
