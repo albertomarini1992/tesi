@@ -1,0 +1,12 @@
+./dstfilter.sh 37.176.77.169 shark_dump_1399845157_trovati
+./dstfilter.sh 10.163.108.219 shark_dump_1399888257_trovati
+./dstfilter.sh 10.163.108.219 shark_dump_1399928151_trovati
+./dstfilter.sh 37.176.195.31 shark_dump_1400186574_trovati
+./dstfilter.sh 91.80.181.119 shark_dump_1400216991_trovati
+./dstfilter.sh 10.165.76.22 shark_dump_1400303977_trovati
+./dstfilter.sh 37.179.72.189 shark_dump_1400433027_trovati
+./dstfilter.sh 10.164.158.78 shark_dump_1400524008_trovati
+./dstfilter.sh 100.80.107.237 shark_dump_1400618526_trovati
+./dstfilter.sh 100.77.50.79 shark_dump_1400700763_trovati
+./dstfilter.sh 37.179.170.215 shark_dump_1400735366_trovati
+./dstfilter.sh 2.41.109.247 shark_dump_1400862472_trovati
