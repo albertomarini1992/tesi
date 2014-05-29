@@ -1,0 +1,71 @@
+################### PORTA 5222 #########################
+################### PORTA 443 #########################
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 1, Ack: 1, Len: 12
+Internet Protocol Version 4, Src: 108.168.176.233 (108.168.176.233), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 1, Ack: 13, Len: 27
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 13, Ack: 28, Len: 25
+Internet Protocol Version 4, Src: 108.168.176.233 (108.168.176.233), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 28, Ack: 38, Len: 18
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 38, Ack: 46, Len: 0
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 38, Ack: 46, Len: 29
+Internet Protocol Version 4, Src: 108.168.176.233 (108.168.176.233), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 46, Ack: 67, Len: 0
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 67, Ack: 46, Len: 40
+Internet Protocol Version 4, Src: 108.168.176.233 (108.168.176.233), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 46, Ack: 107, Len: 46
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 107, Ack: 92, Len: 0
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 107, Ack: 92, Len: 67
+Internet Protocol Version 4, Src: 108.168.176.233 (108.168.176.233), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 92, Ack: 174, Len: 44
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 174, Ack: 136, Len: 0
+Internet Protocol Version 4, Src: 108.168.176.233 (108.168.176.233), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 92, Ack: 174, Len: 44
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 174, Ack: 136, Len: 0
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 174, Ack: 136, Len: 70
+Internet Protocol Version 4, Src: 108.168.176.233 (108.168.176.233), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 136, Ack: 244, Len: 44
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 244, Ack: 180, Len: 0
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 244, Ack: 180, Len: 57
+Internet Protocol Version 4, Src: 108.168.176.233 (108.168.176.233), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 180, Ack: 301, Len: 44
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 301, Ack: 224, Len: 0
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 301, Ack: 224, Len: 82
+Internet Protocol Version 4, Src: 108.168.176.233 (108.168.176.233), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 224, Ack: 383, Len: 44
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 383, Ack: 268, Len: 0
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 383, Ack: 268, Len: 65
+Internet Protocol Version 4, Src: 108.168.176.233 (108.168.176.233), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 268, Ack: 448, Len: 44
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 448, Ack: 312, Len: 0
+################### PORTA 80 #########################
+Internet Protocol Version 4, Src: 54.235.187.3 (54.235.187.3), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 54.235.187.3 (54.235.187.3)
+, Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 244, Ack: 180, Len: 0
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 188.125.68.71 (188.125.68.71)
+, Seq: 466, Ack: 4804, Len: 39
+Internet Protocol Version 4, Src: 188.125.68.71 (188.125.68.71), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 4804, Ack: 505, Len: 233
+Internet Protocol Version 4, Src: 37.179.72.189 (37.179.72.189), Dst: 108.168.176.233 (108.168.176.233)
+, Seq: 244, Ack: 180, Len: 57
+Internet Protocol Version 4, Src: 108.168.176.233 (108.168.176.233), Dst: 37.179.72.189 (37.179.72.189)
+, Seq: 180, Ack: 301, Len: 44

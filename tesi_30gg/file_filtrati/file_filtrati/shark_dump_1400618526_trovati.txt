@@ -1,0 +1,227 @@
+################### PORTA 5222 #########################
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.38 (184.173.179.38)
+, Seq: 1, Ack: 1, Len: 12
+Internet Protocol Version 4, Src: 184.173.179.38 (184.173.179.38), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 1, Ack: 13, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.38 (184.173.179.38)
+, Seq: 13, Ack: 1, Len: 10
+Internet Protocol Version 4, Src: 184.173.179.38 (184.173.179.38), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 1, Ack: 23, Len: 10
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.38 (184.173.179.38)
+, Seq: 23, Ack: 11, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.38 (184.173.179.38)
+, Seq: 23, Ack: 11, Len: 0
+Internet Protocol Version 4, Src: 184.173.179.38 (184.173.179.38), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 11, Ack: 24, Len: 0
+Internet Protocol Version 4, Src: 184.173.179.38 (184.173.179.38), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 11, Ack: 24, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.38 (184.173.179.38)
+, Seq: 24, Ack: 12, Len: 0
+################### PORTA 443 #########################
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 1, Ack: 1, Len: 121
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 1, Ack: 122, Len: 89
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 122, Ack: 90, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 122, Ack: 90, Len: 29
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 90, Ack: 122, Len: 21
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 151, Ack: 111, Len: 0
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 111, Ack: 151, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 151, Ack: 111, Len: 92
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 111, Ack: 243, Len: 44
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 155, Ack: 243, Len: 167
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 243, Ack: 322, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 243, Ack: 322, Len: 12
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 322, Ack: 255, Len: 27
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 255, Ack: 349, Len: 25
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 349, Ack: 280, Len: 18
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 280, Ack: 367, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 280, Ack: 367, Len: 71
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 280, Ack: 367, Len: 71
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 367, Ack: 351, Len: 45
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 351, Ack: 412, Len: 0
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 367, Ack: 351, Len: 45
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 351, Ack: 412, Len: 0
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 367, Ack: 351, Len: 45
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 351, Ack: 412, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 351, Ack: 412, Len: 73
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 412, Ack: 424, Len: 45
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 424, Ack: 457, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 424, Ack: 457, Len: 59
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 457, Ack: 483, Len: 45
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 483, Ack: 502, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 483, Ack: 502, Len: 60
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 502, Ack: 543, Len: 45
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 543, Ack: 547, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 543, Ack: 547, Len: 62
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 547, Ack: 605, Len: 45
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 605, Ack: 592, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 605, Ack: 592, Len: 85
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 592, Ack: 690, Len: 45
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 690, Ack: 637, Len: 0
+################### PORTA 80 #########################
+Internet Protocol Version 4, Src: 54.235.185.74 (54.235.185.74), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 1, Ack: 1, Len: 609
+Transmission Control Protocol, Src Port: http (80), Dst Port: 39445 (39445), Seq: 1, Ack: 1, Len: 609
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 54.235.185.74 (54.235.185.74)
+, Seq: 1, Ack: 610, Len: 0
+Transmission Control Protocol, Src Port: 39445 (39445), Dst Port: http (80), Seq: 1, Ack: 610, Len: 0
+Internet Protocol Version 4, Src: 54.235.185.74 (54.235.185.74), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 610, Ack: 1, Len: 5
+Transmission Control Protocol, Src Port: http (80), Dst Port: 39445 (39445), Seq: 610, Ack: 1, Len: 5
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 54.235.185.74 (54.235.185.74)
+, Seq: 1, Ack: 615, Len: 0
+Transmission Control Protocol, Src Port: 39445 (39445), Dst Port: http (80), Seq: 1, Ack: 615, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 54.235.185.74 (54.235.185.74)
+, Seq: 1, Ack: 615, Len: 0
+Transmission Control Protocol, Src Port: 39445 (39445), Dst Port: http (80), Seq: 1, Ack: 615, Len: 0
+Internet Protocol Version 4, Src: 54.235.185.74 (54.235.185.74), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 615, Ack: 2, Len: 0
+Transmission Control Protocol, Src Port: http (80), Dst Port: 39445 (39445), Seq: 615, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 54.235.185.74 (54.235.185.74), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 615, Ack: 2, Len: 0
+Transmission Control Protocol, Src Port: http (80), Dst Port: 39445 (39445), Seq: 615, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 54.235.185.74 (54.235.185.74)
+, Seq: 2, Ack: 616, Len: 0
+Transmission Control Protocol, Src Port: 39445 (39445), Dst Port: http (80), Seq: 2, Ack: 616, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 83.224.70.62 (83.224.70.62)
+Internet Protocol Version 4, Src: 83.224.70.62 (83.224.70.62), Dst: 100.80.107.237 (100.80.107.237)
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 0, Len: 0
+Transmission Control Protocol, Src Port: 32910 (32910), Dst Port: http (80), Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 0, Ack: 1, Len: 0
+Transmission Control Protocol, Src Port: http (80), Dst Port: 32910 (32910), Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 1, Ack: 1, Len: 0
+Transmission Control Protocol, Src Port: 32910 (32910), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 1, Ack: 1, Len: 538
+Transmission Control Protocol, Src Port: 32910 (32910), Dst Port: http (80), Seq: 1, Ack: 1, Len: 538
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 1, Ack: 539, Len: 0
+Transmission Control Protocol, Src Port: http (80), Dst Port: 32910 (32910), Seq: 1, Ack: 539, Len: 0
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 1, Ack: 539, Len: 223
+Transmission Control Protocol, Src Port: http (80), Dst Port: 32910 (32910), Seq: 1, Ack: 539, Len: 223
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 539, Ack: 224, Len: 0
+Transmission Control Protocol, Src Port: 32910 (32910), Dst Port: http (80), Seq: 539, Ack: 224, Len: 0
+Transmission Control Protocol, Src Port: 54601 (54601), Dst Port: xmpp-client (5222), Seq: 1, Ack: 1, Len: 12
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 54601 (54601), Seq: 1, Ack: 13, Len: 0
+Transmission Control Protocol, Src Port: 54601 (54601), Dst Port: xmpp-client (5222), Seq: 13, Ack: 1, Len: 10
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 54601 (54601), Seq: 1, Ack: 23, Len: 10
+Transmission Control Protocol, Src Port: 54601 (54601), Dst Port: xmpp-client (5222), Seq: 23, Ack: 11, Len: 0
+Transmission Control Protocol, Src Port: 54601 (54601), Dst Port: xmpp-client (5222), Seq: 23, Ack: 11, Len: 0
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 54601 (54601), Seq: 11, Ack: 24, Len: 0
+Transmission Control Protocol, Src Port: xmpp-client (5222), Dst Port: 54601 (54601), Seq: 11, Ack: 24, Len: 0
+Transmission Control Protocol, Src Port: 54601 (54601), Dst Port: xmpp-client (5222), Seq: 24, Ack: 12, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 83.224.70.62 (83.224.70.62)
+Internet Protocol Version 4, Src: 83.224.70.62 (83.224.70.62), Dst: 100.80.107.237 (100.80.107.237)
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 0, Len: 0
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 0, Ack: 1, Len: 0
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 1, Ack: 1, Len: 0
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 1, Ack: 1, Len: 121
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 1, Ack: 1, Len: 0
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 1, Ack: 122, Len: 89
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 122, Ack: 90, Len: 0
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 122, Ack: 90, Len: 29
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 90, Ack: 122, Len: 21
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 151, Ack: 111, Len: 0
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 111, Ack: 151, Len: 0
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 151, Ack: 111, Len: 92
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 111, Ack: 243, Len: 44
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 155, Ack: 243, Len: 167
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 243, Ack: 322, Len: 0
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 243, Ack: 322, Len: 12
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 539, Ack: 224, Len: 0
+Transmission Control Protocol, Src Port: 32910 (32910), Dst Port: http (80), Seq: 539, Ack: 224, Len: 0
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 224, Ack: 540, Len: 0
+Transmission Control Protocol, Src Port: http (80), Dst Port: 32910 (32910), Seq: 224, Ack: 540, Len: 0
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 224, Ack: 540, Len: 0
+Transmission Control Protocol, Src Port: http (80), Dst Port: 32910 (32910), Seq: 224, Ack: 540, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 540, Ack: 225, Len: 0
+Transmission Control Protocol, Src Port: 32910 (32910), Dst Port: http (80), Seq: 540, Ack: 225, Len: 0
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 322, Ack: 255, Len: 27
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 255, Ack: 349, Len: 25
+Internet Protocol Version 4, Src: 184.173.179.46 (184.173.179.46), Dst: 100.80.107.237 (100.80.107.237)
+, Seq: 349, Ack: 280, Len: 18
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 349, Ack: 280, Len: 18
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 280, Ack: 367, Len: 0
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 280, Ack: 367, Len: 0
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 280, Ack: 367, Len: 71
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 280, Ack: 367, Len: 71
+Internet Protocol Version 4, Src: 100.80.107.237 (100.80.107.237), Dst: 184.173.179.46 (184.173.179.46)
+, Seq: 280, Ack: 367, Len: 71
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 280, Ack: 367, Len: 71
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 367, Ack: 351, Len: 45
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 351, Ack: 412, Len: 0
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 367, Ack: 351, Len: 45
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 351, Ack: 412, Len: 0
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 367, Ack: 351, Len: 45
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 351, Ack: 412, Len: 0
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 351, Ack: 412, Len: 73
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 412, Ack: 424, Len: 45
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 424, Ack: 457, Len: 0
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 424, Ack: 457, Len: 59
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 457, Ack: 483, Len: 45
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 483, Ack: 502, Len: 0
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 483, Ack: 502, Len: 60
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 502, Ack: 543, Len: 45
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 543, Ack: 547, Len: 0
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 543, Ack: 547, Len: 62
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 547, Ack: 605, Len: 45
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 605, Ack: 592, Len: 0
+Transmission Control Protocol, Src Port: 46922 (46922), Dst Port: https (443), Seq: 605, Ack: 592, Len: 85
+Transmission Control Protocol, Src Port: https (443), Dst Port: 46922 (46922), Seq: 592, Ack: 690, Len: 45

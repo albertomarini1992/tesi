@@ -1,0 +1,1925 @@
+No.     Time        Source                Destination           Protocol Length Info
+      1 0.000000    10.162.228.83         173.194.35.142        TCP      68     58443 > https [FIN, ACK] Seq=1 Ack=1 Win=2920 Len=0 TSval=1660810 TSecr=2382031292
+
+Frame 1: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.142 (173.194.35.142)
+Transmission Control Protocol, Src Port: 58443 (58443), Dst Port: https (443), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      2 0.035538    173.194.35.154        10.162.228.83         TCP      68     http > 47601 [ACK] Seq=1 Ack=1 Win=64251 Len=0 TSval=176437461 TSecr=1660636
+
+Frame 2: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.154 (173.194.35.154), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 47601 (47601), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      3 0.035990    173.194.35.154        10.162.228.83         TCP      68     http > 47601 [FIN, ACK] Seq=1 Ack=1 Win=64251 Len=0 TSval=176437461 TSecr=1660636
+
+Frame 3: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.154 (173.194.35.154), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 47601 (47601), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      4 0.036147    10.162.228.83         173.194.35.154        TCP      68     47601 > http [ACK] Seq=1 Ack=2 Win=2920 Len=0 TSval=1660813 TSecr=176437461
+
+Frame 4: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.154 (173.194.35.154)
+Transmission Control Protocol, Src Port: 47601 (47601), Dst Port: http (80), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      5 0.036272    173.194.35.154        10.162.228.83         TCP      68     http > 47664 [ACK] Seq=1 Ack=1 Win=64251 Len=0 TSval=176437465 TSecr=1660639
+
+Frame 5: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.154 (173.194.35.154), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 47664 (47664), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      6 0.037092    173.194.35.154        10.162.228.83         TCP      68     http > 47664 [FIN, ACK] Seq=1 Ack=1 Win=64251 Len=0 TSval=176437465 TSecr=1660639
+
+Frame 6: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.154 (173.194.35.154), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 47664 (47664), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      7 0.037220    10.162.228.83         173.194.35.154        TCP      68     47664 > http [ACK] Seq=1 Ack=2 Win=2920 Len=0 TSval=1660813 TSecr=176437465
+
+Frame 7: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.154 (173.194.35.154)
+Transmission Control Protocol, Src Port: 47664 (47664), Dst Port: http (80), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      8 0.037370    173.194.35.142        10.162.228.83         TCP      68     https > 58443 [FIN, ACK] Seq=1 Ack=2 Win=670 Len=0 TSval=2382048786 TSecr=1660639
+
+Frame 8: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.142 (173.194.35.142), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 58443 (58443), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+      9 0.037715    108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=1 Ack=1 Win=512 Len=0 TSval=703060892 TSecr=1660636
+
+Frame 9: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     10 0.038013    173.194.35.153        10.162.228.83         TCP      68     http > 56117 [ACK] Seq=1 Ack=1 Win=64251 Len=0 TSval=176437485 TSecr=1660636
+
+Frame 10: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.153 (173.194.35.153), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 56117 (56117), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     11 0.038352    173.194.35.153        10.162.228.83         TCP      68     http > 56117 [FIN, ACK] Seq=0 Ack=1 Win=64251 Len=0 TSval=176437514 TSecr=1660636
+
+Frame 11: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.153 (173.194.35.153), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 56117 (56117), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     12 0.038643    173.194.35.142        10.162.228.83         TCP      80     [TCP Dup ACK 8#1] https > 58443 [ACK] Seq=2 Ack=2 Win=670 Len=0 TSval=2382049266 TSecr=1660696 SLE=1 SRE=2
+
+Frame 12: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.142 (173.194.35.142), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 58443 (58443), Seq: 2, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     13 0.039598    10.162.228.83         173.194.35.142        TCP      68     58443 > https [ACK] Seq=2 Ack=2 Win=2920 Len=0 TSval=1660813 TSecr=2382048786
+
+Frame 13: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.142 (173.194.35.142)
+Transmission Control Protocol, Src Port: 58443 (58443), Dst Port: https (443), Seq: 2, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     14 0.039833    10.162.228.83         173.194.35.153        TCP      68     56117 > http [ACK] Seq=1 Ack=1 Win=2920 Len=0 TSval=1660813 TSecr=176437485
+
+Frame 14: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.153 (173.194.35.153)
+Transmission Control Protocol, Src Port: 56117 (56117), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     15 0.045470    173.194.35.154        10.162.228.83         TCP      68     http > 47601 [FIN, ACK] Seq=1 Ack=1 Win=64251 Len=0 TSval=176437520 TSecr=1660636
+
+Frame 15: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.154 (173.194.35.154), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 47601 (47601), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     16 0.045703    10.162.228.83         173.194.35.154        TCP      68     [TCP Dup ACK 4#1] 47601 > http [ACK] Seq=1 Ack=2 Win=2920 Len=0 TSval=1660814 TSecr=176437461
+
+Frame 16: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.154 (173.194.35.154)
+Transmission Control Protocol, Src Port: 47601 (47601), Dst Port: http (80), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     17 0.046010    108.168.176.252       10.162.228.83         SSL      157    Continuation Data
+
+Frame 17: 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 1, Ack: 122, Len: 89
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     18 0.046248    10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=122 Ack=90 Win=1965 Len=0 TSval=1660814 TSecr=703061423
+
+Frame 18: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 122, Ack: 90, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     19 0.047300    173.194.35.154        10.162.228.83         TCP      68     [TCP Dup ACK 6#1] http > 47664 [ACK] Seq=2 Ack=1 Win=64251 Len=0 TSval=176437525 TSecr=1660639
+
+Frame 19: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.154 (173.194.35.154), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 47664 (47664), Seq: 2, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     20 0.047723    108.168.176.252       10.162.228.83         SSL      89     Continuation Data
+
+Frame 20: 89 bytes on wire (712 bits), 89 bytes captured (712 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 90, Ack: 122, Len: 21
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     21 0.047843    10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=122 Ack=111 Win=1965 Len=0 TSval=1660814 TSecr=703061442
+
+Frame 21: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 122, Ack: 111, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     22 0.048347    157.56.195.250        10.162.228.83         TCP      76     imaps > 41648 [SYN, ACK] Seq=0 Ack=0 Win=8192 Len=0 MSS=1400 WS=256 SACK_PERM=1 TSval=126276557 TSecr=1660703
+
+Frame 22: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 0, Ack: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     23 0.048548    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=0 Ack=1 Win=1965 Len=0 TSval=1660814 TSecr=126276557
+
+Frame 23: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     24 0.049422    173.194.35.154        10.162.228.83         TCP      68     [TCP Dup ACK 15#1] http > 47601 [ACK] Seq=2 Ack=1 Win=64251 Len=0 TSval=176437529 TSecr=1660636
+
+Frame 24: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.154 (173.194.35.154), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 47601 (47601), Seq: 2, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     25 0.050500    173.194.35.154        10.162.228.83         TCP      68     http > 47664 [FIN, ACK] Seq=1 Ack=1 Win=64251 Len=0 TSval=176437554 TSecr=1660639
+
+Frame 25: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.154 (173.194.35.154), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 47664 (47664), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     26 0.050653    10.162.228.83         173.194.35.154        TCP      68     [TCP Dup ACK 7#1] 47664 > http [ACK] Seq=1 Ack=2 Win=2920 Len=0 TSval=1660815 TSecr=176437525
+
+Frame 26: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.154 (173.194.35.154)
+Transmission Control Protocol, Src Port: 47664 (47664), Dst Port: http (80), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     27 0.050797    173.194.35.142        10.162.228.83         TCP      68     https > 58443 [FIN, ACK] Seq=1 Ack=2 Win=670 Len=0 TSval=2382049840 TSecr=1660696
+
+Frame 27: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.142 (173.194.35.142), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 58443 (58443), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     28 0.051673    10.162.228.83         173.194.35.142        TCP      68     [TCP Dup ACK 13#1] 58443 > https [ACK] Seq=2 Ack=2 Win=2920 Len=0 TSval=1660815 TSecr=2382049266
+
+Frame 28: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.142 (173.194.35.142)
+Transmission Control Protocol, Src Port: 58443 (58443), Dst Port: https (443), Seq: 2, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     29 0.054383    10.162.228.83         108.168.176.252       SSL      97     Continuation Data
+
+Frame 29: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 122, Ack: 111, Len: 29
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     30 0.137933    10.162.228.83         157.56.195.250        TLSv1    148    Client Hello
+
+Frame 30: 148 bytes on wire (1184 bits), 148 bytes captured (1184 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 0, Ack: 1, Len: 80
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     31 0.145418    173.194.35.142        10.162.228.83         TCP      80     [TCP Dup ACK 27#1] https > 58443 [ACK] Seq=2 Ack=2 Win=670 Len=0 TSval=2382050346 TSecr=1660810 SLE=1 SRE=2
+
+Frame 31: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.142 (173.194.35.142), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 58443 (58443), Seq: 2, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     32 0.295528    108.168.176.252       10.162.228.83         SSL      178    [TCP Retransmission] Continuation Data
+
+Frame 32: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 1, Ack: 122, Len: 110
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     33 0.295902    10.162.228.83         108.168.176.252       TCP      80     [TCP Dup ACK 29#1] 49755 > https [ACK] Seq=151 Ack=111 Win=1965 Len=0 TSval=1660839 TSecr=703062583 SLE=1 SRE=111
+
+Frame 33: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 151, Ack: 111, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     34 0.335382    173.194.35.153        10.162.228.83         TCP      56     http > 56117 [RST] Seq=1 Win=0 Len=0
+
+Frame 34: 56 bytes on wire (448 bits), 56 bytes captured (448 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.153 (173.194.35.153), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 56117 (56117), Seq: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     35 0.345395    173.194.35.154        10.162.228.83         TCP      56     http > 47601 [RST] Seq=2 Win=0 Len=0
+
+Frame 35: 56 bytes on wire (448 bits), 56 bytes captured (448 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.154 (173.194.35.154), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 47601 (47601), Seq: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     36 0.516070    173.194.35.154        10.162.228.83         TCP      56     http > 47664 [RST] Seq=2 Win=0 Len=0
+
+Frame 36: 56 bytes on wire (448 bits), 56 bytes captured (448 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.154 (173.194.35.154), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 47664 (47664), Seq: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     37 0.545387    173.194.35.142        10.162.228.83         TCP      56     https > 58443 [RST] Seq=2 Win=0 Len=0
+
+Frame 37: 56 bytes on wire (448 bits), 56 bytes captured (448 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.142 (173.194.35.142), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 58443 (58443), Seq: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     38 0.695620    108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=111 Ack=151 Win=512 Len=0 TSval=703063002 TSecr=1660815
+
+Frame 38: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 111, Ack: 151, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     39 0.695983    10.162.228.83         108.168.176.252       SSL      121    Continuation Data
+
+Frame 39: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 151, Ack: 111, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     40 0.775672    157.56.195.250        10.162.228.83         TCP      1366   [TCP segment of a reassembled PDU]
+
+Frame 40: 1366 bytes on wire (10928 bits), 1366 bytes captured (10928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 1, Ack: 80, Len: 1298
+
+No.     Time        Source                Destination           Protocol Length Info
+     41 0.775943    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=80 Ack=1299 Win=2009 Len=0 TSval=1660887 TSecr=126276717
+
+Frame 41: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 80, Ack: 1299, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     42 0.815522    157.56.195.250        10.162.228.83         TLSv1    1347   Server Hello, Certificate, Server Hello Done
+
+Frame 42: 1347 bytes on wire (10776 bits), 1347 bytes captured (10776 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 1299, Ack: 80, Len: 1279
+[2 Reassembled TCP Segments (2577 bytes): #40(1298), #42(1279)]
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     43 0.819933    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=80 Ack=2578 Win=2009 Len=0 TSval=1660892 TSecr=126276717
+
+Frame 43: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 80, Ack: 2578, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     44 0.955462    108.168.176.252       10.162.228.83         SSL      109    Continuation Data
+
+Frame 44: 109 bytes on wire (872 bits), 109 bytes captured (872 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 111, Ack: 204, Len: 41
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     45 0.955823    10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=204 Ack=152 Win=1965 Len=0 TSval=1660905 TSecr=703063254
+
+Frame 45: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 204, Ack: 152, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     46 0.965397    108.168.176.252       10.162.228.83         SSL      237    Continuation Data
+
+Frame 46: 237 bytes on wire (1896 bits), 237 bytes captured (1896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 152, Ack: 204, Len: 169
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     47 0.965923    10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=204 Ack=321 Win=1965 Len=0 TSval=1660906 TSecr=703063254
+
+Frame 47: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 204, Ack: 321, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     48 1.360790    10.162.228.83         157.56.195.250        TLSv1    394    Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 48: 394 bytes on wire (3152 bits), 394 bytes captured (3152 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 80, Ack: 2578, Len: 326
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     49 1.715470    157.56.195.250        10.162.228.83         TLSv1    127    Change Cipher Spec, Encrypted Handshake Message
+
+Frame 49: 127 bytes on wire (1016 bits), 127 bytes captured (1016 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 2578, Ack: 406, Len: 59
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     50 1.716377    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=406 Ack=2637 Win=2009 Len=0 TSval=1660981 TSecr=126276813
+
+Frame 50: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 406, Ack: 2637, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     51 1.935543    157.56.195.250        10.162.228.83         TLSv1    169    Application Data
+
+Frame 51: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 2637, Ack: 406, Len: 101
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     52 1.936860    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=406 Ack=2738 Win=2009 Len=0 TSval=1661003 TSecr=126276836
+
+Frame 52: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 406, Ack: 2738, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     53 2.008142    10.162.228.83         157.56.195.250        TLSv1    121    Application Data
+
+Frame 53: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 406, Ack: 2738, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     54 2.095953    10.162.228.83         83.224.70.93          DNS      88     Standard query 0x0037  A android.clients.google.com
+
+Frame 54: 88 bytes on wire (704 bits), 88 bytes captured (704 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 83.224.70.93 (83.224.70.93)
+User Datagram Protocol, Src Port: d-cinema-rrp (1173), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time        Source                Destination           Protocol Length Info
+     55 2.235545    83.224.70.93          10.162.228.83         DNS      288    Standard query response 0x0037  CNAME android.l.google.com A 173.194.35.136 A 173.194.35.128 A 173.194.35.135 A 173.194.35.130 A 173.194.35.134 A 173.194.35.129 A 173.194.35.132 A 173.194.35.133 A 173.194.35.131 A 173.194.35.137 A 173.194.35.142
+
+Frame 55: 288 bytes on wire (2304 bits), 288 bytes captured (2304 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 83.224.70.93 (83.224.70.93), Dst: 10.162.228.83 (10.162.228.83)
+User Datagram Protocol, Src Port: domain (53), Dst Port: d-cinema-rrp (1173)
+Domain Name System (response)
+
+No.     Time        Source                Destination           Protocol Length Info
+     56 2.235818    157.56.195.250        10.162.228.83         TLSv1    201    Application Data
+
+Frame 56: 201 bytes on wire (1608 bits), 201 bytes captured (1608 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 2738, Ack: 459, Len: 133
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     57 2.238315    10.162.228.83         173.194.35.136        TCP      76     48859 > https [SYN] Seq=0 Win=3930 Len=0 MSS=1310 SACK_PERM=1 TSval=1661033 TSecr=0 WS=2
+
+Frame 57: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     58 2.238683    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=459 Ack=2871 Win=2009 Len=0 TSval=1661033 TSecr=126276866
+
+Frame 58: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 459, Ack: 2871, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     59 2.425407    173.194.35.136        10.162.228.83         TCP      76     https > 48859 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1400 SACK_PERM=1 TSval=2382052306 TSecr=1661033 WS=64
+
+Frame 59: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     60 2.425720    10.162.228.83         173.194.35.136        TCP      68     48859 > https [ACK] Seq=1 Ack=1 Win=3930 Len=0 TSval=1661052 TSecr=2382052306
+
+Frame 60: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     61 2.465408    157.56.195.250        10.162.228.83         TLSv1    121    Application Data
+
+Frame 61: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 2871, Ack: 459, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     62 2.470018    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=459 Ack=2924 Win=2009 Len=0 TSval=1661057 TSecr=126276889
+
+Frame 62: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 459, Ack: 2924, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     63 2.471413    10.162.228.83         157.56.195.250        TLSv1    121    Application Data
+
+Frame 63: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 459, Ack: 2924, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     64 2.511328    10.162.228.83         173.194.35.136        TLSv1    148    Client Hello
+
+Frame 64: 148 bytes on wire (1184 bits), 148 bytes captured (1184 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 1, Ack: 1, Len: 80
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     65 2.755507    157.56.195.250        10.162.228.83         TLSv1    201    Application Data
+
+Frame 65: 201 bytes on wire (1608 bits), 201 bytes captured (1608 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 2924, Ack: 512, Len: 133
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     66 2.789867    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=512 Ack=3057 Win=2009 Len=0 TSval=1661089 TSecr=126276916
+
+Frame 66: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 512, Ack: 3057, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     67 2.795563    173.194.35.136        10.162.228.83         TCP      68     https > 48859 [ACK] Seq=1 Ack=81 Win=42560 Len=0 TSval=2382052666 TSecr=1661061
+
+Frame 67: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 1, Ack: 81, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     68 2.805527    173.194.35.136        10.162.228.83         TLSv1    1366   Server Hello
+
+Frame 68: 1366 bytes on wire (10928 bits), 1366 bytes captured (10928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 1, Ack: 81, Len: 1298
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     69 2.805760    10.162.228.83         173.194.35.136        TCP      68     48859 > https [ACK] Seq=81 Ack=1299 Win=4018 Len=0 TSval=1661090 TSecr=2382052666
+
+Frame 69: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 81, Ack: 1299, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     70 2.835617    173.194.35.136        10.162.228.83         TCP      1366   [TCP segment of a reassembled PDU]
+
+Frame 70: 1366 bytes on wire (10928 bits), 1366 bytes captured (10928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 1299, Ack: 81, Len: 1298
+
+No.     Time        Source                Destination           Protocol Length Info
+     71 2.879880    10.162.228.83         173.194.35.136        TCP      68     48859 > https [ACK] Seq=81 Ack=2597 Win=4018 Len=0 TSval=1661098 TSecr=2382052666
+
+Frame 71: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 81, Ack: 2597, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     72 2.885610    173.194.35.136        10.162.228.83         TCP      1366   [TCP segment of a reassembled PDU]
+
+Frame 72: 1366 bytes on wire (10928 bits), 1366 bytes captured (10928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 2597, Ack: 81, Len: 1298
+
+No.     Time        Source                Destination           Protocol Length Info
+     73 2.885883    173.194.35.136        10.162.228.83         TLSv1    78     Certificate, Server Hello Done
+
+Frame 73: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 3895, Ack: 81, Len: 10
+[4 Reassembled TCP Segments (3818 bytes): #68(1212), #70(1298), #72(1298), #73(10)]
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     74 2.885973    10.162.228.83         173.194.35.136        TCP      68     48859 > https [ACK] Seq=81 Ack=3905 Win=4018 Len=0 TSval=1661098 TSecr=2382052666
+
+Frame 74: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 81, Ack: 3905, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     75 3.025425    157.56.195.250        10.162.228.83         TLSv1    121    Application Data
+
+Frame 75: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 3057, Ack: 512, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     76 3.026137    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=512 Ack=3110 Win=2009 Len=0 TSval=1661112 TSecr=126276945
+
+Frame 76: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 512, Ack: 3110, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     77 3.094953    10.162.228.83         157.56.195.250        TLSv1    137    Application Data
+
+Frame 77: 137 bytes on wire (1096 bits), 137 bytes captured (1096 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 512, Ack: 3110, Len: 69
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     78 3.555422    157.56.195.250        10.162.228.83         TCP      68     imaps > 41648 [ACK] Seq=3110 Ack=581 Win=65536 Len=0 TSval=126276997 TSecr=1661119
+
+Frame 78: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 3110, Ack: 581, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     79 3.836570    10.162.228.83         173.194.35.136        TLSv1    382    Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 79: 382 bytes on wire (3056 bits), 382 bytes captured (3056 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 81, Ack: 3905, Len: 314
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     80 4.055432    157.56.195.250        10.162.228.83         TLSv1    169    Application Data
+
+Frame 80: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 3110, Ack: 581, Len: 101
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     81 4.058205    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=581 Ack=3211 Win=2009 Len=0 TSval=1661215 TSecr=126277046
+
+Frame 81: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 581, Ack: 3211, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     82 4.155438    173.194.35.136        10.162.228.83         TLSv1    115    Change Cipher Spec, Encrypted Handshake Message
+
+Frame 82: 115 bytes on wire (920 bits), 115 bytes captured (920 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 3905, Ack: 395, Len: 47
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     83 4.155717    10.162.228.83         173.194.35.136        TCP      68     48859 > https [ACK] Seq=395 Ack=3952 Win=4018 Len=0 TSval=1661225 TSecr=2382054027
+
+Frame 83: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 395, Ack: 3952, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     84 4.265460    157.56.195.250        10.162.228.83         TLSv1    153    Application Data
+
+Frame 84: 153 bytes on wire (1224 bits), 153 bytes captured (1224 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 3211, Ack: 581, Len: 85
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     85 4.290902    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=581 Ack=3296 Win=2009 Len=0 TSval=1661239 TSecr=126277069
+
+Frame 85: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 581, Ack: 3296, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     86 4.293417    10.162.228.83         157.56.195.250        TLSv1    121    Application Data
+
+Frame 86: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 581, Ack: 3296, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     87 4.505098    10.162.228.83         83.224.70.93          DNS      89     Standard query 0xc28f  PTR 136.35.194.173.in-addr.arpa
+
+Frame 87: 89 bytes on wire (712 bits), 89 bytes captured (712 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 83.224.70.93 (83.224.70.93)
+User Datagram Protocol, Src Port: 51035 (51035), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time        Source                Destination           Protocol Length Info
+     88 4.565750    157.56.195.250        10.162.228.83         TCP      1366   [TCP segment of a reassembled PDU]
+
+Frame 88: 1366 bytes on wire (10928 bits), 1366 bytes captured (10928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 3296, Ack: 634, Len: 1298
+
+No.     Time        Source                Destination           Protocol Length Info
+     89 4.566078    157.56.195.250        10.162.228.83         TLSv1    183    Application Data
+
+Frame 89: 183 bytes on wire (1464 bits), 183 bytes captured (1464 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 4594, Ack: 634, Len: 115
+[2 Reassembled TCP Segments (1413 bytes): #88(1298), #89(115)]
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     90 4.566183    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=634 Ack=4709 Win=2009 Len=0 TSval=1661266 TSecr=126277097
+
+Frame 90: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 634, Ack: 4709, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     91 4.625510    83.224.70.93          10.162.228.83         DNS      127    Standard query response 0xc28f  PTR muc03s01-in-f8.1e100.net
+
+Frame 91: 127 bytes on wire (1016 bits), 127 bytes captured (1016 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 83.224.70.93 (83.224.70.93), Dst: 10.162.228.83 (10.162.228.83)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 51035 (51035)
+Domain Name System (response)
+
+No.     Time        Source                Destination           Protocol Length Info
+     92 4.785495    157.56.195.250        10.162.228.83         TLSv1    121    Application Data
+
+Frame 92: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 4709, Ack: 634, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     93 4.819767    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=634 Ack=4762 Win=2009 Len=0 TSval=1661292 TSecr=126277121
+
+Frame 93: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 634, Ack: 4762, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     94 5.027258    10.162.228.83         54.235.187.3          TCP      68     46559 > http [FIN, ACK] Seq=1 Ack=1 Win=2009 Len=0 TSval=1661312 TSecr=176437205
+
+Frame 94: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 54.235.187.3 (54.235.187.3)
+Transmission Control Protocol, Src Port: 46559 (46559), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     95 5.145447    54.235.187.3          10.162.228.83         TCP      68     http > 46559 [ACK] Seq=1 Ack=2 Win=64251 Len=0 TSval=176438125 TSecr=1661312
+
+Frame 95: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 54.235.187.3 (54.235.187.3), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 46559 (46559), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     96 5.145830    54.235.187.3          10.162.228.83         TCP      68     http > 46559 [FIN, ACK] Seq=1 Ack=2 Win=64251 Len=0 TSval=176438125 TSecr=1661312
+
+Frame 96: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 54.235.187.3 (54.235.187.3), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: http (80), Dst Port: 46559 (46559), Seq: 1, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     97 5.145947    10.162.228.83         54.235.187.3          TCP      68     46559 > http [ACK] Seq=2 Ack=2 Win=2009 Len=0 TSval=1661324 TSecr=176438125
+
+Frame 97: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 54.235.187.3 (54.235.187.3)
+Transmission Control Protocol, Src Port: 46559 (46559), Dst Port: http (80), Seq: 2, Ack: 2, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     98 5.245605    10.162.228.83         173.194.35.136        TCP      1366   [TCP segment of a reassembled PDU]
+
+Frame 98: 1366 bytes on wire (10928 bits), 1366 bytes captured (10928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 395, Ack: 3952, Len: 1298
+
+No.     Time        Source                Destination           Protocol Length Info
+     99 5.249770    10.162.228.83         173.194.35.136        TLSv1    843    Application Data
+
+Frame 99: 843 bytes on wire (6744 bits), 843 bytes captured (6744 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 1693, Ack: 3952, Len: 775
+[2 Reassembled TCP Segments (2073 bytes): #98(1298), #99(775)]
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    100 5.250493    10.162.228.83         173.194.35.136        TLSv1    515    Application Data
+
+Frame 100: 515 bytes on wire (4120 bits), 515 bytes captured (4120 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 2468, Ack: 3952, Len: 447
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    101 5.662620    10.162.228.83         157.56.195.250        TLSv1    105    Application Data
+
+Frame 101: 105 bytes on wire (840 bits), 105 bytes captured (840 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 634, Ack: 4762, Len: 37
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    102 5.859930    10.162.228.83         173.194.35.136        TCP      1366   [TCP Retransmission] 48859 > https [ACK] Seq=395 Ack=3952 Win=4018 Len=1298 TSval=1661396 TSecr=2382054027
+
+Frame 102: 1366 bytes on wire (10928 bits), 1366 bytes captured (10928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 395, Ack: 3952, Len: 1298
+
+No.     Time        Source                Destination           Protocol Length Info
+    103 6.075483    173.194.35.136        10.162.228.83         TCP      68     https > 48859 [ACK] Seq=3952 Ack=1693 Win=42880 Len=0 TSval=2382055946 TSecr=1661334
+
+Frame 103: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 3952, Ack: 1693, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    104 6.515428    173.194.35.136        10.162.228.83         TCP      68     https > 48859 [ACK] Seq=3952 Ack=2468 Win=42880 Len=0 TSval=2382056385 TSecr=1661334
+
+Frame 104: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 3952, Ack: 2468, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    105 6.795410    173.194.35.136        10.162.228.83         TCP      68     https > 48859 [ACK] Seq=3952 Ack=2915 Win=42880 Len=0 TSval=2382056665 TSecr=1661335
+
+Frame 105: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 3952, Ack: 2915, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    106 6.875630    173.194.35.136        10.162.228.83         TLSv1    1366   Application Data
+
+Frame 106: 1366 bytes on wire (10928 bits), 1366 bytes captured (10928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 3952, Ack: 2915, Len: 1298
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    107 6.875930    10.162.228.83         173.194.35.136        TCP      68     48859 > https [ACK] Seq=2915 Ack=5250 Win=5064 Len=0 TSval=1661497 TSecr=2382056734
+
+Frame 107: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 2915, Ack: 5250, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    108 6.885547    173.194.35.136        10.162.228.83         TLSv1    866    Application Data
+
+Frame 108: 866 bytes on wire (6928 bits), 866 bytes captured (6928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 5250, Ack: 2915, Len: 798
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    109 6.885915    173.194.35.136        10.162.228.83         TLSv1    98     Application Data
+
+Frame 109: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 6048, Ack: 2915, Len: 30
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    110 6.905456    157.56.195.250        10.162.228.83         TLSv1    121    Application Data
+
+Frame 110: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 4762, Ack: 671, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    111 6.910138    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=671 Ack=4815 Win=2009 Len=0 TSval=1661501 TSecr=126277333
+
+Frame 111: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 671, Ack: 4815, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    112 6.919963    10.162.228.83         173.194.35.136        TCP      68     48859 > https [ACK] Seq=2915 Ack=6078 Win=5184 Len=0 TSval=1661502 TSecr=2382056734
+
+Frame 112: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 2915, Ack: 6078, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    113 6.924241    10.162.228.83         157.56.195.250        TLSv1    121    Application Data
+
+Frame 113: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 671, Ack: 4815, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    114 7.245748    173.194.35.136        10.162.228.83         TLSv1    98     [TCP Retransmission] Application Data
+
+Frame 114: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 6048, Ack: 2915, Len: 30
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    115 7.245973    10.162.228.83         173.194.35.136        TCP      80     [TCP Window Update] 48859 > https [ACK] Seq=2915 Ack=6078 Win=5840 Len=0 TSval=1661534 TSecr=2382057116 SLE=6048 SRE=6078
+
+Frame 115: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.35.136 (173.194.35.136)
+Transmission Control Protocol, Src Port: 48859 (48859), Dst Port: https (443), Seq: 2915, Ack: 6078, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    116 7.635395    173.194.35.136        10.162.228.83         TCP      80     [TCP Dup ACK 114#1] https > 48859 [ACK] Seq=6078 Ack=2915 Win=42880 Len=0 TSval=2382057505 TSecr=1661335 SLE=395 SRE=1693
+
+Frame 116: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 173.194.35.136 (173.194.35.136), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 48859 (48859), Seq: 6078, Ack: 2915, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    117 7.855652    157.56.195.250        10.162.228.83         TLSv1    377    Application Data
+
+Frame 117: 377 bytes on wire (3016 bits), 377 bytes captured (3016 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 4815, Ack: 724, Len: 309
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    118 7.889887    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=724 Ack=5124 Win=2009 Len=0 TSval=1661599 TSecr=126277426
+
+Frame 118: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 724, Ack: 5124, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    119 8.125452    157.56.195.250        10.162.228.83         TLSv1    137    Application Data
+
+Frame 119: 137 bytes on wire (1096 bits), 137 bytes captured (1096 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 5124, Ack: 724, Len: 69
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    120 8.150817    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=724 Ack=5193 Win=2009 Len=0 TSval=1661625 TSecr=126277454
+
+Frame 120: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 724, Ack: 5193, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    121 8.177087    10.162.228.83         157.56.195.250        TLSv1    137    Application Data
+
+Frame 121: 137 bytes on wire (1096 bits), 137 bytes captured (1096 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 724, Ack: 5193, Len: 69
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    122 8.475453    157.56.195.250        10.162.228.83         TLSv1    281    Application Data
+
+Frame 122: 281 bytes on wire (2248 bits), 281 bytes captured (2248 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 5193, Ack: 793, Len: 213
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    123 8.624410    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=793 Ack=5406 Win=2009 Len=0 TSval=1661672 TSecr=126277489
+
+Frame 123: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 793, Ack: 5406, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    124 8.785433    157.56.195.250        10.162.228.83         TLSv1    121    Application Data
+
+Frame 124: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 5406, Ack: 793, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    125 8.819860    10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=793 Ack=5459 Win=2009 Len=0 TSval=1661692 TSecr=126277521
+
+Frame 125: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 793, Ack: 5459, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    126 9.989382    10.162.228.83         157.56.195.250        TLSv1    297    Application Data
+
+Frame 126: 297 bytes on wire (2376 bits), 297 bytes captured (2376 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 793, Ack: 5459, Len: 229
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    127 10.335400   157.56.195.250        10.162.228.83         TCP      68     imaps > 41648 [ACK] Seq=5459 Ack=1022 Win=65024 Len=0 TSval=126277676 TSecr=1661808
+
+Frame 127: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 5459, Ack: 1022, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    128 10.805603   157.56.195.250        10.162.228.83         TLSv1    137    Application Data
+
+Frame 128: 137 bytes on wire (1096 bits), 137 bytes captured (1096 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 5459, Ack: 1022, Len: 69
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    129 10.815583   157.56.195.250        10.162.228.83         TLSv1    1366   Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data, Application Data
+
+Frame 129: 1366 bytes on wire (10928 bits), 1366 bytes captured (10928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 5528, Ack: 1022, Len: 1298
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    130 10.815868   10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=1022 Ack=6826 Win=2009 Len=0 TSval=1661891 TSecr=126277722
+
+Frame 130: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 1022, Ack: 6826, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    131 10.815932   157.56.195.250        10.162.228.83         TLSv1    81     Application Data
+
+Frame 131: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 6826, Ack: 1022, Len: 13
+[2 Reassembled TCP Segments (69 bytes): #129(56), #131(13)]
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    132 10.859855   10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=1022 Ack=6839 Win=2009 Len=0 TSval=1661896 TSecr=126277723
+
+Frame 132: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 1022, Ack: 6839, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    133 10.965577   157.56.195.250        10.162.228.83         TLSv1    466    Application Data, Application Data, Application Data, Application Data, Application Data, Application Data
+
+Frame 133: 466 bytes on wire (3728 bits), 466 bytes captured (3728 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 157.56.195.250 (157.56.195.250), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: imaps (993), Dst Port: 41648 (41648), Seq: 6839, Ack: 1022, Len: 398
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    134 11.059865   10.162.228.83         157.56.195.250        TCP      68     41648 > imaps [ACK] Seq=1022 Ack=7237 Win=2009 Len=0 TSval=1661916 TSecr=126277739
+
+Frame 134: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 157.56.195.250 (157.56.195.250)
+Transmission Control Protocol, Src Port: 41648 (41648), Dst Port: imaps (993), Seq: 1022, Ack: 7237, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    135 12.691900   10.162.228.83         108.168.176.252       SSL      97     Continuation Data
+
+Frame 135: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 204, Ack: 321, Len: 29
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    136 12.915407   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=321 Ack=233 Win=512 Len=0 TSval=703075212 TSecr=1662079
+
+Frame 136: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 321, Ack: 233, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    137 12.915767   10.162.228.83         108.168.176.252       SSL      108    Continuation Data
+
+Frame 137: 108 bytes on wire (864 bits), 108 bytes captured (864 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 233, Ack: 321, Len: 40
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    138 13.105438   108.168.176.252       10.162.228.83         SSL      113    Continuation Data
+
+Frame 138: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 321, Ack: 273, Len: 45
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    139 13.105815   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=273 Ack=366 Win=1965 Len=0 TSval=1662120 TSecr=703075404
+
+Frame 139: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 273, Ack: 366, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    140 15.636863   10.162.228.83         108.168.176.252       SSL      80     Continuation Data
+
+Frame 140: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 273, Ack: 366, Len: 12
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    141 15.815422   108.168.176.252       10.162.228.83         SSL      95     Continuation Data
+
+Frame 141: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 366, Ack: 285, Len: 27
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    142 15.815770   10.162.228.83         108.168.176.252       SSL      93     Continuation Data
+
+Frame 142: 93 bytes on wire (744 bits), 93 bytes captured (744 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 285, Ack: 393, Len: 25
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    143 16.005408   108.168.176.252       10.162.228.83         SSL      86     Continuation Data
+
+Frame 143: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 393, Ack: 310, Len: 18
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    144 16.039853   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=310 Ack=411 Win=1965 Len=0 TSval=1662414 TSecr=703078302
+
+Frame 144: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 310, Ack: 411, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    145 18.757947   10.162.228.83         108.168.176.252       SSL      133    Continuation Data
+
+Frame 145: 133 bytes on wire (1064 bits), 133 bytes captured (1064 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 310, Ack: 411, Len: 65
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    146 18.956605   108.168.176.252       10.162.228.83         SSL      112    Continuation Data
+
+Frame 146: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 411, Ack: 375, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    147 18.957178   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=375 Ack=455 Win=1965 Len=0 TSval=1662705 TSecr=703081253
+
+Frame 147: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 375, Ack: 455, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    148 21.806195   10.162.228.83         108.168.176.252       SSL      97     Continuation Data
+
+Frame 148: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 375, Ack: 455, Len: 29
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    149 22.025468   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=455 Ack=404 Win=512 Len=0 TSval=703084322 TSecr=1662990
+
+Frame 149: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 455, Ack: 404, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    150 22.025838   10.162.228.83         108.168.176.252       SSL      108    Continuation Data
+
+Frame 150: 108 bytes on wire (864 bits), 108 bytes captured (864 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 404, Ack: 455, Len: 40
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    151 22.215432   108.168.176.252       10.162.228.83         SSL      113    Continuation Data
+
+Frame 151: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 455, Ack: 444, Len: 45
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    152 22.215798   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=444 Ack=500 Win=1965 Len=0 TSval=1663031 TSecr=703084513
+
+Frame 152: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 444, Ack: 500, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    153 23.770683   10.162.228.83         108.168.176.252       SSL      97     Continuation Data
+
+Frame 153: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 444, Ack: 500, Len: 29
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    154 24.005425   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=500 Ack=473 Win=512 Len=0 TSval=703086302 TSecr=1663187
+
+Frame 154: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 500, Ack: 473, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    155 24.006010   10.162.228.83         108.168.176.252       SSL      108    Continuation Data
+
+Frame 155: 108 bytes on wire (864 bits), 108 bytes captured (864 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 473, Ack: 500, Len: 40
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    156 24.195430   108.168.176.252       10.162.228.83         SSL      113    Continuation Data
+
+Frame 156: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 500, Ack: 513, Len: 45
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    157 24.196102   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=513 Ack=545 Win=1965 Len=0 TSval=1663229 TSecr=703086493
+
+Frame 157: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 513, Ack: 545, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    158 34.975065   10.162.228.83         108.168.176.252       SSL      149    Continuation Data
+
+Frame 158: 149 bytes on wire (1192 bits), 149 bytes captured (1192 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 513, Ack: 545, Len: 81
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    159 35.829925   10.162.228.83         108.168.176.252       SSL      149    [TCP Retransmission] Continuation Data
+
+Frame 159: 149 bytes on wire (1192 bits), 149 bytes captured (1192 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 513, Ack: 545, Len: 81
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    160 36.008845   108.168.176.252       10.162.228.83         SSL      112    Continuation Data
+
+Frame 160: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 545, Ack: 594, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    161 36.009188   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=594 Ack=589 Win=1965 Len=0 TSval=1664410 TSecr=703097828
+
+Frame 161: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 594, Ack: 589, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    162 37.091488   10.162.228.83         108.168.176.252       SSL      121    Continuation Data
+
+Frame 162: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 594, Ack: 589, Len: 53
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    163 37.358778   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=589 Ack=647 Win=512 Len=0 TSval=703099655 TSecr=1664519
+
+Frame 163: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 589, Ack: 647, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    164 37.359097   108.168.176.252       10.162.228.83         SSL      112    Continuation Data
+
+Frame 164: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 589, Ack: 647, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    165 37.359480   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=647 Ack=633 Win=1965 Len=0 TSval=1664545 TSecr=703099656
+
+Frame 165: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 647, Ack: 633, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    166 40.560010   108.168.176.252       10.162.228.83         SSL      110    Continuation Data
+
+Frame 166: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 633, Ack: 647, Len: 42
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    167 40.560332   108.168.176.252       10.162.228.83         SSL      110    Continuation Data
+
+Frame 167: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 675, Ack: 647, Len: 42
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    168 40.560710   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=647 Ack=675 Win=1965 Len=0 TSval=1664866 TSecr=703102858
+
+Frame 168: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 647, Ack: 675, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    169 40.562447   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=647 Ack=717 Win=1965 Len=0 TSval=1664866 TSecr=703102859
+
+Frame 169: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 647, Ack: 717, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    170 40.595278   10.162.228.83         108.168.176.252       SSL      112    Continuation Data
+
+Frame 170: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 647, Ack: 717, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    171 40.948843   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=717 Ack=691 Win=512 Len=0 TSval=703103245 TSecr=1664869
+
+Frame 171: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 717, Ack: 691, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    172 40.949348   10.162.228.83         108.168.176.252       SSL      112    Continuation Data
+
+Frame 172: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 691, Ack: 717, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    173 41.228860   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=717 Ack=735 Win=512 Len=0 TSval=703103525 TSecr=1664904
+
+Frame 173: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 717, Ack: 735, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    174 42.779893   10.162.228.83         173.194.45.48         TCP      68     42730 > https [FIN, ACK] Seq=1 Ack=1 Win=2009 Len=0 TSval=1665088 TSecr=2519408116
+
+Frame 174: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 173.194.45.48 (173.194.45.48)
+Transmission Control Protocol, Src Port: 42730 (42730), Dst Port: https (443), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    175 46.553616   10.162.228.83         108.168.176.252       SSL      144    Continuation Data
+
+Frame 175: 144 bytes on wire (1152 bits), 144 bytes captured (1152 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 735, Ack: 717, Len: 76
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    176 47.744821   108.168.176.252       10.162.228.83         SSL      112    Continuation Data
+
+Frame 176: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 717, Ack: 811, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    177 47.774836   108.168.176.252       10.162.228.83         SSL      110    Continuation Data
+
+Frame 177: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 761, Ack: 811, Len: 42
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    178 47.775183   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=811 Ack=803 Win=1965 Len=0 TSval=1665587 TSecr=703109135
+
+Frame 178: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 811, Ack: 803, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    179 47.779488   10.162.228.83         108.168.176.252       SSL      112    Continuation Data
+
+Frame 179: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 811, Ack: 803, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    180 48.224845   108.168.176.252       10.162.228.83         SSL      154    [TCP Retransmission] Continuation Data
+
+Frame 180: 154 bytes on wire (1232 bits), 154 bytes captured (1232 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 717, Ack: 811, Len: 86
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    181 48.225190   10.162.228.83         108.168.176.252       TCP      80     [TCP Dup ACK 179#1] 49755 > https [ACK] Seq=855 Ack=803 Win=1965 Len=0 TSval=1665632 TSecr=703110429 SLE=717 SRE=803
+
+Frame 181: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 855, Ack: 803, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    182 48.665123   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=803 Ack=855 Win=512 Len=0 TSval=703110893 TSecr=1665587
+
+Frame 182: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 803, Ack: 855, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    183 53.992876   10.162.228.83         108.168.176.252       SSL      146    Continuation Data
+
+Frame 183: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 855, Ack: 803, Len: 78
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    184 54.240918   108.168.176.252       10.162.228.83         SSL      112    Continuation Data
+
+Frame 184: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 803, Ack: 933, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    185 54.241425   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=933 Ack=847 Win=1965 Len=0 TSval=1666234 TSecr=703116538
+
+Frame 185: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 933, Ack: 847, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    186 56.730876   108.168.176.252       10.162.228.83         SSL      95     Continuation Data
+
+Frame 186: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 847, Ack: 933, Len: 27
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    187 56.731391   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=933 Ack=874 Win=1965 Len=0 TSval=1666483 TSecr=703119024
+
+Frame 187: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 933, Ack: 874, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    188 57.600890   108.168.176.252       10.162.228.83         SSL      110    Continuation Data
+
+Frame 188: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 874, Ack: 933, Len: 42
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    189 57.601380   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=933 Ack=916 Win=1965 Len=0 TSval=1666570 TSecr=703119894
+
+Frame 189: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 933, Ack: 916, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    190 57.622490   10.162.228.83         108.168.176.252       SSL      112    Continuation Data
+
+Frame 190: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 933, Ack: 916, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    191 57.950868   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=916 Ack=977 Win=512 Len=0 TSval=703120248 TSecr=1666572
+
+Frame 191: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 916, Ack: 977, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    192 60.425898   10.162.228.83         108.168.176.252       SSL      100    Continuation Data
+
+Frame 192: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 977, Ack: 916, Len: 32
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    193 60.710873   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=916 Ack=1009 Win=512 Len=0 TSval=703123008 TSecr=1666852
+
+Frame 193: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 916, Ack: 1009, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    194 61.821036   108.168.176.252       10.162.228.83         SSL      97     Continuation Data
+
+Frame 194: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 916, Ack: 1009, Len: 29
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    195 61.832335   10.162.228.83         108.168.176.252       SSL      100    Continuation Data
+
+Frame 195: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1009, Ack: 945, Len: 32
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    196 62.110860   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=945 Ack=1041 Win=512 Len=0 TSval=703124408 TSecr=1666993
+
+Frame 196: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 945, Ack: 1041, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    197 62.111206   10.162.228.83         108.168.176.252       SSL      141    Continuation Data
+
+Frame 197: 141 bytes on wire (1128 bits), 141 bytes captured (1128 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1041, Ack: 945, Len: 73
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    198 62.401045   108.168.176.252       10.162.228.83         SSL      112    Continuation Data
+
+Frame 198: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 945, Ack: 1114, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    199 62.439860   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=1114 Ack=989 Win=1965 Len=0 TSval=1667054 TSecr=703124697
+
+Frame 199: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1114, Ack: 989, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    200 62.470883   108.168.176.252       10.162.228.83         SSL      95     Continuation Data
+
+Frame 200: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 989, Ack: 1114, Len: 27
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    201 62.471436   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=1114 Ack=1016 Win=1965 Len=0 TSval=1667057 TSecr=703124770
+
+Frame 201: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1114, Ack: 1016, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    202 62.740896   108.168.176.252       10.162.228.83         SSL      110    Continuation Data
+
+Frame 202: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 1016, Ack: 1114, Len: 42
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    203 62.741798   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=1114 Ack=1058 Win=1965 Len=0 TSval=1667084 TSecr=703125040
+
+Frame 203: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1114, Ack: 1058, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    204 62.762705   10.162.228.83         108.168.176.252       SSL      112    Continuation Data
+
+Frame 204: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1114, Ack: 1058, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    205 63.070860   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=1058 Ack=1158 Win=512 Len=0 TSval=703125367 TSecr=1667086
+
+Frame 205: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 1058, Ack: 1158, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    206 65.345848   10.162.228.83         108.168.176.252       SSL      97     Continuation Data
+
+Frame 206: 97 bytes on wire (776 bits), 97 bytes captured (776 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1158, Ack: 1058, Len: 29
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    207 65.630878   108.168.176.252       10.162.228.83         TCP      68     https > 49755 [ACK] Seq=1058 Ack=1187 Win=512 Len=0 TSval=703127927 TSecr=1667344
+
+Frame 207: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 1058, Ack: 1187, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    208 65.631210   10.162.228.83         108.168.176.252       SSL      108    Continuation Data
+
+Frame 208: 108 bytes on wire (864 bits), 108 bytes captured (864 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1187, Ack: 1058, Len: 40
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    209 65.881015   108.168.176.252       10.162.228.83         SSL      113    Continuation Data
+
+Frame 209: 113 bytes on wire (904 bits), 113 bytes captured (904 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 1058, Ack: 1227, Len: 45
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    210 65.919916   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=1227 Ack=1103 Win=1965 Len=0 TSval=1667402 TSecr=703128178
+
+Frame 210: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1227, Ack: 1103, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    211 67.420968   108.168.176.252       10.162.228.83         SSL      95     Continuation Data
+
+Frame 211: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 1103, Ack: 1227, Len: 27
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    212 67.421321   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=1227 Ack=1130 Win=1965 Len=0 TSval=1667552 TSecr=703129715
+
+Frame 212: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1227, Ack: 1130, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    213 69.501645   10.162.228.83         108.168.176.252       SSL      129    Continuation Data
+
+Frame 213: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1227, Ack: 1130, Len: 61
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    214 69.760900   108.168.176.252       10.162.228.83         SSL      112    Continuation Data
+
+Frame 214: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 108.168.176.252 (108.168.176.252), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49755 (49755), Seq: 1130, Ack: 1288, Len: 44
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    215 69.761408   10.162.228.83         108.168.176.252       TCP      68     49755 > https [ACK] Seq=1288 Ack=1174 Win=1965 Len=0 TSval=1667786 TSecr=703132058
+
+Frame 215: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 108.168.176.252 (108.168.176.252)
+Transmission Control Protocol, Src Port: 49755 (49755), Dst Port: https (443), Seq: 1288, Ack: 1174, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    216 76.946023   10.162.228.83         83.224.70.93          DNS      80     Standard query 0x6cde  A graph.facebook.com
+
+Frame 216: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 83.224.70.93 (83.224.70.93)
+User Datagram Protocol, Src Port: 29038 (29038), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time        Source                Destination           Protocol Length Info
+    217 76.947948   10.162.228.83         31.13.86.33           TLSv1    95     Encrypted Alert
+
+Frame 217: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 54073 (54073), Dst Port: https (443), Seq: 1, Ack: 1, Len: 27
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    218 76.948703   10.162.228.83         31.13.86.33           TCP      68     54073 > https [RST, ACK] Seq=28 Ack=1 Win=2009 Len=0 TSval=1668504 TSecr=2407207650
+
+Frame 218: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 54073 (54073), Dst Port: https (443), Seq: 28, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    219 77.882956   83.224.70.93          10.162.228.83         DNS      138    Standard query response 0x6cde  CNAME api.facebook.com CNAME star.c10r.facebook.com A 31.13.86.33
+
+Frame 219: 138 bytes on wire (1104 bits), 138 bytes captured (1104 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 83.224.70.93 (83.224.70.93), Dst: 10.162.228.83 (10.162.228.83)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 29038 (29038)
+Domain Name System (response)
+
+No.     Time        Source                Destination           Protocol Length Info
+    220 77.884610   10.162.228.83         31.13.86.33           TCP      76     49999 > https [SYN] Seq=0 Win=3930 Len=0 MSS=1310 SACK_PERM=1 TSval=1668598 TSecr=0 WS=2
+
+Frame 220: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 49999 (49999), Dst Port: https (443), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    221 77.892828   31.13.86.33           10.162.228.83         TCP      56     https > 54073 [RST] Seq=1 Win=0 Len=0
+
+Frame 221: 56 bytes on wire (448 bits), 56 bytes captured (448 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 54073 (54073), Seq: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    222 78.062881   31.13.86.33           10.162.228.83         TCP      76     https > 49999 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1400 SACK_PERM=1 TSval=2323944641 TSecr=1668598 WS=256
+
+Frame 222: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49999 (49999), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    223 78.063256   10.162.228.83         31.13.86.33           TCP      68     49999 > https [ACK] Seq=1 Ack=1 Win=3930 Len=0 TSval=1668616 TSecr=2323944641
+
+Frame 223: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 49999 (49999), Dst Port: https (443), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    224 78.078720   10.162.228.83         31.13.86.33           TLSv1    181    Client Hello
+
+Frame 224: 181 bytes on wire (1448 bits), 181 bytes captured (1448 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 49999 (49999), Dst Port: https (443), Seq: 1, Ack: 1, Len: 113
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    225 78.302898   31.13.86.33           10.162.228.83         TCP      68     https > 49999 [ACK] Seq=1 Ack=114 Win=14592 Len=0 TSval=2323944880 TSecr=1668617
+
+Frame 225: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49999 (49999), Seq: 1, Ack: 114, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    226 78.353116   31.13.86.33           10.162.228.83         TLSv1    1366   Server Hello
+
+Frame 226: 1366 bytes on wire (10928 bits), 1366 bytes captured (10928 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 31.13.86.33 (31.13.86.33), Dst: 10.162.228.83 (10.162.228.83)
+Transmission Control Protocol, Src Port: https (443), Dst Port: 49999 (49999), Seq: 1, Ack: 114, Len: 1298
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    227 78.353331   10.162.228.83         31.13.86.33           TCP      68     49999 > https [ACK] Seq=114 Ack=1299 Win=4018 Len=0 TSval=1668645 TSecr=2323944880
+
+Frame 227: 68 bytes on wire (544 bits), 68 bytes captured (544 bits)
+Linux cooked capture
+Internet Protocol Version 4, Src: 10.162.228.83 (10.162.228.83), Dst: 31.13.86.33 (31.13.86.33)
+Transmission Control Protocol, Src Port: 49999 (49999), Dst Port: https (443), Seq: 114, Ack: 1299, Len: 0

@@ -46,3 +46,14 @@ fare ancora rilevazioni giornaliere
 fare un paio di rilevazioni di piu ore con passaggi su piu reti prefiltrandole sui range di ip trovati
 nella tesi, come background, descriviamo whatsapp, wireshark, parliamo di whois, diciamo che prima sono state fatti post filtri e poi pre filtri
 grafico cell - server - cell con frecce 
+
+*29/05/2014
+Rilevazioni terminate
+constatato che 2 cell che si scambiano mex usano 2 server differenti
+ora scrivo la tesi
+capitoli: introduzione, background, misurazioni, conclusioni
+
+introduzione: cosa e perche
+background: whatsapp, wireshark, whois, http://cloudmonitor.ca.com/it/ping.php
+Misurazioni: misurazioni, piu grafici
+

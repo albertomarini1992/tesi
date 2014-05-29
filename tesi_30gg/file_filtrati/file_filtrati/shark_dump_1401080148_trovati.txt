@@ -1,0 +1,383 @@
+################### PORTA 5222 #########################
+################### PORTA 443 #########################
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1, Ack: 1, Len: 12
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1, Ack: 1, Len: 12
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1, Ack: 13, Len: 27
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 13, Ack: 28, Len: 25
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1, Ack: 13, Len: 27
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 38, Ack: 28, Len: 0
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 28, Ack: 38, Len: 0
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 28, Ack: 38, Len: 18
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 38, Ack: 46, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 38, Ack: 46, Len: 29
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 38, Ack: 46, Len: 29
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 46, Ack: 67, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 67, Ack: 46, Len: 40
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 46, Ack: 67, Len: 0
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 46, Ack: 107, Len: 46
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 107, Ack: 92, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 107, Ack: 92, Len: 61
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 92, Ack: 168, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 168, Ack: 136, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 168, Ack: 136, Len: 65
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 136, Ack: 233, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 233, Ack: 180, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 233, Ack: 180, Len: 67
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 180, Ack: 300, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 300, Ack: 224, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 300, Ack: 224, Len: 74
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 224, Ack: 374, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 374, Ack: 268, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 374, Ack: 268, Len: 58
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 268, Ack: 432, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 432, Ack: 312, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 173.194.70.95 (173.194.70.95), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 1, Ack: 1, Len: 80
+Internet Protocol Version 4, Src: 173.194.70.95 (173.194.70.95), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1, Ack: 81, Len: 0
+Internet Protocol Version 4, Src: 173.194.70.95 (173.194.70.95), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1, Ack: 81, Len: 1418
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 81, Ack: 1419, Len: 0
+Internet Protocol Version 4, Src: 173.194.70.95 (173.194.70.95), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1419, Ack: 81, Len: 1418
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 81, Ack: 2837, Len: 0
+Internet Protocol Version 4, Src: 173.194.70.95 (173.194.70.95), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 2837, Ack: 81, Len: 425
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 81, Ack: 3262, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 81, Ack: 3262, Len: 314
+Internet Protocol Version 4, Src: 173.194.70.95 (173.194.70.95), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3262, Ack: 395, Len: 47
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 395, Ack: 3309, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 432, Ack: 312, Len: 70
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 312, Ack: 502, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 502, Ack: 356, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 395, Ack: 3309, Len: 568
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 963, Ack: 3309, Len: 859
+Internet Protocol Version 4, Src: 173.194.70.95 (173.194.70.95), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3309, Ack: 1822, Len: 0
+Internet Protocol Version 4, Src: 173.194.70.95 (173.194.70.95), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3309, Ack: 1822, Len: 297
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 1822, Ack: 3606, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 502, Ack: 356, Len: 12
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 356, Ack: 514, Len: 29
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 514, Ack: 385, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.252.102.16 (173.252.102.16)
+, Seq: 1, Ack: 1, Len: 58
+Internet Protocol Version 4, Src: 173.252.102.16 (173.252.102.16), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1, Ack: 59, Len: 0
+Internet Protocol Version 4, Src: 173.252.102.16 (173.252.102.16), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1, Ack: 59, Len: 29
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.252.102.16 (173.252.102.16)
+, Seq: 59, Ack: 30, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.252.102.16 (173.252.102.16)
+, Seq: 59, Ack: 30, Len: 68
+Internet Protocol Version 4, Src: 173.252.102.16 (173.252.102.16), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 30, Ack: 127, Len: 0
+Internet Protocol Version 4, Src: 173.252.102.16 (173.252.102.16), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 30, Ack: 127, Len: 29
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.252.102.16 (173.252.102.16)
+, Seq: 127, Ack: 59, Len: 0
+Internet Protocol Version 4, Src: 173.194.70.95 (173.194.70.95), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3606, Ack: 1822, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 1822, Ack: 3607, Len: 0
+Internet Protocol Version 4, Src: 173.194.70.95 (173.194.70.95), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3606, Ack: 1822, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 1822, Ack: 3607, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.252.102.16 (173.252.102.16)
+, Seq: 127, Ack: 59, Len: 27
+Internet Protocol Version 4, Src: 173.252.102.16 (173.252.102.16), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 59, Ack: 154, Len: 0
+Internet Protocol Version 4, Src: 173.252.102.16 (173.252.102.16), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 59, Ack: 154, Len: 27
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.252.102.16 (173.252.102.16)
+, Seq: 154, Ack: 86, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 1, Ack: 1, Len: 80
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1, Ack: 81, Len: 0
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1, Ack: 81, Len: 1418
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 81, Ack: 1419, Len: 0
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1419, Ack: 81, Len: 1418
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 81, Ack: 2837, Len: 0
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 2837, Ack: 81, Len: 355
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 81, Ack: 3192, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 81, Ack: 3192, Len: 314
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 81, Ack: 3192, Len: 314
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3192, Ack: 395, Len: 47
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 395, Ack: 3239, Len: 0
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3239, Ack: 395, Len: 0
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3192, Ack: 395, Len: 47
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 395, Ack: 3239, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 395, Ack: 3239, Len: 213
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 608, Ack: 3239, Len: 357
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3239, Ack: 608, Len: 0
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3239, Ack: 965, Len: 0
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3239, Ack: 965, Len: 427
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 965, Ack: 3666, Len: 0
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3666, Ack: 965, Len: 45
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 965, Ack: 3711, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.252.102.16 (173.252.102.16)
+, Seq: 154, Ack: 86, Len: 60
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.252.102.16 (173.252.102.16)
+, Seq: 214, Ack: 86, Len: 68
+Internet Protocol Version 4, Src: 173.252.102.16 (173.252.102.16), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 86, Ack: 282, Len: 0
+Internet Protocol Version 4, Src: 173.252.102.16 (173.252.102.16), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 86, Ack: 282, Len: 31
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.252.102.16 (173.252.102.16)
+, Seq: 282, Ack: 117, Len: 0
+Internet Protocol Version 4, Src: 173.252.102.16 (173.252.102.16), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 117, Ack: 282, Len: 29
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.252.102.16 (173.252.102.16)
+, Seq: 282, Ack: 146, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 514, Ack: 385, Len: 29
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 385, Ack: 543, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 543, Ack: 385, Len: 40
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 385, Ack: 583, Len: 46
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 583, Ack: 431, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 583, Ack: 431, Len: 12
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 431, Ack: 595, Len: 27
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 595, Ack: 458, Len: 25
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 458, Ack: 620, Len: 18
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 620, Ack: 476, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 620, Ack: 476, Len: 69
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 476, Ack: 689, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 689, Ack: 520, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 689, Ack: 520, Len: 60
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 520, Ack: 749, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 749, Ack: 564, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 749, Ack: 564, Len: 68
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 564, Ack: 817, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 817, Ack: 608, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 817, Ack: 608, Len: 12
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 608, Ack: 829, Len: 29
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 829, Ack: 637, Len: 0
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3711, Ack: 965, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 965, Ack: 3712, Len: 0
+Internet Protocol Version 4, Src: 173.194.113.48 (173.194.113.48), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 3711, Ack: 965, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 965, Ack: 3712, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 829, Ack: 637, Len: 29
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 637, Ack: 858, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 858, Ack: 637, Len: 40
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 637, Ack: 898, Len: 46
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 898, Ack: 683, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 898, Ack: 683, Len: 12
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 683, Ack: 910, Len: 27
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 910, Ack: 710, Len: 25
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 710, Ack: 935, Len: 18
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 935, Ack: 728, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 935, Ack: 728, Len: 68
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 728, Ack: 1003, Len: 45
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1003, Ack: 773, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1003, Ack: 773, Len: 29
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1003, Ack: 773, Len: 29
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 773, Ack: 1032, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1032, Ack: 773, Len: 40
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1032, Ack: 773, Len: 40
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1032, Ack: 773, Len: 40
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 773, Ack: 1072, Len: 46
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1072, Ack: 819, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1072, Ack: 819, Len: 61
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1072, Ack: 819, Len: 61
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 1072, Ack: 819, Len: 61
+################### PORTA 80 #########################
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.52 (173.194.113.52)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 233, Ack: 180, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 184.173.161.162 (184.173.161.162)
+, Seq: 233, Ack: 180, Len: 67
+Internet Protocol Version 4, Src: 184.173.161.162 (184.173.161.162), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 180, Ack: 300, Len: 44
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.70.95 (173.194.70.95)
+, Seq: 1, Ack: 1, Len: 80
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 130.186.6.177 (130.186.6.177)
+, Seq: 1, Ack: 1, Len: 80
+Internet Protocol Version 4, Src: 130.186.6.177 (130.186.6.177), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 8188, Ack: 807, Len: 69
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 130.186.6.177 (130.186.6.177)
+, Seq: 807, Ack: 8257, Len: 0
+Internet Protocol Version 4, Src: 130.186.6.177 (130.186.6.177), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 8257, Ack: 807, Len: 1068
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 130.186.6.177 (130.186.6.177)
+, Seq: 807, Ack: 9325, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 130.186.6.177 (130.186.6.177)
+, Seq: 807, Ack: 9325, Len: 0
+Internet Protocol Version 4, Src: 130.186.6.177 (130.186.6.177), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 9325, Ack: 808, Len: 77
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 130.186.6.177 (130.186.6.177)
+, Seq: 808, Len: 0
+Internet Protocol Version 4, Src: 130.186.6.177 (130.186.6.177), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 9402, Ack: 808, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 130.186.6.177 (130.186.6.177)
+, Seq: 808, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 188.125.68.129 (188.125.68.129)
+, Seq: 466, Ack: 4804, Len: 39
+Internet Protocol Version 4, Src: 188.125.68.129 (188.125.68.129), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 4804, Ack: 505, Len: 233
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 173.194.113.48 (173.194.113.48)
+, Seq: 1, Ack: 1, Len: 80
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 0, Len: 0
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 0, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 1, Ack: 1, Len: 403
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1, Ack: 404, Len: 0
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 1, Ack: 404, Len: 471
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 404, Ack: 472, Len: 0
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 472, Ack: 404, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 404, Ack: 473, Len: 0
+Internet Protocol Version 4, Src: 54.243.73.193 (54.243.73.193), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 472, Ack: 404, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 404, Ack: 473, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 188.125.68.129 (188.125.68.129)
+, Seq: 466, Ack: 4804, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 188.125.68.129 (188.125.68.129)
+, Seq: 466, Ack: 4804, Len: 39
+Internet Protocol Version 4, Src: 188.125.68.129 (188.125.68.129), Dst: 192.168.1.101 (192.168.1.101)
+, Seq: 4804, Ack: 505, Len: 233
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 404, Ack: 473, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 404, Ack: 473, Len: 0
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 54.243.73.193 (54.243.73.193)
+, Seq: 404, Ack: 473, Len: 0

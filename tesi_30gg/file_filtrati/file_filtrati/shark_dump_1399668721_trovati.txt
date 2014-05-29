@@ -1,0 +1,97 @@
+################### PORTA 5222 #########################
+################### PORTA 443 #########################
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 1, Ack: 1, Len: 29
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 1, Ack: 30, Len: 0
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 30, Ack: 1, Len: 40
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 1, Ack: 70, Len: 45
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 70, Ack: 46, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 1, Ack: 70, Len: 45
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 70, Ack: 46, Len: 0
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 70, Ack: 46, Len: 53
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 46, Ack: 123, Len: 44
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 123, Ack: 90, Len: 37
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 90, Ack: 160, Len: 27
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 117, Ack: 160, Len: 18
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 160, Ack: 135, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 135, Ack: 160, Len: 42
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 160, Ack: 177, Len: 0
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 160, Ack: 177, Len: 44
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 177, Ack: 204, Len: 0
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 204, Ack: 177, Len: 63
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 177, Ack: 267, Len: 44
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 267, Ack: 221, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 221, Ack: 267, Len: 27
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 267, Ack: 248, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 248, Ack: 267, Len: 42
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 267, Ack: 290, Len: 0
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 267, Ack: 290, Len: 44
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 290, Ack: 311, Len: 0
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 311, Ack: 290, Len: 32
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 290, Ack: 343, Len: 0
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 343, Ack: 290, Len: 59
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 290, Ack: 343, Len: 32
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 402, Ack: 322, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 322, Ack: 343, Len: 91
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 402, Ack: 413, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 413, Ack: 402, Len: 44
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 402, Ack: 457, Len: 52
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 457, Ack: 402, Len: 42
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 50.22.225.76 (50.22.225.76)
+, Seq: 454, Ack: 499, Len: 0
+Internet Protocol Version 4, Src: 50.22.225.76 (50.22.225.76), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 499, Ack: 454, Len: 0
+################### PORTA 80 #########################
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 54.235.187.3 (54.235.187.3)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 54.235.187.3 (54.235.187.3), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 54.235.187.3 (54.235.187.3), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 54.235.187.3 (54.235.187.3)
+, Seq: 2, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 54.235.187.3 (54.235.187.3), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 1, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 54.235.187.3 (54.235.187.3)
+, Seq: 2, Ack: 2, Len: 0
+Internet Protocol Version 4, Src: 54.235.187.3 (54.235.187.3), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 2, Len: 0
+Internet Protocol Version 4, Src: 173.194.34.50 (173.194.34.50), Dst: 2.42.183.60 (2.42.183.60)
+, Seq: 1, Ack: 1, Len: 0
+Internet Protocol Version 4, Src: 2.42.183.60 (2.42.183.60), Dst: 173.194.34.50 (173.194.34.50)
+, Seq: 1, Ack: 2, Len: 0

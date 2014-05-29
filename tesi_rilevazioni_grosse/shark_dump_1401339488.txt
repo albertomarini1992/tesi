@@ -1,0 +1,291 @@
+No.     Time        Source                Destination           Protocol Length Info
+     14 3.952505    192.168.1.101         108.168.176.244       SSL      78     Continuation Data
+
+Frame 14: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:48 (1b:24:63:41:00:48)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 1, Ack: 1, Len: 12
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     16 4.577294    192.168.1.101         108.168.176.244       SSL      91     Continuation Data
+
+Frame 16: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:55 (1b:24:63:41:00:55)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 13, Ack: 28, Len: 25
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     18 4.919730    192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=38 Ack=46 Win=864 Len=0 TSval=4294964809 TSecr=2889900989
+
+Frame 18: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 38, Ack: 46, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     21 7.510067    192.168.1.101         108.168.176.244       SSL      95     Continuation Data
+
+Frame 21: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:59 (1b:24:63:41:00:59)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 38, Ack: 46, Len: 29
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     25 7.748884    192.168.1.101         108.168.176.244       SSL      106    Continuation Data
+
+Frame 25: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:64 (1b:24:63:41:00:64)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 67, Ack: 46, Len: 40
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     27 7.933440    192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=107 Ack=92 Win=864 Len=0 TSval=4294965110 TSecr=2889904163
+
+Frame 27: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 107, Ack: 92, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     59 14.192992   192.168.1.101         108.168.176.244       SSL      126    Continuation Data
+
+Frame 59: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:78 (1b:24:63:41:00:78)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 107, Ack: 92, Len: 60
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     62 14.358455   192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=167 Ack=136 Win=864 Len=0 TSval=4294965752 TSecr=2889910599
+
+Frame 62: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 167, Ack: 136, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     80 24.203657   192.168.1.101         108.168.176.244       SSL      131    Continuation Data
+
+Frame 80: 131 bytes on wire (1048 bits), 131 bytes captured (1048 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:7d (1b:24:63:41:00:7d)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 167, Ack: 136, Len: 65
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     82 24.541839   192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=232 Ack=180 Win=864 Len=0 TSval=4294966771 TSecr=2889920644
+
+Frame 82: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 232, Ack: 180, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     83 30.642350   192.168.1.101         108.168.176.244       SSL      126    Continuation Data
+
+Frame 83: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:78 (1b:24:63:41:00:78)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 232, Ack: 180, Len: 60
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     85 31.197545   192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=292 Ack=224 Win=864 Len=0 TSval=140 TSecr=2889927084
+
+Frame 85: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 292, Ack: 224, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     86 38.407714   192.168.1.101         108.168.176.244       SSL      134    Continuation Data
+
+Frame 86: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:80 (1b:24:63:41:00:80)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 292, Ack: 224, Len: 68
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     88 38.877564   192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=360 Ack=268 Win=864 Len=0 TSval=908 TSecr=2889934858
+
+Frame 88: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 360, Ack: 268, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+     89 40.517029   192.168.1.101         108.168.176.244       SSL      120    Continuation Data
+
+Frame 89: 120 bytes on wire (960 bits), 120 bytes captured (960 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:72 (1b:24:63:41:00:72)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 360, Ack: 268, Len: 54
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+     91 40.925785   192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=414 Ack=312 Win=864 Len=0 TSval=1113 TSecr=2889936953
+
+Frame 91: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 414, Ack: 312, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    169 71.474362   192.168.1.101         108.168.176.244       SSL      78     Continuation Data
+
+Frame 169: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:48 (1b:24:63:41:00:48)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 414, Ack: 312, Len: 12
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    171 71.961384   192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=426 Ack=341 Win=864 Len=0 TSval=3896 TSecr=2889967698
+
+Frame 171: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 426, Ack: 341, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    386 664.111402  192.168.1.101         108.168.176.244       SSL      95     Continuation Data
+
+Frame 386: 95 bytes on wire (760 bits), 95 bytes captured (760 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:59 (1b:24:63:41:00:59)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 426, Ack: 341, Len: 29
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    390 664.594002  192.168.1.101         108.168.176.244       SSL      106    Continuation Data
+
+Frame 390: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:64 (1b:24:63:41:00:64)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 455, Ack: 341, Len: 40
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    393 665.004329  192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=495 Ack=387 Win=864 Len=0 TSval=15438 TSecr=2890561172
+
+Frame 393: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 495, Ack: 387, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    406 667.031080  192.168.1.101         108.168.176.244       SSL      78     Continuation Data
+
+Frame 406: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:48 (1b:24:63:41:00:48)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 495, Ack: 387, Len: 12
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    410 667.260574  192.168.1.101         108.168.176.244       SSL      91     Continuation Data
+
+Frame 410: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:55 (1b:24:63:41:00:55)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 507, Ack: 414, Len: 25
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    414 667.478299  192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=532 Ack=432 Win=864 Len=0 TSval=15686 TSecr=2890563844
+
+Frame 414: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 532, Ack: 432, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    419 668.379549  192.168.1.101         108.168.176.244       SSL      125    Continuation Data
+
+Frame 419: 125 bytes on wire (1000 bits), 125 bytes captured (1000 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:77 (1b:24:63:41:00:77)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 532, Ack: 432, Len: 59
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    421 668.540952  192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=591 Ack=476 Win=864 Len=0 TSval=15792 TSecr=2890564943
+
+Frame 421: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 591, Ack: 476, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    462 684.354177  192.168.1.101         108.168.176.244       SSL      140    Continuation Data
+
+Frame 462: 140 bytes on wire (1120 bits), 140 bytes captured (1120 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:86 (1b:24:63:41:00:86)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 591, Ack: 476, Len: 74
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    464 684.765450  192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=665 Ack=520 Win=864 Len=0 TSval=17414 TSecr=2890580964
+
+Frame 464: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 665, Ack: 520, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    470 699.785252  192.168.1.101         108.168.176.244       SSL      148    Continuation Data
+
+Frame 470: 148 bytes on wire (1184 bits), 148 bytes captured (1184 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:8e (1b:24:63:41:00:8e)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 665, Ack: 520, Len: 82
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    472 700.128759  192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=747 Ack=564 Win=864 Len=0 TSval=18951 TSecr=2890596379
+
+Frame 472: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 747, Ack: 564, Len: 0
+
+No.     Time        Source                Destination           Protocol Length Info
+    474 713.340340  192.168.1.101         108.168.176.244       SSL      152    Continuation Data
+
+Frame 474: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:92 (1b:24:63:41:00:92)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 747, Ack: 564, Len: 86
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    475 714.138400  192.168.1.101         108.168.176.244       SSL      152    [TCP Retransmission] Continuation Data
+
+Frame 475: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:92 (1b:24:63:41:00:92)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 747, Ack: 564, Len: 86
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    476 715.738294  192.168.1.101         108.168.176.244       SSL      152    [TCP Retransmission] Continuation Data
+
+Frame 476: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:92 (1b:24:63:41:00:92)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 747, Ack: 564, Len: 86
+Secure Sockets Layer
+
+No.     Time        Source                Destination           Protocol Length Info
+    478 716.306439  192.168.1.101         108.168.176.244       TCP      66     38546 > https [ACK] Seq=833 Ack=608 Win=864 Len=0 TSval=20568 TSecr=2890612339
+
+Frame 478: 66 bytes on wire (528 bits), 66 bytes captured (528 bits)
+Ethernet II, Src: aa:aa:03:00:00:00 (aa:aa:03:00:00:00), Dst: 1b:24:63:41:00:3c (1b:24:63:41:00:3c)
+Internet Protocol Version 4, Src: 192.168.1.101 (192.168.1.101), Dst: 108.168.176.244 (108.168.176.244)
+Transmission Control Protocol, Src Port: 38546 (38546), Dst Port: https (443), Seq: 833, Ack: 608, Len: 0
