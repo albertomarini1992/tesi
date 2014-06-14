@@ -40,7 +40,9 @@ L'11 aprile 2014 e' arrivato il via libera all'acquisizione di WhatsApp da parte
 \subsection{Come funziona}
 Come funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome 
 
-funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome 
+Please see Figure ~\ref{fig:rete} for a prototype yada yada yada
+
+funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome 
 \begin{figure}[h!t]
 \centering
 \includegraphics[scale = 0.7]{rete.png}
@@ -52,51 +54,9 @@ funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome fu
 
 \section{Wireshark}
 \subsection{Cos'è}
-Wireshark è un analizzatore di rete. It lets you interactively browse packet data from a live network or from a previously saved capture file. Inizialmente, il formato dei file catturati da Wireshark era l formato libpcap, che è il formato usato da tcpdump ed altri tools.
+Wireshark è un analizzatore di rete. It lets you interactively browse packet data from a live network or from a previously saved capture file. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che è il formato usato da tcpdump ed altri tools.
 
 ~
-
-Wireshark può leggere/importare i seguenti formati di file:
-\begin{itemize}
-\item \textit{libpcap - captures from Wireshark/TShark/dumpcap, tcpdump, and various other tools using libpcap's/tcpdump's capture format}
-\item \textit{pcap-ng - "next-generation" successor to libpcap format}
-\item \textit{snoop and atmsnoop captures}
-\item \textit{Shomiti/Finisar Surveyor captures}
-\item \textit{Novell LANalyzer captures}
-\item \textit{Microsoft Network Monitor captures}
-\item \textit{AIX's iptrace captures}
-\item \textit{Cinco Networks NetXRay captures}
-\item \textit{Network Associates Windows-based Sniffer captures}
-\item \textit{Network General/Network Associates DOS-based Sniffer (compressed or uncompressed) captures}
-\item \textit{AG Group/WildPackets EtherPeek/TokenPeek/AiroPeek/EtherHelp/PacketGrabber captur}es
-\item \textit{RADCOM's WAN/LAN analyzer captures}
-
-\item \textit{Network Instruments Observer version 9 captures}
-\item \textit{Lucent/Ascend router debug output}
-\item \textit{files from HP-UX's nettl}
-\item \textit{Toshiba's ISDN routers dump output}
-\item \textit{the output from i4btrace from the ISDN4BSD project}
-\item \textit{traces from the EyeSDN USB S0.}
-\item \textit{the output in IPLog format from the Cisco Secure Intrusion Detection System}
-\item \textit{pppd logs (pppdump format)}
-\item \textit{the output from VMS's TCPIPtrace/TCPtrace/UCX\$TRACE utilities}
-\item \textit{the text output from the DBS Etherwatch VMS utility}
-\item \textit{Visual Networks' Visual UpTime traffic capture}
-\item \textit{the output from CoSine L2 debug}
-\item \textit{the output from InfoVista's 5View LAN agents}
-\item \textit{Endace Measurement Systems' ERF format captures}
-\item \textit{Linux Bluez Bluetooth stack hcidump -w traces}
-\item \textit{Catapult DCT2000 .out files}
-\item \textit{Gammu generated text output from Nokia DCT3 phones in Netmonitor mode}
-\item \textit{IBM Series (OS/400) Comm traces (ASCII Et UNICODE)}
-\item \textit{Juniper Netscreen snoop files}
-\item \textit{Symbian OS btsnoop files}
-\item \textit{TamoSoft CommView files}
-\item \textit{Textronix K12xx 32bit .rf5 format files}
-\item \textit{Textronix K12 text file format captures}
-\item \textit{Apple PacketLogger files}
-\item \textit{Files from Aethra Telecommunications' PC108 software for their test instruments}
-\end{itemize}
 
 Non è necessario dire a Wireshark  il formato dei file da leggere; lo determina automaticamente. Wireshark is also capable of reading any of these file formats if they are compressed using gzip. Wireshark recognizes this directly from the file; the '.gz' extension is not required for this purpose.
 
@@ -106,12 +66,25 @@ In aggiunta, Wireshark ha alcune features che lo rendono unico. Può assemblare 
 
 I pacchetti catturati sono conformi alla libreria pcap. I filtri applicabili ai pacchetti seguono le regole della libreria pcap. This syntax is different from the display filter syntax.
 
-Compressed file support uses (and therefore requires) the zlib library. If the zlib library is not present, Wireshark will compile, but will be unable to read compressed files.
-
-Il nome dei file catturati può essere specificato trmite l'opzione -r oppure come argomento da riga di comando.
 ~
 Wireshark and TShark share a powerful filter engine that helps remove the noise from a packet trace and lets you see only the packets that interest you. If a packet meets the requirements expressed in your filter, then it is displayed in the list of packets. Display filters let you compare the fields within a protocol against a specific value, compare fields against fields, and check the existence of specified fields or protocols.
-\section{Whois}
-\chapter{Rilevazioni}
 
+
+
+\section{Whois}
+Whois � un servizio utilizzabile da shell di Ubuntu che permette di visualizzare informazioni di un determinato indirizzo IP.
+In particolare, 
+
+
+
+
+
+\section{Cloud Monitor}
+Cloud Monitor � un'azienda leader nel settore del monitoraggio delle prestazioni di siti e applicazioni Web. Verifica le prestazioni di siti e server grazie a 95 stazioni di monitoraggio disposte in 48 paesi. 
+Dato un indirizzo IP, effettua, attraverso le 95 stazioni, ping verso quell'indirizzo registrando, in caso di ping eseguito con successo, RTT minimo, RTT medio e RTT massimo (RTT - Round Trip Time, tempo impiegato da un pacchetto di dimensione trascurabile per viaggiare da un computer ad un altro e tornare indietro). 
+
+
+\chapter{Misurazioni}
+Misurazioni + grafici
+\chapter{Conclusioni}
 \end{document}
