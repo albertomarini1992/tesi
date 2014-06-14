@@ -1,7 +1,8 @@
 \documentclass[a4paper,11pt]{book}
 \setlength{\topmargin} {1 cm}
-\setlength{\oddsidemargin} {1 cm}
-\setlength{\evensidemargin} {1 cm}
+%\setlength{\oddsidemargin} {1 cm}
+%\setlength{\evensidemargin} {1 cm}
+\setlength{\footskip} {0 cm}
 \usepackage [T1]{fontenc}
 \usepackage [utf8]{inputenc}
 \usepackage [italian]{babel}
@@ -32,7 +33,7 @@
 
 \section{Whatsapp Messenger}
 \subsection{Cos'\'e}
-WhatsApp Messenger è un'app di messaggistica mobile multi-piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger è disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. Tutti questi telefoni possono scambiarsi messaggi gli uni gli altri. Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici ed \'e sicuramente questo uno dei motivi per i quali questa applicazione ha ottenuto un cos\'i gran successo in poco tempo.
+WhatsApp Messenger \'e un'applicazione di messaggistica mobile multi piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger è disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. Tutti questi telefoni possono scambiarsi messaggi gli uni gli altri. Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici ed \'e sicuramente questo uno dei motivi per i quali questa applicazione ha ottenuto un cos\'i gran successo in poco tempo.
 
 Oltre alla messaggistica di base gli utenti di WhatsApp possono creare gruppi, scambiarsi messaggi illimitati, video e messaggi audio multimediali.
 
@@ -61,11 +62,12 @@ In particolare, all'invio di un messaggio vengono effettuate le seguenti operazi
 
 Quando il server riceve il messaggio, nel dispositivo mittente compare una spunta; quando il destinatario riceve il messaggio al mittente compare la seconda spunta.
 
-La \figurename~\ref{fig:rete} illustra tale funzionamento.
-
+La \figurename  2.1 illustra tale funzionamento.
+%La \figurename~\ref{fig:rete} illustra tale funzionamento.
+~
 \begin{figure}[h!t]
 \centering
-\includegraphics[scale = 0.6]{rete.jpg}
+\includegraphics[scale = 0.6]{rete}
 \caption{Funzionamento Whatsapp}
 \end{figure}
 
@@ -73,19 +75,19 @@ La \figurename~\ref{fig:rete} illustra tale funzionamento.
 
 \section{Wireshark}
 \subsection{Cos'\'e}
-Wireshark è un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che è il formato usato da tcpdump ed altri tools.
+Wireshark \'e un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che \'e il formato usato da tcpdump ed altri tools.
 
 ~
 
 I pacchetti catturati sono conformi alla libreria pcap. \'E possibile applicare filtri ai pacchetti ottenuti, selezionando, per esempio, solo quelli provenienti da un determinato IP sorgente. I filtri applicabili ai pacchetti seguono le regole della libreria pcap.
 
-L'interfaccia grafica di Wireshark (\figurename ~\ref{fig:Whireshark.png}) mostra il numero di pacchetti catturati, il tempo trascorso tra la cattura dei pacchetti, gli indirizzi sorgente e destinazione, il protocollo usato, la lunghezza del pacchetto e altre informazioni.
+L'interfaccia grafica di Wireshark (\figurename  2.2) mostra il numero di pacchetti catturati, il tempo trascorso tra la cattura dei pacchetti, l'indirizzo sorgente e quello di destinazione, il protocollo usato, la lunghezza del pacchetto ed altre informazioni.
 
 ~
 
 \begin{figure}[h!t]
 \centering
-\includegraphics[scale = 0.5]{Whireshark.png}
+\includegraphics[scale = 0.5]{Whireshark}
 \caption{Interfaccia di Wireshark}
 \end{figure}
 
@@ -93,7 +95,7 @@ L'interfaccia grafica di Wireshark (\figurename ~\ref{fig:Whireshark.png}) mostr
 
 \section{Whois}
 Whois \'e un servizio utilizzabile da shell di Ubuntu che permette di visualizzare informazioni riguardanti un determinato indirizzo IP.
-In particolare, applicando whois ad un indirizzo IP, vengono visualizzati il nome della rete, il range di indirizzi ai quali la rete fa riferimento, il luogo in cui si situa l'IP ricercato, l'organizzazione che lo gestisce e una desccrizione generale.
+In particolare, applicando whois ad un indirizzo IP, vengono visualizzati il nome della rete, il range di indirizzi ai quali la rete fa riferimento, il luogo in cui si situa l'IP ricercato, l'organizzazione che lo gestisce ed altre informazioni di rete.
 
 ~
 
@@ -106,7 +108,7 @@ In particolare, applicando whois ad un indirizzo IP, vengono visualizzati il nom
 \clearpage
 
 \section{Cloud Monitor}
-Cloud Monitor \'e un'azienda leader nel settore del monitoraggio delle prestazioni di siti e applicazioni Web. Verifica le prestazioni di siti e server grazie a 95 stazioni di monitoraggio disposte in 48 paesi del mondo. 
+Cloud Monitor \'e un'azienda leader nel settore del monitoraggio delle prestazioni di siti ed applicazioni Web. Verifica le prestazioni di siti e server grazie a 95 stazioni di monitoraggio disposte in 48 paesi del mondo. 
 Dato un indirizzo IP o un sito web, effettua, attraverso le 95 stazioni, ping verso quell'indirizzo registrando l'esito dello stesso e, in caso di ping eseguito con successo, RTT minimo, RTT medio ed RTT massimo (RTT - Round Trip Time, tempo impiegato da un pacchetto di dimensione trascurabile per viaggiare da un computer ad un altro e tornare indietro). 
 
 ~

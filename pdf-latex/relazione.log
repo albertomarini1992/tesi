@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2013.6.4)  14 JUN 2014 15:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2013.6.4)  14 JUN 2014 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -349,18 +349,18 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (./relazione.aux)
 \openout1 = `relazione.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -423,7 +423,7 @@ e
 <relazione-frn.pdf, id=1, 597.50829pt x 845.0471pt>
 File: relazione-frn.pdf Graphic file (type pdf)
  <use relazione-frn.pdf>
-Package pdftex.def Info: relazione-frn.pdf used on input line 14.
+Package pdftex.def Info: relazione-frn.pdf used on input line 15.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 [1
@@ -452,32 +452,25 @@ Capitolo 1.
 ]
 Capitolo 2.
 [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
  (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
 
-
-LaTeX Warning: Reference `fig:rete' on page 8 undefined on input line 64.
-
-<rete.jpg, id=55, 468.24937pt x 366.61969pt>
-File: rete.jpg Graphic file (type jpg)
- <use rete.jpg>
-Package pdftex.def Info: rete.jpg used on input line 68.
+<rete.png, id=55, 468.24937pt x 366.61969pt>
+File: rete.png Graphic file (type png)
+ <use rete.png>
+Package pdftex.def Info: rete.png used on input line 70.
 (pdftex.def)             Requested size: 280.95178pt x 219.97351pt.
  [8
 
- <./rete.jpg>]
-
-LaTeX Warning: Reference `fig:Whireshark.png' on page 9 undefined on input line
- 82.
-
+ <./rete.png>]
 <Whireshark.png, id=60, 675.27281pt x 515.67656pt>
 File: Whireshark.png Graphic file (type png)
  <use Whireshark.png>
-Package pdftex.def Info: Whireshark.png used on input line 88.
+Package pdftex.def Info: Whireshark.png used on input line 90.
 (pdftex.def)             Requested size: 337.63557pt x 257.83765pt.
 
 [9
@@ -486,10 +479,10 @@ Package pdftex.def Info: Whireshark.png used on input line 88.
 File: Whois.png Graphic file (type png)
 
 <use Whois.png>
-Package pdftex.def Info: Whois.png used on input line 102.
+Package pdftex.def Info: Whois.png used on input line 104.
 (pdftex.def)             Requested size: 386.26547pt x 288.7769pt.
 
-Overfull \hbox (26.26547pt too wide) in paragraph at lines 102--103
+Overfull \hbox (26.26547pt too wide) in paragraph at lines 104--105
  [][] 
  []
 
@@ -499,10 +492,10 @@ Overfull \hbox (26.26547pt too wide) in paragraph at lines 102--103
 File: Cloud_Monitor.png Graphic file (type png)
 
 <use Cloud_Monitor.png>
-Package pdftex.def Info: Cloud_Monitor.png used on input line 116.
+Package pdftex.def Info: Cloud_Monitor.png used on input line 118.
 (pdftex.def)             Requested size: 364.65988pt x 316.70605pt.
 
-Overfull \hbox (4.65988pt too wide) in paragraph at lines 116--117
+Overfull \hbox (4.65988pt too wide) in paragraph at lines 118--119
  [][] 
  []
 
@@ -516,33 +509,30 @@ Capitolo 3.
 
 ]
 Capitolo 4.
-[15] (./relazione.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[15] (./relazione.aux) ) 
 Here is how much of TeX's memory you used:
- 3052 strings out of 493625
- 39447 string characters out of 3143291
+ 3049 strings out of 493625
+ 39413 string characters out of 3143291
  103063 words of memory out of 3000000
- 6296 multiletter control sequences out of 15000+200000
+ 6294 multiletter control sequences out of 15000+200000
  14936 words of font info for 34 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 38i,10n,39p,662b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
-sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/loca
-l/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/
-texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
-xlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texl
-ive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texliv
-e/2011/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/
-2011/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb>
-Output written on relazione.pdf (15 pages, 351837 bytes).
+ 38i,10n,39p,672b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/cm-
+super/cm-super-t1.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/s
+fbx1095.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfb
+x1200.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx1
+440.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx207
+4.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx2488.
+pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pf
+b></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb>
+
+Output written on relazione.pdf (15 pages, 351549 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
