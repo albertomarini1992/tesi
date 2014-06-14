@@ -29,20 +29,38 @@
 
 \section{Whatsapp Messenger}
 \subsection{Cos'√®}
-WhatsApp Messenger √® un'app di messaggistica mobile multi-piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger √® disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. La risposta √® s√¨: tutti questi telefoni possono scambiarsi messaggi gli uni gli altri! Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici.
+WhatsApp Messenger √® un'app di messaggistica mobile multi-piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger √® disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. Tutti questi telefoni possono scambiarsi messaggi gli uni gli altri. Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici ed Ë sicuramente questo uno dei motivi per i quali questa applicazione ha ottenuto un cosÏ gran successo in poco tempo.
 
 Oltre alla messaggistica di base gli utenti di WhatsApp possono creare gruppi, scambiarsi messaggi illimitati, video e messaggi audio multimediali.
 
 L'11 aprile 2014 e' arrivato il via libera all'acquisizione di WhatsApp da parte di Facebook dalla Federal Trade Commission (Ftc), l'ente governativo americano per la protezione dei consumatori.
 
+\begin{figure}[h!t]
+\centering
+\includegraphics[scale = 0.7]{Whatsapp.png}
+\caption{Interfaccia di Whatsapp}
+\end{figure}
+
+
 ~
 
 \subsection{Come funziona}
-Come funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome 
+Servendosi della rete cellulare, Whatsapp messenger permette di inviare messaggi a qualsiasi altro utente connesso ad una rete. Questa modalit‡ di funzionamento ci permette di affermare che, sicuramente, all'invio di un messaggio viene contattato un server il quale avr‡ il compito di smistarlo al dispositivo di destinazione.
 
-Please see Figure ~\ref{fig:rete} for a prototype yada yada yada
+In particolare, all'invio di un messaggio vengono effettuate le seguenti operazioni:
+\begin{itemize}
+ \item Il messaggio arriva ad un server
+ \item Il server comunica al mittente l'avvenuta ricezione del messaggio
+ \item Il server inoltra il messaggio al destinatario
+ \item Il destinatario comunica al server l'avvenuta ricezione del messaggio
+ \item Il server comunica al mittente l'avvenuta ricezione del messaggio da parte del destinatario
+\end{itemize}
 
-funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome 
+Quando il server riceve il messaggio, nel dispositivo mittente compare una spunta; quando il destinatario riceve il messaggio al mittente compare la seconda spunta.
+
+La figura ~\ref{fig:rete} illustra tale funzionamento.
+
+
 \begin{figure}[h!t]
 \centering
 \includegraphics[scale = 0.7]{rete.png}
@@ -54,34 +72,44 @@ funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome funzionaCome fu
 
 \section{Wireshark}
 \subsection{Cos'√®}
-Wireshark √® un analizzatore di rete. It lets you interactively browse packet data from a live network or from a previously saved capture file. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che √® il formato usato da tcpdump ed altri tools.
+Wireshark √® un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che √® il formato usato da tcpdump ed altri tools.
 
 ~
 
-Non √® necessario dire a Wireshark  il formato dei file da leggere; lo determina automaticamente. Wireshark is also capable of reading any of these file formats if they are compressed using gzip. Wireshark recognizes this directly from the file; the '.gz' extension is not required for this purpose.
+I pacchetti catturati sono conformi alla libreria pcap. E' possibile applicare filtri ai pacchetti ottenuti, selezionando, per esempio, solo quelli provenienti da un determinato IP sorgente. I filtri applicabili ai pacchetti seguono le regole della libreria pcap.
 
-A differenza di altri analizzatori di protocolli, la finestra di Wireshark mostra 3 viste dei pacchetti. It shows a summary line, briefly describing what the packet is. A packet details display is shown, allowing you to drill down to exact protocol or field that you interested in. Finally, a hex dump shows you exactly what the packet looks like when it goes over the wire.
+L'interfaccia grafica di Wireshark (figura ~\ref{fig:Whireshark}) mostra il numero di pacchetti catturati, il tempo trascorso tra la cattura dei pacchetti, gli indirizzi sorgente e destinazione, il protocollo usato, la lunghezza del pacchetto e altre informazioni.
 
-In aggiunta, Wireshark ha alcune features che lo rendono unico. Pu√≤ assemblare tutti i pacchetti in una comversazione TCP e visualizzare i dati ASCII (o EBCDIC, o hex) in questa conversazione. Display filters in Wireshark are very powerful; more fields are filterable in Wireshark than in other protocol analyzers, and the syntax you can use to create your filters is richer. As Wireshark progresses, expect more and more protocol fields to be allowed in display filters.
 
-I pacchetti catturati sono conformi alla libreria pcap. I filtri applicabili ai pacchetti seguono le regole della libreria pcap. This syntax is different from the display filter syntax.
-
-~
-Wireshark and TShark share a powerful filter engine that helps remove the noise from a packet trace and lets you see only the packets that interest you. If a packet meets the requirements expressed in your filter, then it is displayed in the list of packets. Display filters let you compare the fields within a protocol against a specific value, compare fields against fields, and check the existence of specified fields or protocols.
-
+\begin{figure}[h!t]
+\centering
+\includegraphics[scale = 0.7]{Whireshark.png}
+\caption{Interfaccia di Wireshark}
+\end{figure}
 
 
 \section{Whois}
-Whois Ë un servizio utilizzabile da shell di Ubuntu che permette di visualizzare informazioni di un determinato indirizzo IP.
-In particolare, 
+Whois Ë un servizio utilizzabile da shell di Ubuntu che permette di visualizzare informazioni riguardanti un determinato indirizzo IP.
+In particolare, applicando whois ad un indirizzo IP, vengono visualizzati il nome della rete, il range di indirizzi ai quali la rete fa riferimento, il luogo in cui si situa l'IP ricercato, l'organizzazione che lo gestisce e una desccrizione generale.
 
 
 
+\begin{figure}[h!t]
+\centering
+\includegraphics[scale = 0.7]{rete_pre.png}
+\caption{Esempio Whois}
+\end{figure}
 
 
 \section{Cloud Monitor}
-Cloud Monitor Ë un'azienda leader nel settore del monitoraggio delle prestazioni di siti e applicazioni Web. Verifica le prestazioni di siti e server grazie a 95 stazioni di monitoraggio disposte in 48 paesi. 
-Dato un indirizzo IP, effettua, attraverso le 95 stazioni, ping verso quell'indirizzo registrando, in caso di ping eseguito con successo, RTT minimo, RTT medio e RTT massimo (RTT - Round Trip Time, tempo impiegato da un pacchetto di dimensione trascurabile per viaggiare da un computer ad un altro e tornare indietro). 
+Cloud Monitor Ë un'azienda leader nel settore del monitoraggio delle prestazioni di siti e applicazioni Web. Verifica le prestazioni di siti e server grazie a 95 stazioni di monitoraggio disposte in 48 paesi del mondo. 
+Dato un indirizzo IP o un sito web, effettua, attraverso le 95 stazioni, ping verso quell'indirizzo registrando l'esito dello stesso e, in caso di ping eseguito con successo, RTT minimo, RTT medio ed RTT massimo (RTT - Round Trip Time, tempo impiegato da un pacchetto di dimensione trascurabile per viaggiare da un computer ad un altro e tornare indietro). 
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[scale = 0.7]{Cloud_Monitor.png}
+\caption{Esempio Cloud Monitor}
+\end{figure}
 
 
 \chapter{Misurazioni}
