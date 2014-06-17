@@ -1,7 +1,7 @@
 \select@language {italian}
 \contentsline {chapter}{\numberline {1}Introduzione}{5}
 \contentsline {chapter}{\numberline {2}Strumenti utilizzati}{7}
-\contentsline {section}{\numberline {2.1}Whatsapp Messenger}{7}
+\contentsline {section}{\numberline {2.1}WhatsApp Messenger}{7}
 \contentsline {subsection}{\numberline {2.1.1}Cos'\`e}{7}
 \contentsline {subsection}{\numberline {2.1.2}Come funziona}{9}
 \contentsline {section}{\numberline {2.2}Wireshark}{10}

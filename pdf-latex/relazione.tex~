@@ -17,7 +17,7 @@
 \Universita{Verona}
 \Facolta{Scienze e Ingegneria}
 \Corso[Laurea]{Informatica}
-\Titolo{Whatsapp Messenger}
+\Titolo{WhatsApp Messenger}
 \Relatore{Prof. Damiano Carra}
 \Candidato[VR359129]{Alberto Marini}
 \Annoaccademico{2013 - 2014}
@@ -31,9 +31,9 @@
 
 \chapter{Strumenti utilizzati}
 
-\section{Whatsapp Messenger}
+\section{WhatsApp Messenger}
 \subsection{Cos'\`e}
-Whatsapp Messenger \`e un'applicazione di messaggistica mobile multi piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. Whatsapp Messenger \`e disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. Tutti questi telefoni possono scambiarsi messaggi gli uni gli altri. Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici ed \`e sicuramente questo uno dei motivi per i quali questa applicazione ha ottenuto un cos\`i gran successo in poco tempo.
+WhatsApp Messenger \`e un'applicazione di messaggistica mobile multi piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger \`e disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. Tutti questi telefoni possono scambiarsi messaggi gli uni gli altri. Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici ed \`e sicuramente questo uno dei motivi per i quali questa applicazione ha ottenuto un cos\`i gran successo in poco tempo.
 
 Oltre alla messaggistica di base gli utenti di WhatsApp possono creare gruppi, scambiarsi messaggi illimitati, video e messaggi audio multimediali.
 
@@ -41,15 +41,15 @@ L'11 aprile 2014 \`e arrivato il via libera all'acquisizione di WhatsApp da part
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale = 0.3]{Whatsapp.png}
-\caption{Interfaccia di Whatsapp}
+\includegraphics[scale = 0.3]{WhatsApp.png}
+\caption{Interfaccia di WhatsApp}
 \end{figure}
 
 \clearpage
 %~
 
 \subsection{Come funziona}
-Servendosi della rete cellulare, Whatsapp messenger permette di inviare messaggi a qualsiasi altro utente connesso ad una rete. Questa modalit\`a di funzionamento ci permette di affermare che, sicuramente, all'invio di un messaggio viene contattato un server il quale avr\`a il compito di smistarlo al dispositivo di destinazione.
+Servendosi della rete cellulare, WhatsApp messenger permette di inviare messaggi a qualsiasi altro utente connesso ad una rete. Questa modalit\`a di funzionamento ci permette di affermare che, sicuramente, all'invio di un messaggio viene contattato un server il quale avr\`a il compito di smistarlo al dispositivo di destinazione.
 
 In particolare, all'invio di un messaggio vengono effettuate le seguenti operazioni:
 \begin{itemize}
@@ -62,13 +62,13 @@ In particolare, all'invio di un messaggio vengono effettuate le seguenti operazi
 
 Quando il server riceve il messaggio, nel dispositivo mittente compare una spunta; quando il destinatario riceve il messaggio al mittente compare la seconda spunta.
 
-La \figurename \hspace{0.2cm} 2.1 illustra tale funzionamento.
+La \figurename \hspace{0.2cm} 2.2 illustra tale funzionamento.
 %La \figurename~\ref{fig:rete} illustra tale funzionamento.
 ~
 \begin{figure}[h!t]
 \centering
 \includegraphics[scale = 0.6]{rete}
-\caption{Funzionamento Whatsapp}
+\caption{Funzionamento WhatsApp}
 \end{figure}
 
 \clearpage
@@ -81,7 +81,7 @@ Wireshark \`e un analizzatore di rete. Consente di catturare direttamente i dati
 
 I pacchetti catturati sono conformi alla libreria pcap. \`E possibile applicare filtri ai pacchetti ottenuti, selezionando, per esempio, solo quelli provenienti da un determinato IP sorgente. I filtri applicabili ai pacchetti seguono le regole della libreria pcap.
 
-L'interfaccia grafica di Wireshark (\figurename \hspace{0.2cm} 2.2) mostra il numero di pacchetti catturati, il tempo trascorso tra la cattura dei pacchetti, l'indirizzo sorgente e quello di destinazione, il protocollo usato, la lunghezza del pacchetto ed altre informazioni.
+L'interfaccia grafica di Wireshark (\figurename \hspace{0.2cm} 2.3) mostra il numero di pacchetti catturati, il tempo trascorso tra la cattura dei pacchetti, l'indirizzo sorgente e quello di destinazione, il protocollo usato, la lunghezza del pacchetto ed altre informazioni.
 
 ~
 
