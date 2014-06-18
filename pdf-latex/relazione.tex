@@ -8,6 +8,8 @@
 \usepackage [italian]{babel}
 \usepackage {graphicx}
 \usepackage {frontespizio}
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+
 
 \begin{document}
 
@@ -122,5 +124,51 @@ Dato un indirizzo IP o un sito web, effettua, attraverso le 95 stazioni, ping ve
 
 \chapter{Misurazioni}
 Misurazioni + grafici
+
+~
+
+Tabella misurazioni
+
+~
+
+Tabella IP 
+
+\begin{tabular}{|l|c|c|r|}
+\hline
+\multicolumn{1}{|c|}{}\\
+\multicolumn{1}{|c|}{\textbf{IP - range}} & {\textbf{Company}} & {\textbf{Position}}\\
+\multicolumn{1}{|c|}{}\\
+\hline
+108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+173.192.0.0 - 173.193.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+184.172.0.0 - 184.173.255.255 &  ThePlanet.com Internet Services, Inc. & Houston\\
+208.43.0.0 - 208.43.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+50.22.0.0 - 50.23.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+\hline
+\caption{Range di IP collegati a WhatsApp}
+\end{tabular}
+
+~
+
+Cloud Monitor - Un esempio per ogni rang di IP 
+
+\begin{tabular}{|l|c|c|r|}
+\hline
+\multicolumn{1}{|c|}{}\\
+\multicolumn{1}{|c|}{\textbf{Punto di controllo}} & {\textbf{Risultato}} & {\textbf{RTT minimo	} & {\textbf{RTT	medio} & {\textbf{RTT massimo}\\
+\multicolumn{1}{|c|}{}\\
+\hline
+ & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 173.192.0.0 - 173.193.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 184.172.0.0 - 184.173.255.255 &  ThePlanet.com Internet Services, Inc. & Houston\\
+ & & 208.43.0.0 - 208.43.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 50.22.0.0 - 50.23.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+\hline
+\caption{Cloud Monitoring - A IP for every range}
+\end{tabular}
+
+		
+
+
 \chapter{Conclusioni}
 \end{document}
