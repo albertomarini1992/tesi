@@ -8,6 +8,8 @@
 \usepackage [italian]{babel}
 \usepackage {graphicx}
 \usepackage {frontespizio}
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+
 
 \begin{document}
 
@@ -41,7 +43,7 @@ L'11 aprile 2014 \`e arrivato il via libera all'acquisizione di WhatsApp da part
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale = 0.3]{WhatsApp.png}
+\includegraphics[scale = 0.3]{Whatsapp.png}
 \caption{Interfaccia di WhatsApp}
 \end{figure}
 
@@ -62,18 +64,37 @@ In particolare, all'invio di un messaggio vengono effettuate le seguenti operazi
 
 Quando il server riceve il messaggio, nel dispositivo mittente compare una spunta; quando il destinatario riceve il messaggio al mittente compare la seconda spunta.
 
-La \figurename \hspace{0.2cm} 2.2 illustra tale funzionamento.
+La \figurename ~\ref{fig:WhatsApp} illustra tale funzionamento.
 %La \figurename~\ref{fig:rete} illustra tale funzionamento.
 ~
 \begin{figure}[h!t]
 \centering
 \includegraphics[scale = 0.6]{rete}
 \caption{Funzionamento WhatsApp}
+\label{fig:WhatsApp}
+\end{figure}
+
+\clearpage
+
+\section{Shark}
+\subsection{Cos'\`e}
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[scale = 0.6]{shark}
+\caption{Anteprima Shark}
+\end{figure}
+
+\begin{figure}[h!t]
+\centering
+\includegraphics[scale = 0.6]{shark_go}
+\caption{Anteprima Shark - Running}
 \end{figure}
 
 \clearpage
 
 \section{Wireshark}
+
 \subsection{Cos'\`e}
 Wireshark \`e un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che \`e il formato usato da tcpdump ed altri tools.
 
@@ -81,7 +102,7 @@ Wireshark \`e un analizzatore di rete. Consente di catturare direttamente i dati
 
 I pacchetti catturati sono conformi alla libreria pcap. \`E possibile applicare filtri ai pacchetti ottenuti, selezionando, per esempio, solo quelli provenienti da un determinato IP sorgente. I filtri applicabili ai pacchetti seguono le regole della libreria pcap.
 
-L'interfaccia grafica di Wireshark (\figurename \hspace{0.2cm} 2.3) mostra il numero di pacchetti catturati, il tempo trascorso tra la cattura dei pacchetti, l'indirizzo sorgente e quello di destinazione, il protocollo usato, la lunghezza del pacchetto ed altre informazioni.
+L'interfaccia grafica di Wireshark (\figurename ~\ref{fig:Whireshark}) mostra il numero di pacchetti catturati, il tempo trascorso tra la cattura dei pacchetti, l'indirizzo sorgente e quello di destinazione, il protocollo usato, la lunghezza del pacchetto ed altre informazioni.
 
 ~
 
@@ -89,6 +110,7 @@ L'interfaccia grafica di Wireshark (\figurename \hspace{0.2cm} 2.3) mostra il nu
 \centering
 \includegraphics[scale = 0.5]{Whireshark}
 \caption{Interfaccia di Wireshark}
+\label{fig:Whireshark}
 \end{figure}
 
 \clearpage
@@ -121,6 +143,122 @@ Dato un indirizzo IP o un sito web, effettua, attraverso le 95 stazioni, ping ve
 
 
 \chapter{Misurazioni}
-Misurazioni + grafici
+
+L'obiettivo di questo progetto era di scoprire informazioni riguardo WhatsApp e, in particolare, la modalità di scambio dei messaggi e il dislocamento dei server nel mondo.
+Per fare ci\`o, sono state fatte rilevazioni giornaliere per pi\`u di 30 giorni, con l'utilizzo degli strumenti citati nel capitolo precedente.
+
+Attraverso ''Shark'', ogni giorno sono state rilevate le informazioni contenute nei pacchetti scambiati tra 2 dispositivi durante l'invio e la ricezione di messaggi.
+Dopodich\`e, sono stati analizzati gli indirizzi IP di destinazione in modo da risalire agli indirizzi dei server di WhatsApp.
+
+Dopo aver scartato gli indirizzi IP di servizi noti (e.g. Facebook, Google, Yahoo), è stato ottenuto un pool di indirizzi associabile all'applicazione studiata.
+
+~
+
+La \figurename ~\ref{fig:rilevazioni} mostra tutti gli indirizzi IP catturati giorno per giorno.  
+
+~
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale = 0.7]{rilevazioni_30gg.png}
+\caption{Rilevamenti 30 giorni}
+\label{fig:rilevazioni}
+\end{figure}
+
+~
+
+Ottenuto questo insieme di indirizzi IP, \`e stato utilizzato il servizio ''Whois'' di Ubuntu per controllare la provenienza di tutti gli indirizzi e l'azienda in possesso degli stessi.
+\`E emerso che, alla fine, tutti gli indirizzi trovati fanno parte di 5 range di indirizzi i quali appartengono a due aziende. Le aziende in questione sono la ''SoftLayer'' e la ''ThePlanet''.
+''SoftLayer'' \`e una societ\`a del gruppo IBM, \`e stata fondata nel 2005 e ha sede a Dallas, Texas. L'azienda ha acquisito ''ThePlanet'' con sede a Houston, Texas. 
+Possiamo quindi affermare che tutti gli indirizzi IP trovati appartengono alla stessa azienda, la ''SoftLayer''.
+
+~
+
+%La Tabella \ref{table:ip} mostra i 5 range di indirizzi trovati e l'azienda che li gestisce.
+
+~
+
+%\begin{table}
+%\label{table:ip}
+\begin{tabular}{|l|c|c|r|}
+\hline
+\multicolumn{1}{|c|}{}\\
+\multicolumn{1}{|c|}{\textbf{IP - range}} & {\textbf{Company}} & {\textbf{Position}}\\
+\multicolumn{1}{|c|}{}\\
+\hline
+108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+173.192.0.0 - 173.193.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+184.172.0.0 - 184.173.255.255 &  ThePlanet.com Internet Services, Inc. & Houston\\
+208.43.0.0 - 208.43.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+50.22.0.0 - 50.23.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+%\hline
+\caption{Range di IP collegati a WhatsApp}
+\end{tabular}
+%\end{table}
+
+~
+
+Gli IP trovati, dunque, sono stati associati ad aziende di Dallas e Houston. 
+Per analizzare questo fatto e, soprattutto, per cercare di accertare tale posizione, \`e stato utilizzato il servizio di ''Cloud Monitor'', inserendo nel campo di ricerca un indirizzo IP appartenente ad ogni range e controllando l'RTT medio. 
+Generalmente, se un terminale si trovasse in America, l'RTT medio proveniente da stati americani verso quel dispositivo sarebbe inferiore rispetto all'RTT medio proveniente da stati europei.
+
+~
+
+%Attraverso il servizio di ''Cloud Monitor'', dunque, sono stati fatti questi test e la Tabella \ref{table:Monitoring} ne riporta i risultati.
+
+~
+
+%\begin{table}
+%\label{table:Monitoring}
+\begin{tabular}{|l|c|c|r|}
+\hline
+\multicolumn{1}{|c|}{}\\
+\multicolumn{1}{|c|}{\textbf{Punto di controllo}} & {\textbf{Risultato}} & {\textbf{RTT minimo	} & {\textbf{RTT medio} & {\textbf{RTT massimo}\\
+\multicolumn{1}{|c|}{}\\
+\hline
+ & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 173.192.0.0 - 173.193.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 184.172.0.0 - 184.173.255.255 &  ThePlanet.com Internet Services, Inc. & Houston\\
+ & & 208.43.0.0 - 208.43.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 50.22.0.0 - 50.23.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+\hline
+\caption{Cloud Monitoring - A IP for every range}
+\end{tabular}
+%\end{table}
+
+~
+
+Come si pu\`o notare, l'RTT medio proveniente da server americani è inferiore rispetto ad altri server. Questa soluzione permette di confermare l'effettiva collocazione geografica degli indirizzi IP trovati.
+
+~
+
+Un altro test effettuato \`e stato quello di effettuare un pre filtro dei pacchetti rilevati dall'applicazione ''Shark''. In questo modo, l'applicazione ha catturato solo i pacchetti aventi come destinazione un indirizzo IP appartenente ad uno dei range scoperti in precedenza.
+In questo modo, la quantit\`a di informazione catturata era limitata a quella che ci interessava.
+Durante la cattura, durata alcune ore, sono state ottenute altre importanti informazioni. Durante le ore, infatti, il dispositivo cellulare ha cambiato più volte rete (passando da Wi-fi a 3G e viceversa) e, in concomitanza con questi combi, sono cambiati anche gli indirizzi di destinazione.
+Questo fatto ci permette di affermare che uno smartphone comunica con un server (deciso al momento dell'inizio della connessione) e cambia con il cambiamento della rete utilizzata dal dispositivo.
+
+~
+
+Come ultimo test effettuato, abbiamo cercato di capire se la \figurename ~\ref{fig:WhatsApp} rispecchiasse il corretto funzionamento dell'applicazione.
+Tale figura mostra come due dispositivi si scambiano messaggi passando attraverso un server comune. 
+Il controllo effettuato si \`e basato sull'utilizzo contemporaneo di ''Shark'' da parte di due dispositivi per catturare i pacchetti scambiati tra di essi. 
+Facendo cos\`i, si \`e potuto controllare l'indirizzo IP di destinazione di entrambi gli smartphone. Se gli IP fossero stati uguali, allora si poteva affermare che, quando due dispositivi comunicano tra di loro, si connettono allo stesso server.
+In realt\`a, gli IP di destinazione erano differenti. Questo ci indica con certezza che durante la comunicazione tra pi\`u dispositivi, ogni dispositivo si connette ad un proprio server e poi saranno i relativi server a comunicare tra di loro prima di recapitare il messaggio al terminale di competenza.
+
+~
+
+La \figurename ~\ref{fig:lan} mostra il funzionamento corretto di WhatsApp.  
+
+~
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale = 0.8]{true_lan.png}
+\caption{Funzionamento corretto di WhatsApp}
+\label{fig:lan}
+\end{figure}
+
+
+
 \chapter{Conclusioni}
 \end{document}

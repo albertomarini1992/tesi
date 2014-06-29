@@ -91,10 +91,10 @@ La \figurename ~\ref{fig:WhatsApp} illustra tale funzionamento.
 \caption{Anteprima Shark - Running}
 \end{figure}
 
-
 \clearpage
 
 \section{Wireshark}
+
 \subsection{Cos'\`e}
 Wireshark \`e un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che \`e il formato usato da tcpdump ed altri tools.
 
@@ -174,11 +174,12 @@ Possiamo quindi affermare che tutti gli indirizzi IP trovati appartengono alla s
 
 ~
 
-La Tabella \ref{table:IP} mostra i 5 range di indirizzi trovati e l'azienda che li gestisce.
+%La Tabella \ref{table:ip} mostra i 5 range di indirizzi trovati e l'azienda che li gestisce.
 
 ~
 
-\begin{table}
+%\begin{table}
+%\label{table:ip}
 \begin{tabular}{|l|c|c|r|}
 \hline
 \multicolumn{1}{|c|}{}\\
@@ -192,9 +193,8 @@ La Tabella \ref{table:IP} mostra i 5 range di indirizzi trovati e l'azienda che 
 50.22.0.0 - 50.23.255.255 &  SoftLayer Technologies Inc. & Dallas\\
 \hline
 \caption{Range di IP collegati a WhatsApp}
-\label{table:IP}
 \end{tabular}
-\end{table}
+%\end{table}
 
 ~
 
@@ -204,12 +204,12 @@ Generalmente, se un terminale si trovasse in America, l'RTT medio proveniente da
 
 ~
 
-Attraverso il servizio di ''Cloud Monitor'', dunque, sono stati fatti questi test e la Tabella \ref{table:Monitoring} ne riporta i risultati.
+%Attraverso il servizio di ''Cloud Monitor'', dunque, sono stati fatti questi test e la Tabella \ref{table:Monitoring} ne riporta i risultati.
 
 ~
 
-\begin{table}
-\label{table:Monitoring}
+%\begin{table}
+%\label{table:Monitoring}
 \begin{tabular}{|l|c|c|r|}
 \hline
 \multicolumn{1}{|c|}{}\\
@@ -224,7 +224,7 @@ Attraverso il servizio di ''Cloud Monitor'', dunque, sono stati fatti questi tes
 \hline
 \caption{Cloud Monitoring - A IP for every range}
 \end{tabular}
-\end{table}
+%\end{table}
 
 ~
 
@@ -253,7 +253,7 @@ La \figurename ~\ref{fig:lan} mostra il funzionamento corretto di WhatsApp.
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale = 0.6]{true_lan.png}
+\includegraphics[scale = 0.8]{true_lan.png}
 \caption{Funzionamento corretto di WhatsApp}
 \label{fig:lan}
 \end{figure}
