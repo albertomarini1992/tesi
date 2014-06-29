@@ -144,34 +144,41 @@ Dato un indirizzo IP o un sito web, effettua, attraverso le 95 stazioni, ping ve
 
 \chapter{Misurazioni}
 
-Pool di indirizzi trovati
-%tabella con gli indirizzi
+L'obiettivo di questo progetto era di scoprire informazioni riguardo WhatsApp e, in particolare, la modalità di scambio dei messaggi e il dislocamento dei server nel mondo.
+Per fare ci\`o, sono state fatte rilevazioni giornaliere per pi\`u di 30 giorni, con l'utilizzo degli strumenti citati nel capitolo precedente.
 
-108.168.128.0 - 108.168.255.255	SoftLayer Technologies Inc.		Dallas
-173.192.0.0 - 173.193.255.255	SoftLayer Technologies Inc.		Dallas
-184.172.0.0 - 184.173.255.255	ThePlanet.com Internet Services, Inc. 	Houston
-208.43.0.0 - 208.43.255.255		SoftLayer Technologies Inc.		Dallas
-50.22.0.0 - 50.23.255.255		SoftLayer Technologies Inc.		Dallas
+Attraverso ''Shark'', ogni giorno sono state rilevate le informazioni contenute nei pacchetti scambiati tra 2 dispositivi durante l'invio e la ricezione di messaggi.
+Dopodich\`e, sono stati analizzati gli indirizzi IP di destinazione in modo da risalire agli indirizzi dei server di WhatsApp.
 
+Dopo aver scartato gli indirizzi IP di servizi noti (e.g. Facebook, Google, Yahoo), è stato ottenuto un pool di indirizzi associabile all'applicazione studiata.
 
+~
 
+La \figurename ~\ref{fig:rilevazioni} mostra tutti gli indirizzi IP catturati giorno per giorno.  
 
+~
 
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale = 0.7]{rilevazioni_30gg.png}
 \caption{Rilevamenti 30 giorni}
+\label{fig:rilevazioni}
 \end{figure}
-Misurazioni + grafici
 
 ~
 
-Tabella misurazioni
+Ottenuto questo insieme di indirizzi IP, \`e stato utilizzato il servizio ''Whois'' di Ubuntu per controllare la provenienza di tutti gli indirizzi e l'azienda in possesso degli stessi.
+\`E emerso che, alla fine, tutti gli indirizzi trovati fanno parte di 5 range di indirizzi i quali appartengono a due aziende. Le aziende in questione sono la ''SoftLayer'' e la ''ThePlanet''.
+''SoftLayer'' \`e una societ\`a del gruppo IBM, \`e stata fondata nel 2005 e ha sede a Dallas, Texas. L'azienda ha acquisito ''ThePlanet'' con sede a Houston, Texas. 
+Possiamo quindi affermare che tutti gli indirizzi IP trovati appartengono alla stessa azienda, la ''SoftLayer''.
 
 ~
 
-Tabella IP 
+La Tabella \ref{table:IP} mostra i 5 range di indirizzi trovati e l'azienda che li gestisce.
 
+~
+
+\begin{table}
 \begin{tabular}{|l|c|c|r|}
 \hline
 \multicolumn{1}{|c|}{}\\
@@ -185,16 +192,28 @@ Tabella IP
 50.22.0.0 - 50.23.255.255 &  SoftLayer Technologies Inc. & Dallas\\
 \hline
 \caption{Range di IP collegati a WhatsApp}
+\label{table:IP}
 \end{tabular}
+\end{table}
 
 ~
 
-Cloud Monitor - Un esempio per ogni rang di IP 
+Gli IP trovati, dunque, sono stati associati ad aziende di Dallas e Houston. 
+Per analizzare questo fatto e, soprattutto, per cercare di accertare tale posizione, \`e stato utilizzato il servizio di ''Cloud Monitor'', inserendo nel campo di ricerca un indirizzo IP appartenente ad ogni range e controllando l'RTT medio. 
+Generalmente, se un terminale si trovasse in America, l'RTT medio proveniente da stati americani verso quel dispositivo sarebbe inferiore rispetto all'RTT medio proveniente da stati europei.
 
+~
+
+Attraverso il servizio di ''Cloud Monitor'', dunque, sono stati fatti questi test e la Tabella \ref{table:Monitoring} ne riporta i risultati.
+
+~
+
+\begin{table}
+\label{table:Monitoring}
 \begin{tabular}{|l|c|c|r|}
 \hline
 \multicolumn{1}{|c|}{}\\
-\multicolumn{1}{|c|}{\textbf{Punto di controllo}} & {\textbf{Risultato}} & {\textbf{RTT minimo	} & {\textbf{RTT	medio} & {\textbf{RTT massimo}\\
+\multicolumn{1}{|c|}{\textbf{Punto di controllo}} & {\textbf{Risultato}} & {\textbf{RTT minimo	} & {\textbf{RTT medio} & {\textbf{RTT massimo}\\
 \multicolumn{1}{|c|}{}\\
 \hline
  & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
@@ -205,8 +224,40 @@ Cloud Monitor - Un esempio per ogni rang di IP
 \hline
 \caption{Cloud Monitoring - A IP for every range}
 \end{tabular}
+\end{table}
 
-		
+~
+
+Come si pu\`o notare, l'RTT medio proveniente da server americani è inferiore rispetto ad altri server. Questa soluzione permette di confermare l'effettiva collocazione geografica degli indirizzi IP trovati.
+
+~
+
+Un altro test effettuato \`e stato quello di effettuare un pre filtro dei pacchetti rilevati dall'applicazione ''Shark''. In questo modo, l'applicazione ha catturato solo i pacchetti aventi come destinazione un indirizzo IP appartenente ad uno dei range scoperti in precedenza.
+In questo modo, la quantit\`a di informazione catturata era limitata a quella che ci interessava.
+Durante la cattura, durata alcune ore, sono state ottenute altre importanti informazioni. Durante le ore, infatti, il dispositivo cellulare ha cambiato più volte rete (passando da Wi-fi a 3G e viceversa) e, in concomitanza con questi combi, sono cambiati anche gli indirizzi di destinazione.
+Questo fatto ci permette di affermare che uno smartphone comunica con un server (deciso al momento dell'inizio della connessione) e cambia con il cambiamento della rete utilizzata dal dispositivo.
+
+~
+
+Come ultimo test effettuato, abbiamo cercato di capire se la \figurename ~\ref{fig:WhatsApp} rispecchiasse il corretto funzionamento dell'applicazione.
+Tale figura mostra come due dispositivi si scambiano messaggi passando attraverso un server comune. 
+Il controllo effettuato si \`e basato sull'utilizzo contemporaneo di ''Shark'' da parte di due dispositivi per catturare i pacchetti scambiati tra di essi. 
+Facendo cos\`i, si \`e potuto controllare l'indirizzo IP di destinazione di entrambi gli smartphone. Se gli IP fossero stati uguali, allora si poteva affermare che, quando due dispositivi comunicano tra di loro, si connettono allo stesso server.
+In realt\`a, gli IP di destinazione erano differenti. Questo ci indica con certezza che durante la comunicazione tra pi\`u dispositivi, ogni dispositivo si connette ad un proprio server e poi saranno i relativi server a comunicare tra di loro prima di recapitare il messaggio al terminale di competenza.
+
+~
+
+La \figurename ~\ref{fig:lan} mostra il funzionamento corretto di WhatsApp.  
+
+~
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale = 0.6]{true_lan.png}
+\caption{Funzionamento corretto di WhatsApp}
+\label{fig:lan}
+\end{figure}
+
 
 
 \chapter{Conclusioni}
