@@ -166,7 +166,7 @@ La \figurename ~\ref{fig:rilevazioni} mostra tutti gli indirizzi IP catturati gi
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale = 0.7]{rilevazioni_30gg.png}
-\caption{Rilevamenti 30 giorni}
+\caption{Rilevamenti}
 \label{fig:rilevazioni}
 \end{figure}
 
@@ -183,8 +183,7 @@ La Tabella \ref{table:ip} mostra i 5 range di indirizzi trovati e l'azienda che 
 
 ~
 
-\begin{table}[h]
-\label{table:ip}
+\begin{table}[!htb]
 \begin{tabular}{|l|c|r|}
 \hline
 \multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}}\\
@@ -198,7 +197,7 @@ La Tabella \ref{table:ip} mostra i 5 range di indirizzi trovati e l'azienda che 
 50.22.0.0 - 50.23.255.255 &  SoftLayer Technologies Inc. & Dallas\\
 \hline
 \end{tabular}
-\caption{Range di IP collegati a WhatsApp}
+\caption{Range di IP collegati a WhatsApp}\label{table:ip}
 \end{table}
 
 
@@ -215,139 +214,131 @@ Generalmente, se un terminale si trovasse in America, l'RTT medio proveniente da
 
 ~
 
-Attraverso il servizio di ''Cloud Monitor'', dunque, sono stati fatti questi test e le Tabelle \ref{table:Monitoring_1} - \ref{table:Monitoring_5} ne riporta i risultati.
+Attraverso il servizio di ''Cloud Monitor'', dunque, sono stati fatti questi test e le Tabelle \ref{table:Monitoring_1} - \ref{table:Monitoring_5} riportano i risultati ottenuti per un IP appartenente ad ogni range di indirizzi trovato.
 
 ~
-\clearpage
 
-\begin{table}
-\label{table:Monitoring_1}
-\begin{tabular}{|l|c|c|c|r|}
+Come si pu\`o notare in tutte le tabelle sotto elencate, l'RTT medio proveniente da server americani è inferiore rispetto ad altri server. Questa soluzione permette di confermare l'effettiva collocazione geografica degli indirizzi IP trovati.
+
+~
+
+\begin{table}[!ht]
+\begin{tabular}{|l|c|c|c|}
 \hline
-\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
-\multicolumn{1}{|c|}{\textbf{Checkpoint}} & {\textbf{RTT minimo} & {\textbf{RTT medio} & {\textbf{RTT massimo} & {\textbf{IP}}\\
-\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
+\multicolumn{1}{|c|}{\textbf{Checkpoint}} & {\textbf{RTT minimo}} & {\textbf{RTT medio}} & {\textbf{RTT massimo}}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
 \hline
-U.S.A. - Atlanta (usatl02) & 14.958	15.028 & 15.089 & 108.168.176.252\\
-U.S.A. - Charlotte (usclt01) & 19.020 & 21.000 & 22.897 & 108.168.176.252\\
-U.S.A. - Orlando (usorl01) & 26.692 & 26.802 & 26.919 & 108.168.176.252\\
-United Arab Emirates - Dubai (aedxb01) & 210.377 & 214.806 & 223.568 & 108.168.176.252\\
-India - New Delhi (inicd01) & 307.221 & 314.655 & 324.349 & 108.168.176.252\\
-Italy - Padova (itpda01) & 182.594 & 182.884 & 183.131 & 108.168.176.252\\
-U.S.A. - Miami (usmia01) & 26.171 & 26.234 & 26.430 & 108.168.176.25\\
-Russia - St. Petersburg (ruled01) & 121.567 & 123.462 & 124.885 & 108.168.176.252\\
-Sweden - Stockholm (sesto01) & 107.762 & 108.445 & 109.035 & 108.168.176.252\\
-South Africa - Durban (zadur01) & 250.564 & 253.342 & 258.785 & 108.168.176.252\\
+U.S.A. - Atlanta (usatl02) & 14.958 & 15.028 & 15.089\\
+U.S.A. - Charlotte (usclt01) & 19.020 & 21.000 & 22.897\\
+U.S.A. - Orlando (usorl01) & 26.692 & 26.802 & 26.919\\
+United Arab Emirates - Dubai (aedxb01) & 210.377 & 214.806 & 223.568\\
+India - New Delhi (inicd01) & 307.221 & 314.655 & 324.349\\
+Italy - Padova (itpda01) & 182.594 & 182.884 & 183.131\\
+U.S.A. - Miami (usmia01) & 26.171 & 26.234 & 26.430\\
+Russia - St. Petersburg (ruled01) & 121.567 & 123.462 & 124.885\\
+Sweden - Stockholm (sesto01) & 107.762 & 108.445 & 109.035\\
+South Africa - Durban (zadur01) & 250.564 & 253.342 & 258.785\\
 \hline
 \end{tabular}
-\caption{Cloud Monitoring - A IP for 108.168.128.0 - 108.168.255.255 range}
+\caption{Cloud Monitoring - IP 108.168.176.252}\label{table:Monitoring_1}
 \end{table}
 
 ~
 
-\begin{table}
-\label{table:Monitoring_2}
-\begin{tabular}{|l|c|c|c|r|}
+\begin{table}[!ht]
+\begin{tabular}{|l|c|c|c|}
 \hline
-\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
-\multicolumn{1}{|c|}{\textbf{Checkpoint}} & {\textbf{RTT minimo} & {\textbf{RTT medio} & {\textbf{RTT massimo} & {\textbf{IP}}\\
-\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
+\multicolumn{1}{|c|}{\textbf{Checkpoint}} & {\textbf{RTT minimo}} & {\textbf{RTT medio}} & {\textbf{RTT massimo}}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
 \hline
-U.S.A. - Atlanta (usatl02) & 13.494 & 13.538 & 13.649 & 173.192.222.185\\
-U.S.A. - Boston (usbos01) & 12.680 & 12.741 & 12.833 & 173.192.222.185\\
-U.S.A. - Chicago (uschi04) & 24.325 & 24.528 & 24.900 & 173.192.222.18\\
-China - Shanghai (cnsha02) & 320.647 & 320.975 & 321.679 & 173.192.222.185\\
-Germany - Berlin (deber01) & 102.908 & 104.259 & 111.722 & 173.192.222.185\\
-United Arab Emirates - Dubai (aedxb01) & 200.551 & 204.575 & 215.826 & 173.192.222.185\\
-Greece - Athens (grath01) & 139.524 & 142.028 & 145.369 & 173.192.222.185\\
-India - New Delhi (inicd01) & 316.189 & 318.277 & 331.124 & 173.192.222.185\\
-Israel - Kiryat-Matalon (ilktm01) & 140.603 & 143.412 & 144.149 & 173.192.222.185\\
-U.S.A. - Philadelphia (usphl01)	7.698 & 7.898 & 8.571 & 173.192.222.185\\
+U.S.A. - Atlanta (usatl02) & 13.494 & 13.538 & 13.649\\
+U.S.A. - Boston (usbos01) & 12.680 & 12.741 & 12.833\\
+U.S.A. - Chicago (uschi04) & 24.325 & 24.528 & 24.900\\
+China - Shanghai (cnsha02) & 320.647 & 320.975 & 321.679\\
+Germany - Berlin (deber01) & 102.908 & 104.259 & 111.722\\
+United Arab Emirates - Dubai (aedxb01) & 200.551 & 204.575 & 215.826\\
+Greece - Athens (grath01) & 139.524 & 142.028 & 145.369\\
+India - New Delhi (inicd01) & 316.189 & 318.277 & 331.124\\
+Israel - Kiryat-Matalon (ilktm01) & 140.603 & 143.412 & 144.149\\
+U.S.A. - Philadelphia (usphl01) & 7.698 & 7.898 & 8.571\\
 \hline
 \end{tabular}
-\caption{Cloud Monitoring - A IP for 173.192.0.0 - 173.193.255.255 range}
+\caption{Cloud Monitoring - IP 173.192.222.185}\label{table:Monitoring_2}
 \end{table}
 
 ~
 
-\begin{table}
-\label{table:Monitoring_3}
-\begin{tabular}{|l|c|c|c|r|}
+\begin{table}[!ht]
+\begin{tabular}{|l|c|c|c|}
 \hline
-\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
-\multicolumn{1}{|c|}{\textbf{Checkpoint}} & {\textbf{RTT minimo} & {\textbf{RTT medio} & {\textbf{RTT massimo} & {\textbf{IP}}\\
-\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
+\multicolumn{1}{|c|}{\textbf{Checkpoint}} & {\textbf{RTT minimo}} & {\textbf{RTT medio}} & {\textbf{RTT massimo}}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
 \hline
-U.S.A. - Ashburn (usabn06) & 1.867 & 4.997 & 31.552 & 184.173.179.46\\
-Canada - Montreal (camtr01) & 15.638 & 18.000 & 26.510 & 184.173.179.46\\
-U.S.A. - Philadelphia (usphl01) & 7.763 & 7.867 & 8.016 & 184.173.179.46\\
-Malaysia - Kuala Lumpur (mykul01) & 249.499 & 250.963 & 254.803 & 184.173.179.46\\
-South Korea - Seoul (krsel01) & 209.901 & 239.262 & 268.693 & 184.173.179.46\\
-South Africa - Cape Town (zacpt02) & 224.220 & 224.339 & 224.573 & 184.173.179.4\\
-Turkey - Istanbul (trist01) & 164.054 & 168.212 & 184.680 & 184.173.179.46\\
-U.S.A. - St. Louis (usstl01) & 23.335 & 23.447 & 23.569 & 184.173.179.46\\
-Singapore - Singapore (sgsin02) & 235.687 & 236.045 & 236.759 & 184.173.179.46\\
-Poland - Warsaw (plwrs01) & 191.815 & 193.114 & 197.813 & 184.173.179.46\\
+U.S.A. - Ashburn (usabn06) & 1.867 & 4.997 & 31.552\\
+Canada - Montreal (camtr01) & 15.638 & 18.000 & 26.510\\
+U.S.A. - Philadelphia (usphl01) & 7.763 & 7.867 & 8.016\\
+Malaysia - Kuala Lumpur (mykul01) & 249.499 & 250.963 & 254.803\\
+South Korea - Seoul (krsel01) & 209.901 & 239.262 & 268.693\\
+South Africa - Cape Town (zacpt02) & 224.220 & 224.339 & 224.573\\
+Turkey - Istanbul (trist01) & 164.054 & 168.212 & 184.680\\
+U.S.A. - St. Louis (usstl01) & 23.335 & 23.447 & 23.569\\
+Singapore - Singapore (sgsin02) & 235.687 & 236.045 & 236.759\\
+Poland - Warsaw (plwrs01) & 191.815 & 193.114 & 197.813\\
 \hline
 \end{tabular}
-\caption{Cloud Monitoring - A IP for 184.172.0.0 - 184.173.255.255 range}
+\caption{Cloud Monitoring - IP 184.173.179.46}\label{table:Monitoring_3}
 \end{table}
 
 ~
 
-\begin{table}
-\label{table:Monitoring_4}
-\begin{tabular}{|l|c|c|c|r|}
+\begin{table}[!ht]
+\begin{tabular}{|l|c|c|c|}
 \hline
-\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
-\multicolumn{1}{|c|}{\textbf{Checkpoint}} & {\textbf{RTT minimo} & {\textbf{RTT medio} & {\textbf{RTT massimo} & {\textbf{IP}}\\
-\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
+\multicolumn{1}{|c|}{\textbf{Checkpoint}} & {\textbf{RTT minimo}} & {\textbf{RTT medio}} & {\textbf{RTT massimo}}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
 \hline
-U.S.A. - Ashburn (usabn06) & 1.763 & 1.959 & 2.151 & 208.43.122.142\\
-U.S.A. - Philadelphia (usphl01) & 6.055 & 6.176 & 6.452 & 208.43.122.142\\
-Singapore - Singapore (sgsin02) & 234.976 & 236.185 & 242.457 & 208.43.122.142\\
-Australia - Melbourne (aumel02) & 242.088 & 242.273 & 242.494 & 208.43.122.142\\
-Vietnam - Ho Chi Minh City (vnsgn01) & 	292.203 & 293.812 & 295.187 & 208.43.122.142\\
-Italy - Rome (itrom01) & 107.327 & 108.855 & 110.644 & 208.43.122.142\\
-Norway - Oslo (noosl02) & 102.496 & 105.621 & 129.432 & 208.43.122.142\\
-Malaysia - Kuala Lumpur (mykul01) & 257.579 & 259.167 & 262.955 & 208.43.122.142\\
-U.S.A. - St. Louis (usstl01) & 22.873 & 22.955 & 23.073 & 208.43.122.142\\
-United Kingdom - Glasgow (gbglw01) & 75.504 & 75.587 & 75.727 & 208.43.122.142\\
-\hline
-\end{tabular}
-\caption{Cloud Monitoring - A IP for 208.43.0.0 - 208.43.255.255 range}
-\end{table}
-
-~
-
-\begin{table}
-\label{table:Monitoring_5}
-\begin{tabular}{|l|c|c|c|r|}
-\hline
-\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
-\multicolumn{1}{|c|}{\textbf{Checkpoint}} & {\textbf{RTT minimo} & {\textbf{RTT medio} & {\textbf{RTT massimo} & {\textbf{IP}}\\
-\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
-\hline
-U.S.A. - Atlanta (usatl02) & 14.374 & 14.466 & 14.532 & 50.22.225.85\\
-U.S.A. - Boston (usbos01) & 13.064 & 13.098 & 13.132 & 50.22.225.85\\
-U.S.A. - Ashburn (usabn06) & 1.741 & 1.942 & 2.225 & 50.22.225.85\\
-China - Hong Kong (hkhkg01) & 224.032 & 224.907 & 226.799 & 50.22.225.85\\
-Thailand - Bangkok (thbkk02) & 277.834 & 277.929 & 278.014 & 50.22.225.85\\
-Austria - Vienna (atvie01) & 104.221 & 104.262 & 104.286 & 50.22.225.85\\
-Hungary - Budapest (hubud01) & 113.398 & 113.641 & 114.190 & 50.22.225.85\\
-Czech Republic - Prague (czprg01) & 95.966 & 96.028 & 96.099 & 50.22.225.85\\
-Brazil - Sao Paulo (brsao03) & 155.717 & 155.935 & 156.290 & 50.22.225.85\\
-Spain - Madrid (esmad01) & 125.545 & 128.065 & 132.618 & 50.22.225.85\\
+U.S.A. - Ashburn (usabn06) & 1.763 & 1.959 & 2.151\\
+U.S.A. - Philadelphia (usphl01) & 6.055 & 6.176 & 6.452\\
+Singapore - Singapore (sgsin02) & 234.976 & 236.185 & 242.457\\
+Australia - Melbourne (aumel02) & 242.088 & 242.273 & 242.494\\
+Vietnam - Ho Chi Minh City (vnsgn01) & 	292.203 & 293.812 & 295.187\\
+Italy - Rome (itrom01) & 107.327 & 108.855 & 110.644\\
+Norway - Oslo (noosl02) & 102.496 & 105.621 & 129.432\\
+Malaysia - Kuala Lumpur (mykul01) & 257.579 & 259.167 & 262.955\\
+U.S.A. - St. Louis (usstl01) & 22.873 & 22.955 & 23.073\\
+United Kingdom - Glasgow (gbglw01) & 75.504 & 75.587 & 75.727\\
 \hline
 \end{tabular}
-\caption{Cloud Monitoring - A IP for 50.22.0.0 - 50.23.255.255 range}
+\caption{Cloud Monitoring - IP 208.43.122.142}\label{table:Monitoring_4}
 \end{table}
 
-~
+~ 
 
-Come si pu\`o notare in tutte le tabelle sopra elencate, l'RTT medio proveniente da server americani è inferiore rispetto ad altri server. Questa soluzione permette di confermare l'effettiva collocazione geografica degli indirizzi IP trovati.
-
-~
+\begin{table}[!ht]
+\begin{tabular}{|l|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
+\multicolumn{1}{|c|}{\textbf{Checkpoint}} & {\textbf{RTT minimo}} & {\textbf{RTT medio}} & {\textbf{RTT massimo}}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
+\hline
+U.S.A. - Atlanta (usatl02) & 14.374 & 14.466 & 14.532\\
+U.S.A. - Boston (usbos01) & 13.064 & 13.098 & 13.132\\
+U.S.A. - Ashburn (usabn06) & 1.741 & 1.942 & 2.225\\
+China - Hong Kong (hkhkg01) & 224.032 & 224.907 & 226.799\\
+Thailand - Bangkok (thbkk02) & 277.834 & 277.929 & 278.014\\
+Austria - Vienna (atvie01) & 104.221 & 104.262 & 104.286\\
+Hungary - Budapest (hubud01) & 113.398 & 113.641 & 114.190\\
+Czech Republic - Prague (czprg01) & 95.966 & 96.028 & 96.099\\
+Brazil - Sao Paulo (brsao03) & 155.717 & 155.935 & 156.290\\
+Spain - Madrid (esmad01) & 125.545 & 128.065 & 132.618\\
+\hline
+\end{tabular}
+\caption{Cloud Monitoring - IP 50.22.225.85}\label{table:Monitoring_5}
+\end{table}
 
 \clearpage
 
