@@ -174,29 +174,33 @@ Possiamo quindi affermare che tutti gli indirizzi IP trovati appartengono alla s
 
 ~
 
-%La Tabella \ref{table:ip} mostra i 5 range di indirizzi trovati e l'azienda che li gestisce.
+La Tabella \ref{table:ip} mostra i 5 range di indirizzi trovati e l'azienda che li gestisce.
 
 ~
 
-%\begin{table}
-%\label{table:ip}
-\begin{tabular}{|l|c|c|r|}
+\begin{table}[h]
+\label{table:ip}
+\begin{tabular}{|l|c|r|}
 \hline
-\multicolumn{1}{|c|}{}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}}\\
 \multicolumn{1}{|c|}{\textbf{IP - range}} & {\textbf{Company}} & {\textbf{Position}}\\
-\multicolumn{1}{|c|}{}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}}\\
 \hline
 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
 173.192.0.0 - 173.193.255.255 &  SoftLayer Technologies Inc. & Dallas\\
 184.172.0.0 - 184.173.255.255 &  ThePlanet.com Internet Services, Inc. & Houston\\
 208.43.0.0 - 208.43.255.255 &  SoftLayer Technologies Inc. & Dallas\\
 50.22.0.0 - 50.23.255.255 &  SoftLayer Technologies Inc. & Dallas\\
-%\hline
-\caption{Range di IP collegati a WhatsApp}
+\hline
 \end{tabular}
-%\end{table}
+\caption{Range di IP collegati a WhatsApp}
+\end{table}
+
 
 ~
+
+~
+
 
 Gli IP trovati, dunque, sono stati associati ad aziende di Dallas e Houston. 
 Per analizzare questo fatto e, soprattutto, per cercare di accertare tale posizione, \`e stato utilizzato il servizio di ''Cloud Monitor'', inserendo nel campo di ricerca un indirizzo IP appartenente ad ogni range e controllando l'RTT medio. 
@@ -204,27 +208,37 @@ Generalmente, se un terminale si trovasse in America, l'RTT medio proveniente da
 
 ~
 
-%Attraverso il servizio di ''Cloud Monitor'', dunque, sono stati fatti questi test e la Tabella \ref{table:Monitoring} ne riporta i risultati.
+Attraverso il servizio di ''Cloud Monitor'', dunque, sono stati fatti questi test e la Tabella \ref{table:Monitoring} ne riporta i risultati.
 
 ~
+\clearpage
 
-%\begin{table}
-%\label{table:Monitoring}
-\begin{tabular}{|l|c|c|r|}
+\begin{table}
+\label{table:Monitoring}
+\begin{tabular}{|l|c|c|c|r|}
 \hline
-\multicolumn{1}{|c|}{}\\
-\multicolumn{1}{|c|}{\textbf{Punto di controllo}} & {\textbf{Risultato}} & {\textbf{RTT minimo	} & {\textbf{RTT medio} & {\textbf{RTT massimo}\\
-\multicolumn{1}{|c|}{}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{} & {\textbf{} & {\textbf{}}\\
+\multicolumn{1}{|c|}{\textbf{Punto}} & {\textbf{Risultato}} & {\textbf{RTT} & {\textbf{RTT} & {\textbf{RTT}\\
+\multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{} & {\textbf{} & {\textbf{}}\\
 \hline
+ & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
+ & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
  & & 108.168.128.0 - 108.168.255.255 &  SoftLayer Technologies Inc. & Dallas\\
  & & 173.192.0.0 - 173.193.255.255 &  SoftLayer Technologies Inc. & Dallas\\
  & & 184.172.0.0 - 184.173.255.255 &  ThePlanet.com Internet Services, Inc. & Houston\\
  & & 208.43.0.0 - 208.43.255.255 &  SoftLayer Technologies Inc. & Dallas\\
  & & 50.22.0.0 - 50.23.255.255 &  SoftLayer Technologies Inc. & Dallas\\
 \hline
-\caption{Cloud Monitoring - A IP for every range}
 \end{tabular}
-%\end{table}
+\caption{Cloud Monitoring - A IP for every range}
+\end{table}
 
 ~
 
@@ -232,12 +246,21 @@ Come si pu\`o notare, l'RTT medio proveniente da server americani è inferiore r
 
 ~
 
+\clearpage
+
 Un altro test effettuato \`e stato quello di effettuare un pre filtro dei pacchetti rilevati dall'applicazione ''Shark''. In questo modo, l'applicazione ha catturato solo i pacchetti aventi come destinazione un indirizzo IP appartenente ad uno dei range scoperti in precedenza.
 In questo modo, la quantit\`a di informazione catturata era limitata a quella che ci interessava.
 Durante la cattura, durata alcune ore, sono state ottenute altre importanti informazioni. Durante le ore, infatti, il dispositivo cellulare ha cambiato più volte rete (passando da Wi-fi a 3G e viceversa) e, in concomitanza con questi combi, sono cambiati anche gli indirizzi di destinazione.
 Questo fatto ci permette di affermare che uno smartphone comunica con un server (deciso al momento dell'inizio della connessione) e cambia con il cambiamento della rete utilizzata dal dispositivo.
 
 ~
+
+Inserire img di riferimento
+
+~
+
+
+\clearpage 
 
 Come ultimo test effettuato, abbiamo cercato di capire se la \figurename ~\ref{fig:WhatsApp} rispecchiasse il corretto funzionamento dell'applicazione.
 Tale figura mostra come due dispositivi si scambiano messaggi passando attraverso un server comune. 
