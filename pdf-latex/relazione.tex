@@ -48,7 +48,6 @@ L'11 aprile 2014 \`e arrivato il via libera all'acquisizione di WhatsApp da part
 \end{figure}
 
 \clearpage
-%~
 
 \subsection{Come funziona}
 Servendosi della rete cellulare, WhatsApp messenger permette di inviare messaggi a qualsiasi altro utente connesso ad una rete. Questa modalit\`a di funzionamento ci permette di affermare che, sicuramente, all'invio di un messaggio viene contattato un server il quale avr\`a il compito di smistarlo al dispositivo di destinazione.
@@ -65,7 +64,6 @@ In particolare, all'invio di un messaggio vengono effettuate le seguenti operazi
 Quando il server riceve il messaggio, nel dispositivo mittente compare una spunta; quando il destinatario riceve il messaggio al mittente compare la seconda spunta.
 
 La \figurename ~\ref{fig:WhatsApp} illustra tale funzionamento.
-%La \figurename~\ref{fig:rete} illustra tale funzionamento.
 ~
 \begin{figure}[h!t]
 \centering
@@ -79,21 +77,28 @@ La \figurename ~\ref{fig:WhatsApp} illustra tale funzionamento.
 \section{Shark}
 \subsection{Cos'\`e}
 
-Traffic sniffer, works on 3G and WiFi (works on FroYo tethered mode too).
-To open dump use WireShark or similar software, for preview dump on phone use Shark Reader.
-Based on tcpdump. Please leave comments/send e-mail if you have any problems/suggestions.
+Shark \`e uno ''sniffatore'' del traffico di rete. Cattura tutti i pacchetti scambiati da un dispositivo sia utilizzando rete 3G sia utilizzando rete WIFI. 
+
+Le \figurename ~\ref{fig:stop} e ~\ref{fig:go} illustrano l'interfaccia dell'applicazione durante la fase di ''cattura''.
+
+~
+
+
+~
 
 
 \begin{figure}[h!t]
 \centering
-\includegraphics[scale = 0.6]{shark}
+\includegraphics[scale = 0.8]{shark}
 \caption{Anteprima Shark}
+\label{fig:stop}
 \end{figure}
 
 \begin{figure}[h!t]
 \centering
-\includegraphics[scale = 0.6]{shark_go}
+\includegraphics[scale = 0.8]{shark_go}
 \caption{Anteprima Shark - Running}
+\label{fig:go}
 \end{figure}
 
 \clearpage
