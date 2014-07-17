@@ -29,13 +29,28 @@
 \tableofcontents
 
 \chapter{Introduzione}
+%Contesto - introduzione generale
+
+~
+
+%Motivazioni - problemi aperti
+
+~
+
+%Contributi - che cosa hai fatto
+
+~
+
+%Organizzazione - come è fatta/strutturata la tesi
+
+~
 
 
 \chapter{Strumenti utilizzati}
 
 \section{WhatsApp Messenger}
 \subsection{Cos'\`e}
-WhatsApp Messenger \`e un'applicazione di messaggistica mobile multi piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger \`e disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. Tutti questi telefoni possono scambiarsi messaggi gli uni gli altri. Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici ed \`e sicuramente questo uno dei motivi per i quali questa applicazione ha ottenuto un cos\`i gran successo in poco tempo.
+WhatsApp Messenger \cite{rif1} \`e un'applicazione di messaggistica mobile multi piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger \`e disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. Tutti questi telefoni possono scambiarsi messaggi gli uni gli altri. Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici ed \`e sicuramente questo uno dei motivi per i quali questa applicazione ha ottenuto un cos\`i gran successo in poco tempo.
 
 Oltre alla messaggistica di base gli utenti di WhatsApp possono creare gruppi, scambiarsi messaggi illimitati, video e messaggi audio multimediali.
 
@@ -47,11 +62,11 @@ L'11 aprile 2014 \`e arrivato il via libera all'acquisizione di WhatsApp da part
 \caption{Interfaccia di WhatsApp}
 \end{figure}
 
+
 \clearpage
 
 \subsection{Come funziona}
 Servendosi della rete cellulare, WhatsApp messenger permette di inviare messaggi a qualsiasi altro utente connesso ad una rete. Questa modalit\`a di funzionamento ci permette di affermare che, sicuramente, all'invio di un messaggio viene contattato un server il quale avr\`a il compito di smistarlo al dispositivo di destinazione.
-
 In particolare, all'invio di un messaggio vengono effettuate le seguenti operazioni:
 \begin{itemize}
  \item Il messaggio arriva ad un server
@@ -61,13 +76,15 @@ In particolare, all'invio di un messaggio vengono effettuate le seguenti operazi
  \item Il server comunica al mittente l'avvenuta ricezione del messaggio da parte del destinatario
 \end{itemize}
 
-Quando il server riceve il messaggio, nel dispositivo mittente compare una spunta; quando il destinatario riceve il messaggio al mittente compare la seconda spunta.
+Quando il server riceve il messaggio, nel dispositivo mittente compare una spunta; quando il destinatario riceve il messaggio, al mittente compare la seconda spunta.
+
+~
 
 La \figurename ~\ref{fig:WhatsApp} illustra tale funzionamento.
 ~
 \begin{figure}[h!t]
 \centering
-\includegraphics[scale = 0.6]{rete}
+\includegraphics[scale = 0.8]{rete}
 \caption{Funzionamento WhatsApp}
 \label{fig:WhatsApp}
 \end{figure}
@@ -77,23 +94,27 @@ La \figurename ~\ref{fig:WhatsApp} illustra tale funzionamento.
 \section{Shark}
 \subsection{Cos'\`e}
 
-Shark \`e uno ''sniffatore'' del traffico di rete. Cattura tutti i pacchetti scambiati da un dispositivo sia utilizzando rete 3G sia utilizzando rete WIFI. 
+Shark \cite{rif3} \`e uno ''sniffatore'' del traffico di rete. Cattura tutti i pacchetti scambiati da un dispositivo sia utilizzando rete 3G sia utilizzando rete WIFI.
+Permette di settare dei parametri che fungono da filtri durante la cattura e i risultati vengono salvati nella memoria dello smartphone (o nella microSD) in formato pcap.
 
-Le \figurename ~\ref{fig:stop} e ~\ref{fig:go} illustrano l'interfaccia dell'applicazione durante la fase di ''cattura''.
+~
+
+La \figurename ~\ref{fig:go} illustra l'interfaccia dell'applicazione durante la fase di ''cattura''.
+%~\ref{fig:stop} e 
 
 ~
 
 
 ~
 
-
-\begin{figure}[h!t]
-\centering
-\includegraphics[scale = 0.8]{shark}
-\caption{Anteprima Shark}
-\label{fig:stop}
-\end{figure}
-
+%
+%\begin{figure}[h!t]
+%\centering
+%\includegraphics[scale = 0.8]{shark}
+%\caption{Anteprima Shark}
+%\label{fig:stop}
+%\end{figure}
+%
 \begin{figure}[h!t]
 \centering
 \includegraphics[scale = 0.8]{shark_go}
@@ -106,11 +127,11 @@ Le \figurename ~\ref{fig:stop} e ~\ref{fig:go} illustrano l'interfaccia dell'app
 \section{Wireshark}
 
 \subsection{Cos'\`e}
-Wireshark \`e un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che \`e il formato usato da tcpdump ed altri tools.
-
-~
+Wireshark \cite{rif4} \`e un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che \`e il formato usato da tcpdump ed altri tools.
 
 I pacchetti catturati sono conformi alla libreria pcap. \`E possibile applicare filtri ai pacchetti ottenuti, selezionando, per esempio, solo quelli provenienti da un determinato IP sorgente. I filtri applicabili ai pacchetti seguono le regole della libreria pcap.
+
+~
 
 L'interfaccia grafica di Wireshark (\figurename ~\ref{fig:Whireshark}) mostra il numero di pacchetti catturati, il tempo trascorso tra la cattura dei pacchetti, l'indirizzo sorgente e quello di destinazione, il protocollo usato, la lunghezza del pacchetto ed altre informazioni.
 
@@ -126,7 +147,7 @@ L'interfaccia grafica di Wireshark (\figurename ~\ref{fig:Whireshark}) mostra il
 \clearpage
 
 \section{Whois}
-Whois \`e un servizio utilizzabile da shell di Ubuntu che permette di visualizzare informazioni riguardanti un determinato indirizzo IP.
+Whois \cite{rif5} \`e un servizio utilizzabile da shell di Ubuntu che permette di visualizzare informazioni riguardanti un determinato indirizzo IP.
 In particolare, applicando whois ad un indirizzo IP, vengono visualizzati il nome della rete, il range di indirizzi ai quali la rete fa riferimento, il luogo in cui si situa l'IP ricercato, l'organizzazione che lo gestisce ed altre informazioni di rete.
 
 ~
@@ -140,7 +161,7 @@ In particolare, applicando whois ad un indirizzo IP, vengono visualizzati il nom
 \clearpage
 
 \section{Cloud Monitor}
-Cloud Monitor \`e un'azienda leader nel settore del monitoraggio delle prestazioni di siti ed applicazioni Web. Verifica le prestazioni di siti e server grazie a 95 stazioni di monitoraggio disposte in 48 paesi del mondo. 
+Cloud Monitor \cite{rif6} \`e un'azienda leader nel settore del monitoraggio delle prestazioni di siti ed applicazioni Web. Verifica le prestazioni di siti e server grazie a 95 stazioni di monitoraggio disposte in 48 paesi del mondo. 
 Dato un indirizzo IP o un sito web, effettua, attraverso le 95 stazioni, ping verso quell'indirizzo registrando l'esito dello stesso e, in caso di ping eseguito con successo, RTT minimo, RTT medio ed RTT massimo (RTT - Round Trip Time, tempo impiegato da un pacchetto di dimensione trascurabile per viaggiare da un computer ad un altro e tornare indietro). 
 
 ~
@@ -349,7 +370,7 @@ Spain - Madrid (esmad01) & 125.545 & 128.065 & 132.618\\
 
 Un altro test effettuato \`e stato quello di pre-filtrare i pacchetti che sarebbero stati rilevati dall'applicazione ''Shark''. In questo modo, l'applicazione ha catturato solo i pacchetti aventi come destinazione un indirizzo IP appartenente ad uno dei range scoperti in precedenza.
 Di conseguenza, la quantit\`a di informazione catturata era limitata a quella che ci interessava.
-Durante la cattura, durata alcune ore, sono state ottenute altre importanti informazioni. Durante le ore, infatti, il dispositivo cellulare ha cambiato più volte rete (passando da WIFI a 3G e viceversa) e, in concomitanza con questi cambi, sono cambiati anche gli indirizzi di destinazione.
+Durante la cattura, durata alcune ore, sono state ottenute altre importanti informazioni. Durante le ore, infatti, il dispositivo cellulare ha cambiato più volte rete (passando da WIFI a 3G e viceversa) e, in concomitanza con questi cambiamenti, sono cambiati anche gli indirizzi di destinazione.
 Questo fatto ci permette di affermare che uno smartphone comunica con un server (deciso al momento dell'inizio della connessione) e cambia con la modifica della rete utilizzata dal dispositivo.
 
 ~
@@ -392,4 +413,14 @@ La \figurename ~\ref{fig:lan} mostra il funzionamento corretto di WhatsApp.
 
 
 \chapter{Conclusioni}
+
+
+\begin{thebibliography}{}
+\bibitem{rif1} \emph{http://www.whatsapp.com}
+\bibitem{rif2} \emph{https://telegram.org}
+\bibitem{rif3} \emph{https://play.google.com/store/apps/details?id=lv.n3o.shark}
+\bibitem{rif4} \emph{http://www.wireshark.org}
+\bibitem{rif5} \emph{http://packages.ubuntu.com/precise/whois}
+\bibitem{rif6} \emph{http://cloudmonitor.ca.com/it/ping.php}
+\end{thebibliography}
 \end{document}
