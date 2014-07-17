@@ -30,27 +30,42 @@
 
 \chapter{Introduzione}
 %Contesto - introduzione generale
+Negli anni in cui ci troviamo, pare sempre pi\`u impensabile riuscire a lavorare, divertirsi e progredire senza l'utilizzo degli smartphone. La società di ricerche International Data Corporation (Idc), ha segnalato nel suo "Worldwide Quarterly Mobile Phone Tracker" che, durante lo scorso anno, le consegne di smartphone sono aumentate del 38,4\% ad addirittura 1,0042 miliardi di unità.
+Oramai, tali dispositivi mobili sono entrati a far parte della vita quotidiana di tutti noi soprattutto grazie alla loro versatilit\`a, ottenuta con l'utilizzo di applicazioni.
+Tali ''app'', permettono di fare infinite cose e in qualsiasi ambito, dallo sport, alla cucina, al business. Con l'avvento degli smartphone \`e cambiato anche il modo di comunicare.
+Gli SMS, utilizzati fino a qualche anno fa, sono quasi superati da applicazioni che permettono di scambiarsi messaggi in maniera totalmente gratuita sfruttando la rete cellulare del dispositivo. Tali applicazioni non si limitano al semplice scambio di messaggi di testo ma danno la possibilit\`a, anche, di scambiarsi immagini, video, audio e di creare messaggi di gruppo.
+Le applicazioni pi\`u conosciute sotto l'ambito della messaggistica sono WhatsApp \cite{rif1}, WeChat \cite{rif2}, Telegram \cite{rif3} e Viber \cite{rif4}.
 
 ~
 
 %Motivazioni - problemi aperti
+Tra le applicazioni sopra citate, la prima ad ''esplodere'' in termini di numero di utenti \`e stata WhatsApp, pubblicata nel 2009. A differenza di altre app che sono opensource, come per esempio Telegram, WhatsApp \`e ''chiusa'', nel senso che gli sviluppatori non hanno reso pubbliche informazioni specifiche dell'applicazione riguardanti per esempio i protocolli utilizzati, le modalit\`a di scambio dei messaggi, la gestione della sicurezza e della privacy.
+Per questo motivo, molte cose riguardanti WhatsApp non si sanno con certezza (o priorio per nulla), come ad esempio la dislocazione dei server nel territorio modiale, le modalit\`a di scambio dei messaggi e le questioni legate alla sicurezza e alla crittografia.
 
 ~
 
 %Contributi - che cosa hai fatto
+Abbiamo deciso, pertanto, di dare delle risposte ad alcune questioni aperte riguardanti WhatsApp e, in particolare, ci siamo focalizzati su:
+\begin{itemize}
+ \item localizzare (per quanto possibile) i server nel territorio mondiale
+ \item capire come avviene lo scambio di messaggi tra due dispositivi
+ \item verificare come cambiano i server connessi ad un dispositivo al cambiare della rete utilizzata
+\end{itemize}
 
 ~
 
 %Organizzazione - come è fatta/strutturata la tesi
-
-~
-
+La tesi \`e strutturata in 4 capitoli.
+Il primo capitolo \`e quello introduttivo, il quale specifica il contesto, le motivazioni, i contributi e l'organizzazione della tesi stessa.
+Nel secondo capitolo sono elencati e descritti gli strumenti utilizzati durante i test, con l'ausilio di immagini che ne mostrano le relative interfacce grafiche. 
+Il terzo capitolo, invece, descrive tutti gli studi e le misurazioni effettuate per ottenere i risultati necessari per dare delle risposte ai quesiti che ci siamo posti.
+Il quarto capitolo, infine, \`e quello conclusivo.
 
 \chapter{Strumenti utilizzati}
 
 \section{WhatsApp Messenger}
 \subsection{Cos'\`e}
-WhatsApp Messenger \cite{rif1} \`e un'applicazione di messaggistica mobile multi piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger \`e disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. Tutti questi telefoni possono scambiarsi messaggi gli uni gli altri. Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici ed \`e sicuramente questo uno dei motivi per i quali questa applicazione ha ottenuto un cos\`i gran successo in poco tempo.
+WhatsApp Messenger \`e un'applicazione di messaggistica mobile multi piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger \`e disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. Tutti questi telefoni possono scambiarsi messaggi gli uni gli altri. Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici ed \`e sicuramente questo uno dei motivi per i quali questa applicazione ha ottenuto un cos\`i gran successo in poco tempo.
 
 Oltre alla messaggistica di base gli utenti di WhatsApp possono creare gruppi, scambiarsi messaggi illimitati, video e messaggi audio multimediali.
 
@@ -94,7 +109,7 @@ La \figurename ~\ref{fig:WhatsApp} illustra tale funzionamento.
 \section{Shark}
 \subsection{Cos'\`e}
 
-Shark \cite{rif3} \`e uno ''sniffatore'' del traffico di rete. Cattura tutti i pacchetti scambiati da un dispositivo sia utilizzando rete 3G sia utilizzando rete WIFI.
+Shark \cite{rif5} \`e uno ''sniffatore'' del traffico di rete. Cattura tutti i pacchetti scambiati da un dispositivo sia utilizzando rete 3G sia utilizzando rete WIFI.
 Permette di settare dei parametri che fungono da filtri durante la cattura e i risultati vengono salvati nella memoria dello smartphone (o nella microSD) in formato pcap.
 
 ~
@@ -127,7 +142,7 @@ La \figurename ~\ref{fig:go} illustra l'interfaccia dell'applicazione durante la
 \section{Wireshark}
 
 \subsection{Cos'\`e}
-Wireshark \cite{rif4} \`e un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che \`e il formato usato da tcpdump ed altri tools.
+Wireshark \cite{rif6} \`e un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che \`e il formato usato da tcpdump ed altri tools.
 
 I pacchetti catturati sono conformi alla libreria pcap. \`E possibile applicare filtri ai pacchetti ottenuti, selezionando, per esempio, solo quelli provenienti da un determinato IP sorgente. I filtri applicabili ai pacchetti seguono le regole della libreria pcap.
 
@@ -147,7 +162,7 @@ L'interfaccia grafica di Wireshark (\figurename ~\ref{fig:Whireshark}) mostra il
 \clearpage
 
 \section{Whois}
-Whois \cite{rif5} \`e un servizio utilizzabile da shell di Ubuntu che permette di visualizzare informazioni riguardanti un determinato indirizzo IP.
+Whois \cite{rif7} \`e un servizio utilizzabile da shell di Ubuntu che permette di visualizzare informazioni riguardanti un determinato indirizzo IP.
 In particolare, applicando whois ad un indirizzo IP, vengono visualizzati il nome della rete, il range di indirizzi ai quali la rete fa riferimento, il luogo in cui si situa l'IP ricercato, l'organizzazione che lo gestisce ed altre informazioni di rete.
 
 ~
@@ -161,7 +176,7 @@ In particolare, applicando whois ad un indirizzo IP, vengono visualizzati il nom
 \clearpage
 
 \section{Cloud Monitor}
-Cloud Monitor \cite{rif6} \`e un'azienda leader nel settore del monitoraggio delle prestazioni di siti ed applicazioni Web. Verifica le prestazioni di siti e server grazie a 95 stazioni di monitoraggio disposte in 48 paesi del mondo. 
+Cloud Monitor \cite{rif8} \`e un'azienda leader nel settore del monitoraggio delle prestazioni di siti ed applicazioni Web. Verifica le prestazioni di siti e server grazie a 95 stazioni di monitoraggio disposte in 48 paesi del mondo. 
 Dato un indirizzo IP o un sito web, effettua, attraverso le 95 stazioni, ping verso quell'indirizzo registrando l'esito dello stesso e, in caso di ping eseguito con successo, RTT minimo, RTT medio ed RTT massimo (RTT - Round Trip Time, tempo impiegato da un pacchetto di dimensione trascurabile per viaggiare da un computer ad un altro e tornare indietro). 
 
 ~
@@ -417,10 +432,12 @@ La \figurename ~\ref{fig:lan} mostra il funzionamento corretto di WhatsApp.
 
 \begin{thebibliography}{}
 \bibitem{rif1} \emph{http://www.whatsapp.com}
-\bibitem{rif2} \emph{https://telegram.org}
-\bibitem{rif3} \emph{https://play.google.com/store/apps/details?id=lv.n3o.shark}
-\bibitem{rif4} \emph{http://www.wireshark.org}
-\bibitem{rif5} \emph{http://packages.ubuntu.com/precise/whois}
-\bibitem{rif6} \emph{http://cloudmonitor.ca.com/it/ping.php}
+\bibitem{rif2} \emph{http://www.wechat.com}
+\bibitem{rif3} \emph{https://telegram.org}
+\bibitem{rif4} \emph{http://www.viber.com}
+\bibitem{rif5} \emph{https://play.google.com/store/apps/details?id=lv.n3o.shark}
+\bibitem{rif6} \emph{http://www.wireshark.org}
+\bibitem{rif7} \emph{http://packages.ubuntu.com/precise/whois}
+\bibitem{rif8} \emph{http://cloudmonitor.ca.com/it/ping.php}
 \end{thebibliography}
 \end{document}
