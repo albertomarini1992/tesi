@@ -55,10 +55,10 @@ Abbiamo deciso, pertanto, di dare delle risposte ad alcune questioni aperte rigu
 ~
 
 %Organizzazione - come è fatta/strutturata la tesi
-La tesi \`e strutturata in 4 capitoli.
-Il primo capitolo \`e quello introduttivo, il quale specifica il contesto, le motivazioni, i contributi e l'organizzazione della tesi stessa.
-Nel secondo capitolo sono elencati e descritti gli strumenti utilizzati durante i test, con l'ausilio di immagini che ne mostrano le relative interfacce grafiche. 
-Il terzo capitolo, invece, descrive tutti gli studi e le misurazioni effettuate per ottenere i risultati necessari per dare delle risposte ai quesiti che ci siamo posti.
+La tesi \`e strutturata in 4 capitoli.\\
+Il primo capitolo \`e quello introduttivo, il quale specifica il contesto, le motivazioni, i contributi e l'organizzazione della tesi stessa.\\
+Nel secondo capitolo sono elencati e descritti gli strumenti utilizzati durante i test, con l'ausilio di immagini che ne mostrano le relative interfacce grafiche. \\
+Il terzo capitolo, invece, descrive tutti gli studi e le misurazioni effettuate per ottenere i risultati necessari per dare delle risposte ai quesiti che ci siamo posti.\\
 Il quarto capitolo, infine, \`e quello conclusivo.
 
 \chapter{Strumenti utilizzati}
@@ -428,7 +428,19 @@ La \figurename ~\ref{fig:lan} mostra il funzionamento corretto di WhatsApp.
 
 
 \chapter{Conclusioni}
+L'obiettivo della tesi era quello di dimostrare il funzionamento dell'applicazione di messaggistica ''WhatsApp'' cercando, anche, di trovare la dislocazione dei server nel territorio mondiale.\\
+Per fare ci\`o, ci siamo serviti di alcuni tools:
+\begin{itemize}
+\item ''Shark'', analizzatore del traffico di rete su smartphone 
+\item ''Wireshark'', analizzatore del traffico di rete su PC, utilizzato per aprire i file generati da Shark
+\item ''Whois'', servizio di Ubuntu che permette di visualizzare molteplici informazioni riguardanti un indirizzo IP
+\item ''CloudMonitor'', servizio che si occupa di effettuare ping verso un indirizzo IP da 95 stazioni disposte in 48 Paesi del mondo
+\end{itemize}
 
+Dopo aver effettuato rilevazioni giornaliere per pi\`u di 30 giorni (servendoci del tool Shark), sono stati analizzati gli indirizzi IP dei server con i quali lo smartphone ha comunicato durante l'invio dei messaggi ed abbiamo constatato che tutti gli indirizzi appartengono ad un'unica azienda, la SoftLayer Technologies Inc. di Dallas.\\
+Utilizzando il servizio di CloudMonitor sugli indirizzi IP trovati, abbiamo affermato che i server si trovano nel territorio americano.\\
+Abbiamo provato, inoltre, ad analizzare il traffico di rete durante la modifica della rete utilizzata dallo smartphone per comunicare (uscendo da WIFI ed entrando nella rete cellulare e viceversa), ed \`e stato notato che, nel momento in cui lo smartphone esce da una rete ed entra in un'altra, anche l'indirizzo IP al quale ci si connette cambia. Possiamo quindi affermare che un dispositivo comunica con un server ''deciso'' al momento dell'ingresso in una rete e cambia nel momento in cui la rete cambia.\\
+Infine, abbiamo fatto comunicare due dispositivi con Shark attivo su entrambi. In questo modo abbiamo visto che l'indirizzo IP con il quale comunicavano i due dispositivi era diverso. Possiamo, perci\`o, affermare che quando due smartphone comunicano, non si connettono ad un server comune ma a due server differenti e saranno poi tali server a comunicare tra di loro. 
 
 \begin{thebibliography}{}
 \bibitem{rif1} \emph{http://www.whatsapp.com}
