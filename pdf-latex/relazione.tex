@@ -32,31 +32,34 @@
 %Contesto - introduzione generale
 Negli anni in cui ci troviamo, pare sempre pi\`u impensabile riuscire a lavorare, divertirsi e progredire senza l'utilizzo degli smartphone. La società di ricerche International Data Corporation (Idc), ha segnalato nel suo "Worldwide Quarterly Mobile Phone Tracker" che, durante lo scorso anno, le consegne di smartphone sono aumentate del 38,4\% ad addirittura 1,0042 miliardi di unità.
 Oramai, tali dispositivi mobili sono entrati a far parte della vita quotidiana di tutti noi soprattutto grazie alla loro versatilit\`a, ottenuta con l'utilizzo di applicazioni.
-Tali ''app'', permettono di fare infinite cose e in qualsiasi ambito, dallo sport, alla cucina, al business. Con l'avvento degli smartphone \`e cambiato anche il modo di comunicare.
-Gli SMS, utilizzati fino a qualche anno fa, sono quasi superati da applicazioni che permettono di scambiarsi messaggi in maniera totalmente gratuita sfruttando la rete cellulare del dispositivo. Tali applicazioni non si limitano al semplice scambio di messaggi di testo ma danno la possibilit\`a, anche, di scambiarsi immagini, video, audio e di creare messaggi di gruppo.
+Tali ``app'', permettono di fare infinite cose e in qualsiasi ambito, dallo sport, alla cucina, al business. Con l'avvento degli smartphone \`e cambiato anche il modo di comunicare.
+Gli SMS, utilizzati fino a qualche anno fa, sono quasi superati da applicazioni che permettono di scambiarsi messaggi in maniera totalmente gratuita sfruttando la rete dati del dispositivo. Tali applicazioni non si limitano al semplice scambio di messaggi di testo, ma danno la possibilit\`a, anche, di scambiarsi immagini, video, audio e di creare messaggi di gruppo.
 Le applicazioni pi\`u conosciute sotto l'ambito della messaggistica sono WhatsApp \cite{rif1}, WeChat \cite{rif2}, Telegram \cite{rif3} e Viber \cite{rif4}.
 
 ~
 
 %Motivazioni - problemi aperti
-Tra le applicazioni sopra citate, la prima ad ''esplodere'' in termini di numero di utenti \`e stata WhatsApp, pubblicata nel 2009. A differenza di altre app che sono opensource, come per esempio Telegram, WhatsApp \`e ''chiusa'', nel senso che gli sviluppatori non hanno reso pubbliche informazioni specifiche dell'applicazione riguardanti per esempio i protocolli utilizzati, le modalit\`a di scambio dei messaggi, la gestione della sicurezza e della privacy.
-Per questo motivo, molte cose riguardanti WhatsApp non si sanno con certezza (o priorio per nulla), come ad esempio la dislocazione dei server nel territorio modiale, le modalit\`a di scambio dei messaggi e le questioni legate alla sicurezza e alla crittografia.
+Tra le applicazioni sopra citate, la prima ad ``esplodere'' in termini di numero di utenti \`e stata WhatsApp, pubblicata nel 2009. A differenza di altre app che sono opensource, come per esempio Telegram, WhatsApp \`e ``chiusa'', nel senso che gli sviluppatori non hanno reso pubbliche informazioni specifiche dell'applicazione riguardanti per esempio i protocolli utilizzati, le modalit\`a di scambio dei messaggi, la gestione della sicurezza e della privacy.
+Per questo motivo, molte cose riguardanti WhatsApp non si sanno con certezza (o proprio per nulla), come ad esempio la dislocazione dei server nel territorio modiale, le modalit\`a di scambio dei messaggi e le questioni legate alla sicurezza e alla crittografia.
 
 ~
 
 %Contributi - che cosa hai fatto
 Abbiamo deciso, pertanto, di dare delle risposte ad alcune questioni aperte riguardanti WhatsApp e, in particolare, ci siamo focalizzati su:
 \begin{itemize}
- \item localizzare (per quanto possibile) i server nel territorio mondiale
- \item capire come avviene lo scambio di messaggi tra due dispositivi
- \item verificare come cambiano i server connessi ad un dispositivo al cambiare della rete utilizzata
+ \item localizzare (per quanto possibile) i server nel territorio mondiale;
+ \item capire come avviene lo scambio di messaggi tra due dispositivi;
+ \item verificare come cambiano i server connessi ad un dispositivo al cambiare della rete utilizzata.
 \end{itemize}
+
+~
+
+Come vedremo in seguito, probabilmente l'architettura interpone qualche server tra due dispositivi durante l'invio di un messaggio e, la scelta del server stesso, viene fatta al momento dell'inizio della connessione alla rete da parte dello smartphone.
 
 ~
 
 %Organizzazione - come è fatta/strutturata la tesi
 La tesi \`e strutturata in 4 capitoli.\\
-Il primo capitolo \`e quello introduttivo, il quale specifica il contesto, le motivazioni, i contributi e l'organizzazione della tesi stessa.\\
 Nel secondo capitolo sono elencati e descritti gli strumenti utilizzati durante i test, con l'ausilio di immagini che ne mostrano le relative interfacce grafiche. \\
 Il terzo capitolo, invece, descrive tutti gli studi e le misurazioni effettuate per ottenere i risultati necessari per dare delle risposte ai quesiti che ci siamo posti.\\
 Il quarto capitolo, infine, \`e quello conclusivo.
@@ -64,12 +67,11 @@ Il quarto capitolo, infine, \`e quello conclusivo.
 \chapter{Strumenti utilizzati}
 
 \section{WhatsApp Messenger}
-\subsection{Cos'\`e}
-WhatsApp Messenger \`e un'applicazione di messaggistica mobile multi piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger \`e disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. Tutti questi telefoni possono scambiarsi messaggi gli uni gli altri. Dato che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici ed \`e sicuramente questo uno dei motivi per i quali questa applicazione ha ottenuto un cos\`i gran successo in poco tempo.
+WhatsApp Messenger \`e un'applicazione di messaggistica mobile multi piattaforma che consente di scambiarsi messaggi coi propri contatti senza dover pagare gli SMS. WhatsApp Messenger \`e disponibile per iPhone, BlackBerry, Android, Windows Phone e Nokia. Tutti questi telefoni possono scambiarsi messaggi gli uni gli altri. Dato che ormai tutti coloro che posseggono uno smartphone hanno un piano tariffario flat, non vi sono costi aggiuntivi per mandare messaggi e restare in contatto coi propri amici, dal momento che WhatsApp Messenger si serve dello stesso piano dati Internet usato per le e-mail e la navigazione web, ed \`e sicuramente questo uno dei motivi per i quali questa applicazione ha ottenuto un cos\`i gran successo in poco tempo.
 
-Oltre alla messaggistica di base gli utenti di WhatsApp possono creare gruppi, scambiarsi messaggi illimitati, video e messaggi audio multimediali.
+Oltre alla messaggistica di base, gli utenti di WhatsApp possono creare gruppi, scambiarsi messaggi illimitati, video e messaggi audio multimediali.
 
-L'11 aprile 2014 \`e arrivato il via libera all'acquisizione di WhatsApp da parte di Facebook dalla Federal Trade Commission (Ftc), l'ente governativo americano per la protezione dei consumatori.
+Nell'aprile 2014 \`e arrivato il via libera all'acquisizione di WhatsApp da parte di Facebook dalla Federal Trade Commission (Ftc), l'ente governativo americano per la protezione dei consumatori.
 
 \begin{figure}[!ht]
 \centering
@@ -80,15 +82,14 @@ L'11 aprile 2014 \`e arrivato il via libera all'acquisizione di WhatsApp da part
 
 \clearpage
 
-\subsection{Come funziona}
-Servendosi della rete cellulare, WhatsApp messenger permette di inviare messaggi a qualsiasi altro utente connesso ad una rete. Questa modalit\`a di funzionamento ci permette di affermare che, sicuramente, all'invio di un messaggio viene contattato un server il quale avr\`a il compito di smistarlo al dispositivo di destinazione.
-In particolare, all'invio di un messaggio vengono effettuate le seguenti operazioni:
+Servendosi della rete dati, WhatsApp messenger permette di inviare messaggi a qualsiasi altro utente connesso ad una rete, a patto che anch'esso sia in possesso dell'applicazione. Inoltre, l'invio di un messaggio avviene anche se il destinatario non ha l'applicazione online. Questa modalit\`a di funzionamento ci fa pensare che possa esserci un server tra i due dispositivi, il quale avr\`a il compito di smistarlo al dispositivo di destinazione.
+In particolare, all'invio di un messaggio verranno effettuate le seguenti operazioni:
 \begin{itemize}
- \item Il messaggio arriva ad un server
- \item Il server comunica al mittente l'avvenuta ricezione del messaggio
- \item Il server inoltra il messaggio al destinatario
- \item Il destinatario comunica al server l'avvenuta ricezione del messaggio
- \item Il server comunica al mittente l'avvenuta ricezione del messaggio da parte del destinatario
+ \item Il messaggio arriva ad un server;
+ \item Il server comunica al mittente l'avvenuta presa in consegna del messaggio;
+ \item Il server inoltra il messaggio al destinatario;
+ \item Il destinatario comunica al server l'avvenuta ricezione del messaggio;
+ \item Il server comunica al mittente l'avvenuta ricezione del messaggio da parte del destinatario.
 \end{itemize}
 
 Quando il server riceve il messaggio, nel dispositivo mittente compare una spunta; quando il destinatario riceve il messaggio, al mittente compare la seconda spunta.
@@ -106,11 +107,32 @@ La \figurename ~\ref{fig:WhatsApp} illustra tale funzionamento.
 
 \clearpage
 
-\section{Shark}
-\subsection{Cos'\`e}
+\section{Packet Sniffer e Analisi}
 
-Shark \cite{rif5} \`e uno ''sniffatore'' del traffico di rete. Cattura tutti i pacchetti scambiati da un dispositivo sia utilizzando rete 3G sia utilizzando rete WIFI.
-Permette di settare dei parametri che fungono da filtri durante la cattura e i risultati vengono salvati nella memoria dello smartphone (o nella microSD) in formato pcap.
+Wireshark \cite{rif5} \`e un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che \`e il formato usato da tcpdump ed altri tools.
+
+I pacchetti catturati sono conformi alla libreria pcap. \`E possibile applicare filtri ai pacchetti ottenuti, selezionando, per esempio, solo quelli provenienti da un determinato IP sorgente. I filtri applicabili ai pacchetti seguono le regole della libreria pcap.
+
+~
+
+L'interfaccia grafica di Wireshark (\figurename ~\ref{fig:Whireshark}) mostra il numero di pacchetti catturati, il tempo trascorso tra la cattura dei pacchetti, l'indirizzo sorgente e quello di destinazione, il protocollo usato, la lunghezza del pacchetto ed altre informazioni.
+
+~
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale = 0.6]{Whireshark}
+\caption{Interfaccia di Wireshark}
+\label{fig:Whireshark}
+\end{figure}
+
+\clearpage
+
+Wireshark permette di analizzare e filtrare il traffico di rete dal PC.
+La stessa operazione pu\`o essere effettuata anche da un dispositivo mobile.
+Shark \cite{rif6} \`e un ``packet sniffer'' del traffico di rete. Cattura tutti i pacchetti scambiati da un dispositivo sia utilizzando rete 3G sia utilizzando rete WiFi.
+Permette di settare dei parametri che fungono da filtri durante la cattura e i risultati vengono salvati nella memoria dello smartphone (o nella microSD) in formato pcap \cite{rif7}.
+Con l'utilizzo dei filtri \`e possibile catturare solamente i pacchetti con una certa caratteristica, come, per esempio, uno stesso indirizzo IP destinatario.
 
 ~
 
@@ -139,44 +161,22 @@ La \figurename ~\ref{fig:go} illustra l'interfaccia dell'applicazione durante la
 
 \clearpage
 
-\section{Wireshark}
-
-\subsection{Cos'\`e}
-Wireshark \cite{rif6} \`e un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che \`e il formato usato da tcpdump ed altri tools.
-
-I pacchetti catturati sono conformi alla libreria pcap. \`E possibile applicare filtri ai pacchetti ottenuti, selezionando, per esempio, solo quelli provenienti da un determinato IP sorgente. I filtri applicabili ai pacchetti seguono le regole della libreria pcap.
-
-~
-
-L'interfaccia grafica di Wireshark (\figurename ~\ref{fig:Whireshark}) mostra il numero di pacchetti catturati, il tempo trascorso tra la cattura dei pacchetti, l'indirizzo sorgente e quello di destinazione, il protocollo usato, la lunghezza del pacchetto ed altre informazioni.
-
-~
-
-\begin{figure}[!ht]
-\centering
-\includegraphics[scale = 0.5]{Whireshark}
-\caption{Interfaccia di Wireshark}
-\label{fig:Whireshark}
-\end{figure}
-
-\clearpage
-
 \section{Whois}
-Whois \cite{rif7} \`e un servizio utilizzabile da shell di Ubuntu che permette di visualizzare informazioni riguardanti un determinato indirizzo IP.
+Whois \cite{rif8} \`e un servizio utilizzabile da shell di Ubuntu che permette di visualizzare informazioni riguardanti un determinato indirizzo IP.
 In particolare, applicando whois ad un indirizzo IP, vengono visualizzati il nome della rete, il range di indirizzi ai quali la rete fa riferimento, il luogo in cui si situa l'IP ricercato, l'organizzazione che lo gestisce ed altre informazioni di rete.
 
 ~
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[scale = 0.7]{Whois.png}
+\includegraphics[scale = 0.6]{Whois.png}
 \caption{Esempio Whois}
 \end{figure}
 
 \clearpage
 
 \section{Cloud Monitor}
-Cloud Monitor \cite{rif8} \`e un'azienda leader nel settore del monitoraggio delle prestazioni di siti ed applicazioni Web. Verifica le prestazioni di siti e server grazie a 95 stazioni di monitoraggio disposte in 48 paesi del mondo. 
+Cloud Monitor \cite{rif9} \`e un'azienda che si occupa del monitoraggio delle prestazioni di siti ed applicazioni Web. Verifica le prestazioni di siti e server grazie a 95 stazioni di monitoraggio disposte in 48 paesi del mondo. 
 Dato un indirizzo IP o un sito web, effettua, attraverso le 95 stazioni, ping verso quell'indirizzo registrando l'esito dello stesso e, in caso di ping eseguito con successo, RTT minimo, RTT medio ed RTT massimo (RTT - Round Trip Time, tempo impiegato da un pacchetto di dimensione trascurabile per viaggiare da un computer ad un altro e tornare indietro). 
 
 ~
@@ -190,10 +190,10 @@ Dato un indirizzo IP o un sito web, effettua, attraverso le 95 stazioni, ping ve
 
 \chapter{Misurazioni}
 
-L'obiettivo di questo progetto era di scoprire informazioni riguardo WhatsApp e, in particolare, la modalità di scambio dei messaggi e il dislocamento dei server nel mondo.
+L'obiettivo di questo progetto \`e quello di scoprire informazioni riguardo WhatsApp e, in particolare, la modalità di scambio dei messaggi e il dislocamento dei server nel mondo.
 Per fare ci\`o, sono state fatte rilevazioni giornaliere per pi\`u di 30 giorni, con l'utilizzo degli strumenti citati nel capitolo precedente.
 
-Attraverso ''Shark'', ogni giorno sono state rilevate le informazioni contenute nei pacchetti scambiati tra 2 dispositivi durante l'invio e la ricezione di messaggi.
+Attraverso ``Shark'', ogni giorno sono state rilevate le informazioni contenute nei pacchetti scambiati tra 2 dispositivi durante l'invio e la ricezione di messaggi.
 Dopodich\`e, sono stati analizzati gli indirizzi IP di destinazione in modo da risalire agli indirizzi dei server di WhatsApp.
 
 Dopo aver scartato gli indirizzi IP di servizi noti (e.g. Facebook, Google, Yahoo), è stato ottenuto un pool di indirizzi associabile all'applicazione studiata.
@@ -207,16 +207,16 @@ La \figurename ~\ref{fig:rilevazioni} mostra tutti gli indirizzi IP catturati gi
 \begin{figure}[!ht]
 \centering
 \includegraphics[scale = 0.7]{rilevazioni_30gg.png}
-\caption{Rilevamenti}
+\caption{Rilevamenti. Il giorno 1 corrisponde al 25/04/2014}
 \label{fig:rilevazioni}
 \end{figure}
 
 ~
 
-Ottenuto questo insieme di indirizzi IP, \`e stato utilizzato il servizio ''Whois'' di Ubuntu per controllare la provenienza di tutti gli indirizzi e l'azienda in possesso degli stessi.
-\`E emerso che, alla fine, tutti gli indirizzi trovati fanno parte di 5 range di indirizzi i quali appartengono a due aziende. Le aziende in questione sono la ''SoftLayer'' e la ''ThePlanet''.
-''SoftLayer'' \`e una societ\`a del gruppo IBM, \`e stata fondata nel 2005 e ha sede a Dallas, Texas. L'azienda ha acquisito ''ThePlanet'' con sede a Houston, Texas. 
-Possiamo quindi affermare che tutti gli indirizzi IP trovati appartengono alla stessa azienda, la ''SoftLayer''.
+Ottenuto questo insieme di indirizzi IP, \`e stato utilizzato il servizio ``Whois'' di Ubuntu per controllare la provenienza di tutti gli indirizzi e l'azienda in possesso degli stessi.
+\`E emerso che, alla fine, tutti gli indirizzi trovati fanno parte di 5 range di indirizzi i quali appartengono a due aziende. Le aziende in questione sono la ``SoftLayer'' e la ``ThePlanet''.
+``SoftLayer'' \`e una societ\`a del gruppo IBM, \`e stata fondata nel 2005 e ha sede a Dallas, Texas. L'azienda ha acquisito ``ThePlanet'' con sede a Houston, Texas. 
+Possiamo quindi affermare che tutti gli indirizzi IP trovati appartengono alla stessa azienda, la ``SoftLayer''.
 
 ~
 
@@ -225,6 +225,7 @@ La Tabella \ref{table:ip} mostra i 5 range di indirizzi trovati e l'azienda che 
 ~
 
 \begin{table}[!htb]
+\caption{Range di IP collegati a WhatsApp}\label{table:ip}
 \begin{tabular}{|l|c|r|}
 \hline
 \multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}}\\
@@ -238,24 +239,34 @@ La Tabella \ref{table:ip} mostra i 5 range di indirizzi trovati e l'azienda che 
 50.22.0.0 - 50.23.255.255 &  SoftLayer Technologies Inc. & Dallas\\
 \hline
 \end{tabular}
-\caption{Range di IP collegati a WhatsApp}\label{table:ip}
 \end{table}
 
 
 ~
 
+La \figurename ~\ref{fig:rilevazioni_bis} rappresenta gli indirizzi IP catturati giorno per giorno, suddivisi nei 5 range di indirizzi trovati.
+
+~
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale = 0.7]{rilevazioni_30gg2.png}
+\caption{Rilevamenti. Il giorno 1 corrisponde al 25/04/2014}
+\label{fig:rilevazioni_bis}
+\end{figure}
+
 ~
 
 
 Gli IP trovati, dunque, sono stati associati ad aziende di Dallas e Houston. 
-Per analizzare questo fatto e, soprattutto, per cercare di accertare tale posizione, \`e stato utilizzato il servizio di ''Cloud Monitor'', inserendo nel campo di ricerca un indirizzo IP appartenente ad ogni range e controllando l'RTT medio. 
+Per analizzare questo fatto e, soprattutto, per cercare di accertare tale posizione, \`e stato utilizzato il servizio di ``Cloud Monitor'', inserendo nel campo di ricerca un indirizzo IP appartenente ad ogni range e controllando l'RTT medio. 
 Generalmente, se un terminale si trovasse in America, l'RTT medio proveniente da stati americani verso quel dispositivo sarebbe inferiore rispetto all'RTT medio proveniente da stati europei.
 
 ~
 
 ~
 
-Attraverso il servizio di ''Cloud Monitor'', dunque, sono stati fatti questi test e le Tabelle \ref{table:Monitoring_1} - \ref{table:Monitoring_5} riportano i risultati ottenuti per un IP appartenente ad ogni range di indirizzi trovato.
+Attraverso il servizio di ``Cloud Monitor'', dunque, sono stati fatti questi test e le Tabelle \ref{table:Monitoring_1} - \ref{table:Monitoring_5} riportano i risultati ottenuti per un IP appartenente ad ogni range di indirizzi trovato.
 
 ~
 
@@ -264,6 +275,7 @@ Come si pu\`o notare in tutte le tabelle sotto elencate, l'RTT medio proveniente
 ~
 
 \begin{table}[!ht]
+\caption{Cloud Monitoring - IP 108.168.176.252}\label{table:Monitoring_1}
 \begin{tabular}{|l|c|c|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
@@ -282,12 +294,12 @@ Sweden - Stockholm (sesto01) & 107.762 & 108.445 & 109.035\\
 South Africa - Durban (zadur01) & 250.564 & 253.342 & 258.785\\
 \hline
 \end{tabular}
-\caption{Cloud Monitoring - IP 108.168.176.252}\label{table:Monitoring_1}
 \end{table}
 
 ~
 
 \begin{table}[!ht]
+\caption{Cloud Monitoring - IP 173.192.222.185}\label{table:Monitoring_2}
 \begin{tabular}{|l|c|c|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
@@ -306,12 +318,12 @@ Israel - Kiryat-Matalon (ilktm01) & 140.603 & 143.412 & 144.149\\
 U.S.A. - Philadelphia (usphl01) & 7.698 & 7.898 & 8.571\\
 \hline
 \end{tabular}
-\caption{Cloud Monitoring - IP 173.192.222.185}\label{table:Monitoring_2}
 \end{table}
 
 ~
 
 \begin{table}[!ht]
+\caption{Cloud Monitoring - IP 184.173.179.46}\label{table:Monitoring_3}
 \begin{tabular}{|l|c|c|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
@@ -330,12 +342,12 @@ Singapore - Singapore (sgsin02) & 235.687 & 236.045 & 236.759\\
 Poland - Warsaw (plwrs01) & 191.815 & 193.114 & 197.813\\
 \hline
 \end{tabular}
-\caption{Cloud Monitoring - IP 184.173.179.46}\label{table:Monitoring_3}
 \end{table}
 
 ~
 
 \begin{table}[!ht]
+\caption{Cloud Monitoring - IP 208.43.122.142}\label{table:Monitoring_4}
 \begin{tabular}{|l|c|c|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
@@ -354,12 +366,12 @@ U.S.A. - St. Louis (usstl01) & 22.873 & 22.955 & 23.073\\
 United Kingdom - Glasgow (gbglw01) & 75.504 & 75.587 & 75.727\\
 \hline
 \end{tabular}
-\caption{Cloud Monitoring - IP 208.43.122.142}\label{table:Monitoring_4}
 \end{table}
 
 ~ 
 
 \begin{table}[!ht]
+\caption{Cloud Monitoring - IP 50.22.225.85}\label{table:Monitoring_5}
 \begin{tabular}{|l|c|c|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{}} & {\textbf{}} & {\textbf{}} & {\textbf{}}\\
@@ -378,19 +390,18 @@ Brazil - Sao Paulo (brsao03) & 155.717 & 155.935 & 156.290\\
 Spain - Madrid (esmad01) & 125.545 & 128.065 & 132.618\\
 \hline
 \end{tabular}
-\caption{Cloud Monitoring - IP 50.22.225.85}\label{table:Monitoring_5}
 \end{table}
 
 \clearpage
 
-Un altro test effettuato \`e stato quello di pre-filtrare i pacchetti che sarebbero stati rilevati dall'applicazione ''Shark''. In questo modo, l'applicazione ha catturato solo i pacchetti aventi come destinazione un indirizzo IP appartenente ad uno dei range scoperti in precedenza.
+Un altro test effettuato \`e stato quello di pre-filtrare i pacchetti che sarebbero stati rilevati dall'applicazione ``Shark''. In questo modo, l'applicazione ha catturato solo i pacchetti aventi come destinazione un indirizzo IP appartenente ad uno dei range scoperti in precedenza.
 Di conseguenza, la quantit\`a di informazione catturata era limitata a quella che ci interessava.
-Durante la cattura, durata alcune ore, sono state ottenute altre importanti informazioni. Durante le ore, infatti, il dispositivo cellulare ha cambiato più volte rete (passando da WIFI a 3G e viceversa) e, in concomitanza con questi cambiamenti, sono cambiati anche gli indirizzi di destinazione.
+Durante la cattura, durata alcune ore, sono state ottenute altre importanti informazioni. Durante le ore, infatti, il dispositivo cellulare ha cambiato più volte rete (passando da WiFi a 3G e viceversa) e, in concomitanza con questi cambiamenti, sono cambiati anche gli indirizzi di destinazione.
 Questo fatto ci permette di affermare che uno smartphone comunica con un server (deciso al momento dell'inizio della connessione) e cambia con la modifica della rete utilizzata dal dispositivo.
 
 ~
 
-La \figurename ~\ref{fig:ip-changed} mostra il momento nel quale lo smartphone \`e uscito dalla rete WIFI ed \`e entrato nella rete 3G. In quel preciso istante, anche l'indirizzo IP di destinazione  \`e cambiato.
+La \figurename ~\ref{fig:ip-changed} mostra il momento nel quale lo smartphone \`e uscito dalla rete WiFi ed \`e entrato nella rete 3G. In quel preciso istante, anche l'indirizzo IP di destinazione  \`e cambiato.
 
 ~
 
@@ -408,7 +419,7 @@ La \figurename ~\ref{fig:ip-changed} mostra il momento nel quale lo smartphone \
 
 Come ultimo test effettuato, abbiamo cercato di capire se la \figurename ~\ref{fig:WhatsApp} rispecchiasse il corretto funzionamento dell'applicazione.
 Tale figura mostra come due dispositivi si scambiano messaggi passando attraverso un server comune. 
-Il controllo effettuato si \`e basato sull'utilizzo contemporaneo di ''Shark'' da parte di due dispositivi per catturare i pacchetti scambiati tra di essi. 
+Il controllo effettuato si \`e basato sull'utilizzo contemporaneo di ``Shark'' da parte di due dispositivi per catturare i pacchetti scambiati tra di essi. 
 Facendo cos\`i, si \`e potuto controllare l'indirizzo IP di destinazione di entrambi gli smartphone. Se gli IP fossero stati uguali, allora si poteva affermare che, quando due dispositivi comunicano tra di loro, si connettono allo stesso server.
 In realt\`a, gli IP di destinazione erano differenti. Questo ci indica con certezza che durante la comunicazione tra pi\`u dispositivi, ogni dispositivo si connette ad un proprio server e poi saranno i relativi server a comunicare tra di loro prima di recapitare il messaggio al terminale di competenza.
 
@@ -428,20 +439,20 @@ La \figurename ~\ref{fig:lan} mostra il funzionamento corretto di WhatsApp.
 
 
 \chapter{Conclusioni}
-L'obiettivo della tesi era quello di dimostrare il funzionamento dell'applicazione di messaggistica ''WhatsApp'' cercando, anche, di trovare la dislocazione dei server nel territorio mondiale.\\
-Per fare ci\`o, ci siamo serviti di alcuni tools:
-\begin{itemize}
-\item ''Shark'', analizzatore del traffico di rete su smartphone 
-\item ''Wireshark'', analizzatore del traffico di rete su PC, utilizzato per aprire i file generati da Shark
-\item ''Whois'', servizio di Ubuntu che permette di visualizzare molteplici informazioni riguardanti un indirizzo IP
-\item ''CloudMonitor'', servizio che si occupa di effettuare ping verso un indirizzo IP da 95 stazioni disposte in 48 Paesi del mondo
-\end{itemize}
+L'obiettivo della tesi era quello di dimostrare il funzionamento dell'applicazione di messaggistica ``WhatsApp'' cercando, anche, di trovare la dislocazione dei server nel territorio mondiale.\\
+Per fare ci\`o, ci siamo serviti di alcuni tools, quali Shark, Wireshark, Whois e CloudMonitor.
+%\begin{itemize}
+%\item ''Shark'', analizzatore del traffico di rete su smartphone 
+%\item ''Wireshark'', analizzatore del traffico di rete su PC, utilizzato per aprire i file generati da Shark
+%\item ''Whois'', servizio di Ubuntu che permette di visualizzare molteplici informazioni riguardanti un indirizzo IP
+%\item ''CloudMonitor'', servizio che si occupa di effettuare ping verso un indirizzo IP da 95 stazioni disposte in 48 Paesi del mondo
+%\end{itemize}
 
 ~
 
 Dopo aver effettuato rilevazioni giornaliere per pi\`u di 30 giorni (servendoci del tool Shark), sono stati analizzati gli indirizzi IP dei server con i quali lo smartphone ha comunicato durante l'invio dei messaggi ed abbiamo constatato che tutti gli indirizzi appartengono ad un'unica azienda, la SoftLayer Technologies Inc. di Dallas.\\
 Utilizzando il servizio di CloudMonitor sugli indirizzi IP trovati, abbiamo affermato che i server si trovano nel territorio americano.\\
-Abbiamo provato, inoltre, ad analizzare il traffico di rete durante la modifica della rete utilizzata dallo smartphone per comunicare (uscendo da WIFI ed entrando nella rete cellulare e viceversa), ed \`e stato notato che, nel momento in cui lo smartphone esce da una rete ed entra in un'altra, anche l'indirizzo IP al quale ci si connette cambia. Possiamo quindi affermare che un dispositivo comunica con un server ''deciso'' al momento dell'ingresso in una rete e cambia nel momento in cui la rete cambia.\\
+Abbiamo provato, inoltre, ad analizzare il traffico di rete durante la modifica della rete utilizzata dallo smartphone per comunicare (uscendo da WiFi ed entrando nella rete cellulare e viceversa), ed \`e stato notato che, nel momento in cui lo smartphone esce da una rete ed entra in un'altra, anche l'indirizzo IP al quale ci si connette cambia. Possiamo quindi affermare che un dispositivo comunica con un server ``deciso'' al momento dell'ingresso in una rete e cambia nel momento in cui la rete cambia.\\
 Infine, abbiamo fatto comunicare due dispositivi con Shark attivo su entrambi. In questo modo abbiamo visto che l'indirizzo IP con il quale comunicavano i due dispositivi era diverso. Possiamo, perci\`o, affermare che quando due smartphone comunicano, non si connettono ad un server comune ma a due server differenti e saranno poi tali server a comunicare tra di loro. 
 
 \begin{thebibliography}{}
@@ -449,9 +460,10 @@ Infine, abbiamo fatto comunicare due dispositivi con Shark attivo su entrambi. I
 \bibitem{rif2} \emph{http://www.wechat.com}
 \bibitem{rif3} \emph{https://telegram.org}
 \bibitem{rif4} \emph{http://www.viber.com}
-\bibitem{rif5} \emph{https://play.google.com/store/apps/details?id=lv.n3o.shark}
-\bibitem{rif6} \emph{http://www.wireshark.org}
-\bibitem{rif7} \emph{http://packages.ubuntu.com/precise/whois}
-\bibitem{rif8} \emph{http://cloudmonitor.ca.com/it/ping.php}
+\bibitem{rif5} \emph{http://www.wireshark.org}
+\bibitem{rif6} \emph{https://play.google.com/store/apps/details?id=lv.n3o.shark}
+\bibitem{rif7} \emph{http://www.winpcap.org/ntar/draft/PCAP-DumpFileFormat.html}
+\bibitem{rif8} \emph{http://packages.ubuntu.com/precise/whois}
+\bibitem{rif9} \emph{http://cloudmonitor.ca.com/it/ping.php}
 \end{thebibliography}
 \end{document}

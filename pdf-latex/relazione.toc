@@ -2,13 +2,8 @@
 \contentsline {chapter}{\numberline {1}Introduzione}{5}
 \contentsline {chapter}{\numberline {2}Strumenti utilizzati}{7}
 \contentsline {section}{\numberline {2.1}WhatsApp Messenger}{7}
-\contentsline {subsection}{\numberline {2.1.1}Cos'\`e}{7}
-\contentsline {subsection}{\numberline {2.1.2}Come funziona}{9}
-\contentsline {section}{\numberline {2.2}Shark}{10}
-\contentsline {subsection}{\numberline {2.2.1}Cos'\`e}{10}
-\contentsline {section}{\numberline {2.3}Wireshark}{11}
-\contentsline {subsection}{\numberline {2.3.1}Cos'\`e}{11}
-\contentsline {section}{\numberline {2.4}Whois}{12}
-\contentsline {section}{\numberline {2.5}Cloud Monitor}{13}
-\contentsline {chapter}{\numberline {3}Misurazioni}{15}
-\contentsline {chapter}{\numberline {4}Conclusioni}{21}
+\contentsline {section}{\numberline {2.2}Packet Sniffer e Analisi}{9}
+\contentsline {section}{\numberline {2.3}Whois}{11}
+\contentsline {section}{\numberline {2.4}Cloud Monitor}{12}
+\contentsline {chapter}{\numberline {3}Misurazioni}{13}
+\contentsline {chapter}{\numberline {4}Conclusioni}{19}
