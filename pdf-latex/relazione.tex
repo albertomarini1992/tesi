@@ -15,9 +15,10 @@
 
 
 \begin{frontespizio}
-\Logo{logo.jpg}
+%\Logo{logo.jpg}
 \Universita{Verona}
-\Facolta{Scienze e Ingegneria}
+\Dipartimento{Informatica}
+%\Facolta{Scienze e Ingegneria}
 \Corso[Laurea]{Informatica}
 \Titolo{WhatsApp Messenger}
 \Relatore{Prof. Damiano Carra}
@@ -32,7 +33,7 @@
 %Contesto - introduzione generale
 Negli anni in cui ci troviamo, pare sempre pi\`u impensabile riuscire a lavorare, divertirsi e progredire senza l'utilizzo degli smartphone. La società di ricerche International Data Corporation (Idc), ha segnalato nel suo "Worldwide Quarterly Mobile Phone Tracker" che, durante lo scorso anno, le consegne di smartphone sono aumentate del 38,4\% ad addirittura 1,0042 miliardi di unità.
 Oramai, tali dispositivi mobili sono entrati a far parte della vita quotidiana di tutti noi soprattutto grazie alla loro versatilit\`a, ottenuta con l'utilizzo di applicazioni.
-Tali ``app'', permettono di fare infinite cose e in qualsiasi ambito, dallo sport, alla cucina, al business. Con l'avvento degli smartphone \`e cambiato anche il modo di comunicare.
+Tali ``app'' permettono di fare infinite cose e in qualsiasi ambito, dallo sport, alla cucina, al business. Con l'avvento degli smartphone \`e cambiato anche il modo di comunicare.
 Gli SMS, utilizzati fino a qualche anno fa, sono quasi superati da applicazioni che permettono di scambiarsi messaggi in maniera totalmente gratuita sfruttando la rete dati del dispositivo. Tali applicazioni non si limitano al semplice scambio di messaggi di testo, ma danno la possibilit\`a, anche, di scambiarsi immagini, video, audio e di creare messaggi di gruppo.
 Le applicazioni pi\`u conosciute sotto l'ambito della messaggistica sono WhatsApp \cite{rif1}, WeChat \cite{rif2}, Telegram \cite{rif3} e Viber \cite{rif4}.
 
@@ -40,7 +41,7 @@ Le applicazioni pi\`u conosciute sotto l'ambito della messaggistica sono WhatsAp
 
 %Motivazioni - problemi aperti
 Tra le applicazioni sopra citate, la prima ad ``esplodere'' in termini di numero di utenti \`e stata WhatsApp, pubblicata nel 2009. A differenza di altre app che sono opensource, come per esempio Telegram, WhatsApp \`e ``chiusa'', nel senso che gli sviluppatori non hanno reso pubbliche informazioni specifiche dell'applicazione riguardanti per esempio i protocolli utilizzati, le modalit\`a di scambio dei messaggi, la gestione della sicurezza e della privacy.
-Per questo motivo, molte cose riguardanti WhatsApp non si sanno con certezza (o proprio per nulla), come ad esempio la dislocazione dei server nel territorio modiale, le modalit\`a di scambio dei messaggi e le questioni legate alla sicurezza e alla crittografia.
+Per questo motivo, molti dettagli implementativi riguardanti WhatsApp non si sanno con certezza, come ad esempio la dislocazione dei server nel territorio modiale, le modalit\`a di scambio dei messaggi e le questioni legate alla sicurezza e alla crittografia.
 
 ~
 
@@ -54,7 +55,7 @@ Abbiamo deciso, pertanto, di dare delle risposte ad alcune questioni aperte rigu
 
 ~
 
-Come vedremo in seguito, probabilmente l'architettura interpone qualche server tra due dispositivi durante l'invio di un messaggio e, la scelta del server stesso, viene fatta al momento dell'inizio della connessione alla rete da parte dello smartphone.
+Come vedremo in seguito, probabilmente l'architettura interpone qualche server tra due dispositivi durante l'invio di un messaggio; la scelta del server stesso, viene fatta al momento dell'inizio della connessione alla rete da parte dello smartphone.
 
 ~
 
@@ -111,7 +112,7 @@ La \figurename ~\ref{fig:WhatsApp} illustra tale funzionamento.
 
 Wireshark \cite{rif5} \`e un analizzatore di rete. Consente di catturare direttamente i dati da una rete attiva oppure di analizzare file contenenti pacchetti precedentemente ottenuti. Inizialmente, il formato dei file catturati da Wireshark era il formato libpcap, che \`e il formato usato da tcpdump ed altri tools.
 
-I pacchetti catturati sono conformi alla libreria pcap. \`E possibile applicare filtri ai pacchetti ottenuti, selezionando, per esempio, solo quelli provenienti da un determinato IP sorgente. I filtri applicabili ai pacchetti seguono le regole della libreria pcap.
+I pacchetti catturati sono conformi alla libreria pcap \cite{rif7}. \`E possibile applicare filtri ai pacchetti ottenuti, selezionando, per esempio, solo quelli provenienti da un determinato IP sorgente. I filtri applicabili ai pacchetti seguono le regole della libreria pcap.
 
 ~
 
@@ -131,8 +132,8 @@ L'interfaccia grafica di Wireshark (\figurename ~\ref{fig:Whireshark}) mostra il
 Wireshark permette di analizzare e filtrare il traffico di rete dal PC.
 La stessa operazione pu\`o essere effettuata anche da un dispositivo mobile.
 Shark \cite{rif6} \`e un ``packet sniffer'' del traffico di rete. Cattura tutti i pacchetti scambiati da un dispositivo sia utilizzando rete 3G sia utilizzando rete WiFi.
-Permette di settare dei parametri che fungono da filtri durante la cattura e i risultati vengono salvati nella memoria dello smartphone (o nella microSD) in formato pcap \cite{rif7}.
-Con l'utilizzo dei filtri \`e possibile catturare solamente i pacchetti con una certa caratteristica, come, per esempio, uno stesso indirizzo IP destinatario.
+Permette di impostare dei parametri che fungono da filtri durante la cattura e i risultati vengono salvati nella memoria dello smartphone (o nella microSD) in formato pcap.
+Con l'utilizzo dei filtri \`e possibile catturare e memorizzare solamente i pacchetti con una certa caratteristica, come, per esempio, uno stesso indirizzo IP destinatario.
 
 ~
 
@@ -193,8 +194,8 @@ Dato un indirizzo IP o un sito web, effettua, attraverso le 95 stazioni, ping ve
 L'obiettivo di questo progetto \`e quello di scoprire informazioni riguardo WhatsApp e, in particolare, la modalità di scambio dei messaggi e il dislocamento dei server nel mondo.
 Per fare ci\`o, sono state fatte rilevazioni giornaliere per pi\`u di 30 giorni, con l'utilizzo degli strumenti citati nel capitolo precedente.
 
-Attraverso ``Shark'', ogni giorno sono state rilevate le informazioni contenute nei pacchetti scambiati tra 2 dispositivi durante l'invio e la ricezione di messaggi.
-Dopodich\`e, sono stati analizzati gli indirizzi IP di destinazione in modo da risalire agli indirizzi dei server di WhatsApp.
+Attraverso Shark, ogni giorno sono state rilevate le informazioni contenute nei pacchetti scambiati tra 2 dispositivi durante l'invio e la ricezione di messaggi.
+Dopodich\'e, sono stati analizzati gli indirizzi IP di destinazione in modo da risalire agli indirizzi dei server di WhatsApp.
 
 Dopo aver scartato gli indirizzi IP di servizi noti (e.g. Facebook, Google, Yahoo), è stato ottenuto un pool di indirizzi associabile all'applicazione studiata.
 

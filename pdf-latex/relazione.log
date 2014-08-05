@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2013.6.4)  25 JUL 2014 16:48
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2013.6.4)  5 AUG 2014 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,105 +501,105 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Capitolo 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
  [5] [6]
 Capitolo 2.
-<Whatsapp.png, id=50, 481.8pt x 722.7pt>
+<Whatsapp.png, id=49, 481.8pt x 722.7pt>
 File: Whatsapp.png Graphic file (type png)
  <use Whatsapp.png>
-Package pdftex.def Info: Whatsapp.png used on input line 78.
+Package pdftex.def Info: Whatsapp.png used on input line 79.
 (pdftex.def)             Requested size: 144.5411pt x 216.81166pt.
  [7
 
- <./Whatsapp.png>] <rete.png, id=58, 468.24937pt x 366.61969pt>
+ <./Whatsapp.png>] <rete.png, id=57, 468.24937pt x 366.61969pt>
 File: rete.png Graphic file (type png)
  <use rete.png>
-Package pdftex.def Info: rete.png used on input line 103.
+Package pdftex.def Info: rete.png used on input line 104.
 (pdftex.def)             Requested size: 374.59999pt x 293.29614pt.
  [8
 
  <./rete.png>]
-<Whireshark.png, id=62, 675.27281pt x 515.67656pt>
+<Whireshark.png, id=61, 675.27281pt x 515.67656pt>
 File: Whireshark.png Graphic file (type png)
  <use Whireshark.png>
-Package pdftex.def Info: Whireshark.png used on input line 124.
+Package pdftex.def Info: Whireshark.png used on input line 125.
 (pdftex.def)             Requested size: 405.16681pt x 309.40831pt.
 
 [9
 
- <./Whireshark.png>] <shark_go.png, id=66, 180.675pt x 227.34938pt>
+ <./Whireshark.png>] <shark_go.png, id=65, 180.675pt x 227.34938pt>
 File: shark_go.png Graphic file (type png)
 
 <use shark_go.png>
-Package pdftex.def Info: shark_go.png used on input line 157.
+Package pdftex.def Info: shark_go.png used on input line 158.
 (pdftex.def)             Requested size: 144.54018pt x 181.87975pt.
  [10
 
  <./shark_go.png>]
-<Whois.png, id=71, 825.0825pt x 548.0475pt>
+<Whois.png, id=70, 825.0825pt x 548.0475pt>
 File: Whois.png Graphic file (type png)
  <use Whois.png>
-Package pdftex.def Info: Whois.png used on input line 172.
+Package pdftex.def Info: Whois.png used on input line 173.
 (pdftex.def)             Requested size: 495.05333pt x 328.83104pt.
 
-Overfull \hbox (61.43333pt too wide) in paragraph at lines 172--173
+Overfull \hbox (61.43333pt too wide) in paragraph at lines 173--174
  [][] 
  []
 
 [11
 
- <./Whois.png>] <Cloud_Monitor.png, id=76, 520.94624pt x 452.4403pt>
+ <./Whois.png>] <Cloud_Monitor.png, id=75, 520.94624pt x 452.4403pt>
 File: Cloud_Monitor.png Graphic file (type png)
 
 <use Cloud_Monitor.png>
-Package pdftex.def Info: Cloud_Monitor.png used on input line 186.
+Package pdftex.def Info: Cloud_Monitor.png used on input line 187.
 (pdftex.def)             Requested size: 364.65988pt x 316.70605pt.
  [12
 
  <./Cloud_Monitor.png>]
 Capitolo 3.
-<rilevazioni_30gg.png, id=80, 655.69969pt x 324.46219pt>
+<rilevazioni_30gg.png, id=79, 655.69969pt x 324.46219pt>
 File: rilevazioni_30gg.png Graphic file (type png)
 
 <use rilevazioni_30gg.png>
-Package pdftex.def Info: rilevazioni_30gg.png used on input line 209.
+Package pdftex.def Info: rilevazioni_30gg.png used on input line 210.
 (pdftex.def)             Requested size: 458.98665pt x 227.12196pt.
 
-Overfull \hbox (25.36665pt too wide) in paragraph at lines 209--210
+Overfull \hbox (25.36665pt too wide) in paragraph at lines 210--211
  [][] 
  []
 
 [13
 
  <./rilevazioni_30gg.png>]
-<rilevazioni_30gg2.png, id=85, 655.69969pt x 70.01157pt>
+<rilevazioni_30gg2.png, id=84, 655.69969pt x 70.01157pt>
 File: rilevazioni_30gg2.png Graphic file (type png)
 
 <use rilevazioni_30gg2.png>
-Package pdftex.def Info: rilevazioni_30gg2.png used on input line 253.
+Package pdftex.def Info: rilevazioni_30gg2.png used on input line 254.
 (pdftex.def)             Requested size: 458.98665pt x 49.00775pt.
 
-Overfull \hbox (25.36665pt too wide) in paragraph at lines 253--254
+Overfull \hbox (25.36665pt too wide) in paragraph at lines 254--255
  [][] 
  []
 
 [14 <./rilevazioni_30gg2.png>]
-Overfull \hbox (21.29494pt too wide) in paragraph at lines 279--297
+Overfull \hbox (21.29494pt too wide) in paragraph at lines 280--298
 [][] 
  []
 
 
-Overfull \hbox (21.29494pt too wide) in paragraph at lines 303--321
+Overfull \hbox (21.29494pt too wide) in paragraph at lines 304--322
 [][] 
  []
 
 
-Overfull \hbox (13.73154pt too wide) in paragraph at lines 351--369
+Overfull \hbox (13.73154pt too wide) in paragraph at lines 352--370
 [][] 
  []
 
@@ -607,19 +607,19 @@ Overfull \hbox (13.73154pt too wide) in paragraph at lines 351--369
 
 LaTeX Warning: Text page 16 contains only floats.
 
-[16] <ip-changed.png, id=95, 867.24pt x 601.24625pt>
+[16] <ip-changed.png, id=94, 867.24pt x 601.24625pt>
 File: ip-changed.png Graphic file (type png)
  <use ip-changed.png>
-Package pdftex.def Info: ip-changed.png used on input line 410.
+Package pdftex.def Info: ip-changed.png used on input line 411.
 (pdftex.def)             Requested size: 433.61894pt x 300.62238pt.
 
 [17
 
- <./ip-changed.png>] <true_lan.png, id=100, 468.24937pt x 374.14781pt>
+ <./ip-changed.png>] <true_lan.png, id=99, 468.24937pt x 374.14781pt>
 File: true_lan.png Graphic file (type png)
 
 <use true_lan.png>
-Package pdftex.def Info: true_lan.png used on input line 434.
+Package pdftex.def Info: true_lan.png used on input line 435.
 (pdftex.def)             Requested size: 374.59999pt x 299.31863pt.
  [18
 
@@ -652,9 +652,9 @@ x2074.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfbx2
 5.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfsl1095.
 pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/cm-super/sfti1095.pf
 b>
-Output written on relazione.pdf (21 pages, 726209 bytes).
+Output written on relazione.pdf (21 pages, 719723 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
+ 146 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
