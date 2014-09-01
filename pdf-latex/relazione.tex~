@@ -15,7 +15,7 @@
 
 
 \begin{frontespizio}
-\Logo{logo.jpg}
+%\Logo{logo.jpg}
 \Universita{Verona}
 \Dipartimento{Informatica}
 %\Facolta{Scienze e Ingegneria}
